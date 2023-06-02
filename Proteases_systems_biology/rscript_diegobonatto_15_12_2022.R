@@ -76,17 +76,15 @@ key_el_ALP <- key_el_ALP[key_el_ALP$Var1 != key_el_ALP$Var2,]
 paths <- apply(key_el_ALP, 1, get_path)
 path_vertices <- setdiff(unique(unlist(paths)), key_vertices_ALP)
 mark_edges <- function(path, edges=c()){
-  # Get a vector of id:s of connected vertices, find edge-id:s of all
-  edges between them.
+  # Get a vector of id:s of connected vertices, find edge-id:s of all edges between them.
   for(n in 1:(length(path)-1)){
-    i <- path[n]
-    j <- path[1+n]
-    edge <- get.edge.ids(string_graph, c(i,j), directed = FALSE,
-                         error=FALSE, multi=FALSE)
-    edges <- c(edges, edge)
+      i <- path[n]
+      j <- path[1+n]
+      edge <- get.edge.ids(string_graph, c(i,j), directed = FALSE,
+                           error=FALSE, multi=FALSE)
+      edges <- c(edges, edge)
   }
-  # Return all edges in this path
-  (edges)
+  # Return all edges in this path (edges)
 }
 key_edges <- lapply(paths, function(x) if(length(x) > 1){mark_edges(x)})
 key_edges <- unique(unlist(key_edges))
@@ -108,6 +106,5 @@ sg_vertices_lipid_stress <- sort(union(key_vertices_ALP, path_vertices_b))
 unclean_sg <- induced_subgraph(string_graph, sg_vertices_lipid_stress)
 plot(unclean_sg)
 sg <- delete.edges(unclean_sg, which(E(unclean_sg)$color=="gray"))
-sg_lipid_stress_simplify<-simplify(sg, remove.multiple = TRUE,
-                                   remove.loops = TRUE,edge.attr.comb = igraph_opt("edge.attr.comb"))
+sg_lipid_stress_simplify<-simplify(sg, remove.multiple = TRUE, remove.loops = TRUE,edge.attr.comb = igraph_opt("edge.attr.comb"))
 createNetworkFromIgraph(sg_lipid_stress_simplify,"ALP_network")
