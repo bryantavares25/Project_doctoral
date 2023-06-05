@@ -59,8 +59,7 @@ data_lsb[is.na(data_lsb$match_ls),]
 remove <- c("FAT3","IZH2","IZH4","MZM1","OPI10","PPX1","TMA17") #Remove list with unmatched genes in g
 key_vertices_ALP <- subset(key_vertices_ALP, !(key_vertices_ALP %in% remove))
 get_path <- function(x){
-  # Get atomic vector of two key verteces and return their shortest
-  path as vector.
+  # Get atomic vector of two key verteces and return their shortest path as vector.
   i <- x[1]; j <- x[2]
   # Check distance to see if any verticy is outside component. No possible
   # connection will return infinate distance:
