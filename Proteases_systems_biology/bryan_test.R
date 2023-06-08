@@ -26,3 +26,24 @@ string_database_experimental_b$protein2<-gsub("4932.", "\\1",string_database_exp
 print(labels)
 print(resp)
 print(x)
+
+
+###############
+
+# # # # # # 
+
+##### Example data
+set.seed(123) # Set seed for reproducibility
+data <- matrix(rnorm(100, 0, 10), nrow = 10, ncol = 10) # Create example data
+colnames(data) <- paste0("Col", 1:10) # Column names
+rownames(data) <- paste0("Row", 1:10) # Row names
+
+# # # # # MyTry # # # # # PresenceAbsencePlot
+
+name_col <-
+name_row <- 
+  
+test <- matrix(c(c(0,0,0,1,1,0,0,1,0,1,0,0), c(0,0,0,1,1,0,0,1,0,1,0,0), c(0,0,0,1,1,0,0,1,0,1,0,0), c(0,0,0,1,1,0,0,1,0,1,0,0), c(0,0,0,1,1,1,1,1,0,1,0,0), c(0,0,0,1,1,0,0,1,1,1,1,1)), nrow = 12 , ncol = 6)
+mycolor <- colorRampPalette(c('green', 'darkgreen'))
+heatmap(test, col = mycolor(100))
+test
