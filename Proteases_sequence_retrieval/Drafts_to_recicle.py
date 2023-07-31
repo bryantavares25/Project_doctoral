@@ -1,6 +1,6 @@
 import csv
 
-nome_arquivo = 'dados.csv'
+nome_arquivo = 'teste.csv'
 
 # Lista onde vamos armazenar os dados lidos do arquivo CSV
 lista_de_dados = []

@@ -1,25 +1,43 @@
-# Promoter sequence
-
-import pandas
-
-
+# # # # # # Promoter sequence
 # Letter to Code
 
-s = 'AATTTGGTCTAGATTTTGCTTATTATCTTAATTATTTGATTATTTGTACAATTTCACTTCTATTAGAAATTAAAATAAGAATGGATACTATAATTTTAACAAAAAAAAAAAAAAAAAAAAAACCAAGAAAAAGAAAAAATAAGGAAAGAAGAATATTTATAAAACATTGAATGATATTGAATTATTTGCAAATATCAGAATAAAAGGTCACTTTTTTACTAAATCAAATTATTTTATTATAGAATTTTATATTAATTAGTATGTTTGCCTCAAATTCAACACTTTTTATTATAAAATCAAAAATTAAAATTGTTTTTTTATGATAAAATATCAAAGAAATAAATTTAATAACT'
+# Importando bibliotecas
+import csv
 
-a = s.replace('A', '1000')
-t = a.replace('T', '0100')
-c = t.replace('C', '0010')
-g = c.replace('G', '0001')
+# Lendo arquivo CSV com as sequências
+# Lista onde vamos armazenar os dados lidos do arquivo CSV
+# Ler o arquivo CSV
+nome_arquivo = 'teste.csv'
+lista_de_dados = []
 
-print(g)
+with open(nome_arquivo, 'r') as arquivo_csv:
+    leitor_csv = csv.reader(arquivo_csv)
+    for linha in leitor_csv:
+        lista_de_dados.append(linha)
 
-print(len(s), len(g))
+# Exibir os dados lidos
+# Converter dados lidos
+for linha in lista_de_dados:
+    cds_nome = linha[0]
+    cds_seq = linha[1]
 
-code = []
+    # Nucleotide sequence to binary code
+    a = cds_seq.replace('A', '1000')
+    t = a.replace('T', '0100')
+    c = t.replace('C', '0010')
+    g = c.replace('G', '0001')
 
-for i in range(len(g)):
-    code.append(g[i])
+    # Colocando cada item da string em um lista 
+    code = []
+    code.append(cds_nome)
+    for i in range(len(g)):
+        code.append(g[i])
+
     print(code)
 
-# Salvar o arquivo
+    arquivo_novo = 'testes.csv'
+    # Salvar o arquivo
+    with open(arquivo_novo, 'w', newline='') as arquivo_csv:
+        escritor_csv = csv.writer(arquivo_csv)
+        escritor_csv.writerows(code)
+
