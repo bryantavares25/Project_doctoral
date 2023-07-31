@@ -2,20 +2,19 @@
 
 # Letter to Code
 
-dn = {'A':0, 'T':1, 'C':2, 'G':3}
+s = 'GAAAAAAAAAAATCTCG'
 
-seqtest = 'GAAAAAAAAAAATCTCG'
+a = s.replace('A', '1000')
+t = a.replace('T', '0100')
+c = t.replace('C', '0010')
+g = c.replace('G', '0001')
 
-c_seqtest = []
+print(g)
 
-print(dn)
+print(len(s), len(g))
 
-for i in range(len(seqtest)):
-    print(seqtest[i])
+code = []
 
-    convertido = seqtest[i]
-
-    c_seqtest.append(dn[convertido])
-
-print(c_seqtest)
-print('Finalizado')
+for i in range(len(g)):
+    code.append(g[i])
+    print(code)
