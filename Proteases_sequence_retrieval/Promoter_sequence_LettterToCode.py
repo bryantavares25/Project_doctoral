@@ -2,7 +2,7 @@
 
 # Letter to Code
 
-s = 'GAAAAAAAAAAATCTCG'
+s = ''
 
 a = s.replace('A', '1000')
 t = a.replace('T', '0100')
@@ -18,3 +18,5 @@ code = []
 for i in range(len(g)):
     code.append(g[i])
     print(code)
+
+# Salvar o arquivo
