@@ -7,7 +7,7 @@ import csv
 # Lendo arquivo CSV com as sequências
 # Lista onde vamos armazenar os dados lidos do arquivo CSV
 # Ler o arquivo CSV
-nome_arquivo = 'teste.csv'
+nome_arquivo = 'Dados_prontos.csv'
 lista_de_dados = []
 
 with open(nome_arquivo, 'r') as arquivo_csv:
@@ -21,7 +21,8 @@ super_code = []
 # Converter dados lidos
 for linha in lista_de_dados:
     cds_nome = linha[0]
-    cds_seq = linha[1]
+    cds_label = linha[1]
+    cds_seq = linha[2]
 
     # Nucleotide sequence to binary code
     a = cds_seq.replace('A', '1000')
@@ -32,6 +33,7 @@ for linha in lista_de_dados:
     # Colocando cada item da string em um lista 
     code = []
     code.append(cds_nome)
+    code.append(cds_label)
     for i in range(len(g)):
         code.append(g[i])
 
@@ -46,3 +48,15 @@ with open(arquivo_novo, 'w', newline='') as arquivo_csv:
 print('Finalizado')
 
 # # # # # B.A.R.T. # # # # #
+
+import pandas as pd
+
+# Substitua 'seu_arquivo.csv' pelo caminho do seu arquivo CSV
+caminho_arquivo = 'seu_arquivo.csv'
+
+# Carrega o arquivo CSV em um DataFrame
+dataframe = pd.read_csv(caminho_arquivo)
+
+# Agora você pode trabalhar com o DataFrame
+print(dataframe)
+
