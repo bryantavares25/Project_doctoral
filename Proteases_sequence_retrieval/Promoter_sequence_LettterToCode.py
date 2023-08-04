@@ -15,6 +15,8 @@ with open(nome_arquivo, 'r') as arquivo_csv:
     for linha in leitor_csv:
         lista_de_dados.append(linha)
 
+super_code = []
+
 # Exibir os dados lidos
 # Converter dados lidos
 for linha in lista_de_dados:
@@ -33,11 +35,14 @@ for linha in lista_de_dados:
     for i in range(len(g)):
         code.append(g[i])
 
-    print(code)
+    super_code.append(code)
 
+# Salvar o arquivo
     arquivo_novo = 'testes.csv'
-    # Salvar o arquivo
     with open(arquivo_novo, 'w', newline='') as arquivo_csv:
         escritor_csv = csv.writer(arquivo_csv)
-        escritor_csv.writerows(code)
+        escritor_csv.writerows(super_code)
 
+print('Finalizado')
+
+# # # # # B.A.R.T. # # # # #
