@@ -48,15 +48,3 @@ with open(arquivo_novo, 'w', newline='') as arquivo_csv:
 print('Finalizado')
 
 # # # # # B.A.R.T. # # # # #
-
-import pandas as pd
-
-# Substitua 'seu_arquivo.csv' pelo caminho do seu arquivo CSV
-caminho_arquivo = 'seu_arquivo.csv'
-
-# Carrega o arquivo CSV em um DataFrame
-dataframe = pd.read_csv(caminho_arquivo)
-
-# Agora você pode trabalhar com o DataFrame
-print(dataframe)
-
