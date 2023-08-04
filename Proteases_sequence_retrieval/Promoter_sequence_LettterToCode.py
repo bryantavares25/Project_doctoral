@@ -38,10 +38,10 @@ for linha in lista_de_dados:
     super_code.append(code)
 
 # Salvar o arquivo
-    arquivo_novo = 'testes.csv'
-    with open(arquivo_novo, 'w', newline='') as arquivo_csv:
-        escritor_csv = csv.writer(arquivo_csv)
-        escritor_csv.writerows(super_code)
+arquivo_novo = 'testes.csv'
+with open(arquivo_novo, 'w', newline='') as arquivo_csv:
+    escritor_csv = csv.writer(arquivo_csv)
+    escritor_csv.writerows(super_code)
 
 print('Finalizado')
 
