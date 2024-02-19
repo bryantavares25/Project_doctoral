@@ -1,10 +1,17 @@
-import pandas as pd
+### ProtRetrieval ### 
 
-# Substitua 'seu_arquivo.csv' pelo caminho do seu arquivo CSV
-caminho_arquivo = '/kaggle/input/dados-trabalho/testes.csv'
+# 01 Step
 
-# Carrega o arquivo CSV em um DataFrame
-dataframe = pd.read_csv(caminho_arquivo)
+# Input > cds position or cds id
 
-# Agora você pode trabalhar com o DataFrame
-dataframe.head
+# Output >  cds.fasta
+
+# 02 Step
+
+# Output upstream.fasta
+
+# 03 Step
+
+# Output downstream.fasta
+
+### B. A. R. T. ###
