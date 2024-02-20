@@ -1,7 +1,7 @@
 # # # ProtRetrieval # # # 
 
 # Importar biblioteca
-import Bio
+from Bio import SeqIO
 
 # arquivo_fasta = 'teste_01.fasta'
 
@@ -10,6 +10,8 @@ for sequencia in SeqIO.parse(arquivo_fasta, 'fasta'):
     print(f'Título: {sequencia.id}')
     print(f'Descrição {sequencia.description}')
     print(f'Sequência: {sequencia.seq}\n')
+
+
 
 # 01 Step
 
