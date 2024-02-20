@@ -19,6 +19,19 @@ for sequencia in sequencias_fasta:
     print("Descrição:", sequencia["descricao"])
     print("Sequência:", sequencia["sequencia"])
 
+def extrair_parte_da_sequencia(caminho_do_arquivo, start, end):
+    with open(caminho_do_arquivo, "r") as handle:
+        for sequencia in SeqIO.parse(handle, "fasta"):
+            parte_da_sequencia = sequencia.seq[start-1:end]  # As posições em Python começam em 0, então subtrai 1 de 'start'
+            return str(parte_da_sequencia)
+
+# Exemplo de uso:
+caminho_arquivo = "teste.fasta"
+posicao_final = 5
+posicao_inicial = posicao_final-2
+parte_selecionada = extrair_parte_da_sequencia(caminho_arquivo, posicao_inicial, posicao_final)
+print("Parte da sequência selecionada:", parte_selecionada)
+
 # 01 Step
 
 # Input > cds position or cds id
