@@ -3,14 +3,21 @@
 # Importar biblioteca
 from Bio import SeqIO
 
-arquivo_fasta = '/Proteases_sequence_retrieval.py/arquivo.fasta'
+def ler_fasta(caminho_do_arquivo):
+    sequencias = []
+    for sequencia in SeqIO.parse(caminho_do_arquivo, "fasta"):
+        sequencias.append({"id": sequencia.id, "descricao": sequencia.description, "sequencia": sequencia.seq})
+    return sequencias
 
+# Exemplo de uso:
+caminho_arquivo = "teste.fasta"
+sequencias_fasta = ler_fasta(caminho_arquivo)
 
-# Lê as sequências do arquivo FASTA
-for sequencia in SeqIO.parse(arquivo_fasta, 'fasta'):
-    print(f'Título: {sequencia.id}')
-    print(f'Descrição {sequencia.description}')
-    print(f'Sequência: {sequencia.seq}\n')
+# Exibindo as sequências lidas
+for sequencia in sequencias_fasta:
+    print("ID:", sequencia["id"])
+    print("Descrição:", sequencia["descricao"])
+    print("Sequência:", sequencia["sequencia"])
 
 # 01 Step
 
