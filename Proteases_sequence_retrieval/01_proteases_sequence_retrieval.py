@@ -1,6 +1,15 @@
-### ProtRetrieval ### 
+# # # ProtRetrieval # # # 
 
 # Importar biblioteca
+import Bio
+
+# arquivo_fasta = 'teste_01.fasta'
+
+# Lê as sequências do arquivo FASTA
+for sequencia in SeqIO.parse(arquivo_fasta, 'fasta'):
+    print(f'Título: {sequencia.id}')
+    print(f'Descrição {sequencia.description}')
+    print(f'Sequência: {sequencia.seq}\n')
 
 # 01 Step
 
@@ -16,4 +25,4 @@
 
 # Output downstream.fasta
 
-### B. A. R. T. ###
+# # # B. A. R. T. # # #
