@@ -1,7 +1,8 @@
-# # # ProtRetrieval # # # 
+# # # # # ProtRetrieval # # # # # 
 
-from Bio import SeqIO
 # Importar biblioteca
+from Bio import SeqIO
+
 
 def ler_fasta(caminho_do_arquivo):
     sequencias = []
