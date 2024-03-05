@@ -1,9 +1,11 @@
 # # # # # ProtRetrieval # # # # # 
 
-# Importar biblioteca
+# Library import
 from Bio import SeqIO
 
+#link to genome > /home/lgef/Documentos/Genomas/MHP_7448_genome_data/ncbi_dataset/data/GCA_000008225.1/GCA_000008225.1_ASM822v1_genomic.fna
 
+#Function definitions
 def ler_fasta(caminho_do_arquivo):
     sequencias = []
     for sequencia in SeqIO.parse(caminho_do_arquivo, "fasta"):
