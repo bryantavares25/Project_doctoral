@@ -1,10 +1,19 @@
 # # # # # ProtRetrieval # # # # # 
 
-#link to genome > /home/lgef/Documentos/Genomas/MHP_7448_genome_data/ncbi_dataset/data/GCA_000008225.1/GCA_000008225.1_ASM822v1_genomic.fna
+# link to genome > /home/lgef/Documentos/Genomas/MHP_7448_genome_data/ncbi_dataset/data/GCA_000008225.1/GCA_000008225.1_ASM822v1_genomic.fna
 
 # Library import
-import sys
+# import sys
 from Bio import SeqIO
+
+# # # # # F U N C T I O N S # # # # #
+
+# Function definitio
+def fasta_read(archive):
+    features_list = []
+    for features in SeqIO.parse(archive, "fasta"):
+        features_list.append({"id": features.id, "descricao": features.description, "sequencia": features.seq})
+    return features_list
 
 #def ler_fasta(caminho_do_arquivo):
 #    sequencias = []
@@ -12,8 +21,8 @@ from Bio import SeqIO
 #        sequencias.append({"id": sequencia.id, "descricao": sequencia.description, "sequencia": sequencia.seq})
 #    return sequencias
 
-#caminho_arquivo = "/home/lgef/Documentos/Genomas/MHP_7422_genome_data/ncbi_dataset/data/GCA_000427215.1/cds_from_genomic.fna"
-#sequencias_fasta = ler_fasta(caminho_arquivo)
+# path_archive = "/home/lgef/Documentos/Genomas/MHP_7422_genome_data/ncbi_dataset/data/GCA_000427215.1/cds_from_genomic.fna"
+# fasta_sequence = ler_fasta(caminho_arquivo)
 
 #for sequencia in sequencias_fasta:
 #    print("ID:", sequencia["id"])
@@ -32,6 +41,7 @@ from Bio import SeqIO
 #parte_selecionada = extrair_parte_da_sequencia(caminho_arquivo, posicao_inicial, posicao_final)
 #print("Parte da sequência selecionada:", parte_selecionada)
 
+# # # # # E X E C U T I O N # # # # #
 
 # 01 Step
 
