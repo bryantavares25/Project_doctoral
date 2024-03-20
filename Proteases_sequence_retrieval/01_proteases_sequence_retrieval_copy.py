@@ -43,10 +43,15 @@ def fasta_read(archive):
 
 # # # # # E X E C U T I O N # # # # #
 
-# 01 Step
+# Step - Read orthologs
+
+# Step - Read fasta
+
+# Step - Found position in genome
+
+# Step - Copy genome region
 
 # Input > cds position or cds id
-
 # Output >  cds.fasta
 
 # 02 Step
