@@ -1,0 +1,3 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Mesomycoplasma hyopneumoniae 232		strain: 232	295358	ASM840v1	GCA_000008405.1	GenBank	Annotation submitted by Iowa State University	Complete Genome	892758	892758	2004-10-08	727	PRJNA13120	SAMN02603423
+Mesomycoplasma hyopneumoniae 232		strain: 232	295358	ASM840v1	GCF_000008405.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	892758	892758	2004-10-08	719	PRJNA13120	SAMN02603423

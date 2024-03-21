@@ -1,0 +1,3 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Mesomycoplasma hyopneumoniae		strain: ES-2	2099	ASM476872v1	GCA_004768725.1	GenBank	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	956514	956514	2019-04-10	768	PRJNA530402	SAMN11316568
+Mesomycoplasma hyopneumoniae		strain: ES-2	2099	ASM476872v1	GCF_004768725.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	956514	956514	2019-04-10	777	PRJNA530402	SAMN11316568
