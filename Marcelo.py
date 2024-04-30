@@ -9,59 +9,52 @@ import csv
 # # # # # F U N C T I O N S # # # # #
 
 # Function definition
-def tsv_read(archive):
-    data = []
+def csv_read(archive):
     opened = open(archive, 'r', newline='', encoding='utf-8')
-    read_tsv = csv.reader(opened, delimiter='\t')
+    read_tsv = csv.reader(opened, delimiter=',')
+    data = []
     for line in read_tsv:
-        data.append(line)
+        data.append(line[0])
     return data
 
 # Function definition
-def tsv_selection(read, ref_list):
-    select = []
+def csv_selection(archive, ref_list):
+    opened = open(archive, 'r', newline='', encoding='utf-8')
+    read = csv.reader(opened, delimiter=',')
+    data = []
     for line in read:
         if line[0] in ref_list:
-            select.append(line[0])
-    print(select)
-    return select
-
-    data = []
-    opened = open(archive, 'r', newline='', encoding='utf-8')
-    read_tsv = csv.reader(opened, delimiter='\t')
-    for line in read_tsv:
-        data.append(line)
+            data.append(line)
     return data
 
-
 # Function definition
-def tsv_write(data):
-    open
-
-    with open(archive_final, 'w', newline='') as archive_final:
-        escritor = csv.writer(archive_final, delimiter=',')  # Define o delimitador como tabulação
-        escritor.writerows(data)  # Escreve todos os dados
+def csv_write(data, archive_final):
+    archive = open(archive_final, 'w', newline='')
+    escritor = csv.writer(archive, delimiter=',')
+    escritor.writerows(data)
 
 # # # # # E X E C U T I O N # # # # #
 
-# STARTED
+# STARTED : A FERRAMENTA FUNCIONA A PARTIR DA INSERÇÃO DOS ENDEREÇOS CORRETOS DOS ARQUIVOS
 print("\n S T A R T E D \n")
 
 # STEP 1 - Select target IDs: tsv ids -> list
 
-archive_initial = "/home/lgef/Documentos/Marcelo_tool/selecionar.csv"
-ids_selected = tsv_read(archive_initial)
+archive_initial = "/home/lgef/Documentos/Marcelo_tool/selecionar.csv" # ARQUIVO COM IDS DE INTERESSE
+ids_selected = csv_read(archive_initial)
 
 # STEP 2 - Read data: tsv data -> list
 
-archive_initial = "/home/lgef/Documentos/Marcelo_tool/banco.csv"
-data_selected = tsv_selection(archive_initial, ids_selected)
+archive_initial = "/home/lgef/Documentos/Marcelo_tool/banco.csv" # ARQUIVO COM OS DADOS DE INTERESSE
+data_selected = csv_selection(archive_initial, ids_selected)
 
 # STEP 3 - Create tsv: tsv id + tsv data -> new archive 
-archive_final = "/home/lgef/Documentos/Marcelo_tool/novo.csv"
-tsv_write(data_selected)
+archive_final = "/home/lgef/Documentos/Marcelo_tool/novo.csv" # ARQUIVO CRIADO PARA EXPORTAR OS IDS E DADOS DE INTERESSE
+csv_write(data_selected, archive_final)
 
 # FINISHED
 print("\n F I N I S H E D \n")
+
+# Check result
 
 # # # # # # # # # # B. A. R. T. # # # # # # # # # #
