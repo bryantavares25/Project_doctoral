@@ -13,8 +13,6 @@ Discovery ortholog proteases in other genomes of M. hyopneumoniae
 
 2. Construct the table with relation of orthologs per strain
 
-3. Retrieved proteases sequences to a phylogenetic analysis of proteases of Mesomycoplasma hyopneumoniae
+3. Retrieved proteases sequences of all MHP
 
-4.
-
-5.
+4. Do a phylogenetic analysis of proteases of Mesomycoplasma hyopneumoniae
