@@ -42,12 +42,12 @@ print("\n S T A R T E D \n")
 
 # STEP 1 - Select target IDs: tsv ids -> list
 
-archive_initial = "/home/lgef/Documentos/Marcelo_tool/selecionar.csv" # ARQUIVO COM IDS DE INTERESSE
+archive_initial = "/home/lgef/Documentos/Marcelo_tool/IDs_interesse.csv" # ARQUIVO COM IDS DE INTERESSE
 ids_selected = csv_read(archive_initial)
 
 # STEP 2 - Read data: tsv data -> list
 
-archive_initial = "/home/lgef/Documentos/Marcelo_tool/banco.csv" # ARQUIVO COM OS DADOS DE INTERESSE
+archive_initial = "/home/lgef/Documentos/Marcelo_tool/report.pg_matrix.csv" # ARQUIVO COM OS DADOS DE INTERESSE
 data_selected = csv_selection(archive_initial, ids_selected)
 
 # STEP 3 - Create tsv: tsv id + tsv data -> new archive 
