@@ -13,7 +13,7 @@ import csv
 # Function definition
 def csv_read(archive):
     opened = open(archive, 'r', newline='', encoding='utf-8')
-    read_tsv = csv.reader(opened, delimiter=',')
+    read_tsv = csv.reader(opened, delimiter='\t')
     data = []
     for line in read_tsv:
         data.append(line[0])
@@ -22,17 +22,21 @@ def csv_read(archive):
 # Function definition
 def csv_selection(archive, ref_list):
     opened = open(archive, 'r', newline='', encoding='utf-8')
-    read = csv.reader(opened, delimiter=',')
+    read = csv.reader(opened, delimiter='\t')
     data = []
+    t = 0
+    print(read)
     for line in read:
-        if line[0] in ref_list:
+        t = t+1
+        if line[1] in ref_list:
             data.append(line)
+    print(t)
     return data
 
 # Function definition
 def csv_write(data, archive_final):
     archive = open(archive_final, 'w', newline='')
-    escritor = csv.writer(archive, delimiter=',')
+    escritor = csv.writer(archive, delimiter='\t')
     escritor.writerows(data)
 
 # # # # # E X E C U T I O N # # # # #
@@ -42,16 +46,16 @@ print("\n S T A R T E D \n")
 
 # STEP 1 - Select target IDs: tsv ids -> list
 
-archive_initial = "/home/lgef/Documentos/Marcelo_tool/IDs_interesse.csv" # ARQUIVO COM IDS DE INTERESSE
+archive_initial = "/home/lgef/Documentos/Marcelo_tool/IDs_interesse.tsv" # ARQUIVO COM IDS DE INTERESSE
 ids_selected = csv_read(archive_initial)
 
 # STEP 2 - Read data: tsv data -> list
 
-archive_initial = "/home/lgef/Documentos/Marcelo_tool/report.pg_matrix.csv" # ARQUIVO COM OS DADOS DE INTERESSE
+archive_initial = "/home/lgef/Documentos/Marcelo_tool/report.pg_matrix.tsv" # ARQUIVO COM OS DADOS DE INTERESSE
 data_selected = csv_selection(archive_initial, ids_selected)
 
 # STEP 3 - Create tsv: tsv id + tsv data -> new archive 
-archive_final = "/home/lgef/Documentos/Marcelo_tool/novo.csv" # ARQUIVO CRIADO PARA EXPORTAR OS IDS E DADOS DE INTERESSE
+archive_final = "/home/lgef/Documentos/Marcelo_tool/novo.tsv" # ARQUIVO CRIADO PARA EXPORTAR OS IDS E DADOS DE INTERESSE
 csv_write(data_selected, archive_final)
 
 # FINISHED
