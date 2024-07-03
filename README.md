@@ -10,6 +10,7 @@ REcovery M. hyopneumoniae 7448 proteases and putative proteases
 Discovery ortholog proteases in other genomes of M. hyopneumoniae
 
 # Work with GCF
+# 13 specieis of Mesomycoplasma
 
 1. IDs of MHP 7448 proteases
 
