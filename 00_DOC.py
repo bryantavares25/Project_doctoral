@@ -10,7 +10,8 @@ def tsv_read(archive):
     opened = open(archive, 'r', newline='', encoding='utf-8')
     read_tsv = csv.reader(opened, delimiter='\t')
     for line in read_tsv:
-        data.append(line)
+        if line[2] == 'gene':
+            data.append(line[8].split(';'))
     return data
 def tsv_description_save(read_tsv_archive, i):
     description = []
@@ -21,8 +22,10 @@ def tsv_description_save(read_tsv_archive, i):
 
 # EXECUTION
 
-a = tsv_read('/home/lgef/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/genomic.gff')
-print(a[9][0])
+a = tsv_read('/home/lgef/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/genomic_cleaned.gtf')
+print(a)
+#for i in a:
+    #print(i)
 
 # END
 
