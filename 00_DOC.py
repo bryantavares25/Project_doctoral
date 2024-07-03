@@ -1,9 +1,9 @@
-# # # D O C # # #
+# # # # # # # # # D O C # # # # # # # # #
 
-# LYBRARIES
+# # # LYBRARIES # # #
 import csv
 
-# FUNCTIONS
+# # # FUNCTIONS # # #
 
 def tsv_read(archive):
     data = []
@@ -11,23 +11,22 @@ def tsv_read(archive):
     read_tsv = csv.reader(opened, delimiter='\t')
     for line in read_tsv:
         if line[2] == 'gene':
-            data.append(line[8].split(';'))
+            data.append([line[0], line[3], line[4], line[6], line[8].split(';')[0]])
     return data
-def tsv_description_save(read_tsv_archive, i):
-    description = []
-    for line in read_tsv_archive:
-        if line[0] == i:
-            description.append(line[12])
-    return description
+def tsv_create(archive):
 
-# EXECUTION
 
-a = tsv_read('/home/lgef/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/genomic_cleaned.gtf')
-print(a)
-#for i in a:
-    #print(i)
+# # # EXECUTION # # #
 
-# END
+file_input = "/home/lgef/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/genomic_cleaned.gtf"
+input = tsv_read(file_input)
+for i in input:
+    print(i)
+
+file_output = "/home/lgef/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/genomic_cleaned.tsv"
+tsv_create(file_output)
+
+# END ------------------------------------
 
 # # # B A R T # # #
 
