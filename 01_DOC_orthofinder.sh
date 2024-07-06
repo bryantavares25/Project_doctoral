@@ -9,12 +9,19 @@ direc="/home/bryan/Documentos/GitHub/Project_doctoral/"
 
 # # # STEP 0 - Proteins file copy
 
-# Search MHP
+# Copy MHP
 for genome in "${genomesmhp[@]}"; do cd ${direc}Genomes/Mesomycoplasma_hyopneumoniae/${genome}/ncbi_dataset/data/GCF_*.1; cp protein.faa ${genome}_protein.fasta; cd; done
-# Search MFC
+# Copy MFC
 for genome in "${genomesmfc[@]}"; do cd ${direc}Genomes/Mesomycoplasma_flocculare/${genome}/ncbi_dataset/data/GCF_*.1; cp protein.faa ${genome}_protein.fasta; cd; done
 
-# # # STEP 1 - Proteins file rename
+# # # STEP 1 - Proteins file mv
+# Move MHP
+for genome in "${genomesmhp[@]}"; do mv ${direc}Genomes/Mesomycoplasma_hyopneumoniae/${genome}/ncbi_dataset/data/GCF_*.1/${genome}_protein.fasta ${direc}Orthofinder_db/; done
+# Move MFC
+for genome in "${genomesmfc[@]}"; do cd ${direc}Genomes/Mesomycoplasma_flocculare/${genome}/ncbi_dataset/data/GCF_*.1/${genome}_protein.fasta ${direc}Orthofinder_db/; done
+
+# # # STEP 3 - Proteins target
+
 
 # # # # # B A R T # # # # #
 
