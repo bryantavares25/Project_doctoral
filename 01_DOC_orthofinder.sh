@@ -10,3 +10,5 @@ direc="/home/lgef/Documentos/GitHub/Project_doctoral/"
 for genome in "${genomesmhp[@]}"; do cp ${direc}Genomes/Mesomycoplasma_hyopneumoniae/${genome}/ncbi_dataset/data/*/protein.faa ${direc}Orthofinder_db/${genome}_proteins_fasta; done
 # Search MFC
 for genome in "${genomesmfc[@]}"; do cp ${direc}Genomes/Mesomycoplasma_flocculare/${genome}/ncbi_dataset/data/*/protein.faa ${direc}Orthofinder_db/${genome}_proteins_fasta; done
+
+# # # # # B A R T # # # # #
