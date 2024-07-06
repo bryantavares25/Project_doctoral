@@ -18,10 +18,9 @@ for genome in "${genomesmfc[@]}"; do cd ${direc}Genomes/Mesomycoplasma_floccular
 # Move MHP
 for genome in "${genomesmhp[@]}"; do mv ${direc}Genomes/Mesomycoplasma_hyopneumoniae/${genome}/ncbi_dataset/data/GCF_*.1/${genome}_protein.fasta ${direc}Orthofinder_db/; done
 # Move MFC
-for genome in "${genomesmfc[@]}"; do cd ${direc}Genomes/Mesomycoplasma_flocculare/${genome}/ncbi_dataset/data/GCF_*.1/${genome}_protein.fasta ${direc}Orthofinder_db/; done
+for genome in "${genomesmfc[@]}"; do mv ${direc}Genomes/Mesomycoplasma_flocculare/${genome}/ncbi_dataset/data/GCF_*.1/${genome}_protein.fasta ${direc}Orthofinder_db/; done
 
 # # # STEP 3 - Proteins target
-
 
 # # # # # B A R T # # # # #
 
