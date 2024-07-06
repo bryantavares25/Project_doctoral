@@ -14,8 +14,12 @@ direc="/home/bryan/Documentos/GitHub/Project_doctoral/"
 # Search MFC
 #for genome in "${genomesmfc[@]}"; do cd ${direc}Genomes/Mesomycoplasma_flocculare/${genome}/ncbi_dataset/data/GCF_*.1; cp protein.faa protein01.fasta; cd; done
 
-for genome in "${genomesmhp[@]}"; do rm ${direc}Genomes/Mesomycoplasma_hyopneumoniae/${genome}/ncbi_dataset/data/GCF_*.1/protein01.fasta; done
-for genome in "${genomesmfc[@]}"; do rm ${direc}Genomes/Mesomycoplasma_flocculare/${genome}/ncbi_dataset/data/GCF_*.1/protein01.fasta; done
 # # # STEP 1 - Proteins file rename
 
 # # # # # B A R T # # # # #
+
+# DRAFT
+
+# Remove files
+#for genome in "${genomesmhp[@]}"; do rm ${direc}Genomes/Mesomycoplasma_hyopneumoniae/${genome}/ncbi_dataset/data/GCF_*.1/protein01.fasta; done
+#for genome in "${genomesmfc[@]}"; do rm ${direc}Genomes/Mesomycoplasma_flocculare/${genome}/ncbi_dataset/data/GCF_*.1/protein01.fasta; done
