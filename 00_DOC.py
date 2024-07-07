@@ -14,8 +14,8 @@ def tsv_read(archive):
     opened = open(archive, 'r', newline='', encoding='utf-8')
     read_tsv = csv.reader(opened, delimiter='\t')
     for line in read_tsv:
-        if line[2] == 'gene':
-            data.append([line[0], line[3], line[4], line[6], line[8].split(';')[0]])
+        if line[1] == 'Protein Homology':
+            data.append([line[0], line[3], line[4], line[6], line[8].split(';')[0], line[8].split(';')[1]] )
     return data
 # Function definition
 def tsv_create(data, archive):
@@ -30,10 +30,10 @@ def tsv_create(data, archive):
 
 print(" - - - START - - -")
 # Input recipe
-file_input = '/home/lgef/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/genomic_cleaned.gtf'
+file_input = '/home/bryan/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/genomic_cleaned.gff'
 input = tsv_read(file_input)
 # Output creation
-file_output = "/home/lgef/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/genomic_cleaned.tsv"
+file_output = "/home/bryan/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/genomic_gff_cleaned.tsv"
 tsv_create(input, file_output)
 print(" - - - FINISHED - - - ")
 
