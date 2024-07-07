@@ -14,7 +14,7 @@ def tsv_read(archive):
     opened = open(archive, 'r', newline='', encoding='utf-8')
     read_tsv = csv.reader(opened, delimiter='\t')
     for line in read_tsv:
-        if line[1] == 'Protein Homology':
+        if line[1] == 'Protein Homology' or line[1] == "GeneMarkS-2+":
             data.append([line[0], line[3], line[4], line[6], line[8].split(';')[0], line[8].split(';')[1]] )
     return data
 # Function definition
