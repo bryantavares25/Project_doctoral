@@ -18,13 +18,9 @@ def tsv_read(archive):
             data.append(line[8].split(';')[0])
     return data
 # Function definition
-def tsv_create(data, archive):
-    write_tsv_archive = open(archive,"w")
-    for line in data:
-        for i in line:
-            write_tsv_archive.write(f"{i}\t")
-        write_tsv_archive.write(f"\n")
-    write_tsv_archive.close()
+def fasta_read(data, archive):
+# Function definition
+def fasta_create():
 
 # # # EXECUTION # # #
 
