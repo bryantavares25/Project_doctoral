@@ -16,20 +16,23 @@ def tsv_read(refproteases, archive):
     read_tsv = csv.reader(opened, delimiter='\t')
     for line in read_tsv:
         if (line[1] == 'Protein Homology' or line[1] == "GeneMarkS-2+") and line[8].split(';')[1].split("-")[1] in refproteases:
-            data.append(line[8].split(';')[0])
+            data.append(line[8].split(';')[0].split("-")[1])
+    print(data)
     return data
 # Function definition
 def fasta_read(data, file_fasta):
     features = []
-    for feature in SeqIO.parse(file_fasta):
+    for feature in SeqIO.parse(file_fasta, "fasta"):
         if feature.id in data:
+            print(feature.id)
             features.append({"id" : feature.id, "des" : feature.description, "seq" : feature.seq})
     return features    
 # Function definition
 def fasta_create(features, file_output):
     file_output = open(file_output, "w")
     for feature in features:
-        file_output.write(f'>{feature.id}\n{feature.seq}')
+        print(feature)
+        file_output.write(f'>{feature['id']}\n{feature['seq']}\n')
     file_output.close()
 
 # # # EXECUTION # # #
