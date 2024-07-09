@@ -1,0 +1,44 @@
+2024-07-08 17:53:14 : Started OrthoFinder version 2.5.5
+Command Line: /home/lgef/miniconda3/envs/orthofinder/bin/orthofinder -f /home/lgef/Documentos/GitHub/Project_doctoral/Orthofinder_db -S blast
+
+WorkingDirectory_Base: /home/lgef/Documentos/GitHub/Project_doctoral/Orthofinder_db/OrthoFinder/Results_Jul08/WorkingDirectory/
+
+Species used: 
+0: MFC_ATCC27716_protein.fasta
+1: MFC_MF11_protein.fasta
+2: MFC_MF18_protein.fasta
+3: MFC_MF22_protein.fasta
+4: MFC_MF29_protein.fasta
+5: MFC_MF30_protein.fasta
+6: MFC_MF33_protein.fasta
+7: MFC_MS42_protein.fasta
+8: MHP_11_protein.fasta
+9: MHP_168L_protein.fasta
+10: MHP_168_protein.fasta
+11: MHP_232_protein.fasta
+12: MHP_7422_protein.fasta
+13: MHP_7448_protein.fasta
+14: MHP_98_protein.fasta
+15: MHP_ES2L_protein.fasta
+16: MHP_ES2_protein.fasta
+17: MHP_F72C_protein.fasta
+18: MHP_J_protein.fasta
+19: MHP_LH_protein.fasta
+20: MHP_MHP650_protein.fasta
+21: MHP_MHP653_protein.fasta
+22: MHP_MHP679_protein.fasta
+23: MHP_MHP682_protein.fasta
+24: MHP_MHP691_protein.fasta
+25: MHP_MHP694_protein.fasta
+26: MHP_MHP696_protein.fasta
+27: MHP_MHP699_protein.fasta
+28: MHP_MHP709_protein.fasta
+29: MHP_NCTC10127_protein.fasta
+30: MHP_REF_protein.fasta
+31: MHP_TB1_protein.fasta
+32: MHP_UFV01_protein.fasta
+33: MHP_UFV02_protein.fasta
+
+FN_Orthogroups: /home/lgef/Documentos/GitHub/Project_doctoral/Orthofinder_db/OrthoFinder/Results_Jul08/WorkingDirectory/clusters_OrthoFinder_I1.5.txt_id_pairs.txt
+WorkingDirectory_Trees: /home/lgef/Documentos/GitHub/Project_doctoral/Orthofinder_db/OrthoFinder/Results_Jul08/WorkingDirectory/
+2024-07-08 18:20:41 : OrthoFinder run completed
