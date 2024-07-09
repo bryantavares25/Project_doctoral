@@ -1,3 +1,33 @@
+# RECOVERY NUCLEOTIDES
 
+# # # LYBRARIES # # #
+from Bio import SeqIO
 
-orthologuegroups = ["OG0000053", "OG0000031", "OG0000067", "OG0000057", "OG0000058", "OG0000060", "OG0000545", "OG0000559", "OG0000043", "OG0000063", "OG0000062", "OG0000068", "OG0000035", "OG0000556", "OG0000001", "OG0000000", "OG0000069", "OG0000071", "OG0000048", "OG0000236", "OG0000072", "OG0000623", "OG0000642", "OG0000047", "OG0000002", "OG0000503", "OG0000076"]
+# # # FUNCTIONS # # #
+
+# Function definition
+def extract_region(fasta_file, start, end):
+    sequences = []
+    for record in SeqIO.parse(fasta_file, "fasta"):
+        sub_sequence = record.seq[start-1:end]  # Ajuste para a contagem baseada em 0
+        sequences.append((record.id, sub_sequence))
+    return sequences
+
+# # # EXECUTION # # #
+
+# Parâmetros
+fasta_file = "home/lgef/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/GCF_000008225.1_ASM822v1_genomic.fna"   # Arquivo FASTA de entrada
+start = 100 # Posição inicial (inclusive)
+end = 150 # Posição final (inclusive)
+
+# Extrair a região específica
+extracted_sequences = extract_region(fasta_file, start, end)
+
+# Imprimir as sequências extraídas
+for seq_id, sequence in extracted_sequences:
+    print(f">{seq_id}\n{sequence}")
+#print(extracted_sequences)
+
+# END ------------------------------------
+
+# # # B A R T # # #
