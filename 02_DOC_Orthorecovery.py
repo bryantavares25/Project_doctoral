@@ -36,6 +36,13 @@ def extract_region(fasta_file, start, end):
 
 # RECOVERY NUCLEOTYDE SEQUENCE
 
+# TESTE
+input = "MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/REF_genomic_gff_cleaned.tsv"
+data=tsv_read(input)
+print(data)
+
+
+
 #fasta_file = "/home/lgef/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/GCF_000008225.1_ASM822v1_genomic.fna"   # Arquivo FASTA de entrada
 #fasta_file = "TESTE.fasta"
 #start = 5 # Posição inicial (inclusive)
@@ -43,11 +50,6 @@ def extract_region(fasta_file, start, end):
 
 #fcar = fasta_read(fasta_file)
 
-input = "MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/REF_genomic_gff_cleaned.tsv"
-
-data=tsv_read(input)
-
-print(data)
 #extracted_sequences = extract_region(fasta_file, start, end)
 # Imprimir as sequências extraídas
 #for seq_id, sequence in extracted_sequences:
