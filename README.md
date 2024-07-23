@@ -50,4 +50,7 @@ OG0000076
 
 3. Retrieved proteases sequences of all MHP
 
+CDS nucleotide (numbers)
+sub_sequence = record.seq[start-1:end] > CORRECT: sub_sequence = record.seq[start-251:start+49]
+
 4. Do a phylogenetic analysis of proteases of Mesomycoplasma hyopneumoniae
