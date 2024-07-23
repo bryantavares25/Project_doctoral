@@ -25,7 +25,7 @@ def tsv_read(archive):
 # Function definition
 def tsv_write(archive):
     write_tsv_archive = open(archive,"w")
-    for line in data:
+    for line in new_data:
         for i in line:
             write_tsv_archive.write(f"{i}\t")
         write_tsv_archive.write(f"\n")
@@ -48,22 +48,30 @@ def extract_region(fasta_file, start, end, nc):
 input = "MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/REF_genomic_gff_cleaned.tsv"
 data=tsv_read(input)
 
-for i in data: 
-    print(i)
+ls = []
+
+for i in data:
     fasta_file = "/home/lgef/Documentos/GitHub/Project_doctoral/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/GCF_000008225.1_ASM822v1_genomic.fna"   # Arquivo FASTA de entrada
-#fasta_file = "TESTE.fasta"
-#start = 5 # Posição inicial (inclusive)
-#end = 15 # Posição final (inclusive)
     start = int(i[1])
     end = int(i[2])
     nc = i[0]
-#fcar = fasta_read(fasta_file)
     extracted_sequences = extract_region(fasta_file, start, end, nc)
-# Imprimir as sequências extraídas
+    ls.append(extracted_sequences)
 
-    for seq_id, sequence in extracted_sequences:
-        print(f">{seq_id}\n{sequence}")
-    print(extracted_sequences)
+new_data = []
+for line, i in enumerate(data):
+    print(ls[line][0][1])
+    gosh = []
+    for l in i:
+        gosh.append(l)
+    gosh.append(ls[line][0][1])
+    new_data.append(gosh)
+print(new_data)
+#archive_output_csv = ()
+#tsv_write(data, ls, archive_output_csv)
+
+archive=('MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/REF_genomic_gff_cleaned_withfasta.tsv')
+tsv_write(archive)
 
 # END ------------------------------------
 
