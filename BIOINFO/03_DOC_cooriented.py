@@ -1,29 +1,15 @@
-import pandas as pd
-
 # Simulação dos dados que você forneceu em um DataFrame
-data = """NC_007332.1\t207\t1598\t+\tID=cds-WP_044272251.1\tParent=gene-MHP7448_RS00005
-NC_007332.1\t1743\t2879\t+\tID=cds-WP_011289927.1\tParent=gene-MHP7448_RS00010
-NC_007332.1\t2983\t4842\t+\tID=cds-WP_044272256.1\tParent=gene-MHP7448_RS00015
-NC_007332.1\t4842\t5300\t+\tID=cds-WP_044272260.1\tParent=gene-MHP7448_RS00020
-NC_007332.1\t5314\t6297\t+\tID=cds-WP_011289930.1\tParent=gene-MHP7448_RS00025
-NC_007332.1\t6290\t7261\t-\tID=cds-WP_020835483.1\tParent=gene-MHP7448_RS00030
-NC_007332.1\t7365\t7934\t+\tID=cds-WP_044272266.1\tParent=gene-MHP7448_RS00035
-NC_007332.1\t8024\t9025\t+\tID=cds-WP_011205847.1\tParent=gene-MHP7448_RS00040
-NC_007332.1\t9195\t11216\t+\tID=cds-WP_020835486.1\tParent=gene-MHP7448_RS00045
-NC_007332.1\t11302\t12309\t+\tID=cds-WP_011205849.1\tParent=gene-MHP7448_RS00050
-NC_007332.1\t12312\t13058\t+\tID=cds-WP_020835487.1\tParent=gene-MHP7448_RS00055
-NC_007332.1\t12312\t13058\t+\tID=cds-WP_020835487.1\tParent=gene-MHP7448_RS00055
-NC_007333.1\t12312\t13058\t+\tID=cds-WP_020835487.1\tParent=gene-MHP7448_RS00055
-NC_007333.1\t12312\t13058\t+\tID=cds-WP_020835487.1\tParent=gene-MHP7448_RS00055
-NC_007333.1\t12312\t13058\t+\tID=cds-WP_020835487.1\tParent=gene-MHP7448_RS00055"""
 
 # # # Adicionar verificação 
 
 # Converte os dados para um DataFrame
 from io import StringIO
+import csv
 
-df = pd.read_csv(StringIO(data), sep='\t', header=None)
-df.columns = ['seqname', 'start', 'end', 'strand', 'ID', 'Parent']
+import pandas as pd
+
+file = 'BIOINFO/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/genomic_gff_cleaned.tsv'
+df = pd.read_csv(file, sep='\t', header=None, names=['seqname', 'start', 'end', 'strand', 'ID', 'Parent'])
 
 # Extrai os IDs dos genes co-orientados
 co_oriented_groups = []
