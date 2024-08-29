@@ -26,10 +26,10 @@ for i in range(1, len(df)):
 
     else:
         if len(current_group) >= 1:
+            print(df.iloc[i]['strand'])
             co_oriented_groups.append(current_group)
         current_group = [df.iloc[i]['ID']]
         current_strand = df.iloc[i]['strand']
-
 
 if len(current_group) >= 1:
     co_oriented_groups.append(current_group)
