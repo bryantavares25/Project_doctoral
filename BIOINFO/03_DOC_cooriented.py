@@ -25,13 +25,13 @@ prot_ids_mhp7448 = ['MHP7448_RS00135', 'MHP7448_RS00160', 'MHP7448_RS00735', 'MH
 for i in range(1, len(df)):
     for y in prot_ids_mhp7448:
         if df.iloc[i]['ID'] == y:
-            print(y)
+            print(f'{df.iloc[i]['ID']} {df.iloc[i]['strand']}')
 
     if df.iloc[i]['strand'] == current_strand: #and df.iloc[i]['start'] >= df.iloc[i-1]['end']:
         current_group.append(df.iloc[i]['ID'])
     else:
         if len(current_group) >= 1:
-            print(df.iloc[i]['strand'])
+            #print(df.iloc[i]['strand'])
             co_oriented_groups.append(current_group)
         current_group = [df.iloc[i]['ID']]
         current_strand = df.iloc[i]['strand']
