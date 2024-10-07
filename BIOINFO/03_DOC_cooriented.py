@@ -52,9 +52,3 @@ for i in prot_ids_mhp7448:
 archive = '/home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO/03_outputclusters.tsv'
 tsv_create(a, archive)
 
-# Identificação da orientação dos clusters gênicos
-#b = []
-#for i in prot_ids_mhp7448:
-#    for l in df:
-#        if i == l:
-#            print(i) 
