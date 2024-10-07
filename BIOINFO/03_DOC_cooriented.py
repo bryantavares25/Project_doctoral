@@ -20,10 +20,15 @@ co_oriented_groups = []
 current_group = [df.iloc[0]['ID']]
 current_strand = df.iloc[0]['strand']
 
+prot_ids_mhp7448 = ['MHP7448_RS00135', 'MHP7448_RS00160', 'MHP7448_RS00735', 'MHP7448_RS00780', 'MHP7448_RS00895', 'MHP7448_RS00965', 'MHP7448_RS01125', 'MHP7448_RS01645', 'MHP7448_RS01695', 'MHP7448_RS01760', 'MHP7448_RS01830', 'MHP7448_RS01965', 'MHP7448_RS02430', 'MHP7448_RS02535', 'MHP7448_RS02710', 'MHP7448_RS02825', 'MHP7448_RS02840', 'MHP7448_RS02910', 'MHP7448_RS03080', 'MHP7448_RS03310', 'MHP7448_RS03360', 'MHP7448_RS03395', 'MHP7448_RS03465', 'MHP7448_RS03555', 'MHP7448_RS03865', 'MHP7448_RS03870', 'MHP7448_RS04050']
+
 for i in range(1, len(df)):
+    for y in prot_ids_mhp7448:
+        if df.iloc[i]['ID'] == y:
+            print(y)
+
     if df.iloc[i]['strand'] == current_strand: #and df.iloc[i]['start'] >= df.iloc[i-1]['end']:
         current_group.append(df.iloc[i]['ID'])
-
     else:
         if len(current_group) >= 1:
             print(df.iloc[i]['strand'])
@@ -41,9 +46,15 @@ prot_ids_mhp7448 = ['MHP7448_RS00135', 'MHP7448_RS00160', 'MHP7448_RS00735', 'MH
 for i in prot_ids_mhp7448:
     for group in co_oriented_groups:
         if i in group:
-            print(group)
+            #print(group)
             a.append([i, group])
 
 archive = '/home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO/03_outputclusters.tsv'
 tsv_create(a, archive)
 
+# Identificação da orientação dos clusters gênicos
+#b = []
+#for i in prot_ids_mhp7448:
+#    for l in df:
+#        if i == l:
+#            print(i) 
