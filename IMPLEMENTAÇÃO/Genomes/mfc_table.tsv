@@ -1,0 +1,17 @@
+Assembly Accession	Assembly Name	Organism Name	Organism Infraspecific Names Breed	Organism Infraspecific Names Strain	Organism Infraspecific Names Cultivar	Organism Infraspecific Names Ecotype	Organism Infraspecific Names Isolate	Organism Infraspecific Names Sex	Annotation Name	Assembly Level	Assembly Release Date	WGS project accession	Assembly Stats Number of Scaffolds
+GCA_000815065.1	ASM81506v1	Mesomycoplasma flocculare ATCC 27399		Ms42					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2015-01-06		1
+GCF_000815065.1	ASM81506v1	Mesomycoplasma flocculare ATCC 27399		Ms42					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2015-01-06		1
+GCA_009832165.1	ASM983216v1	Mesomycoplasma flocculare		MF30					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	2020-01-06	QQRN01	31
+GCF_009832165.1	ASM983216v1	Mesomycoplasma flocculare		MF30					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	2020-01-06	QQRN01	31
+GCA_000367185.1	Mycoplasma flocculare genome	Mesomycoplasma flocculare ATCC 27716		ATCC 27716					Annotation submitted by LNCC	Contig	2013-04-17	AFCG01	
+GCF_000367185.1	Mycoplasma flocculare genome	Mesomycoplasma flocculare ATCC 27716		ATCC 27716					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Contig	2013-04-17	AFCG01	
+GCA_009832015.1	ASM983201v1	Mesomycoplasma flocculare		MF22					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	2020-01-06	QQRD01	24
+GCF_009832015.1	ASM983201v1	Mesomycoplasma flocculare		MF22					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	2020-01-06	QQRD01	24
+GCA_009832185.1	ASM983218v1	Mesomycoplasma flocculare		MF18					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	2020-01-06	QQRO01	31
+GCF_009832185.1	ASM983218v1	Mesomycoplasma flocculare		MF18					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	2020-01-06	QQRO01	31
+GCA_009831495.1	ASM983149v1	Mesomycoplasma flocculare		MF11					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	2020-01-06	QQRE01	67
+GCF_009831495.1	ASM983149v1	Mesomycoplasma flocculare		MF11					GCF_009831495.1-RS_2024_08_05	Scaffold	2020-01-06	QQRE01	67
+GCA_009832145.1	ASM983214v1	Mesomycoplasma flocculare		MF33					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	2020-01-06	QQRM01	28
+GCF_009832145.1	ASM983214v1	Mesomycoplasma flocculare		MF33					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	2020-01-06	QQRM01	28
+GCA_009831965.1	ASM983196v1	Mesomycoplasma flocculare		MF29					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	2020-01-06	QQRC01	37
+GCF_009831965.1	ASM983196v1	Mesomycoplasma flocculare		MF29					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	2020-01-06	QQRC01	37

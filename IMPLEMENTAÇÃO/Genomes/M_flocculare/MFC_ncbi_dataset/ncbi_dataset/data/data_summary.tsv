@@ -1,0 +1,17 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Mesomycoplasma flocculare ATCC 27716		strain: ATCC 27716	1004152	Mycoplasma flocculare genome	GCA_000367185.1	GenBank	Annotation submitted by LNCC	Contig	82174	763948	2013-04-17	613	PRJNA65295	SAMN02470252
+Mesomycoplasma flocculare ATCC 27399		strain: Ms42	743971	ASM81506v1	GCA_000815065.1	GenBank	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	778866	778866	2015-01-06	629	PRJNA46461	SAMN02730214
+Mesomycoplasma flocculare		strain: MF11	2128	ASM983149v1	GCA_009831495.1	GenBank	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	78321	765689	2020-01-06	657	PRJNA478906	SAMN09532939
+Mesomycoplasma flocculare		strain: MF29	2128	ASM983196v1	GCA_009831965.1	GenBank	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	67566	777569	2020-01-06	654	PRJNA478906	SAMN09533001
+Mesomycoplasma flocculare		strain: MF22	2128	ASM983201v1	GCA_009832015.1	GenBank	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	78713	752968	2020-01-06	621	PRJNA478906	SAMN09532961
+Mesomycoplasma flocculare		strain: MF33	2128	ASM983214v1	GCA_009832145.1	GenBank	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	68360	756448	2020-01-06	636	PRJNA478906	SAMN09533013
+Mesomycoplasma flocculare		strain: MF30	2128	ASM983216v1	GCA_009832165.1	GenBank	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	123263	733720	2020-01-06	613	PRJNA478906	SAMN09533010
+Mesomycoplasma flocculare		strain: MF18	2128	ASM983218v1	GCA_009832185.1	GenBank	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	78644	758154	2020-01-06	630	PRJNA478906	SAMN09532952
+Mesomycoplasma flocculare ATCC 27716		strain: ATCC 27716	1004152	Mycoplasma flocculare genome	GCF_000367185.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Contig	82174	763948	2013-04-17	630	PRJNA65295	SAMN02470252
+Mesomycoplasma flocculare ATCC 27399		strain: Ms42	743971	ASM81506v1	GCF_000815065.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	778866	778866	2015-01-06	632	PRJNA46461	SAMN02730214
+Mesomycoplasma flocculare		strain: MF11	2128	ASM983149v1	GCF_009831495.1	RefSeq	GCF_009831495.1-RS_2024_08_05	Scaffold	78321	765689	2020-01-06	618	PRJNA478906	SAMN09532939
+Mesomycoplasma flocculare		strain: MF29	2128	ASM983196v1	GCF_009831965.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	67566	777569	2020-01-06	648	PRJNA478906	SAMN09533001
+Mesomycoplasma flocculare		strain: MF22	2128	ASM983201v1	GCF_009832015.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	78713	752968	2020-01-06	612	PRJNA478906	SAMN09532961
+Mesomycoplasma flocculare		strain: MF33	2128	ASM983214v1	GCF_009832145.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	68360	756448	2020-01-06	619	PRJNA478906	SAMN09533013
+Mesomycoplasma flocculare		strain: MF30	2128	ASM983216v1	GCF_009832165.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	123263	733720	2020-01-06	603	PRJNA478906	SAMN09533010
+Mesomycoplasma flocculare		strain: MF18	2128	ASM983218v1	GCF_009832185.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Scaffold	78644	758154	2020-01-06	625	PRJNA478906	SAMN09532952
