@@ -1,6 +1,6 @@
-ATCC
+Ms42
 MF30
-Mesomycoplasma
+ATCC 27716
 MF22
 MF18
 MF11
