@@ -7,6 +7,9 @@
 awk -F'\t' 'NR > 1 && !seen[$5]++ {print $5}' IMPLEMENTAÇÃO/Genomes/mhp_table.tsv > IMPLEMENTAÇÃO/Genomes/mhp_list.txt
 awk -F'\t' 'NR > 1 && !seen[$5]++ {print $5}' IMPLEMENTAÇÃO/Genomes/mfc_table.tsv > IMPLEMENTAÇÃO/Genomes/mfc_list.txt
 
+awk -F'\t' 'NR > 1 && !seen[$1]++ {print $1}' IMPLEMENTAÇÃO/Genomes/mhp_table.tsv > IMPLEMENTAÇÃO/Genomes/mhp_ids.txt
+awk -F'\t' 'NR > 1 && !seen[$1]++ {print $1}' IMPLEMENTAÇÃO/Genomes/mfc_table.tsv > IMPLEMENTAÇÃO/Genomes/mfc_ids.txt
+
 ids=()
 direc=/home/lgef/Documents/GitHub/Project_doctoral/IMPLEMENTAÇÃO/
 # /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTAÇÃO/Code/00_organization.bash
