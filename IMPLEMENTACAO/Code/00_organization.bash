@@ -29,7 +29,7 @@ while IFS= read -r line; do
     while IFS= read -r line; do
         echo $line
         b=$line
-        mv ${direc_mhp}MHP_ncbi_dataset/ncbi_dataset/data/${line} ${direc_mhp}${a}
+        mv ${direc_mhp}${line} ${direc_mhp}${a}
     done < "$mhp_temp"
 done < "$mhp_list"
 
@@ -39,6 +39,6 @@ while IFS= read -r line; do
     while IFS= read -r line; do
         echo $line
         b=$line
-        mv ${direc_mfc}MFC_ncbi_dataset/ncbi_dataset/data/${line} ${direc_mfc}${a}
+        mv ${direc_mfc}${line} ${direc_mfc}${a}
     done < "$mfc_temp"
 done < "$mfc_list"
