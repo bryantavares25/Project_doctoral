@@ -25,11 +25,12 @@ while IFS= read -r line; do a=$line; mkdir -p ${direc_mfc}strains/${a}/Use; done
 # Move files
 while IFS= read -r line; do
     a=$line
+    echo $a
     awk -v id="$a" '$5 == id {print $1}' "$mhp_table" > "$mhp_temp"
     while IFS= read -r line; do
-        echo $line
         b=$line
-        mv ${direc_mhp}${line} ${direc_mhp}strains/${a}
+        echo $b
+        mv ${direc_mhp}${b} ${direc_mhp}strains/${a}
     done < "$mhp_temp"
 done < "$mhp_list"
 
