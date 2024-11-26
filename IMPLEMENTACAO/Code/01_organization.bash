@@ -16,13 +16,15 @@ mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
 
 if exist GCF** cp GCF; elif exist GCA** cp GCA
 
-mhp=IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/
-mfc=IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/
+mhp=/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/
+mfc=/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/
 
-if ls ${mhp}GCF* 1> /dev/null 2>&1; then
-    cp ${mhp}GCF* ${mhp}Use/
-elif ls GCA* 1> /dev/null 2>&1; then
-    cp GCA* destino/
+for file in 
+
+if ls ${mfc}ATCC27716/GCF* 1> /dev/null 2>&1; then
+    cp -r ${mfc}ATCC27716/GCF* ${mfc}ATCC27716/Use/
+elif ls ${mfc}ATCC27716/GCA* 1> /dev/null 2>&1; then
+    cp -r ${mfc}ATCC27716/GCA* ${mfc}ATCC27716/Use/
 else
     echo "Nenhum arquivo GCF ou GCA encontrado."
 fi
