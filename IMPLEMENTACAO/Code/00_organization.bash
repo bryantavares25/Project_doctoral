@@ -5,14 +5,14 @@
 # Folders
 pcH=/home/bryan/
 pcL=/home/lgef/
-direc_mhp=${pcL}Documents/GitHub/Project_doctoral/IMPLEMENTAÇÃO/Genomes/M_hyopneumoniae/
-direc_mfc=${pcL}Documents/GitHub/Project_doctoral/IMPLEMENTAÇÃO/Genomes/M_flocculare/
-mhp_table="IMPLEMENTAÇÃO/Genomes/mhp_table.tsv"
-mhp_list="IMPLEMENTAÇÃO/Genomes/mhp_list.txt"
-mhp_temp="IMPLEMENTAÇÃO/Genomes/mhp_result.txt"
-mfc_table="IMPLEMENTAÇÃO/Genomes/mfc_table.tsv"
-mfc_list="IMPLEMENTAÇÃO/Genomes/mfc_list.txt"
-mfc_temp="IMPLEMENTAÇÃO/Genomes/mfc_result.txt"
+direc_mhp=${pcL}Documents/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/
+direc_mfc=${pcL}Documents/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/
+mhp_table="IMPLEMENTACAO/Genomes/mhp_table.tsv"
+mhp_list="IMPLEMENTACAO/Genomes/mhp_list.txt"
+mhp_temp="IMPLEMENTACAO/Genomes/mhp_result.txt"
+mfc_table="IMPLEMENTACAO/Genomes/mfc_table.tsv"
+mfc_list="IMPLEMENTACAO/Genomes/mfc_list.txt"
+mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
 
 # In collumn
 awk -F'\t' 'NR > 1 && !seen[$5]++ {print $5}' "$mhp_table" > "$mhp_list"
