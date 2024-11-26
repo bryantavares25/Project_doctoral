@@ -15,28 +15,22 @@ mfc_list="IMPLEMENTACAO/Genomes/mfc_list.txt"
 mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
 
 mhp=/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/
-for file in "${mhp}*/"; do
-    echo $file
-    if ls ${file}GCF* 1> /dev/null 2>&1; then
-        echo $file
-        #cp -r ${file}GCF* ${file}Use/
-    elif ls ${file}GCA* 1> /dev/null 2>&1; then
-        echo "NO"
-        #cp -r ${file}GCA* ${file}Use/
+for file in $(cat "$mhp_list"); do
+    if ls ${mhp}${file}/GCF* 1> /dev/null 2>&1; then
+        cp -r ${mhp}${file}/GCF* ${mhp}${file}/Use/
+    elif ls ${mhp}${file}/GCA* 1> /dev/null 2>&1; then
+        cp -r ${mhp}${file}/GCA* ${mhp}${file}/Use/
     else
         echo "Nenhum arquivo GCF ou GCA encontrado."
     fi
-    echo "\n"
 done
 
 mfc=/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/
-for file in "${mfc[@]}*/"; do
-    if ls ${file}ATCC27716/GCF* 1> /dev/null 2>&1; then
-        echo "OK"
-        #cp -r ${file}ATCC27716/GCF* ${file}ATCC27716/Use/
-    elif ls ${file}ATCC27716/GCA* 1> /dev/null 2>&1; then
-        echo "NO"
-        #cp -r ${file}ATCC27716/GCA* ${file}ATCC27716/Use/
+for file in $(cat "$mfc_list"); do
+    if ls ${mfc}${file}/GCF* 1> /dev/null 2>&1; then
+        cp -r ${mfc}${file}/GCF* ${mfc}${file}/Use/
+    elif ls ${mfc}${file}/GCA* 1> /dev/null 2>&1; then
+        cp -r ${mfc}${file}/GCA* ${mfc}${file}/Use/
     else
         echo "Nenhum arquivo GCF ou GCA encontrado."
     fi
