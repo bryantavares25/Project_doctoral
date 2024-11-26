@@ -5,8 +5,8 @@
 # Folders
 pcH=/home/bryan/
 pcL=/home/lgef/
-direc_mhp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/
-direc_mfc=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/
+direc_mhp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/
+direc_mfc=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MHP_ncbi_dataset/ncbi_dataset/data/
 mhp_table="IMPLEMENTACAO/Genomes/mhp_table.tsv"
 mhp_list="IMPLEMENTACAO/Genomes/mhp_list.txt"
 mhp_temp="IMPLEMENTACAO/Genomes/mhp_result.txt"
