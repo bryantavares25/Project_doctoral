@@ -19,8 +19,8 @@ awk -F'\t' 'NR > 1 && !seen[$5]++ {print $5}' "$mhp_table" > "$mhp_list"
 awk -F'\t' 'NR > 1 && !seen[$5]++ {print $5}' "$mfc_table" > "$mfc_list"
 
 # Create folder by species
-while IFS= read -r line; do a=$line; mkdir -p ${direc_mhp}${a}/Use; done < "$mhp_list"
-while IFS= read -r line; do a=$line; mkdir -p ${direc_mfc}${a}/Use; done < "$mfc_list"
+while IFS= read -r line; do a=$line; mkdir -p ${direc_mhp}strains/${a}/Use; done < "$mhp_list"
+while IFS= read -r line; do a=$line; mkdir -p ${direc_mfc}strains/${a}/Use; done < "$mfc_list"
 
 # Move files
 while IFS= read -r line; do
@@ -29,7 +29,7 @@ while IFS= read -r line; do
     while IFS= read -r line; do
         echo $line
         b=$line
-        mv ${direc_mhp}${line} ${direc_mhp}${a}
+        mv ${direc_mhp}${line} ${direc_mhp}strains/${a}
     done < "$mhp_temp"
 done < "$mhp_list"
 
@@ -39,6 +39,6 @@ while IFS= read -r line; do
     while IFS= read -r line; do
         echo $line
         b=$line
-        mv ${direc_mfc}${line} ${direc_mfc}${a}
+        mv ${direc_mfc}${line} ${direc_mfc}strains/${a}
     done < "$mfc_temp"
 done < "$mfc_list"
