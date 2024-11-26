@@ -23,6 +23,8 @@ while IFS= read -r line; do a=$line; mkdir -p ${direc_mhp}${a}/Use; done < "$mhp
 while IFS= read -r line; do a=$line; mkdir -p ${direc_mfc}${a}/Use; done < "$mfc_list"
 
 # Move files
+input_file=
+output_file=
 while IFS= read -r line; do
     a=$line
     awk -v id="$a" '$5 == id {print $1}' "$input_file" > "$output_file"
@@ -33,6 +35,8 @@ while IFS= read -r line; do
     done < "$output_file"
 done < "$mhp_list"
 
+input_file=
+output_file=
 while IFS= read -r line; do
     a=$line
     awk -v id="$a" '$5 == id {print $1}' "$input_file" > "$output_file"
@@ -42,7 +46,3 @@ while IFS= read -r line; do
         mv ${direc_mfc}MFC_ncbi_dataset/ncbi_dataset/data/${line} ${direc_mfc}${a}
     done < "$output_file"
 done < "$mfc_list"
-
-# /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTAÇÃO/Code/00_organization.bash
-#for i in "${seqid[@]}"; do ; done
-#for i in ; do mv {$direc}Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/**GCA_000008205.1**; done
