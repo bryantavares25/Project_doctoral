@@ -15,8 +15,8 @@ mfc_list="IMPLEMENTACAO/Genomes/mfc_list.txt"
 mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
 
 # In collumn
-awk -F'\t' 'NR > 1 && !seen[$5]++ {print $5}' "$mhp_table" > "$mhp_list"
-awk -F'\t' 'NR > 1 && !seen[$5]++ {print $5}' "$mfc_table" > "$mfc_list"
+awk -F '\t' 'NR > 1 && !seen[$5]++ {print $5}' "$mhp_table" > "$mhp_list"
+awk -F '\t' 'NR > 1 && !seen[$5]++ {print $5}' "$mfc_table" > "$mfc_list"
 
 # Create folder by species
 while IFS= read -r line; do a=$line; mkdir -p ${direc_mhp}strains/${a}/Use; done < "$mhp_list"
