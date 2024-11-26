@@ -36,10 +36,11 @@ done < "$mhp_list"
 
 while IFS= read -r line; do
     a=$line
+    echo $a
     awk -v id="$a" '$5 == id {print $1}' "$mfc_table" > "$mfc_temp"
     while IFS= read -r line; do
-        echo $line
         b=$line
-        mv ${direc_mfc}${line} ${direc_mfc}strains/${a}
+        echo $b
+        mv ${direc_mfc}${b} ${direc_mfc}strains/${a}
     done < "$mfc_temp"
 done < "$mfc_list"
