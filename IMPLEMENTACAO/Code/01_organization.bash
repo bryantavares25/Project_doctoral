@@ -19,7 +19,9 @@ if exist GCF** cp GCF; elif exist GCA** cp GCA
 mhp=/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/
 mfc=/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/
 
-for file in 
+for subdir in "${mfc[@]}"; do echo $subdir; done
+
+for file in $mfc"${seqid[@]}"
 
 if ls ${mfc}ATCC27716/GCF* 1> /dev/null 2>&1; then
     cp -r ${mfc}ATCC27716/GCF* ${mfc}ATCC27716/Use/
