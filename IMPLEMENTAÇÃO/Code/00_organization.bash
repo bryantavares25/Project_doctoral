@@ -5,8 +5,8 @@
 # Folders
 pcH=/home/bryan/
 pcL=/home/lgef/
-direc_mhp=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTAÇÃO/Genomes/M_hyopneumoniae/
-direc_mfc=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTAÇÃO/Genomes/M_flocculare/
+direc_mhp=${pcL}Documents/GitHub/Project_doctoral/IMPLEMENTAÇÃO/Genomes/M_hyopneumoniae/
+direc_mfc=${pcL}Documents/GitHub/Project_doctoral/IMPLEMENTAÇÃO/Genomes/M_flocculare/
 mhp_table="IMPLEMENTAÇÃO/Genomes/mhp_table.tsv"
 mhp_list="IMPLEMENTAÇÃO/Genomes/mhp_list.txt"
 mhp_temp="IMPLEMENTAÇÃO/Genomes/mhp_result.txt"
@@ -25,17 +25,17 @@ while IFS= read -r line; do a=$line; mkdir -p ${direc_mfc}${a}/Use; done < "$mfc
 # Move files
 while IFS= read -r line; do
     a=$line
-    awk -v id="$a" '$5 == id { print $1}' "$input_file" > "$output_file"
+    awk -v id="$a" '$5 == id {print $1}' "$input_file" > "$output_file"
     while IFS= read -r line; do
         echo $line
         b=$line
-        mv ${i}MHP_ncbi_dataset/ncbi_dataset/data/${line} ${direc_mhp}${a}
+        mv ${direc_mhp}MHP_ncbi_dataset/ncbi_dataset/data/${line} ${direc_mhp}${a}
     done < "$output_file"
 done < "$mhp_list"
 
 while IFS= read -r line; do
     a=$line
-    awk -v id="$a" '$5 == id { print $1}' "$input_file" > "$output_file"
+    awk -v id="$a" '$5 == id {print $1}' "$input_file" > "$output_file"
     while IFS= read -r line; do
         echo $line
         b=$line
