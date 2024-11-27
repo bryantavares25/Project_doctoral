@@ -20,7 +20,8 @@ mfc_list="IMPLEMENTACAO/Genomes/mfc_list.txt"
 mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
 
 # COMPLETE
-
+conda activate busco
+conda deactivate
 
 # DRAF
 conda activate busco
