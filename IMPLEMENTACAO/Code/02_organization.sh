@@ -21,14 +21,19 @@ mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
 
 # COMPLETE
 conda activate busco
+busco /final.contigs.fa -m genome -o /07_val_sca
 conda deactivate
 
 # DRAF
 conda activate busco
+busco /final.contigs.fa -m genome -o /07_val_sca
 conda deactivate
 
 conda activate ragtag
+ragtag.py scaffold "${seqid[@]}" ${direc}${i}/06_seq_sca/**** -o ${direc}${i}/10_ref_ass/ragtag_scaffold/
+ragtag.py patch "${seqid[@]}" ${direc}${i}/10_ref_ass/ragtag_scaffold/**** -o ${direc}${i}/10_ref_ass/ragtag_patch/ done
 conda deactivate
 
 conda activate busco
+busco /final.contigs.fa -m genome -o /07_val_sca
 conda deactivate
