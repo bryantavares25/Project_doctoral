@@ -51,27 +51,30 @@ for file in $(cat "$mhp_list"); do
         conda activate ragtag
         # Scafold
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/
-        for i in 
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out01 ${mhp_strains}J/Use/GCF_000008205.1/GCF_000008205.1_ASM820v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out02 ${mhp_strains}ES2/Use/GCF_004768725.1/GCF_004768725.1_ASM476872v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out03 ${mhp_strains}133A/Use/GCA_045006005.1/GCA_045006005.1_ASM4500600v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out04 ${mhp_strains}131B/Use/GCA_045006015.1/GCA_045006015.1_ASM4500601v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out05 ${mhp_strains}111A/Use/GCA_045006665.1/GCA_045006665.1_ASM4500666v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out06 ${mhp_strains}LH/Use/GCF_021383865.1/GCF_021383865.1_ASM2138386v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out07 ${mhp_strains}154B/Use/GCA_045005345.1/GCA_045005345.1_ASM4500534v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out08 ${mhp_strains}153B/Use/GCA_045005995.1/GCA_045005995.1_ASM4500599v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out09 ${mhp_strains}ES2L/Use/GCF_013402755.1/GCF_013402755.1_ASM1340275v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out10 ${mhp_strains}116/Use/GCF_040026155.1/GCF_040026155.1_ASM4002615v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out11 ${mhp_strains}Ue273/Use/GCF_039907915.1/GCF_039907915.1_ASM3990791v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out12 ${mhp_strains}F72C/Use/GCF_007923985.1/GCF_007923985.1_ASM792398v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out13 ${mhp_strains}1257/Use/GCF_040026965.1/GCF_040026965.1_ASM4002696v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out14 ${mhp_strains}NCTC10127/Use/GCF_900660565.1/GCF_900660565.1_51334_A01-3_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out15 ${mhp_strains}168/Use/GCF_000183185.1/GCF_000183185.1_ASM18318v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out16 ${mhp_strains}168L/Use/GCF_000400855.1/GCF_000400855.1_ASM40085v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out17 ${mhp_strains}7448/Use/GCF_000008225.1/GCF_000008225.1_ASM822v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out18 ${mhp_strains}7422/Use/GCF_000427215.1/GCF_000427215.1_ASM42721v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out19 ${mhp_strains}232/Use/GCF_000008405.1/GCF_000008405.1_ASM840v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
-        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out20 ${mhp_strains}KM014/Use/GCF_002257505.1/GCF_002257505.1_ASM225750v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        complete=(J ES2 133A 131B 111A LH 154B 153B ES2L 116 Ue273 F72C 1257 NCTC10127 168 168L 7448 7422 232 KM014)
+        select_sum=0
+        select_strain=""
+        for i in "${complete[@]}":
+            ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out_${i} ${mhp_strains}${i}/Use/G*/G*.fna ${mhp_strains}${file}/Use/G*/G*.fna
+            
+            b=(2 3 4)
+            sum=0
+            for i in "${b[@]}"; do
+                array=($(awk -v id="$i" '{print $id}' $mhp_strains$file/Use/ragtag/ragtag_scaffold/out_$i/ragtag.scaffold.confidence.txt))
+                soma=0
+                for valor in "${array[@]}"; do
+                soma=$(echo "$soma + $valor" | bc)
+                done
+                # Imprimir o resultado
+                echo "Soma dos valores: $soma"
+                sum=$(echo "$sum + $soma" | bc)
+            done
+            if [$select_sum < $sum]; then
+                $select_sum=$sum
+                $select_strain=$i
+            fi
+        echo $select_strain $select_sum
+
         # Merge
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
         ragtag.py merge ${mhp_strains}${file}/Use/G*/G*.fna ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out*/*agp -o ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
@@ -94,23 +97,23 @@ for file in $(cat "$mhp_list"); do
         echo "ERRO"
 done
 
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out01 ${mhp_strains}J/Use/GCF_000008205.1/GCF_000008205.1_ASM820v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out02 ${mhp_strains}ES2/Use/GCF_004768725.1/GCF_004768725.1_ASM476872v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out03 ${mhp_strains}133A/Use/GCA_045006005.1/GCA_045006005.1_ASM4500600v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out04 ${mhp_strains}131B/Use/GCA_045006015.1/GCA_045006015.1_ASM4500601v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out05 ${mhp_strains}111A/Use/GCA_045006665.1/GCA_045006665.1_ASM4500666v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out06 ${mhp_strains}LH/Use/GCF_021383865.1/GCF_021383865.1_ASM2138386v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out07 ${mhp_strains}154B/Use/GCA_045005345.1/GCA_045005345.1_ASM4500534v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out08 ${mhp_strains}153B/Use/GCA_045005995.1/GCA_045005995.1_ASM4500599v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out09 ${mhp_strains}ES2L/Use/GCF_013402755.1/GCF_013402755.1_ASM1340275v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out10 ${mhp_strains}116/Use/GCF_040026155.1/GCF_040026155.1_ASM4002615v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out11 ${mhp_strains}Ue273/Use/GCF_039907915.1/GCF_039907915.1_ASM3990791v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out12 ${mhp_strains}F72C/Use/GCF_007923985.1/GCF_007923985.1_ASM792398v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out13 ${mhp_strains}1257/Use/GCF_040026965.1/GCF_040026965.1_ASM4002696v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out14 ${mhp_strains}NCTC10127/Use/GCF_900660565.1/GCF_900660565.1_51334_A01-3_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out15 ${mhp_strains}168/Use/GCF_000183185.1/GCF_000183185.1_ASM18318v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out16 ${mhp_strains}168L/Use/GCF_000400855.1/GCF_000400855.1_ASM40085v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out17 ${mhp_strains}7448/Use/GCF_000008225.1/GCF_000008225.1_ASM822v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out18 ${mhp_strains}7422/Use/GCF_000427215.1/GCF_000427215.1_ASM42721v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out19 ${mhp_strains}232/Use/GCF_000008405.1/GCF_000008405.1_ASM840v1_genomic.fna
-ragtag.py scaffold -o ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out20 ${mhp_strains}KM014/Use/GCF_002257505.1/GCF_002257505.1_ASM225750v1_genomic.fna
+
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out02 ${mhp_strains}ES2/Use/GCF_004768725.1/GCF_004768725.1_ASM476872v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out03 ${mhp_strains}133A/Use/GCA_045006005.1/GCA_045006005.1_ASM4500600v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out04 ${mhp_strains}131B/Use/GCA_045006015.1/GCA_045006015.1_ASM4500601v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out05 ${mhp_strains}111A/Use/GCA_045006665.1/GCA_045006665.1_ASM4500666v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out06 ${mhp_strains}LH/Use/GCF_021383865.1/GCF_021383865.1_ASM2138386v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out07 ${mhp_strains}154B/Use/GCA_045005345.1/GCA_045005345.1_ASM4500534v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out08 ${mhp_strains}153B/Use/GCA_045005995.1/GCA_045005995.1_ASM4500599v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out09 ${mhp_strains}ES2L/Use/GCF_013402755.1/GCF_013402755.1_ASM1340275v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out10 ${mhp_strains}116/Use/GCF_040026155.1/GCF_040026155.1_ASM4002615v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out11 ${mhp_strains}Ue273/Use/GCF_039907915.1/GCF_039907915.1_ASM3990791v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out12 ${mhp_strains}F72C/Use/GCF_007923985.1/GCF_007923985.1_ASM792398v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out13 ${mhp_strains}1257/Use/GCF_040026965.1/GCF_040026965.1_ASM4002696v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out14 ${mhp_strains}NCTC10127/Use/GCF_900660565.1/GCF_900660565.1_51334_A01-3_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out15 ${mhp_strains}168/Use/GCF_000183185.1/GCF_000183185.1_ASM18318v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out16 ${mhp_strains}168L/Use/GCF_000400855.1/GCF_000400855.1_ASM40085v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out17 ${mhp_strains}7448/Use/GCF_000008225.1/GCF_000008225.1_ASM822v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out18 ${mhp_strains}7422/Use/GCF_000427215.1/GCF_000427215.1_ASM42721v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out19 ${mhp_strains}232/Use/GCF_000008405.1/GCF_000008405.1_ASM840v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out20 ${mhp_strains}KM014/Use/GCF_002257505.1/GCF_002257505.1_ASM225750v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna

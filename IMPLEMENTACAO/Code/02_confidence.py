@@ -9,12 +9,14 @@ mfc_strains=f'{pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hy
 # Lista de arquivos para processar (adicione aqui os nomes dos arquivos)
 arquivos = ["IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/11/Use/ragtag/ragtag_scaffold/out02/ragtag.scaffold.confidence.txt", "IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/11/Use/ragtag/ragtag_scaffold/out01/ragtag.scaffold.confidence.txt"]
 
+arquivo=["J", "ES2", "133A", "131B", "111A", "LH", "154B", "153B", "ES2L", "116", "Ue273", "F72C", "1257", "NCTC10127", "168", "168L", "7448", "7422", "232", "KM014"]
+
 # Variáveis para armazenar o arquivo com maior soma
 arquivo_maior_soma = None
 maior_soma = -float('inf')  # Começa com o menor valor possível
 
 # Processa cada arquivo
-for arquivo in arquivos:
+for i in range(0, 20)arquivos:
     soma = 0.0
     # Abre o arquivo manualmente
     f = open(arquivo, "r")
@@ -44,3 +46,27 @@ if arquivo_maior_soma:
 else:
     print("Nenhum arquivo foi processado.")
 
+'''
+J ES2 133A 131B 111A LH 154B 153B ES2L 116 Ue273 F72C 1257 NCTC10127 168 168L 7448 7422 232 KM014
+
+"J"
+"ES2"
+"133A"
+"131B"
+"111A"
+"LH"
+"154B"
+"153B"
+"ES2L"
+"116"
+"Ue273"
+"F72C"
+"1257"
+"NCTC10127"
+"168"
+"168L"
+"7448"
+"7422"
+"232"
+"KM014"
+'''
