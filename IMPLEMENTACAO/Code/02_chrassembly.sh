@@ -19,8 +19,10 @@ mfc_table="IMPLEMENTACAO/Genomes/mfc_table.tsv" # Curadoria manual
 mfc_list="IMPLEMENTACAO/Genomes/mfc_list.txt"
 mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
 
-
-for file in $(cat "$mhp_list")
+for file in $(cat "$mhp_list"); do
+    result=$(awk -v id="$file" '$5 == id && $0 ~ /Complete/ {print $5}' "$mhp_table")
+    echo $result
+done
 
 # COMPLETE
 conda activate busco
