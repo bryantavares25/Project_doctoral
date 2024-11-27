@@ -19,5 +19,15 @@ mfc_table="IMPLEMENTACAO/Genomes/mfc_table.tsv" # Curadoria manual
 mfc_list="IMPLEMENTACAO/Genomes/mfc_list.txt"
 mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
 
-#
+# COMPLETE
 
+
+# DRAF
+conda activate busco
+conda deactivate
+
+conda activate ragtag
+conda deactivate
+
+conda activate busco
+conda deactivate
