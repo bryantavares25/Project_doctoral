@@ -18,8 +18,8 @@ mhp_temp="IMPLEMENTACAO/Genomes/mhp_result.txt"
 mfc_table="IMPLEMENTACAO/Genomes/mfc_table.tsv" # Curadoria manual
 mfc_list="IMPLEMENTACAO/Genomes/mfc_list.txt"
 mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
-mhp_strains=IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/
-mfc_strains=IMPLEMENTACAO/Genomes/M_hyopneumoniae/MFC_ncbi_dataset/ncbi_dataset/data/strains/
+mhp_strains=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/
+mfc_strains=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MFC_ncbi_dataset/ncbi_dataset/data/strains/
 
 for file in $(cat "$mhp_list"); do
     result=$(awk -v id="$file" '$5 == id && $0 ~ /Complete/ {print $5}' "$mhp_table")
@@ -35,35 +35,45 @@ conda deactivate
 
     if ["$found"==true]; then # COMPLETE
         conda activate busco
-        busco BIOINFO_TEST/11/GCF_002193015.1_ASM219301v1_genomic.fna -m genome -o /07_val_sca #${mhp_strains}${file}/Use/G*/G*.fna
+        cd ${mhp_strains}${file}Use/
+        busco -i ${mhp_strains}${file}Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_complete
+        cd ..
         conda deactivate
 
         conda activate quast
-        quast.py /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/GCF_002193015.1_ASM219301v1_genomic.fna -o quast_quast_quast
+        quast ${mhp_strains}${file}Use/G*/G*.fna -o ${mhp_strains}${file}Use/quast_complete
         conda deactivate quast
 
     elif ["$found"==false]; then # DRAF
         conda activate busco
-        busco /final.contigs.fa -m genome -o /07_val_sca
+        cd ${mhp_strains}${file}Use/
+        busco -i ${mhp_strains}${file}Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_draft
+        cd ..
         conda deactivate
 
         conda activate quast
-        quast.py /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/GCF_002193015.1_ASM219301v1_genomic.fna -o quast_quast_quast
+        quast ${mhp_strains}${file}Use/G*/G*.fna -o ${mhp_strains}${file}Use/quast_draft
         conda deactivate quast
 
+        ### RAGTAG     
         conda activate ragtag
+        # Scafold
         ragtag.py scaffold "${seqid[@]}" ${direc}${i}/06_seq_sca/**** -o ${direc}${i}/10_ref_ass/ragtag_scaffold/
+        # Merge
+        ragtag.py patch "${seqid[@]}" ${direc}${i}/10_ref_ass/ragtag_scaffold/**** -o ${direc}${i}/10_ref_ass/ragtag_patch/ done
+        # Patch
         ragtag.py patch "${seqid[@]}" ${direc}${i}/10_ref_ass/ragtag_scaffold/**** -o ${direc}${i}/10_ref_ass/ragtag_patch/ done
         conda deactivate
 
         conda activate busco
-        busco /final.contigs.fa -m genome -o /07_val_sca
+        cd ${mhp_strains}${file}Use/
+        busco -i ${mhp_strains}${file}Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_complete
+        cd ..
         conda deactivate
 
         conda activate quast
-        quast.py /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/GCF_002193015.1_ASM219301v1_genomic.fna -o quast_quast_quast
+        quast ${mhp_strains}${file}Use/G*/G*.fna -o ${mhp_strains}${file}Use/quast_complete
         conda deactivate quast
-
     else
-    echo
+        echo "ERRO"
 done
