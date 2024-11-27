@@ -2,7 +2,6 @@
 
 conda init bash
 
-
 # # # # #
 
 # Organization USE
@@ -80,8 +79,11 @@ conda deactivate
         ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out19 ${mhp_strains}232/Use/GCF_000008405.1/GCF_000008405.1_ASM840v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
         ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out20 ${mhp_strains}KM014/Use/GCF_002257505.1/GCF_002257505.1_ASM225750v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
         # Merge
-        ragtag.py merge ${mhp_strains}${file}Use/G*/G*.fna ${mhp_strains}${file}Use/ragtag/ragtag_scaffold/out*/*agp
+        mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
+        ragtag.py merge ${mhp_strains}${file}/Use/G*/G*.fna ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out*/*agp -o ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
         # Patch
+        # Select major confidence
+
         ragtag.py patch "${seqid[@]}" ${direc}${i}/10_ref_ass/ragtag_scaffold/**** -o ${direc}${i}/10_ref_ass/ragtag_patch/ done
         conda deactivate
 
