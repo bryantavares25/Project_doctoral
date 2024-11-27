@@ -19,6 +19,9 @@ mfc_table="IMPLEMENTACAO/Genomes/mfc_table.tsv" # Curadoria manual
 mfc_list="IMPLEMENTACAO/Genomes/mfc_list.txt"
 mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
 
+
+for file in $(cat "$mhp_list")
+
 # COMPLETE
 conda activate busco
 busco /final.contigs.fa -m genome -o /07_val_sca
