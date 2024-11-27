@@ -1,0 +1,6 @@
+query	grouping_confidence	location_confidence	orientation_confidence
+NZ_MWWN01000005.1	1.0	1.0	1.0
+NZ_MWWN01000004.1	1.0	1.0	1.0
+NZ_MWWN01000003.1	1.0	1.0	1.0
+NZ_MWWN01000001.1	1.0	0.5223714469690001	1.0
+NZ_MWWN01000002.1	1.0	1.0	1.0
