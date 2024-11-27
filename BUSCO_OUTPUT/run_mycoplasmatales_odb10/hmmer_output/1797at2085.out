@@ -1,0 +1,15 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_007332.1:180778-181851|+ -            358 1797at2085           -            285  5.6e-132  434.5   4.1   1   2     0.025        18   -0.3   0.7     5    45     1    39     1    72 0.59 NC_007332.1_144 # 180778 # 181851 # 1 # ID=1_144;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.345
+NC_007332.1:180778-181851|+ -            358 1797at2085           -            285  5.6e-132  434.5   4.1   2   2  8.1e-135  5.6e-132  434.5   4.1    28   283    79   350    55   352 0.91 NC_007332.1_144 # 180778 # 181851 # 1 # ID=1_144;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.345
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1797at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/run_mycoplasmatales_odb10/hmmer_output/1797at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1797at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral
+# Date:            Wed Nov 27 09:15:15 2024
+# [ok]

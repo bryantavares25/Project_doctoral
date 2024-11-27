@@ -1,0 +1,15 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_007332.1:783353-784336|- -            328 1993at2085           -            265  3.3e-108  356.1   1.9   1   2  4.8e-111  3.3e-108  356.1   1.9     1   252     2   281     2   296 0.90 NC_007332.1_606 # 783353 # 784336 # -1 # ID=1_606;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.312
+NC_007332.1:783353-784336|- -            328 1993at2085           -            265  3.3e-108  356.1   1.9   2   2     0.045        31   -1.2   0.1   217   247   294   324   281   326 0.67 NC_007332.1_606 # 783353 # 784336 # -1 # ID=1_606;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.312
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1993at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/run_mycoplasmatales_odb10/hmmer_output/1993at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1993at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral
+# Date:            Wed Nov 27 09:15:15 2024
+# [ok]

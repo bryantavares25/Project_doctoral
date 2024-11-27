@@ -1,0 +1,15 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_007332.1:35030-36430|+ -            467 1182at2085           -            360  1.3e-119  394.8  29.6   1   2  3.8e-118  2.6e-115  380.6   9.6     2   294     3   323     2   329 0.89 NC_007332.1_30 # 35030 # 36430 # 1 # ID=1_30;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.263
+NC_007332.1:35030-36430|+ -            467 1182at2085           -            360  1.3e-119  394.8  29.6   2   2   1.2e-07   8.4e-05   17.0  14.0   257   359   354   463   306   464 0.79 NC_007332.1_30 # 35030 # 36430 # 1 # ID=1_30;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.263
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1182at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/run_mycoplasmatales_odb10/hmmer_output/1182at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1182at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral
+# Date:            Wed Nov 27 09:15:14 2024
+# [ok]

@@ -1,0 +1,25 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_007332.1:238596-239924|- -            443 1338at2085           -            333  1.7e-109  361.3  27.7   1   2  7.6e-104  7.5e-102  336.2  24.0     1   318     4   357     4   394 0.78 NC_007332.1_214 # 238596 # 239924 # -1 # ID=1_214;partial=00;start_type=TTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.318
+NC_007332.1:238596-239924|- -            443 1338at2085           -            333  1.7e-109  361.3  27.7   2   2   3.9e-08   3.9e-06   21.5   0.1   300   333   405   442   370   442 0.88 NC_007332.1_214 # 238596 # 239924 # -1 # ID=1_214;partial=00;start_type=TTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.318
+NC_007332.1:91748-93049|+   -            434 1338at2085           -            333     9e-41  135.4   3.8   1   3   6.8e-18   6.7e-16   53.6   0.8   179   329     5   160     2   161 0.85 NC_007332.1_74 # 91748 # 93049 # 1 # ID=1_74;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.293
+NC_007332.1:91748-93049|+   -            434 1338at2085           -            333     9e-41  135.4   3.8   2   3   1.5e-26   1.5e-24   82.0   0.0   176   323   170   316   149   322 0.73 NC_007332.1_74 # 91748 # 93049 # 1 # ID=1_74;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.293
+NC_007332.1:91748-93049|+   -            434 1338at2085           -            333     9e-41  135.4   3.8   3   3      0.19        18   -0.4   0.1   264   321   281   314   271   340 0.58 NC_007332.1_74 # 91748 # 93049 # 1 # ID=1_74;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.293
+NC_007332.1:195185-196066|- -            294 1338at2085           -            333     7e-15   50.3   1.2   1   1   1.2e-16   1.2e-14   49.6   1.2   174   267     4    98     1   141 0.78 NC_007332.1_161 # 195185 # 196066 # -1 # ID=1_161;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.290
+NC_007332.1:111631-112422|+ -            264 1338at2085           -            333   2.2e-10   35.5   0.2   1   2      0.22        21   -0.6   0.2   263   276    40    53     3    97 0.53 NC_007332.1_91 # 111631 # 112422 # 1 # ID=1_91;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=3-4bp;gc_cont=0.263
+NC_007332.1:111631-112422|+ -            264 1338at2085           -            333   2.2e-10   35.5   0.2   2   2   5.8e-12   5.8e-10   34.1   0.1   151   234    80   164    39   180 0.77 NC_007332.1_91 # 111631 # 112422 # 1 # ID=1_91;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=3-4bp;gc_cont=0.263
+NC_007332.1:586887-587483|- -            199 1338at2085           -            333   2.4e-07   25.5   0.5   1   2   5.8e-09   5.8e-07   24.3   0.0   160   212    21    73    16    91 0.89 NC_007332.1_462 # 586887 # 587483 # -1 # ID=1_462;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.293
+NC_007332.1:586887-587483|- -            199 1338at2085           -            333   2.4e-07   25.5   0.5   2   2      0.28        28   -1.0   0.3    90    90   159   159    95   196 0.48 NC_007332.1_462 # 586887 # 587483 # -1 # ID=1_462;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.293
+NC_007332.1:54323-55582|+   -            420 1338at2085           -            333   6.6e-06   20.8   0.3   1   1   1.3e-07   1.3e-05   19.8   0.1   178   307   158   288   150   304 0.77 NC_007332.1_43 # 54323 # 55582 # 1 # ID=1_43;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.307
+NC_007332.1:354753-355856|- -            368 1338at2085           -            333   8.4e-05   17.2   0.9   1   1   1.7e-05    0.0017   12.9   0.9   177   283     3   128     1   156 0.59 NC_007332.1_299 # 354753 # 355856 # -1 # ID=1_299;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.298
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1338at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/run_mycoplasmatales_odb10/hmmer_output/1338at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1338at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral
+# Date:            Wed Nov 27 09:15:14 2024
+# [ok]

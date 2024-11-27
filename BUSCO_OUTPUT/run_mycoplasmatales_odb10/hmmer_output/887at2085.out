@@ -1,0 +1,17 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_007332.1:61578-63101|+   -            508 887at2085            -            410  1.1e-201  665.3   7.2   1   1  7.8e-204  1.4e-201  665.0   7.2    13   409    24   448     5   449 0.92 NC_007332.1_53 # 61578 # 63101 # 1 # ID=1_53;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.346
+NC_007332.1:625736-627274|- -            513 887at2085            -            410   1.8e-89  295.7   3.8   1   1   1.6e-91   2.7e-89  295.1   3.8    97   401   107   416     4   424 0.87 NC_007332.1_492 # 625736 # 627274 # -1 # ID=1_492;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.352
+NC_007332.1:63978-65393|+   -            472 887at2085            -            410   3.5e-24   80.7   0.6   1   1   2.7e-26   4.7e-24   80.3   0.6    33   386    38   409    23   426 0.80 NC_007332.1_55 # 63978 # 65393 # 1 # ID=1_55;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.372
+NC_007332.1:624993-625733|- -            247 887at2085            -            410   9.9e-11   36.4   0.4   1   1     7e-13   1.2e-10   36.1   0.4    27   226    19   243     6   246 0.68 NC_007332.1_491 # 624993 # 625733 # -1 # ID=1_491;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.352
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/busco_downloads/lineages/mycoplasmatales_odb10/hmms/887at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/run_mycoplasmatales_odb10/hmmer_output/887at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/busco_downloads/lineages/mycoplasmatales_odb10/hmms/887at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/BUSCO_OUTPUT/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral
+# Date:            Wed Nov 27 09:15:18 2024
+# [ok]
