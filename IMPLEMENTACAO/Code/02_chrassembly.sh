@@ -25,13 +25,6 @@ for file in $(cat "$mhp_list"); do
     if [ -n "$result" ]; then found=true; else found=false; fi
     echo $file $found
 
-'''
-conda init bash
-conda activate busco
-busco -i /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/GCF_000008225.1_ASM822v1_genomic.fna -l mycoplasmatales_odb10 -m genome -o BUSCO_OUTPUT
-conda deactivate
-'''
-
     if ["$found"==true]; then # COMPLETE
         conda activate busco
         cd ${mhp_strains}${file}Use/
@@ -58,6 +51,7 @@ conda deactivate
         conda activate ragtag
         # Scafold
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/
+        for i in 
         ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out01 ${mhp_strains}J/Use/GCF_000008205.1/GCF_000008205.1_ASM820v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
         ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out02 ${mhp_strains}ES2/Use/GCF_004768725.1/GCF_004768725.1_ASM476872v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
         ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out03 ${mhp_strains}133A/Use/GCA_045006005.1/GCA_045006005.1_ASM4500600v1_genomic.fna ${mhp_strains}${file}/Use/G*/G*.fna
