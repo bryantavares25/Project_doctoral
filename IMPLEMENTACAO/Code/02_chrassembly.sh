@@ -54,26 +54,30 @@ for file in $(cat "$mhp_list"); do
         complete=(J ES2 133A 131B 111A LH 154B 153B ES2L 116 Ue273 F72C 1257 NCTC10127 168 168L 7448 7422 232 KM014)
         select_sum=0
         select_strain=""
-        for i in "${complete[@]}":
-            ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out_${i} ${mhp_strains}${i}/Use/G*/G*.fna ${mhp_strains}${file}/Use/G*/G*.fna
+        for i in "${complete[@]}"; do
+            ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out_${i}/ ${mhp_strains}${i}/Use/G*/G*.fna ${mhp_strains}${file}/Use/G*/G*.fna
             
             b=(2 3 4)
             sum=0
-            for i in "${b[@]}"; do
-                array=($(awk -v id="$i" '{print $id}' $mhp_strains$file/Use/ragtag/ragtag_scaffold/out_$i/ragtag.scaffold.confidence.txt))
+            for c in "${b[@]}"; do
+                array=($(awk -v id="$c" '{print $id}' ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out_${i}/ragtag.scaffold.confidence.txt))
                 soma=0
                 for valor in "${array[@]}"; do
-                soma=$(echo "$soma + $valor" | bc)
+                    soma=$(echo "$soma + $valor" | bc)
                 done
                 # Imprimir o resultado
                 echo "Soma dos valores: $soma"
                 sum=$(echo "$sum + $soma" | bc)
             done
-            if [$select_sum < $sum]; then
+            if (( $(echo "$sum > $select_sum" | bc -l) )); then
                 $select_sum=$sum
                 $select_strain=$i
             fi
-        echo $select_strain $select_sum
+            echo $select_strain
+            echo $select_sum
+        done
+        echo $select_strain
+        echo $select_sum
 
         # Merge
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
