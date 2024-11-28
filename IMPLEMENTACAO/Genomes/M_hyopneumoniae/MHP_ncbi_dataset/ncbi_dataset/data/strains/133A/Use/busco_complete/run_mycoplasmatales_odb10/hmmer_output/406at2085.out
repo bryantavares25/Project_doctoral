@@ -1,0 +1,18 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+CP098239.1:145445-146683|- -            413 406at2085            -            489    4e-174  575.2   8.1   1   1    2e-176  5.1e-174  574.9   8.1     1   357     7   387     7   393 0.94 CP098239.1_126 # 145445 # 146683 # -1 # ID=1_126;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.343
+CP098239.1:8988-10550|+    -            521 406at2085            -            489   7.9e-55  181.8  12.9   1   1   4.7e-57   1.2e-54  181.2  12.9     3   467     5   519     3   520 0.81 CP098239.1_9 # 8988 # 10550 # 1 # ID=1_9;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.301
+CP098239.1:144210-145502|- -            431 406at2085            -            489   1.1e-19   65.8   0.2   1   3   4.5e-22   1.1e-19   65.8   0.2   366   488     7   161     4   162 0.77 CP098239.1_125 # 144210 # 145502 # -1 # ID=1_125;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.251
+CP098239.1:144210-145502|- -            431 406at2085            -            489   1.1e-19   65.8   0.2   2   3     0.078        19   -0.9   3.5   442   481   239   278   211   286 0.74 CP098239.1_125 # 144210 # 145502 # -1 # ID=1_125;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.251
+CP098239.1:144210-145502|- -            431 406at2085            -            489   1.1e-19   65.8   0.2   3   3      0.57   1.4e+02   -3.8   0.9   388   429   373   415   305   422 0.53 CP098239.1_125 # 144210 # 145502 # -1 # ID=1_125;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.251
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/133A/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/406at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/133A/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/133A/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/406at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/133A/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/406at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/133A/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/133A/Use
+# Date:            Thu Nov 28 19:20:32 2024
+# [ok]

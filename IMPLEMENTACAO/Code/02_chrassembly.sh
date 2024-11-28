@@ -29,7 +29,7 @@ for file in $(cat $mhp_list); do
     fi
     echo $file $found
 
-    if ["$found"==true]; then # COMPLETE
+    if [ "$found" == true ]; then # COMPLETE
         conda activate busco
         cd ${mhp_strains}${file}/Use/
         busco -i ${mhp_strains}${file}/Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_complete
