@@ -20,8 +20,8 @@ mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
 mhp_strains=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/
 mfc_strains=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MFC_ncbi_dataset/ncbi_dataset/data/strains/
 
-for file in $(cat "$mhp_list"); do
-    result=$(awk -v id="$file" '$5 == id && $0 ~ /Complete/ {print $5}' "$mhp_table")
+for file in $(cat $mhp_list); do
+    result=$(awk -v id="$file" '$5 == id && $0 ~ /Complete/ {print $5}' $mhp_table)
     if [ -n "$result" ]; then
         found=true
     else
