@@ -77,7 +77,6 @@ for file in $(cat "$mhp_list"); do
         done
         echo $select_strain
         echo $select_sum
-
         echo "Cepa com maior soma: $select_strain"
         echo "Soma: $select_sum"
 
