@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.022*0.98] collected minimizers
+[M::mm_idx_gen::0.030*0.98] sorted minimizers
+[M::main::0.030*0.98] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.032*0.98] mid_occ = 50
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.033*0.99] distinct minimizers: 88515 (98.08% are singletons); average occurrences: 1.041; average spacing: 9.983; total length: 920079
+[M::worker_pipeline::0.205*1.00] mapped 1 sequences
+[M::main] Version: 2.28-r1209
+[M::main] CMD: minimap2 -x asm5 -t 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/7448/Use/GCF_000008225.1/GCF_000008225.1_ASM822v1_genomic.fna /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/112B/Use/GCA_045006685.1/GCA_045006685.1_ASM4500668v1_genomic.fna
+[M::main] Real time: 0.208 sec; CPU: 0.207 sec; Peak RSS: 0.022 GB

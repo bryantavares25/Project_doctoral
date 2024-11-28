@@ -1,0 +1,2 @@
+query	grouping_confidence	location_confidence	orientation_confidence
+CP098601.1	1.0	0.9999622496206086	0.8656310925834931
