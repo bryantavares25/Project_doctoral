@@ -1,0 +1,17 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_VBRV01000007.1:172687-173931|+ -            415 2000at2085           -            338  2.1e-116  384.5  20.6   1   2  3.2e-115    8e-113  372.7  11.6     1   302     8   340     8   343 0.88 NZ_VBRV01000007.1_122 # 172687 # 173931 # 1 # ID=7_122;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.284
+NZ_VBRV01000007.1:172687-173931|+ -            415 2000at2085           -            338  2.1e-116  384.5  20.6   2   2   2.4e-06   0.00061   14.8   2.0   293   326   350   383   335   411 0.80 NZ_VBRV01000007.1_122 # 172687 # 173931 # 1 # ID=7_122;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.284
+NZ_VBRV01000006.1:60676-61293|+   -            206 2000at2085           -            338   0.00086   14.3   0.0   1   1   4.8e-06    0.0012   13.8   0.0   264   326    65   129    52   139 0.83 NZ_VBRV01000006.1_46 # 60676 # 61293 # 1 # ID=6_46;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=3-4bp;gc_cont=0.371
+NZ_VBRV01000008.1:8830-9447|+     -            206 2000at2085           -            338   0.00086   14.3   0.0   1   1   4.8e-06    0.0012   13.8   0.0   264   326    65   129    52   139 0.83 NZ_VBRV01000008.1_9 # 8830 # 9447 # 1 # ID=8_9;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=3-4bp;gc_cont=0.371
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/UFV02/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2000at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/UFV02/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/UFV02/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/2000at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/UFV02/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2000at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/UFV02/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/UFV02/Use
+# Date:            Thu Nov 28 19:32:43 2024
+# [ok]

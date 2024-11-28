@@ -1,0 +1,23 @@
+Assembly	GCF_009831905.1_ASM983190v1_genomic
+# contigs (>= 0 bp)	51
+# contigs (>= 1000 bp)	35
+# contigs (>= 5000 bp)	29
+# contigs (>= 10000 bp)	26
+# contigs (>= 25000 bp)	16
+# contigs (>= 50000 bp)	3
+Total length (>= 0 bp)	867508
+Total length (>= 1000 bp)	858474
+Total length (>= 5000 bp)	847027
+Total length (>= 10000 bp)	824206
+Total length (>= 25000 bp)	661008
+Total length (>= 50000 bp)	212880
+# contigs	44
+Largest contig	76617
+Total length	865381
+GC (%)	28.59
+N50	37339
+N90	13558
+auN	39507.6
+L50	9
+L90	23
+# N's per 100 kbp	22.76

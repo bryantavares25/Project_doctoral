@@ -1,0 +1,20 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:357225-359303|- -            693 1041at2085           -            492  7.6e-129  426.6  42.1   1   3  1.1e-103  4.1e-101  335.2  19.8     2   324     8   402     7   415 0.80 scf00000000_252 # 357225 # 359303 # -1 # ID=1_252;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.281
+scf00000000:357225-359303|- -            693 1041at2085           -            492  7.6e-129  426.6  42.1   2   3   5.7e-18   2.1e-15   52.5  11.0   325   444   430   597   424   608 0.68 scf00000000_252 # 357225 # 359303 # -1 # ID=1_252;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.281
+scf00000000:357225-359303|- -            693 1041at2085           -            492  7.6e-129  426.6  42.1   3   3   4.9e-12   1.8e-09   32.9   0.1   437   492   612   671   597   671 0.84 scf00000000_252 # 357225 # 359303 # -1 # ID=1_252;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.281
+seq00000003:41915-43570|+   -            552 1041at2085           -            492  3.3e-114  378.3  35.2   1   2  3.6e-104  1.3e-101  336.8  20.9     2   324     8   402     7   415 0.80 seq00000003_37 # 41915 # 43570 # 1 # ID=5_37;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.283
+seq00000003:41915-43570|+   -            552 1041at2085           -            492  3.3e-114  378.3  35.2   2   2   5.2e-12   1.9e-09   32.8   6.3   325   408   430   551   422   552 0.67 seq00000003_37 # 41915 # 43570 # 1 # ID=5_37;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.283
+seq00000006:38995-39417|-   -            141 1041at2085           -            492   4.5e-11   38.2   0.2   1   2       0.1        37   -1.1   0.0   427   444    27    45    16    57 0.69 seq00000006_36 # 38995 # 39417 # -1 # ID=8_36;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.291
+seq00000006:38995-39417|-   -            141 1041at2085           -            492   4.5e-11   38.2   0.2   2   2   2.6e-13   9.4e-11   37.1   0.2   435   492    58   119    33   119 0.83 seq00000006_36 # 38995 # 39417 # -1 # ID=8_36;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.291
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1041at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/1041at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1041at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use
+# Date:            Thu Nov 28 19:36:08 2024
+# [ok]

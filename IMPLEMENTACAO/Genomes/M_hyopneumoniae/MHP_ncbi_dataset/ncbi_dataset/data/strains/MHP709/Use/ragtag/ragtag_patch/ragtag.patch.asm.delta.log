@@ -1,0 +1,15 @@
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP709/Use/ragtag/ragtag_patch/ragtag.patch.asm.ntref" of length 875647
+# construct suffix tree for sequence of length 875647
+# (maximum reference length is 2305843009213693948)
+# (maximum query length is 18446744073709551615)
+# process 8756 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /home/lgef/miniconda3/envs/ragtag/opt/mummer-3.23/mummer /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP709/Use/ragtag/ragtag_patch/ragtag.patch.asm.ntref 0.21
+# reading input file "/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP709/Use/ragtag/ragtag_patch/ragtag.patch.rename.fasta" of length 901311
+# matching query-file "/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP709/Use/ragtag/ragtag_patch/ragtag.patch.rename.fasta"
+# against subject-file "/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP709/Use/ragtag/ragtag_patch/ragtag.patch.asm.ntref"
+# COMPLETETIME /home/lgef/miniconda3/envs/ragtag/opt/mummer-3.23/mummer /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP709/Use/ragtag/ragtag_patch/ragtag.patch.asm.ntref 0.68
+# SPACE /home/lgef/miniconda3/envs/ragtag/opt/mummer-3.23/mummer /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP709/Use/ragtag/ragtag_patch/ragtag.patch.asm.ntref 1.71
+4: FINISHING DATA

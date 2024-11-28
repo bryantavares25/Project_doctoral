@@ -1,0 +1,19 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+seq00000023:9385-10377|-    -            331 1693at2085           -            262    9e-105  345.8   8.8   1   1  5.1e-106  9.1e-104  342.5   8.8     1   256     8   304     8   317 0.89 seq00000023_8 # 9385 # 10377 # -1 # ID=23_8;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;gc_cont=0.328
+seq00000003:38700-39236|+   -            179 1693at2085           -            262   4.5e-05   19.0   2.0   1   1   8.5e-07   0.00015   17.2   1.9   174   226    89   138    51   153 0.81 seq00000003_33 # 38700 # 39236 # 1 # ID=5_33;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.289
+scf00000000:361979-362515|- -            179 1693at2085           -            262   4.8e-05   18.9   2.1   1   1   8.8e-07   0.00016   17.2   1.9   174   226    89   138    51   153 0.81 scf00000000_256 # 361979 # 362515 # -1 # ID=1_256;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.285
+seq00000004:26069-26683|+   -            205 1693at2085           -            262     0.001   14.5   0.1   1   1     8e-06    0.0014   14.0   0.1   179   214   121   156    94   169 0.90 seq00000004_21 # 26069 # 26683 # 1 # ID=6_21;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.307
+scf00000000:462514-463029|+ -            172 1693at2085           -            262    0.0014   14.1   0.6   1   1   1.1e-05    0.0019   13.6   0.6   178   206   111   139   100   171 0.79 scf00000000_327 # 462514 # 463029 # 1 # ID=1_327;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.341
+seq00000007:27383-27898|-   -            172 1693at2085           -            262    0.0014   14.1   0.6   1   1   1.1e-05    0.0019   13.6   0.6   178   206   111   139   100   171 0.79 seq00000007_30 # 27383 # 27898 # -1 # ID=9_30;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.335
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1693at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/1693at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1693at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP694/Use
+# Date:            Thu Nov 28 19:36:10 2024
+# [ok]
