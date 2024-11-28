@@ -27,34 +27,36 @@ for file in $(cat "$mhp_list"); do
 
     if ["$found"==true]; then # COMPLETE
         conda activate busco
-        cd ${mhp_strains}${file}Use/
-        busco -i ${mhp_strains}${file}Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_complete
+        cd ${mhp_strains}${file}/Use/
+        busco -i ${mhp_strains}${file}/Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_complete
         cd ..
         conda deactivate
 
         conda activate quast
-        quast ${mhp_strains}${file}Use/G*/G*.fna -o ${mhp_strains}${file}Use/quast_complete
+        quast ${mhp_strains}${file}/Use/G*/G*.fna -o ${mhp_strains}${file}/Use/quast_complete
         conda deactivate quast
 
     elif ["$found"==false]; then # DRAF
         conda activate busco
-        cd ${mhp_strains}${file}Use/
-        busco -i ${mhp_strains}${file}Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_draft
+        cd ${mhp_strains}${file}/Use/
+        busco -i ${mhp_strains}${file}/Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_draft
         cd ..
         conda deactivate
 
         conda activate quast
-        quast ${mhp_strains}${file}Use/G*/G*.fna -o ${mhp_strains}${file}Use/quast_draft
+        quast ${mhp_strains}${file}/Use/G*/G*.fna -o ${mhp_strains}${file}/Use/quast_draft
         conda deactivate quast
 
         ### RAGTAG     
-        conda activate ragtag
+        
         # Scafold
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/
         complete=(J ES2 133A 131B 111A LH 154B 153B ES2L 116 Ue273 F72C 1257 NCTC10127 168 168L 7448 7422 232 KM014)
         select_sum=0
         select_strain=""
+        conda activate ragtag
         for i in "${complete[@]}"; do
+        
             #ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out_${i}/ ${mhp_strains}${i}/Use/G*/G*.fna ${mhp_strains}${file}/Use/G*/G*.fna
             echo $i
             b=(2 3 4)
@@ -75,28 +77,30 @@ for file in $(cat "$mhp_list"); do
             echo $select_strain
             echo $select_sum
         done
-        echo $select_strain
-        echo $select_sum
-        echo "Cepa com maior soma: $select_strain"
+        echo "Cepa com maior soma: $select_strain" # Select major confidence
         echo "Soma: $select_sum"
 
         # Merge
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
+        echo "----------------------------------------- RAGTAG MERGE -----------------------------------------------"
         ragtag.py merge ${mhp_strains}${file}/Use/G*/G*.fna ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out*/*agp -o ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
+        
         # Patch
-        # Select major confidence
-        ragtag.py patch ${mhp_strains}${file}/Use/ragtag/ragtag_merge/ragtag.merge.fasta ${mhp_strains}${select_strain}/Use/G*/G*.fna -o ${direc}${i}/10_ref_ass/ragtag_patch/ done
+        echo "----------------------------------------- RAGTAG PATCH -----------------------------------------------"
+        ragtag.py patch ${mhp_strains}${file}/Use/ragtag/ragtag_merge/ragtag.merge.fasta ${mhp_strains}${select_strain}/Use/G*/G*.fna -o ${mhp_strains}${file}/Use/ragtag/ragtag_patch/
         conda deactivate
 
         conda activate busco
-        cd ${mhp_strains}${file}Use/
-        busco -i ${mhp_strains}${file}Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_complete
+        cd ${mhp_strains}${file}/Use/
+        echo "----------------------------------------- BUSCO COMPLETE -----------------------------------------------"
+        busco -i ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta -m genome -l mycoplasmatales_odb10 -o busco_complete
         cd ..
         conda deactivate
 
         conda activate quast
-        quast ${mhp_strains}${file}Use/G*/G*.fna -o ${mhp_strains}${file}Use/quast_complete
-        conda deactivate quast
+        echo "----------------------------------------- QUAST COMPLETE -----------------------------------------------"
+        quast ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta -o ${mhp_strains}${file}/Use/quast_complete
+        conda deactivate
     else
         echo "ERRO"
 done
