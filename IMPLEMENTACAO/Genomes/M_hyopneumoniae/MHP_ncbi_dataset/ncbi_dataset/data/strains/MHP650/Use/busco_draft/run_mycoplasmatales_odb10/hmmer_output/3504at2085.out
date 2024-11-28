@@ -1,0 +1,18 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_QQSN01000003.1:10722-11423|- -            234 3504at2085           -            172   2.1e-56  185.8   5.3   1   2    0.0021      0.52    5.4   0.0     1    29     5    35     5    48 0.75 NZ_QQSN01000003.1_9 # 10722 # 11423 # -1 # ID=13_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.291
+NZ_QQSN01000003.1:10722-11423|- -            234 3504at2085           -            172   2.1e-56  185.8   5.3   2   2   2.1e-56   5.1e-54  178.0   5.1    15   170    47   222    37   224 0.85 NZ_QQSN01000003.1_9 # 10722 # 11423 # -1 # ID=13_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.291
+NZ_QQSN01000007.1:24392-25147|+ -            252 3504at2085           -            172   3.7e-18   61.3   2.3   1   1   5.5e-20   1.4e-17   59.4   1.8    32   170    99   245    67   247 0.74 NZ_QQSN01000007.1_27 # 24392 # 25147 # 1 # ID=67_27;partial=00;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;gc_cont=0.253
+NZ_QQSN01000007.1:23878-24402|+ -            175 3504at2085           -            172   1.5e-06   23.5   0.0   1   2   0.00023     0.056    8.6   0.0    54    73    14    34     3    63 0.85 NZ_QQSN01000007.1_26 # 23878 # 24402 # 1 # ID=67_26;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.307
+NZ_QQSN01000007.1:23878-24402|+ -            175 3504at2085           -            172   1.5e-06   23.5   0.0   2   2   9.2e-06    0.0023   13.1   0.0   120   171    94   149    83   150 0.79 NZ_QQSN01000007.1_26 # 23878 # 24402 # 1 # ID=67_26;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.307
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP650/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3504at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP650/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP650/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/3504at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP650/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3504at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP650/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/MHP650/Use
+# Date:            Thu Nov 28 19:37:15 2024
+# [ok]
