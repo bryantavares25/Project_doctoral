@@ -70,8 +70,8 @@ for file in $(cat "$mhp_list"); do
                 sum=$(echo "$sum + $soma" | bc)
             done
             if (( $(echo "$sum > $select_sum" | bc -l) )); then
-                $select_sum=$sum
-                $select_strain=$i
+                select_sum=$sum
+                select_strain=$i
             fi
             echo $select_strain
             echo $select_sum
