@@ -31,22 +31,26 @@ for file in $(cat $mhp_list); do
 
     if [ "$found" == true ]; then # COMPLETE
         conda activate busco
-        cd ${mhp_strains}${file}/Use/
-        busco -i ${mhp_strains}${file}/Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_complete
-        cd ..
+        #cd ${mhp_strains}${file}/Use/
+        #busco -i ${mhp_strains}${file}/Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_complete
+        #cd ..
         conda deactivate
 
         conda activate quast
-        quast ${mhp_strains}${file}/Use/G*/G*.fna -o ${mhp_strains}${file}/Use/quast_complete
+        #quast ${mhp_strains}${file}/Use/G*/G*.fna -o ${mhp_strains}${file}/Use/quast_complete
         conda deactivate
 
-    elif ["$found"==false]; then # DRAF
+        cd
+
+    elif [ "$found" == false ]; then # DRAF
+        echo "----------------------------------------- BUSCO DRAFT -----------------------------------------------"
         conda activate busco
         cd ${mhp_strains}${file}/Use/
         busco -i ${mhp_strains}${file}/Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_draft
         cd ..
         conda deactivate
 
+        echo "----------------------------------------- QUAST DRAFT -----------------------------------------------"
         conda activate quast
         quast ${mhp_strains}${file}/Use/G*/G*.fna -o ${mhp_strains}${file}/Use/quast_draft
         conda deactivate
@@ -103,6 +107,8 @@ for file in $(cat $mhp_list); do
         conda activate quast
         quast ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta -o ${mhp_strains}${file}/Use/quast_complete
         conda deactivate
+    
+        cd
     else
         echo "ERRO"
     fi

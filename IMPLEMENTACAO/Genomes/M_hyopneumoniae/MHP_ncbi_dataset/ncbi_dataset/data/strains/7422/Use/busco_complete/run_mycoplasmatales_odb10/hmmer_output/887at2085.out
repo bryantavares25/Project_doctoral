@@ -1,0 +1,17 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_021831.1:61445-62995|+   -            517 887at2085            -            410  1.2e-201  665.2   7.2   1   1  8.3e-204  1.5e-201  664.9   7.2    13   409    33   457    14   458 0.92 NC_021831.1_55 # 61445 # 62995 # 1 # ID=1_55;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.342
+NC_021831.1:623499-625037|- -            513 887at2085            -            410   1.8e-89  295.8   3.8   1   1   1.6e-91   2.7e-89  295.2   3.8    97   401   107   416     4   424 0.87 NC_021831.1_508 # 623499 # 625037 # -1 # ID=1_508;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.352
+NC_021831.1:63872-65287|+   -            472 887at2085            -            410   3.5e-24   80.7   0.6   1   1   2.7e-26   4.7e-24   80.3   0.6    33   386    38   409    23   426 0.80 NC_021831.1_57 # 63872 # 65287 # 1 # ID=1_57;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.371
+NC_021831.1:622123-623496|- -            458 887at2085            -            410   1.8e-11   38.8   0.6   1   1   1.3e-13   2.3e-11   38.5   0.6    44   283    41   296     6   402 0.68 NC_021831.1_507 # 622123 # 623496 # -1 # ID=1_507;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.356
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/7422/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/887at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/7422/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/7422/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/887at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/7422/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/887at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/7422/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/7422/Use
+# Date:            Thu Nov 28 19:24:46 2024
+# [ok]

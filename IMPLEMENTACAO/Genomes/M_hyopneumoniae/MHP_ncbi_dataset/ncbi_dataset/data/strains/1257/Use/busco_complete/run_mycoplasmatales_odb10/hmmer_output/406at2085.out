@@ -1,0 +1,16 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_CP157283.1:121735-124203|- -            823 406at2085            -            489  1.5e-204  675.4   7.8   1   2  4.6e-207  1.5e-204  675.4   7.8     1   488     7   555     7   556 0.89 NZ_CP157283.1_97 # 121735 # 124203 # -1 # ID=1_97;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.297
+NZ_CP157283.1:121735-124203|- -            823 406at2085            -            489  1.5e-204  675.4   7.8   2   2      0.45   1.5e+02   -4.0   4.0   443   481   634   672   612   681 0.72 NZ_CP157283.1_97 # 121735 # 124203 # -1 # ID=1_97;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.297
+NZ_CP157283.1:9035-11056|+    -            674 406at2085            -            489   3.1e-56  186.2  15.2   1   1   1.5e-58   5.1e-56  185.5  15.2     3   481     5   533     3   542 0.80 NZ_CP157283.1_9 # 9035 # 11056 # 1 # ID=1_9;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.300
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/1257/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/406at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/1257/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/1257/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/406at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/1257/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/406at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/1257/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/1257/Use
+# Date:            Thu Nov 28 19:23:22 2024
+# [ok]
