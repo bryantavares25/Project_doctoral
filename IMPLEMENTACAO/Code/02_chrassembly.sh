@@ -85,8 +85,7 @@ for file in $(cat "$mhp_list"); do
         ragtag.py merge ${mhp_strains}${file}/Use/G*/G*.fna ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out*/*agp -o ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
         # Patch
         # Select major confidence
-
-        ragtag.py patch "${seqid[@]}" ${direc}${i}/10_ref_ass/ragtag_scaffold/**** -o ${direc}${i}/10_ref_ass/ragtag_patch/ done
+        ragtag.py patch ${mhp_strains}${file}/Use/ragtag/ragtag_merge/ragtag.merge.fasta ${mhp_strains}${select_strain}/Use/G*/G*.fna -o ${direc}${i}/10_ref_ass/ragtag_patch/ done
         conda deactivate
 
         conda activate busco
