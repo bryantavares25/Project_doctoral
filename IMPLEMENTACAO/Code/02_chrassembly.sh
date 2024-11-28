@@ -52,8 +52,8 @@ for file in $(cat "$mhp_list"); do
         # Scafold
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/
         complete=(J ES2 133A 131B 111A LH 154B 153B ES2L 116 Ue273 F72C 1257 NCTC10127 168 168L 7448 7422 232 KM014)
-        unset $select_sum
-        unset $select_strain
+        select_sum=0
+        select_strain=""
         for i in "${complete[@]}"; do
             #ragtag.py scaffold -o ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out_${i}/ ${mhp_strains}${i}/Use/G*/G*.fna ${mhp_strains}${file}/Use/G*/G*.fna
             echo $i
