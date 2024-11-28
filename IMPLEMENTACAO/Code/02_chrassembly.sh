@@ -11,9 +11,9 @@ pcH=/home/bryan/
 pcL=/home/lgef/
 direc_mhp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/
 direc_mfc=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/
-mhp_table="IMPLEMENTACAO/Genomes/mhp_table.tsv" # Curadoria manual
-mhp_list="IMPLEMENTACAO/Genomes/mhp_list.txt"
-mhp_temp="IMPLEMENTACAO/Genomes/mhp_result.txt"
+mhp_table=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
+mhp_list=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
+mhp_temp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
 mfc_table="IMPLEMENTACAO/Genomes/mfc_table.tsv" # Curadoria manual
 mfc_list="IMPLEMENTACAO/Genomes/mfc_list.txt"
 mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
@@ -22,7 +22,11 @@ mfc_strains=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyo
 
 for file in $(cat "$mhp_list"); do
     result=$(awk -v id="$file" '$5 == id && $0 ~ /Complete/ {print $5}' "$mhp_table")
-    if [ -n "$result" ]; then found=true; else found=false; fi
+    if [ -n "$result" ]; then
+        found=true
+    else
+        found=false
+    fi
     echo $file $found
 
     if ["$found"==true]; then # COMPLETE
@@ -49,10 +53,12 @@ for file in $(cat "$mhp_list"); do
 
         ### RAGTAG     
         
-        # Scafold
+        # Scaffold
         echo "----------------------------------------- RAGTAG SCAFFOLD -----------------------------------------------"
         conda activate ragtag
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/
+        mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
+        mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_patch/
         complete=(J ES2 133A 131B 111A LH 154B 153B ES2L 116 Ue273 F72C 1257 NCTC10127 168 168L 7448 7422 232 KM014)
         select_sum=0
         select_strain=""
@@ -97,7 +103,7 @@ for file in $(cat "$mhp_list"); do
         conda activate quast
         quast ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta -o ${mhp_strains}${file}/Use/quast_complete
         conda deactivate
-    else; then
+    else
         echo "ERRO"
     fi
 done
