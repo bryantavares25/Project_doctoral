@@ -15,6 +15,7 @@ Propriedades:
 
 import matplotlib.pyplot as plt
 #import pylustrator
+#pylustrator.start()
 
 # Dados para o gráfico
 categorias = ['A', 'B', 'C', 'D']
@@ -30,5 +31,3 @@ plt.ylabel('Valores')
 
 # Exibindo o gráfico
 plt.show()
-
-#pylustrator.start()
