@@ -86,7 +86,7 @@ for file in $(cat $mfc_list); do
         
         # Patch
         echo "----------------------------------------- RAGTAG PATCH -----------------------------------------------"
-        ragtag.py patch ${mfc_strains}${file}/Use/ragtag/ragtag_scaffold/ragtag.scaffold.fasta ${mfc_strains}${select_strain}/Use/G*/G*.fna -o ${mfc_strains}${file}/Use/ragtag/ragtag_patch/
+        ragtag.py patch ${mfc_strains}${file}/Use/ragtag/ragtag_scaffold/out_*/ragtag.scaffold.fasta ${mfc_strains}${select_strain}/Use/G*/G*.fna -o ${mfc_strains}${file}/Use/ragtag/ragtag_patch/
         conda deactivate
 
         echo "----------------------------------------- BUSCO COMPLETE -----------------------------------------------"
