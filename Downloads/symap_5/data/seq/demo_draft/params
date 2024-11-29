@@ -1,0 +1,17 @@
+#
+#  Demo-Draft   parameter file
+#  Note: lines preceded by # are ignored
+#
+category = Demo
+display_name = Demo-Draft
+grp_type = Scaffold
+description = Sample draft contigs, created from demo_seq samples.
+min_display_size_bp = 0
+grp_prefix = ctg
+min_size = 100000
+annot_keywords = 
+annot_kw_mincount = 50
+order_against = demo_seq2
+mask_all_but_genes = 0
+sequence_files = 
+anno_files = 

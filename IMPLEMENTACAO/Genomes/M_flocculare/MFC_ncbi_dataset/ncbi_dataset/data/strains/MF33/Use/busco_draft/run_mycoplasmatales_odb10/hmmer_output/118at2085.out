@@ -1,0 +1,16 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_QQRM01000004.1:36247-38130|- -            628 118at2085            -            372   1.2e-76  253.5  66.6   1   3     0.023        13   -0.0   3.7     4    69     3    75     1    79 0.53 NZ_QQRM01000004.1_38 # 36247 # 38130 # -1 # ID=23_38;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.245
+NZ_QQRM01000004.1:36247-38130|- -            628 118at2085            -            372   1.2e-76  253.5  66.6   2   3   2.3e-13   1.4e-10   36.1   6.6    40   153    74   192    65   213 0.76 NZ_QQRM01000004.1_38 # 36247 # 38130 # -1 # ID=23_38;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.245
+NZ_QQRM01000004.1:36247-38130|- -            628 118at2085            -            372   1.2e-76  253.5  66.6   3   3   1.6e-69   9.6e-67  220.9  43.4   122   371   326   606   218   607 0.73 NZ_QQRM01000004.1_38 # 36247 # 38130 # -1 # ID=23_38;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.245
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/118at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/118at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/118at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use
+# Date:            Fri Nov 29 12:33:41 2024
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_QQRM01000003.1:55733-56851|+   -            373 2092at2085           -            300  5.9e-118  388.7  10.7   1   2  4.8e-118  1.4e-115  380.9   4.5     2   255     3   276     2   292 0.92 NZ_QQRM01000003.1_44 # 55733 # 56851 # 1 # ID=22_44;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.326
+NZ_QQRM01000003.1:55733-56851|+   -            373 2092at2085           -            300  5.9e-118  388.7  10.7   2   2   1.8e-05    0.0053   11.3   0.4   257   291   301   348   288   359 0.69 NZ_QQRM01000003.1_44 # 55733 # 56851 # 1 # ID=22_44;partial=00;start_type=GTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.326
+NZ_QQRM01000001.1:230848-231588|- -            247 2092at2085           -            300   6.2e-05   17.7   0.1   1   2     5e-06    0.0015   13.1   0.0     2    36    29    64    28    99 0.80 NZ_QQRM01000001.1_161 # 230848 # 231588 # -1 # ID=10_161;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.305
+NZ_QQRM01000001.1:230848-231588|- -            247 2092at2085           -            300   6.2e-05   17.7   0.1   2   2     0.011       3.1    2.2   0.0   151   177   154   182   151   187 0.77 NZ_QQRM01000001.1_161 # 230848 # 231588 # -1 # ID=10_161;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.305
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2092at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/2092at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2092at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF33/Use
+# Date:            Fri Nov 29 12:33:42 2024
+# [ok]

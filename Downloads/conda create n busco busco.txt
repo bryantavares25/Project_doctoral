@@ -1,0 +1,14 @@
+#!/bin/bash
+
+conda init bash
+
+conda create -n busco busco
+conda create -n fastqc fastqc multiqc
+conda create -n megahit megahit
+conda create -n memesuite meme
+conda create -n orthofinder orthofinder
+conda create -n prokka prokka
+conda create -n quast quast
+conda create -n ragtag ragtag
+conda create -n trimmomatic trimmomatic
+conda create -n sibelia

@@ -1,0 +1,24 @@
+If MUMmer or MUSCLE was used with SyMAP in published results, please reference the appropriate publications 
+(see https://csoderlund.github.io/SyMAP/SystemGuide.html#refs for the publications).
+
+>>MUMmer
+The supplied MUMmer is v3. If you want to use v4, see the README in mummer4.
+
+----------------------------------------------------------------------------
+>>MacOS Users  
+
+All external packages had to be recompiled for MacOS Catalina 10.15.
+
+The previous executables are saved in '_pre506'; if a new executable does not work,
+replace it with the one with the '_pre506' suffix. Otherwise, try compiling the 
+program on your machine and replacing the executable in its respective /mac directory.
+If it still does not work, email symap@agcol.arizona.edu.
+
+Mac Catalina 10.15
+The programs will not run until you do the following for the five scripts in mac:
+	Open a Finder window.
+	Select the program.
+	Open
+	It will prompt you: MacOS cannot verify the developer of "mummer". Are you sure you want to open it?
+	Reply "Open".
+After that, SyMAP will be able to run it.

@@ -1,0 +1,11 @@
+For building and viewing SyMAP documentation see:
+https://csoderlund.github.io/SyMAP/
+
+Execute:
+	symap		build and view database		
+	viewSymap	view database			
+
+The scripts must have execute permissions.
+
+The /ext directory contains external executables for MacOS and Linux.
+The /data directory contains the demo files.

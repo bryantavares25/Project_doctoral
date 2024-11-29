@@ -1,0 +1,17 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:64366-65889|+   -            508 887at2085            -            410  6.4e-202  665.8   5.4   1   1  7.6e-204  1.1e-201  665.1   5.4    11   409    22   448     9   449 0.92 scf00000000_57 # 64366 # 65889 # 1 # ID=1_57;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.335
+scf00000000:266231-267766|+ -            512 887at2085            -            410   1.1e-92  306.0   1.5   1   1   1.1e-94   1.5e-92  305.6   1.5    97   401   107   416    71   424 0.90 scf00000000_188 # 266231 # 267766 # 1 # ID=1_188;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.336
+scf00000000:66768-68183|+   -            472 887at2085            -            410   2.4e-24   80.9   0.9   1   1   2.5e-26   3.6e-24   80.4   0.9    45   386    48   409     4   423 0.81 scf00000000_59 # 66768 # 68183 # 1 # ID=1_59;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.378
+scf00000000:267769-269142|+ -            458 887at2085            -            410   1.2e-11   39.1   0.8   1   1   1.1e-13   1.6e-11   38.7   0.8    47   320    44   333     7   406 0.68 scf00000000_189 # 267769 # 269142 # 1 # ID=1_189;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.350
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/887at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/887at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/887at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use
+# Date:            Fri Nov 29 12:30:59 2024
+# [ok]

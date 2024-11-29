@@ -1,0 +1,18 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:57173-58432|+   -            420 1851at2085           -            347  1.7e-135  446.5  21.7   1   2  1.6e-123  3.1e-121  399.6  11.9     1   292     1   312     1   322 0.91 scf00000000_47 # 57173 # 58432 # 1 # ID=1_47;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.297
+scf00000000:57173-58432|+   -            420 1851at2085           -            347  1.7e-135  446.5  21.7   2   2   3.1e-18   5.8e-16   53.4   4.2   240   347   300   418   295   418 0.77 scf00000000_47 # 57173 # 58432 # 1 # ID=1_47;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.297
+scf00000000:331543-332646|- -            368 1851at2085           -            347   1.5e-14   48.7   0.6   1   1   8.6e-15   1.6e-12   42.1   0.6   154   253     5   121     2   164 0.71 scf00000000_222 # 331543 # 332646 # -1 # ID=1_222;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.337
+scf00000000:115099-115890|+ -            264 1851at2085           -            347   3.9e-05   17.8   1.6   1   2     0.047         9    0.2   0.8   200   256    14    71     7   103 0.70 scf00000000_95 # 115099 # 115890 # 1 # ID=1_95;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.266
+scf00000000:115099-115890|+ -            264 1851at2085           -            347   3.9e-05   17.8   1.6   2   2   5.3e-07    0.0001   16.5   0.0   153   211   112   168    97   237 0.81 scf00000000_95 # 115099 # 115890 # 1 # ID=1_95;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.266
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1851at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/1851at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1851at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF30/Use
+# Date:            Fri Nov 29 12:30:56 2024
+# [ok]
