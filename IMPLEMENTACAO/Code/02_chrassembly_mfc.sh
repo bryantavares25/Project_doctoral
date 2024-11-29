@@ -24,7 +24,7 @@ for file in $(cat $mfc_list); do
     echo $file $found
 
     if [ "$found" == true ]; then # COMPLETE
-        conda activate busco
+        conda activate busco_denovo
         cd ${mfc_strains}${file}/Use/
         busco -i ${mfc_strains}${file}/Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_complete
         cd ..
@@ -38,7 +38,7 @@ for file in $(cat $mfc_list); do
 
     elif [ "$found" == false ]; then # DRAF
         echo "----------------------------------------- BUSCO DRAFT -----------------------------------------------"
-        conda activate busco
+        conda activate busco_denovo
         cd ${mfc_strains}${file}/Use/
         busco -i ${mfc_strains}${file}/Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_draft
         cd ..
@@ -81,9 +81,9 @@ for file in $(cat $mfc_list); do
         done
 
         # Merge
-        mkdir -p ${mfc_strains}${file}/Use/ragtag/ragtag_merge/
-        echo "----------------------------------------- RAGTAG MERGE -----------------------------------------------"
-        ragtag.py merge ${mfc_strains}${file}/Use/G*/G*.fna ${mfc_strains}${file}/Use/ragtag/ragtag_scaffold/out*/*agp -o ${mfc_strains}${file}/Use/ragtag/ragtag_merge/
+        #mkdir -p ${mfc_strains}${file}/Use/ragtag/ragtag_merge/
+        #echo "----------------------------------------- RAGTAG MERGE -----------------------------------------------"
+        #ragtag.py merge ${mfc_strains}${file}/Use/G*/G*.fna ${mfc_strains}${file}/Use/ragtag/ragtag_scaffold/out*/*agp -o ${mfc_strains}${file}/Use/ragtag/ragtag_merge/
         
         # Patch
         echo "----------------------------------------- RAGTAG PATCH -----------------------------------------------"
