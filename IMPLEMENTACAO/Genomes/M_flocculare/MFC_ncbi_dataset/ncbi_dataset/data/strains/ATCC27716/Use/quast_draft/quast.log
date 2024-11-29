@@ -7,7 +7,7 @@ System information:
   Python version: 3.6.13
   CPUs number: 8
 
-Started: 2024-11-29 09:29:09
+Started: 2024-11-29 09:59:13
 
 Logging to /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/quast_draft/quast.log
 NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
@@ -21,7 +21,7 @@ Contigs:
   Pre-processing...
   /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/GCF_000367185.1/GCF_000367185.1_Mycoplasma_flocculare_genome_genomic.fna ==> GCF_000367185.1_Mycoplasma_flocculare_genome_genomic
 
-2024-11-29 09:29:09
+2024-11-29 09:59:13
 Running Basic statistics processor...
   Contig files: 
     GCF_000367185.1_Mycoplasma_flocculare_genome_genomic
@@ -39,14 +39,14 @@ Done.
 
 NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
 
-2024-11-29 09:29:10
+2024-11-29 09:59:14
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2024-11-29 09:29:10
+2024-11-29 09:59:14
 RESULTS:
   Text versions of total report are saved to /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/quast_draft/report.txt, report.tsv, and report.tex
   Text versions of transposed total report are saved to /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/quast_draft/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
@@ -55,8 +55,8 @@ RESULTS:
   Icarus (contig browser) is saved to /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/quast_draft/icarus.html
   Log is saved to /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/quast_draft/quast.log
 
-Finished: 2024-11-29 09:29:10
-Elapsed time: 0:00:01.721659
+Finished: 2024-11-29 09:59:14
+Elapsed time: 0:00:01.535981
 NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!

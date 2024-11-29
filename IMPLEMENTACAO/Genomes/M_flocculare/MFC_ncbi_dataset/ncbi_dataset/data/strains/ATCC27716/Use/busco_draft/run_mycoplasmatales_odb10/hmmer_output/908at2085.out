@@ -1,0 +1,19 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_AFCG01000004.1:34124-35827|+ -            568 908at2085            -            403  4.2e-148  488.4  19.4   1   2   6.1e-88   1.2e-85  282.7  14.3     5   237    17   294    13   320 0.85 NZ_AFCG01000004.1_28 # 34124 # 35827 # 1 # ID=4_28;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.317
+NZ_AFCG01000004.1:34124-35827|+ -            568 908at2085            -            403  4.2e-148  488.4  19.4   2   2     5e-63   9.9e-61  200.6   0.1   237   401   369   561   354   563 0.82 NZ_AFCG01000004.1_28 # 34124 # 35827 # 1 # ID=4_28;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.317
+NZ_AFCG01000007.1:91114-92583|+ -            490 908at2085            -            403   1.9e-29   97.6   2.4   1   2   2.1e-18   4.3e-16   53.7   1.1    48   197   114   272    98   317 0.84 NZ_AFCG01000007.1_103 # 91114 # 92583 # 1 # ID=7_103;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.310
+NZ_AFCG01000007.1:91114-92583|+ -            490 908at2085            -            403   1.9e-29   97.6   2.4   2   2     3e-15     6e-13   43.3   0.0   320   379   426   484   399   489 0.80 NZ_AFCG01000007.1_103 # 91114 # 92583 # 1 # ID=7_103;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.310
+NZ_AFCG01000007.1:19078-20427|- -            450 908at2085            -            403   3.5e-29   96.7   6.2   1   2     1e-15     2e-13   44.8   4.0     3   201    19   246    17   260 0.73 NZ_AFCG01000007.1_17 # 19078 # 20427 # -1 # ID=7_17;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.324
+NZ_AFCG01000007.1:19078-20427|- -            450 908at2085            -            403   3.5e-29   96.7   6.2   2   2   1.1e-16   2.3e-14   48.0   0.0   291   383   358   447   337   449 0.83 NZ_AFCG01000007.1_17 # 19078 # 20427 # -1 # ID=7_17;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.324
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/908at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/908at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/908at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use
+# Date:            Fri Nov 29 09:59:11 2024
+# [ok]

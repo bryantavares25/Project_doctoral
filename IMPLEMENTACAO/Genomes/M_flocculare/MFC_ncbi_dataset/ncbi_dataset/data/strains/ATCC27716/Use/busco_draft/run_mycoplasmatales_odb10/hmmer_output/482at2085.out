@@ -1,0 +1,17 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_AFCG01000008.1:18209-20293|- -            695 482at2085            -            524  1.4e-150  497.3  39.2   1   4     0.011       6.7    0.1   0.2     9    42    17    50     6    58 0.78 NZ_AFCG01000008.1_14 # 18209 # 20293 # -1 # ID=8_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.282
+NZ_AFCG01000008.1:18209-20293|- -            695 482at2085            -            524  1.4e-150  497.3  39.2   2   4     0.035        21   -1.5   0.0    52    66   100   114    62   156 0.64 NZ_AFCG01000008.1_14 # 18209 # 20293 # -1 # ID=8_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.282
+NZ_AFCG01000008.1:18209-20293|- -            695 482at2085            -            524  1.4e-150  497.3  39.2   3   4  2.1e-152  1.3e-149  494.2  31.2    74   496   173   645   115   650 0.84 NZ_AFCG01000008.1_14 # 18209 # 20293 # -1 # ID=8_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.282
+NZ_AFCG01000008.1:18209-20293|- -            695 482at2085            -            524  1.4e-150  497.3  39.2   4   4   0.00019      0.11    6.0   0.0   488   524   658   693   653   693 0.83 NZ_AFCG01000008.1_14 # 18209 # 20293 # -1 # ID=8_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.282
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/482at2085.hmm
+# Target file:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/482at2085.out --cpu 1 /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/482at2085.hmm /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/ATCC27716/Use
+# Date:            Fri Nov 29 09:59:10 2024
+# [ok]

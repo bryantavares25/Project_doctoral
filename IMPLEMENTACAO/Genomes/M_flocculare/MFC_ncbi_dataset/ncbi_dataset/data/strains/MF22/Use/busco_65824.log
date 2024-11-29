@@ -1,0 +1,24 @@
+2024-11-29 09:59:40 DEBUG:busco.run_BUSCO	Command line: /home/lgef/miniconda3/envs/busco/bin/busco -i /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF22/Use/ragtag/ragtag_patch/ragtag.patch.fasta -m genome -l mycoplasmatales_odb10 -o busco_complete
+2024-11-29 09:59:40 INFO:busco.run_BUSCO	***** Start a BUSCO v5.8.0 analysis, current time: 11/29/2024 09:59:40 *****
+2024-11-29 09:59:40 DEBUG:busco.ConfigManager	Getting config file
+2024-11-29 09:59:40 INFO:busco.ConfigManager	Configuring BUSCO with local environment
+2024-11-29 09:59:40 INFO:busco.BuscoConfig	Running genome mode
+2024-11-29 09:59:40 ERROR:busco.BuscoRunner	Input /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF22/Use/ragtag/ragtag_patch/ragtag.patch.fasta does not exist
+2024-11-29 09:59:40 DEBUG:busco.BuscoRunner	Input /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF22/Use/ragtag/ragtag_patch/ragtag.patch.fasta does not exist
+Traceback (most recent call last):
+  File "/home/lgef/miniconda3/envs/busco/lib/python3.6/site-packages/busco/run_BUSCO.py", line 68, in run
+    self.load_config()
+  File "/home/lgef/miniconda3/envs/busco/lib/python3.6/site-packages/busco/run_BUSCO.py", line 60, in load_config
+    self.config_manager.load_busco_config_main()
+  File "/home/lgef/miniconda3/envs/busco/lib/python3.6/site-packages/busco/BuscoLogger.py", line 62, in wrapped_func
+    self.retval = func(*args, **kwargs)
+  File "/home/lgef/miniconda3/envs/busco/lib/python3.6/site-packages/busco/ConfigManager.py", line 63, in load_busco_config_main
+    self.config_main.validate()
+  File "/home/lgef/miniconda3/envs/busco/lib/python3.6/site-packages/busco/BuscoConfig.py", line 645, in validate
+    self._check_required_input_exists()
+  File "/home/lgef/miniconda3/envs/busco/lib/python3.6/site-packages/busco/BuscoConfig.py", line 824, in _check_required_input_exists
+    "Input {} does not exist".format(self._input_filepath)
+busco.Exceptions.BatchFatalError: Input /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF22/Use/ragtag/ragtag_patch/ragtag.patch.fasta does not exist
+2024-11-29 09:59:40 ERROR:busco.BuscoRunner	BUSCO analysis failed!
+2024-11-29 09:59:40 ERROR:busco.BuscoRunner	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+
