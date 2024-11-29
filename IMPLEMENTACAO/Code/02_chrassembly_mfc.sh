@@ -1,7 +1,6 @@
 #!/bin/bash
 
 conda init bash
-
 # # # # #
 
 # Organization USE
