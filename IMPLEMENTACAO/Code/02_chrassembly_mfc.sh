@@ -24,7 +24,7 @@ for file in $(cat $mfc_list); do
     echo $file $found
 
     if [ "$found" == true ]; then # COMPLETE
-        conda activate busco_denovo
+        conda activate busco
         cd ${mfc_strains}${file}/Use/
         busco -i ${mfc_strains}${file}/Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_complete
         cd ..
@@ -38,7 +38,7 @@ for file in $(cat $mfc_list); do
 
     elif [ "$found" == false ]; then # DRAF
         echo "----------------------------------------- BUSCO DRAFT -----------------------------------------------"
-        conda activate busco_denovo
+        conda activate busco
         cd ${mfc_strains}${file}/Use/
         busco -i ${mfc_strains}${file}/Use/G*/G*.fna -m genome -l mycoplasmatales_odb10 -o busco_draft
         cd ..
