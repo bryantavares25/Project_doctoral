@@ -81,13 +81,12 @@ for file in $(cat $mfc_list); do
         done
 
         # Merge
-        mkdir -p ${mfc_strains}${file}/Use/ragtag/ragtag_merge/
         echo "----------------------------------------- RAGTAG MERGE -----------------------------------------------"
         #ragtag.py merge ${mfc_strains}${file}/Use/G*/G*.fna ${mfc_strains}${file}/Use/ragtag/ragtag_scaffold/out*/*agp -o ${mfc_strains}${file}/Use/ragtag/ragtag_merge/
         
         # Patch
         echo "----------------------------------------- RAGTAG PATCH -----------------------------------------------"
-        ragtag.py patch ${mfc_strains}${file}/Use/ragtag/ragtag_merge/ragtag.scaffold.fasta ${mfc_strains}${select_strain}/Use/G*/G*.fna -o ${mfc_strains}${file}/Use/ragtag/ragtag_patch/
+        ragtag.py patch ${mfc_strains}${file}/Use/ragtag/ragtag_scaffold/ragtag.scaffold.fasta ${mfc_strains}${select_strain}/Use/G*/G*.fna -o ${mfc_strains}${file}/Use/ragtag/ragtag_patch/
         conda deactivate
 
         echo "----------------------------------------- BUSCO COMPLETE -----------------------------------------------"
