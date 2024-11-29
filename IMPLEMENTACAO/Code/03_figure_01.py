@@ -14,8 +14,8 @@ Propriedades:
 '''
 
 import matplotlib.pyplot as plt
-#import pylustrator
-#pylustrator.start()
+import pylustrator
+pylustrator.start()
 
 # Dados para o gráfico
 categorias = ['A', 'B', 'C', 'D']
