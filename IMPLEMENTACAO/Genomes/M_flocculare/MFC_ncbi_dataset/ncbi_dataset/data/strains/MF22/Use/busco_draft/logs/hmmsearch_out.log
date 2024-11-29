@@ -1,0 +1,80 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF22/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/955at2085.hmm
+# target sequence database:        /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF22/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# per-dom hits tabular output:     /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/MF22/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/955at2085.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       955at2085  [M=350]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                          -----------
+   9.9e-134  440.7  12.4     3e-102  337.2   8.0    3.0  2  NZ_QQRD01000001.1:249852-251219|-  NZ_QQRD01000001.1_155 # 249852 #
+
+
+Domain annotation for each sequence (and alignments):
+>> NZ_QQRD01000001.1:249852-251219|-  NZ_QQRD01000001.1_155 # 249852 # 251219 # -1 # ID=10_155;partial=00;start_type=ATG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.2   0.1   2.9e-33   1.7e-30       2      89 ..      11     109 ..      10     122 .. 0.89
+   2 !  337.2   8.0  5.1e-105    3e-102      80     350 .]     128     444 ..     112     444 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 101.2 bits;  conditional E-value: 2.9e-33
+                          955at2085   2 vnhlkekgfvfqgseiygglantwdyGplgvllkenikk...kefikke.....ldskillnkkvWkasGhldnfs 69 
+                                        +n+lk+ gfvf++s+iygglan++dyG++gvll +ni++   ++f++++     +dskilln+kvW++sGhldnf+
+  NZ_QQRD01000001.1:249852-251219|-  11 INQLKKLGFVFPSSQIYGGLANSYDYGHFGVLLAKNIESfwaDFFVTSNpnaffIDSKILLNPKVWNSSGHLDNFT 86 
+                                        89***********************************954449***997777779********************* PP
+
+                          955at2085  70 dllien...kkryradklieekt 89 
+                                        dll+en   kkryr+d l+e++ 
+  NZ_QQRD01000001.1:249852-251219|-  87 DLLVENkinKKRYRVDYLFEKAF 109
+                                        *****733369*******99865 PP
+
+  == domain 2  score: 337.2 bits;  conditional E-value: 5.1e-105
+                          955at2085  80 radklieektewseirkfnllfktkqGvvedekskvylrPetaqgifvnfknvlrstraklPlgiaqiGksfrnev 155
+                                        r+++  ++k++w+  +kfnllf+t qGvve+ek+ +ylrPetaqgif+nfk++lr+t+++lPl iaq+Gksfrne+
+  NZ_QQRD01000001.1:249852-251219|- 128 RIENFENSKAKWNIPKKFNLLFQTYQGVVENEKTPLYLRPETAQGIFINFKTLLRTTKNSLPLIIAQVGKSFRNEI 203
+                                        77889999******************************************************************** PP
+
+                          955at2085 156 tpgnfifrtrefeqlelevfkp.eea.................lglkkenirlrehekeelahysk.tsdleykfp 212
+                                        +pgnfifrtref+q+ele+f++ eea                 lg+++++irl+ h++e+lahy+k t+d++y+f+
+  NZ_QQRD01000001.1:249852-251219|- 204 SPGNFIFRTREFTQMELEIFTKpEEAelvfqsqiekikrfllkLGFSEKSIRLNYHKSEKLAHYAKsTVDFDYNFN 279
+                                        ********************7523322223333333333333368899****************97489******* PP
+
+                          955at2085 213 fGwgellGianrgdfdlk.....skekleyldeetnekiipaviepsvGldrlllavlveay......erivlkl. 276
+                                        fGwgel+Gi+nrgd+dlk     s+e+le++d++t  k++p++ieps+Gldrl+lavl e++      +r++l++ 
+  NZ_QQRD01000001.1:249852-251219|- 280 FGWGELIGISNRGDYDLKnhakkSGENLEFVDSATGYKCFPYIIEPSMGLDRLMLAVLEESFrfdqqkNRYFLQFp 355
+                                        *****************644444899********************************998733333358999855 PP
+
+                          955at2085 277 ..laPykvavlPlvkk...lakelfekll.......ydesgsiGkryrrqdaiGtlycitvdfdsle...vtirer 337
+                                          l+PykvavlPl+kk   la++++++l+       +++sgsiGkry+ +d+iGt++cit+d ++ e   vtir r
+  NZ_QQRD01000001.1:249852-251219|- 356 fvLSPYKVAVLPLLKKfsfLAEKIWKNLIkhkiyaaISNSGSIGKRYYYHDSIGTYFCITIDEQTNEdqsVTIRFR 431
+                                        459************9444589****99644443335799**********************99864444****** PP
+
+                          955at2085 338 dtmeqkrikieel 350
+                                        dt++q+riki e+
+  NZ_QQRD01000001.1:249852-251219|- 432 DTTKQQRIKIGEI 444
+                                        *********9886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (350 nodes)
+Target sequences:                          580  (227923 residues searched)
+Passed MSV filter:                        38  (0.0655172); expected 11.6 (0.02)
+Passed bias filter:                        5  (0.00862069); expected 11.6 (0.02)
+Passed Vit filter:                         2  (0.00344828); expected 0.6 (0.001)
+Passed Fwd filter:                         1  (0.00172414); expected 0.0 (1e-05)
+Initial search space (Z):                580  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 7977.31
+//
+[ok]
