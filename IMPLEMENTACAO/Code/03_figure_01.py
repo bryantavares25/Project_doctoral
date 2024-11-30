@@ -13,9 +13,9 @@ Propriedades:
     - Quantidade de Ns
 '''
 
-import matplotlib.pyplot as plt
-import pylustrator
-pylustrator.start()
+'''import matplotlib.pyplot as plt
+#import pylustrator
+#pylustrator.start()
 
 # Dados para o gráfico
 categorias = ['A', 'B', 'C', 'D']
@@ -40,3 +40,34 @@ plt.figure(1).axes[0].patches[3].set_width(0.529376)
 plt.figure(1).axes[0].patches[3].set_xy([3.184997, 21.244537])
 #% end: automatic generated code from pylustrator
 plt.show()
+'''
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Dados de exemplo
+categorias = ['Categoria A', 'Categoria B', 'Categoria C', 'Categoria D', 'Categoria E']
+valores1 = [5, 7, 6, 10, 11]
+valores2 = [6, 8, 5, 14, 14]
+
+# Configuração para barras lado a lado
+x = np.arange(len(categorias))  # Posições no eixo X
+largura = 0.35  # Largura das barras
+
+# Criação do gráfico
+fig, ax = plt.subplots()
+barras1 = ax.bar(x - largura/2, valores1, largura, label='Grupo 1', color='skyblue')
+barras2 = ax.bar(x + largura/2, valores2, largura, label='Grupo 2', color='salmon')
+
+# Personalização do gráfico
+ax.set_xlabel('Categorias')
+ax.set_ylabel('Valores')
+ax.set_title('Gráfico de Barras Lado a Lado')
+ax.set_xticks(x)
+ax.set_xticklabels(categorias)
+ax.legend()
+
+# Exibição
+plt.tight_layout()
+plt.show()
+
