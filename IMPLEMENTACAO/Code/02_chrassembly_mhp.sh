@@ -89,6 +89,7 @@ done
             fi
         done
 
+        echo "$select_strain" > ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/${select_strain}
         # Merge
         #mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
         #echo "----------------------------------------- RAGTAG MERGE -----------------------------------------------"
