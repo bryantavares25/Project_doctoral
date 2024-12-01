@@ -1,0 +1,16 @@
+seqtk comp input.fasta | awk '
+    BEGIN { 
+        gc = 0; 
+        total = 0; 
+    } 
+    {
+        gc += $4 + $5; 
+        total += $2; 
+    } 
+    END { 
+        if (total > 0) {
+            printf "Total GC Content: %.2f%%\n", (gc / total) * 100; 
+        } else {
+            print "No sequences found or file is empty."; 
+        } 
+    }'

@@ -21,6 +21,7 @@ mfc_list=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list
 mfc_temp=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
 
 complete=()
+uncomplete=()
 for file in $(cat $mfc_list); do
     result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mfc_table)
     if [ -n "$result" ]; then
@@ -28,6 +29,7 @@ for file in $(cat $mfc_list); do
         complete+=($file)
     else
         found=false
+        uncomplete+=($file)
     fi
     echo $file $found
 done

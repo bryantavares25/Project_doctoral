@@ -18,3 +18,24 @@ mfc_table=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_tab
 mfc_list=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
 mfc_temp=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
 
+# # # DATA COLLECT # # #
+
+complete=()
+uncomplete=()
+for file in $(cat $mfc_list); do
+    result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mfc_table)
+    if [ -n "$result" ]; then
+        found=true
+        complete+=($file)
+    else
+        found=false
+        uncomplete+=($file)
+    fi
+    echo $file $found
+done
+
+# FROM QUAST
+
+# Quast draft
+quast_draft=/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/quast_draft/transposed_report.tsv
+ 
