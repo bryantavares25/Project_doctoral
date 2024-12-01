@@ -1,0 +1,16 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:298023-298925|- -            301 1770at2085           -            239   1.6e-71  235.8  12.4   1   2   4.5e-06    0.0014   13.3   2.3     3    50    13    62    11    74 0.82 scf00000000_201 # 298023 # 298925 # -1 # ID=1_201;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.307
+scf00000000:298023-298925|- -            301 1770at2085           -            239   1.6e-71  235.8  12.4   2   2   2.1e-71   6.6e-69  227.2   4.0    42   229    76   284    61   296 0.85 scf00000000_201 # 298023 # 298925 # -1 # ID=1_201;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.307
+scf00000000:769540-770412|+ -            291 1770at2085           -            239   1.6e-25   85.2   7.0   1   1   7.9e-28   2.5e-25   84.6   7.0    27   226    60   262    30   274 0.74 scf00000000_598 # 769540 # 770412 # 1 # ID=1_598;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.247
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1770at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/1770at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1770at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use
+# Date:            Sun Dec  1 18:43:06 2024
+# [ok]

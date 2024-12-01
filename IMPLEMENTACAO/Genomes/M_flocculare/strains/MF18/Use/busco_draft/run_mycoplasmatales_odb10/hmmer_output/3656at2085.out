@@ -1,0 +1,17 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_QQRO01000004.1:42627-43355|+ -            243 3656at2085           -            168   3.8e-44  145.2  10.3   1   2   4.3e-46   8.4e-44  144.0  10.1    10   159    27   202    10   219 0.80 NZ_QQRO01000004.1_40 # 42627 # 43355 # 1 # ID=26_40;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.269
+NZ_QQRO01000004.1:42627-43355|+ -            243 3656at2085           -            168   3.8e-44  145.2  10.3   2   2      0.58   1.1e+02   -2.8   0.0   155   167   219   231   215   232 0.83 NZ_QQRO01000004.1_40 # 42627 # 43355 # 1 # ID=26_40;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.269
+NZ_QQRO01000002.1:5568-6128|-   -            187 3656at2085           -            168   2.7e-07   25.2   0.6   1   1   2.5e-09   4.9e-07   24.4   0.6    52   140    45   150    43   166 0.73 NZ_QQRO01000002.1_7 # 5568 # 6128 # -1 # ID=21_7;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.289
+NZ_QQRO01000003.1:9571-10341|+  -            257 3656at2085           -            168   3.1e-06   21.8   4.4   1   1   1.1e-07   2.1e-05   19.1   4.4    50   116    44   130    26   164 0.76 NZ_QQRO01000003.1_9 # 9571 # 10341 # 1 # ID=25_9;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.281
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3656at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/3656at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3656at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use
+# Date:            Sun Dec  1 18:44:38 2024
+# [ok]

@@ -1,0 +1,14 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_QQRC01000008.1:27049-27786|- -            246 1930at2085           -            195   6.1e-40  132.1  16.4   1   1   1.5e-41   9.3e-39  128.3  16.4     1   194    20   242    20   243 0.84 NZ_QQRC01000008.1_25 # 27049 # 27786 # -1 # ID=36_25;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.271
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF29/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1930at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF29/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF29/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/1930at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF29/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1930at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF29/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF29/Use
+# Date:            Sun Dec  1 18:47:56 2024
+# [ok]

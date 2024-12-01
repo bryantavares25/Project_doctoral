@@ -1,0 +1,17 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:734957-735991|+ -            345 1647at2085           -            264  8.8e-103  338.2   4.5   1   2   4.8e-21   1.5e-18   62.1   0.5     6    87    14    99     7   110 0.87 scf00000000_566 # 734957 # 735991 # 1 # ID=1_566;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.334
+scf00000000:734957-735991|+ -            345 1647at2085           -            264  8.8e-103  338.2   4.5   2   2   7.1e-87   2.2e-84  277.9   0.3    69   263   116   333   108   334 0.91 scf00000000_566 # 734957 # 735991 # 1 # ID=1_566;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.334
+scf00000000:555863-556615|- -            251 1647at2085           -            264   1.3e-20   68.9   0.3   1   2   0.00032     0.099    7.0   0.0   170   213    16    59     3    64 0.82 scf00000000_420 # 555863 # 556615 # -1 # ID=1_420;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.324
+scf00000000:555863-556615|- -            251 1647at2085           -            264   1.3e-20   68.9   0.3   2   2   1.2e-20   3.8e-18   60.8   0.0   112   244    61   203    58   211 0.88 scf00000000_420 # 555863 # 556615 # -1 # ID=1_420;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.324
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1647at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/1647at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1647at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use
+# Date:            Sun Dec  1 18:46:22 2024
+# [ok]

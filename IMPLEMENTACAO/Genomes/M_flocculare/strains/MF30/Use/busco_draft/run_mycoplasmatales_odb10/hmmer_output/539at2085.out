@@ -1,0 +1,19 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_QQRN01000004.1:22828-24567|- -            580 539at2085            -            541  6.3e-247  815.6  15.9   1   1  3.8e-249  7.2e-247  815.4  15.9     1   540     8   573     8   574 0.97 NZ_QQRN01000004.1_22 # 22828 # 24567 # -1 # ID=26_22;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.299
+NZ_QQRN01000008.1:15327-16811|- -            495 539at2085            -            541   3.3e-08   27.7   2.5   1   2     0.027       5.2    0.6   0.0   240   324   120   199    51   226 0.64 NZ_QQRN01000008.1_13 # 15327 # 16811 # -1 # ID=30_13;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.305
+NZ_QQRN01000008.1:15327-16811|- -            495 539at2085            -            541   3.3e-08   27.7   2.5   2   2   1.7e-10   3.3e-08   27.7   2.5   408   532   252   388   243   397 0.74 NZ_QQRN01000008.1_13 # 15327 # 16811 # -1 # ID=30_13;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.305
+NZ_QQRN01000003.1:45575-46816|+ -            414 539at2085            -            541   0.00038   14.3   0.7   1   3       0.4        77   -3.3   0.4    74    84    52    62    13    99 0.48 NZ_QQRN01000003.1_35 # 45575 # 46816 # 1 # ID=25_35;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.332
+NZ_QQRN01000003.1:45575-46816|+ -            414 539at2085            -            541   0.00038   14.3   0.7   2   3   1.2e-05    0.0022   11.7   0.0   173   362   156   347   129   352 0.76 NZ_QQRN01000003.1_35 # 45575 # 46816 # 1 # ID=25_35;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.332
+NZ_QQRN01000003.1:45575-46816|+ -            414 539at2085            -            541   0.00038   14.3   0.7   3   3     0.033       6.3    0.3   0.0   412   449   362   397   355   408 0.80 NZ_QQRN01000003.1_35 # 45575 # 46816 # 1 # ID=25_35;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.332
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF30/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/539at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF30/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF30/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/539at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF30/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/539at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF30/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF30/Use
+# Date:            Sun Dec  1 18:41:42 2024
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:79422-80666|+   -            415 2000at2085           -            338  2.4e-118  390.6  20.8   1   1  1.5e-116  4.8e-114  376.4  20.8     1   337     8   410     8   411 0.81 scf00000000_67 # 79422 # 80666 # 1 # ID=1_67;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.296
+scf00000000:622041-622658|+ -            206 2000at2085           -            338   0.00051   14.7   0.0   1   1   2.3e-06    0.0007   14.3   0.0   264   327    65   130    51   139 0.84 scf00000000_484 # 622041 # 622658 # 1 # ID=1_484;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=3-4bp;gc_cont=0.367
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2000at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/2000at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2000at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use
+# Date:            Sun Dec  1 18:46:23 2024
+# [ok]

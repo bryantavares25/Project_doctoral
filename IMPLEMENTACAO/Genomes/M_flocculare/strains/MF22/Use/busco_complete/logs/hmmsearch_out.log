@@ -1,0 +1,75 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF22/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/955at2085.hmm
+# target sequence database:        /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF22/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# per-dom hits tabular output:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF22/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/955at2085.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       955at2085  [M=350]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+   9.8e-134  440.7  12.4   2.9e-102  337.2   8.0    3.0  2  scf00000000:151092-152459|+  scf00000000_110 # 151092 # 15245
+
+
+Domain annotation for each sequence (and alignments):
+>> scf00000000:151092-152459|+  scf00000000_110 # 151092 # 152459 # 1 # ID=1_110;partial=00;start_type=ATG;rbs_motif=GGA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.2   0.1   2.9e-33   1.6e-30       2      89 ..      11     109 ..      10     122 .. 0.89
+   2 !  337.2   8.0  5.1e-105  2.9e-102      80     350 .]     128     444 ..     112     444 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 101.2 bits;  conditional E-value: 2.9e-33
+                    955at2085   2 vnhlkekgfvfqgseiygglantwdyGplgvllkenikk...kefikke.....ldskillnkkvWkasGhldnfsdllien 75 
+                                  +n+lk+ gfvf++s+iygglan++dyG++gvll +ni++   ++f++++     +dskilln+kvW++sGhldnf+dll+en
+  scf00000000:151092-152459|+  11 INQLKKLGFVFPSSQIYGGLANSYDYGHFGVLLAKNIESfwaDFFVTSNpnaffIDSKILLNPKVWNSSGHLDNFTDLLVEN 92 
+                                  89***********************************954449***997777779**************************7 PP
+
+                    955at2085  76 ...kkryradklieekt 89 
+                                     kkryr+d l+e++ 
+  scf00000000:151092-152459|+  93 kinKKRYRVDYLFEKAF 109
+                                  33369*******99865 PP
+
+  == domain 2  score: 337.2 bits;  conditional E-value: 5.1e-105
+                    955at2085  80 radklieektewseirkfnllfktkqGvvedekskvylrPetaqgifvnfknvlrstraklPlgiaqiGksfrnevtpgnfi 161
+                                  r+++  ++k++w+  +kfnllf+t qGvve+ek+ +ylrPetaqgif+nfk++lr+t+++lPl iaq+Gksfrne++pgnfi
+  scf00000000:151092-152459|+ 128 RIENFENSKAKWNIPKKFNLLFQTYQGVVENEKTPLYLRPETAQGIFINFKTLLRTTKNSLPLIIAQVGKSFRNEISPGNFI 209
+                                  77889999************************************************************************** PP
+
+                    955at2085 162 frtrefeqlelevfkp.eea.................lglkkenirlrehekeelahysk.tsdleykfpfGwgellGianr 224
+                                  frtref+q+ele+f++ eea                 lg+++++irl+ h++e+lahy+k t+d++y+f+fGwgel+Gi+nr
+  scf00000000:151092-152459|+ 210 FRTREFTQMELEIFTKpEEAelvfqsqiekikrfllkLGFSEKSIRLNYHKSEKLAHYAKsTVDFDYNFNFGWGELIGISNR 291
+                                  **************7523322223333333333333368899****************97489******************* PP
+
+                    955at2085 225 gdfdlk.....skekleyldeetnekiipaviepsvGldrlllavlveay......erivlkl...laPykvavlPlvkk.. 290
+                                  gd+dlk     s+e+le++d++t  k++p++ieps+Gldrl+lavl e++      +r++l++   l+PykvavlPl+kk  
+  scf00000000:151092-152459|+ 292 GDYDLKnhakkSGENLEFVDSATGYKCFPYIIEPSMGLDRLMLAVLEESFrfdqqkNRYFLQFpfvLSPYKVAVLPLLKKfs 373
+                                  *****644444899********************************998733333358999855459************944 PP
+
+                    955at2085 291 .lakelfekll.......ydesgsiGkryrrqdaiGtlycitvdfdsle...vtirerdtmeqkrikieel 350
+                                   la++++++l+       +++sgsiGkry+ +d+iGt++cit+d ++ e   vtir rdt++q+riki e+
+  scf00000000:151092-152459|+ 374 fLAEKIWKNLIkhkiyaaISNSGSIGKRYYYHDSIGTYFCITIDEQTNEdqsVTIRFRDTTKQQRIKIGEI 444
+                                  4589****99644443335799**********************99864444***************9886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (350 nodes)
+Target sequences:                        571  (227867 residues searched)
+Passed MSV filter:                        38  (0.0665499); expected 11.4 (0.02)
+Passed bias filter:                        5  (0.00875657); expected 11.4 (0.02)
+Passed Vit filter:                         2  (0.00350263); expected 0.6 (0.001)
+Passed Fwd filter:                         1  (0.00175131); expected 0.0 (1e-05)
+Initial search space (Z):                571  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 2304.51
+//
+[ok]

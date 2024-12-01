@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:556606-557244|- -            213 3895at2085           -            150   1.5e-46  153.1   3.8   1   1   6.7e-45     1e-42  140.7   3.8     1   148     6   188     6   190 0.81 scf00000000_421 # 556606 # 557244 # -1 # ID=1_421;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.307
+scf00000000:93853-94536|+   -            228 3895at2085           -            150   3.4e-06   22.1   1.7   1   3   1.1e-07   1.6e-05   19.9   0.0     4    50    10    60     7    68 0.75 scf00000000_74 # 93853 # 94536 # 1 # ID=1_74;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.285
+scf00000000:93853-94536|+   -            228 3895at2085           -            150   3.4e-06   22.1   1.7   2   3      0.24        37   -0.7   0.0    60    84   108   132    91   145 0.81 scf00000000_74 # 93853 # 94536 # 1 # ID=1_74;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.285
+scf00000000:93853-94536|+   -            228 3895at2085           -            150   3.4e-06   22.1   1.7   3   3      0.16        25   -0.2   0.1    42    82   167   204   152   225 0.64 scf00000000_74 # 93853 # 94536 # 1 # ID=1_74;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.285
+scf00000000:499105-500070|- -            322 3895at2085           -            150   0.00042   15.3   0.2   1   2   9.5e-06    0.0015   13.6   0.0     2    37    42    78    41   121 0.67 scf00000000_359 # 499105 # 500070 # -1 # ID=1_359;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.311
+scf00000000:499105-500070|- -            322 3895at2085           -            150   0.00042   15.3   0.2   2   2       0.5        77   -1.7   0.1    37    72   176   213   164   236 0.64 scf00000000_359 # 499105 # 500070 # -1 # ID=1_359;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.311
+scf00000000:540589-541170|- -            194 3895at2085           -            150   0.00054   15.0   0.2   1   2   3.5e-06   0.00054   15.0   0.2     2    61     5    63     3    99 0.66 scf00000000_400 # 540589 # 541170 # -1 # ID=1_400;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.259
+scf00000000:540589-541170|- -            194 3895at2085           -            150   0.00054   15.0   0.2   2   2      0.16        25   -0.1   0.4    40    69   149   178   132   190 0.52 scf00000000_400 # 540589 # 541170 # -1 # ID=1_400;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.259
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3895at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/3895at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3895at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF11/Use
+# Date:            Sun Dec  1 18:46:25 2024
+# [ok]

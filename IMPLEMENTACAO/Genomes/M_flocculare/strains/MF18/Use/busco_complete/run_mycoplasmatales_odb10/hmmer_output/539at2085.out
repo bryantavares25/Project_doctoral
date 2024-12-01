@@ -1,0 +1,19 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:559301-561040|- -            580 539at2085            -            541  6.4e-247  815.6  15.9   1   1  3.8e-249  7.4e-247  815.4  15.9     1   540     8   573     8   574 0.97 scf00000000_437 # 559301 # 561040 # -1 # ID=1_437;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.299
+scf00000000:361907-362695|+ -            263 539at2085            -            541   9.6e-09   29.5   2.7   1   2   4.9e-11   9.6e-09   29.5   2.7   408   533    20   157    13   165 0.74 scf00000000_248 # 361907 # 362695 # 1 # ID=1_248;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.308
+scf00000000:361907-362695|+ -            263 539at2085            -            541   9.6e-09   29.5   2.7   2   2      0.11        21   -1.4   0.1    48    82   168   201   154   255 0.46 scf00000000_248 # 361907 # 362695 # 1 # ID=1_248;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.308
+seq00000020:46393-47634|+   -            414 539at2085            -            541   0.00039   14.3   0.7   1   3       0.4        79   -3.3   0.4    74    84    52    62    13    99 0.48 seq00000020_36 # 46393 # 47634 # 1 # ID=2_36;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.332
+seq00000020:46393-47634|+   -            414 539at2085            -            541   0.00039   14.3   0.7   2   3   1.2e-05    0.0023   11.7   0.0   173   362   156   347   129   352 0.76 seq00000020_36 # 46393 # 47634 # 1 # ID=2_36;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.332
+seq00000020:46393-47634|+   -            414 539at2085            -            541   0.00039   14.3   0.7   3   3     0.033       6.5    0.3   0.0   412   449   362   397   355   408 0.80 seq00000020_36 # 46393 # 47634 # 1 # ID=2_36;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.332
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/539at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/539at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/539at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/MF18/Use
+# Date:            Sun Dec  1 18:45:29 2024
+# [ok]

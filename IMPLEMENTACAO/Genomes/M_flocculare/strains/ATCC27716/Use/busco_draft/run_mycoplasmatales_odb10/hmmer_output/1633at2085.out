@@ -1,0 +1,18 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_AFCG01000003.1:8174-9175|-   -            334 1633at2085           -            266  7.1e-100  328.9  15.5   1   1   2.7e-99   5.4e-97  319.5  15.5     9   266    21   327    17   327 0.87 NZ_AFCG01000003.1_8 # 8174 # 9175 # -1 # ID=3_8;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.310
+NZ_AFCG01000008.1:38222-39544|+ -            441 1633at2085           -            266   1.7e-44  147.4  10.4   1   2       0.1        20   -0.4   0.9    23    64    11    59     2    93 0.55 NZ_AFCG01000008.1_37 # 38222 # 39544 # 1 # ID=8_37;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.305
+NZ_AFCG01000008.1:38222-39544|+ -            441 1633at2085           -            266   1.7e-44  147.4  10.4   2   2   8.6e-47   1.7e-44  147.4  10.4    50   254    72   284    37   294 0.86 NZ_AFCG01000008.1_37 # 38222 # 39544 # 1 # ID=8_37;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.305
+NZ_AFCG01000004.1:58703-59605|+ -            301 1633at2085           -            266    0.0014   13.2   3.4   1   2     4e-05     0.008   10.8   0.1    55    97    11    53     2    58 0.85 NZ_AFCG01000004.1_49 # 58703 # 59605 # 1 # ID=4_49;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.308
+NZ_AFCG01000004.1:58703-59605|+ -            301 1633at2085           -            266    0.0014   13.2   3.4   2   2    0.0095       1.9    3.0   0.4    14    59    82   128    69   147 0.79 NZ_AFCG01000004.1_49 # 58703 # 59605 # 1 # ID=4_49;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.308
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1633at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/1633at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1633at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use
+# Date:            Sun Dec  1 18:42:37 2024
+# [ok]
