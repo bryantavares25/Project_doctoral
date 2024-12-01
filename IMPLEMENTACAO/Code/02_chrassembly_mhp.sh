@@ -25,12 +25,24 @@ for file in $(cat $mhp_list); do
     result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mhp_table)
     if [ -n "$result" ]; then
         found=true
+        complete+=($file)
     else
         found=false
     fi
     echo $file $found
-    complete+=($file)
 done
+
+for file in $(cat $mhp_list); do
+    result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mhp_table)
+    if [ -n "$result" ]; then
+        found=true
+    else
+        found=false
+    fi
+    echo
+    echo $file $found
+    echo
+
     if [ "$found" == true ]; then # COMPLETE
         conda activate busco
         cd ${mhp_strains}${file}/Use/
@@ -65,7 +77,7 @@ done
         echo "----------------------------------------- RAGTAG SCAFFOLD -----------------------------------------------"
         conda activate ragtag
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/
-        mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
+        #mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_patch/
         select_sum=0
         select_strain=""

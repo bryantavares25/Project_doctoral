@@ -8,20 +8,39 @@ conda init bash
 # Folders
 pcH=/home/bryan/
 pcL=/home/lgef/
-direc_mfc=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/
-mfc_table=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv # Curadoria manual
-mfc_list=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
-mfc_temp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
-mfc_strains=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/MFC_ncbi_dataset/ncbi_dataset/data/strains/
+direc_mhp=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/
+direc_mfc=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/
+mhp_strains=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/
+mfc_strains=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/
+mhp_table=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
+mhp_list=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
+mhp_temp=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
+mfc_table=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv # Curadoria manual
+mfc_list=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
+mfc_temp=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
+
+complete=()
+for file in $(cat $mfc_list); do
+    result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mfc_table)
+    if [ -n "$result" ]; then
+        found=true
+        complete+=($file)
+    else
+        found=false
+    fi
+    echo $file $found
+done
 
 for file in $(cat $mfc_list); do
-    result=$(awk -v id="$file" '$5 == id && $0 ~ /Complete/ {print $5}' $mfc_table)
+    result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mfc_table)
     if [ -n "$result" ]; then
         found=true
     else
         found=false
     fi
+    echo
     echo $file $found
+    echo
 
     if [ "$found" == true ]; then # COMPLETE
         conda activate busco
@@ -55,9 +74,9 @@ for file in $(cat $mfc_list); do
         echo "----------------------------------------- RAGTAG SCAFFOLD -----------------------------------------------"
         conda activate ragtag
         mkdir -p ${mfc_strains}${file}/Use/ragtag/ragtag_scaffold/
-        mkdir -p ${mfc_strains}${file}/Use/ragtag/ragtag_merge/
+        #mkdir -p ${mfc_strains}${file}/Use/ragtag/ragtag_merge/
         mkdir -p ${mfc_strains}${file}/Use/ragtag/ragtag_patch/
-        complete=(Ms42)
+
         select_sum=0
         select_strain=""
         for i in "${complete[@]}"; do
@@ -79,14 +98,14 @@ for file in $(cat $mfc_list); do
                 select_strain=$i
             fi
         done
-
+        echo "$select_strain" > ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/${select_strain}
         # Merge
-        echo "----------------------------------------- RAGTAG MERGE -----------------------------------------------"
+        # echo "----------------------------------------- RAGTAG MERGE -----------------------------------------------"
         #ragtag.py merge ${mfc_strains}${file}/Use/G*/G*.fna ${mfc_strains}${file}/Use/ragtag/ragtag_scaffold/out*/*agp -o ${mfc_strains}${file}/Use/ragtag/ragtag_merge/
         
         # Patch
         echo "----------------------------------------- RAGTAG PATCH -----------------------------------------------"
-        ragtag.py patch ${mfc_strains}${file}/Use/ragtag/ragtag_scaffold/out_*/ragtag.scaffold.fasta ${mfc_strains}${select_strain}/Use/G*/G*.fna -o ${mfc_strains}${file}/Use/ragtag/ragtag_patch/
+        ragtag.py patch ${mfc_strains}${file}/Use/ragtag/ragtag_scaffold/out_${select_strain}/ragtag.scaffold.fasta ${mfc_strains}${select_strain}/Use/G*/G*.fna -o ${mfc_strains}${file}/Use/ragtag/ragtag_patch/
         conda deactivate
 
         echo "----------------------------------------- BUSCO COMPLETE -----------------------------------------------"
