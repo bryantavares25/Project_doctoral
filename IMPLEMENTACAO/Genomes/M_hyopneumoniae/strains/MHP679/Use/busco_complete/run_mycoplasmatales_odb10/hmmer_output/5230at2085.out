@@ -1,0 +1,14 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:318895-319158|- -             88 5230at2085           -             58   3.9e-30   99.2   0.7   1   1   7.3e-33   5.3e-30   98.7   0.7     1    58    11    74    11    74 0.92 scf00000000_278 # 318895 # 319158 # -1 # ID=1_278;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.345
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP679/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/5230at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP679/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP679/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/5230at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP679/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/5230at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP679/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP679/Use
+# Date:            Sun Dec  1 19:27:04 2024
+# [ok]

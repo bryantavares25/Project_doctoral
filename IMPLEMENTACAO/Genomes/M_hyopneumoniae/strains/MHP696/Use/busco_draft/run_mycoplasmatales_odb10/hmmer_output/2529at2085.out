@@ -1,0 +1,14 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_QQRH01000001.1:100134-101420|+ -            429 2529at2085           -            276   5.6e-97  319.6  14.5   1   1   1.7e-99   1.2e-96  318.5  14.5     7   266    35   330    32   341 0.87 NZ_QQRH01000001.1_79 # 100134 # 101420 # 1 # ID=11_79;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.263
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2529at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/2529at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2529at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use
+# Date:            Sun Dec  1 19:15:39 2024
+# [ok]

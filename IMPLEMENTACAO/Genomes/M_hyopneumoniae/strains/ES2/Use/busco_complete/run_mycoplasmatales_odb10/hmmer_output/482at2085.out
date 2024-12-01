@@ -1,0 +1,17 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_CP038641.1:47124-49208|- -            695 482at2085            -            524  2.3e-155  513.5  27.3   1   4     0.017        12   -0.4   0.1     9    40    17    48     6    55 0.76 NZ_CP038641.1_35 # 47124 # 49208 # -1 # ID=1_35;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.286
+NZ_CP038641.1:47124-49208|- -            695 482at2085            -            524  2.3e-155  513.5  27.3   2   4     0.074        56   -2.6   0.0    53    69   101   117    88   147 0.57 NZ_CP038641.1_35 # 47124 # 49208 # -1 # ID=1_35;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.286
+NZ_CP038641.1:47124-49208|- -            695 482at2085            -            524  2.3e-155  513.5  27.3   3   4  6.2e-157  4.7e-154  509.1  19.6    73   494   172   643   149   650 0.84 NZ_CP038641.1_35 # 47124 # 49208 # -1 # ID=1_35;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.286
+NZ_CP038641.1:47124-49208|- -            695 482at2085            -            524  2.3e-155  513.5  27.3   4   4   6.6e-05      0.05    7.5   0.0   494   524   663   693   653   693 0.84 NZ_CP038641.1_35 # 47124 # 49208 # -1 # ID=1_35;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.286
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/ES2/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/482at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/ES2/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/ES2/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/482at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/ES2/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/482at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/ES2/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/ES2/Use
+# Date:            Sun Dec  1 18:58:09 2024
+# [ok]

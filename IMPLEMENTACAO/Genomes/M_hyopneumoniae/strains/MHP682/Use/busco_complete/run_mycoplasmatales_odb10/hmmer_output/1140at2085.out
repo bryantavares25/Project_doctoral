@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:92211-93512|+   -            434 1140at2085           -            348  1.2e-118  391.3  10.2   1   1    2e-120  2.4e-118  390.3  10.2     1   346     5   429     5   431 0.85 scf00000000_73 # 92211 # 93512 # 1 # ID=1_73;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.291
+scf00000000:252823-254151|- -            443 1140at2085           -            348   1.8e-22   75.0   4.9   1   1     5e-24   5.9e-22   73.3   4.9   130   303   217   391   210   399 0.78 scf00000000_229 # 252823 # 254151 # -1 # ID=1_229;partial=00;start_type=TTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.315
+scf00000000:211999-212880|- -            294 1140at2085           -            348   5.6e-13   43.8   1.9   1   1   8.8e-15     1e-12   42.9   1.5     1   103     9   124     9   141 0.77 scf00000000_176 # 211999 # 212880 # -1 # ID=1_176;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.289
+scf00000000:112146-112937|+ -            264 1140at2085           -            348   5.1e-09   30.8   5.9   1   2    0.0021      0.25    5.5   3.2   203   272    15    97     3   108 0.62 scf00000000_90 # 112146 # 112937 # 1 # ID=1_90;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.268
+scf00000000:112146-112937|+ -            264 1140at2085           -            348   5.1e-09   30.8   5.9   2   2   1.6e-09   1.9e-07   25.6   0.0     3    60   115   173   113   193 0.85 scf00000000_90 # 112146 # 112937 # 1 # ID=1_90;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.268
+scf00000000:584040-584636|- -            199 1140at2085           -            348   1.8e-07   25.7   2.8   1   1   2.5e-08   2.9e-06   21.7   2.8   132   167    40    75    16   198 0.53 scf00000000_466 # 584040 # 584636 # -1 # ID=1_466;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.296
+scf00000000:208820-209677|- -            286 1140at2085           -            348   0.00022   15.6   7.6   1   2    0.0027      0.32    5.1   1.1   181   237    61   120    43   155 0.72 scf00000000_172 # 208820 # 209677 # -1 # ID=1_172;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.279
+scf00000000:208820-209677|- -            286 1140at2085           -            348   0.00022   15.6   7.6   2   2   5.2e-06   0.00061   14.1   0.7     3    61   157   223   154   231 0.71 scf00000000_172 # 208820 # 209677 # -1 # ID=1_172;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.279
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1140at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/1140at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1140at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use
+# Date:            Sun Dec  1 19:25:30 2024
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:665439-666299|- -            287 2695at2085           -            231   8.2e-82  269.3  33.3   1   1   6.5e-84   2.2e-81  267.9  33.3     2   231    24   279    23   279 0.90 scf00000000_526 # 665439 # 666299 # -1 # ID=1_526;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.281
+scf00000000:664622-665446|- -            275 2695at2085           -            231   2.8e-15   51.6  23.6   1   2    0.0045       1.5    3.4   1.4     4    30    16    42    13    55 0.85 scf00000000_525 # 664622 # 665446 # -1 # ID=1_525;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.272
+scf00000000:664622-665446|- -            275 2695at2085           -            231   2.8e-15   51.6  23.6   2   2   8.1e-18   2.8e-15   51.6  23.6    26   226    62   263    54   267 0.84 scf00000000_525 # 664622 # 665446 # -1 # ID=1_525;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.272
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2695at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/2695at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2695at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP696/Use
+# Date:            Sun Dec  1 19:16:34 2024
+# [ok]

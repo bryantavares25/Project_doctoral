@@ -1,0 +1,18 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:823914-826874|+ -            987 78at2085             -            778  4.6e-253  837.3  71.5   1   3  1.5e-112  5.6e-110  364.1  21.9     1   290     1   298     1   305 0.87 scf00000000_684 # 823914 # 826874 # 1 # ID=1_684;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.342
+scf00000000:823914-826874|+ -            987 78at2085             -            778  4.6e-253  837.3  71.5   2   3   5.1e-66     2e-63  210.2  26.5   223   634   299   713   292   715 0.82 scf00000000_684 # 823914 # 826874 # 1 # ID=1_684;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.342
+scf00000000:823914-826874|+ -            987 78at2085             -            778  4.6e-253  837.3  71.5   3   3   6.3e-85   2.4e-82  272.8  18.8   489   729   671   928   662   931 0.81 scf00000000_684 # 823914 # 826874 # 1 # ID=1_684;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.342
+scf00000000:9615-10316|-    -            234 78at2085             -            778   5.1e-06   20.4   1.5   1   2     0.038        15   -1.0   0.1    17    41    19    44     9    48 0.70 scf00000000_8 # 9615 # 10316 # -1 # ID=1_8;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.356
+scf00000000:9615-10316|-    -            234 78at2085             -            778   5.1e-06   20.4   1.5   2   2     2e-08   7.6e-06   19.8   0.1   671   739   120   184   108   187 0.90 scf00000000_8 # 9615 # 10316 # -1 # ID=1_8;partial=00;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=5-10bp;gc_cont=0.356
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/78at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/78at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/78at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use
+# Date:            Sun Dec  1 19:28:30 2024
+# [ok]

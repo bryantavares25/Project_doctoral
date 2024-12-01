@@ -1,0 +1,80 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/955at2085.hmm
+# target sequence database:        /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# per-dom hits tabular output:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/955at2085.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       955at2085  [M=350]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                        -----------
+   1.7e-136  450.2   8.5   4.1e-103  340.3   5.0    3.0  2  NZ_QQRA01000001.1:33348-34715|-  NZ_QQRA01000001.1_26 # 33348 # 3
+
+
+Domain annotation for each sequence (and alignments):
+>> NZ_QQRA01000001.1:33348-34715|-  NZ_QQRA01000001.1_26 # 33348 # 34715 # -1 # ID=12_26;partial=00;start_type=ATG;rbs_m
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.6   0.1   2.8e-34     2e-31       2      87 ..      11     107 ..      10     119 .. 0.90
+   2 !  340.3   5.0  5.6e-106  4.1e-103      84     350 .]     132     444 ..     114     444 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 104.6 bits;  conditional E-value: 2.8e-34
+                        955at2085   2 vnhlkekgfvfqgseiygglantwdyGplgvllkenikk...kefikke.....ldskillnkkvWkasGhldnfsdl 71 
+                                      +n+l+e gfvf++s+iygglan++dyG+lgvll++ni++   ++f++++     +dskilln+kvW+asGhldnf dl
+  NZ_QQRA01000001.1:33348-34715|-  11 INQLRELGFVFPSSQIYGGLANSYDYGHLGVLLRRNIENfwaDFFVNSNpnaffIDSKILLNPKVWQASGHLDNFVDL 88 
+                                      899*********************************99655599**997777779*********************** PP
+
+                        955at2085  72 lien...kkryradkliee 87 
+                                      l+en   kkryr+d+l+ee
+  NZ_QQRA01000001.1:33348-34715|-  89 LVENkinKKRYRVDHLFEE 107
+                                      ***733369*******997 PP
+
+  == domain 2  score: 340.3 bits;  conditional E-value: 5.6e-106
+                        955at2085  84 lieektewseirkfnllfktkqGvvedekskvylrPetaqgifvnfknvlrstraklPlgiaqiGksfrnevtpgnfi 161
+                                      l + k+ew++ +kfnllf t qG++edek+ +ylrPetaqgif+nfkn+lr+t+++lPl iaq+Gksfrne++pgnfi
+  NZ_QQRA01000001.1:33348-34715|- 132 LENAKVEWASPKKFNLLFPTYQGIIEDEKTLLYLRPETAQGIFINFKNLLRTTKNSLPLIIAQVGKSFRNEISPGNFI 209
+                                      557799************************************************************************ PP
+
+                        955at2085 162 frtrefeqlelevfkp.e.................ealglkkenirlrehekeelahysk.tsdleykfpfGwgellG 220
+                                      frtref qlele+f + +                 ++lg+ k++irl+ h+ke+lahy+k t+d+ey+f+fGwgel+G
+  NZ_QQRA01000001.1:33348-34715|- 210 FRTREFVQLELEIFLKpDqsenffqneiekiknflKKLGFAKNSIRLNYHKKEKLAHYAKaTVDFEYNFNFGWGELIG 287
+                                      ************98531211112211222222222358999*****************97589*************** PP
+
+                        955at2085 221 ianrgdfdlk.....skekleyldeetnekiipaviepsvGldrlllavlveay......erivlkl...laPykvav 284
+                                      i+nrgd+dlk     s+ekle++d++t +k++p++ieps+Gldrl+lavl e++      +r++lkl   l+Pykvav
+  NZ_QQRA01000001.1:33348-34715|- 288 ISNRGDYDLKnhsekSGEKLEFVDSATGKKFLPHIIEPSMGLDRLMLAVLEECFcfdsvkNRYFLKLpfiLSPYKVAV 365
+                                      *********644444899********************************997644444468999965559******* PP
+
+                        955at2085 285 lPlvkk...lakelfekll.......ydesgsiGkryrrqdaiGtlycitvdfdsle...vtirerdtmeqkrikiee 349
+                                      lPl+kk   la++++++l+       + +sgsiGkry++qd iGt++cit+d++s+e   vt+r rdt+eqk++ki+e
+  NZ_QQRA01000001.1:33348-34715|- 366 LPLLKKfnfLAEKIWNELIsqkisatLATSGSIGKRYYHQDVIGTYFCITIDQKSVEnsiVTLRFRDTTEQKTLKIDE 443
+                                      *****955559******9733322334579***********************99876669***************99 PP
+
+                        955at2085 350 l 350
+                                      +
+  NZ_QQRA01000001.1:33348-34715|- 444 I 444
+                                      7 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (350 nodes)
+Target sequences:                        729  (272549 residues searched)
+Passed MSV filter:                        55  (0.0754458); expected 14.6 (0.02)
+Passed bias filter:                        9  (0.0123457); expected 14.6 (0.02)
+Passed Vit filter:                         1  (0.00137174); expected 0.7 (0.001)
+Passed Fwd filter:                         1  (0.00137174); expected 0.0 (1e-05)
+Initial search space (Z):                729  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 2703.95
+//
+[ok]

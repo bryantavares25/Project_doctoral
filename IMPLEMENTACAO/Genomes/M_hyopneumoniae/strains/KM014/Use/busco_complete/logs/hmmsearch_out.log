@@ -1,0 +1,90 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/KM014/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/955at2085.hmm
+# target sequence database:        /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/KM014/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# per-dom hits tabular output:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/KM014/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/955at2085.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       955at2085  [M=350]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                      -----------
+    3.4e-78  258.7   5.1    3.9e-61  202.6   0.6    2.0  2  NZ_CP022714.1:262932-263738|+  NZ_CP022714.1_242 # 262932 # 263
+    3.4e-53  176.5   0.4      2e-31  104.9   0.1    2.0  2  NZ_CP022714.1:262372-262944|+  NZ_CP022714.1_241 # 262372 # 262
+
+
+Domain annotation for each sequence (and alignments):
+>> NZ_CP022714.1:262932-263738|+  NZ_CP022714.1_242 # 262932 # 263738 # 1 # ID=1_242;partial=00;start_type=TTG;rbs_motif
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.9   1.0   2.1e-20   9.3e-18     140     188 ..       1      50 [.       1      56 [. 0.84
+   2 !  202.6   0.6   8.7e-64   3.9e-61     165     350 .]      43     257 ..      40     257 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 59.9 bits;  conditional E-value: 2.1e-20
+                      955at2085 140 lPlgiaqiGksfrnevtpgnfifrtrefeqlelevf.kpeealglkkeni 188
+                                    +Pl iaq+Gksfrne++pgnfifrtref qlele+f kp+++ ++ +++i
+  NZ_CP022714.1:262932-263738|+   1 MPLIIAQVGKSFRNEISPGNFIFRTREFVQLELEIFlKPDQSENFFQNEI 50 
+                                    79********************************9945666666655554 PP
+
+  == domain 2  score: 202.6 bits;  conditional E-value: 8.7e-64
+                      955at2085 165 refeqlelevfkp.eealglkkenirlrehekeelahysk.tsdleykfpfGwgellGianrgdfdlk.....skekley 237
+                                     +f q e+e  k+  ++lg+ k++irl+ h+ke+lahy+k t+d+ey+f+fGwgel+Gi+nrgd+dlk     s+ekle+
+  NZ_CP022714.1:262932-263738|+  43 ENFFQNEIEKIKNfLKKLGFAKNSIRLNYHKKEKLAHYAKaTVDFEYNFNFGWGELIGISNRGDYDLKnhsekSGEKLEF 122
+                                    57999999999873589*********************97589************************644444899**** PP
+
+                      955at2085 238 ldeetnekiipaviepsvGldrlllavlveay......erivlkl...laPykvavlPlvkk...lakelfekllyde.. 303
+                                    +d++t +k++p++ieps+Gldrl+lavl e++      +r++lkl   l+PykvavlPl+kk   la++++++l+ ++  
+  NZ_CP022714.1:262932-263738|+ 123 VDSATGKKFLPHIIEPSMGLDRLMLAVLEECFcfdsvkNRYFLKLpfiLSPYKVAVLPLLKKfnfLAEKIWNELISQKis 202
+                                    ****************************997644444468999965559************955559******9865322 PP
+
+                      955at2085 304 .....sgsiGkryrrqdaiGtlycitvdfdsle...vtirerdtmeqkrikieel 350
+                                         sgsiGkry++qd iGt++cit+d++s+e   vt+r rdt+eqk++ki+e+
+  NZ_CP022714.1:262932-263738|+ 203 atlvtSGSIGKRYYHQDVIGTYFCITIDQKSVEnsiVTLRFRDTTEQKTLKIDEI 257
+                                    222228***********************99876669***************997 PP
+
+>> NZ_CP022714.1:262372-262944|+  NZ_CP022714.1_241 # 262372 # 262944 # 1 # ID=1_241;partial=00;start_type=ATG;rbs_motif
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.9   0.1   4.4e-34     2e-31       2      87 ..      11     107 ..      10     119 .. 0.90
+   2 !   70.1   0.0   1.7e-23   7.7e-21      84     141 ..     132     189 ..     125     190 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 104.9 bits;  conditional E-value: 4.4e-34
+                      955at2085   2 vnhlkekgfvfqgseiygglantwdyGplgvllkenikk...kefikke.....ldskillnkkvWkasGhldnfsdlli 73 
+                                    +n+l+e gf f++s+iygglan++dyG+lgvll++ni++   ++f++++     +dskilln+kvW+asGhldnf dll+
+  NZ_CP022714.1:262372-262944|+  11 INQLRELGFAFPSSQIYGGLANSYDYGHLGVLLRKNIENfwaDFFVNSNpnaffIDSKILLNPKVWQASGHLDNFVDLLV 90 
+                                    899**********************************9655599**997777779************************* PP
+
+                      955at2085  74 en...kkryradkliee 87 
+                                    en   kkryr+d+l+ee
+  NZ_CP022714.1:262372-262944|+  91 ENkinKKRYRVDHLFEE 107
+                                    *733369*******997 PP
+
+  == domain 2  score: 70.1 bits;  conditional E-value: 1.7e-23
+                      955at2085  84 lieektewseirkfnllfktkqGvvedekskvylrPetaqgifvnfknvlrstraklP 141
+                                    l + k+ew++ +kfnllf t qG++edek+ +ylrPetaqgif+nfkn+lr+t+   P
+  NZ_CP022714.1:262372-262944|+ 132 LENAKVEWASPKKFNLLFPTYQGIIEDEKTLLYLRPETAQGIFINFKNLLRTTKIVCP 189
+                                    557799***********************************************98766 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (350 nodes)
+Target sequences:                        905  (278026 residues searched)
+Passed MSV filter:                        62  (0.0685083); expected 18.1 (0.02)
+Passed bias filter:                        9  (0.00994475); expected 18.1 (0.02)
+Passed Vit filter:                         2  (0.00220994); expected 0.9 (0.001)
+Passed Fwd filter:                         2  (0.00220994); expected 0.0 (1e-05)
+Initial search space (Z):                905  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 2556.61
+//
+[ok]

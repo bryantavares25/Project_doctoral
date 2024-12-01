@@ -1,0 +1,23 @@
+Assembly	ragtag.patch
+# contigs (>= 0 bp)	5
+# contigs (>= 1000 bp)	3
+# contigs (>= 5000 bp)	1
+# contigs (>= 10000 bp)	1
+# contigs (>= 25000 bp)	1
+# contigs (>= 50000 bp)	1
+Total length (>= 0 bp)	910816
+Total length (>= 1000 bp)	910088
+Total length (>= 5000 bp)	907124
+Total length (>= 10000 bp)	907124
+Total length (>= 25000 bp)	907124
+Total length (>= 50000 bp)	907124
+# contigs	3
+Largest contig	907124
+Total length	910088
+GC (%)	28.45
+N50	907124
+N90	907124
+auN	904174.9
+L50	1
+L90	1
+# N's per 100 kbp	111.20

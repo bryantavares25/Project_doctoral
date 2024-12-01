@@ -1,0 +1,63 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/Ue273/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/955at2085.hmm
+# target sequence database:        /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/Ue273/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# per-dom hits tabular output:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/Ue273/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/955at2085.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       955at2085  [M=350]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+   1.7e-105  348.1   5.0   3.6e-103  340.5   5.0    2.0  1  NZ_CP142079.1:70027-71001|+  NZ_CP142079.1_60 # 70027 # 71001
+
+
+Domain annotation for each sequence (and alignments):
+>> NZ_CP142079.1:70027-71001|+  NZ_CP142079.1_60 # 70027 # 71001 # 1 # ID=1_60;partial=00;start_type=TTG;rbs_motif=None;
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  340.5   5.0  5.2e-106  3.6e-103      86     350 .]       3     313 ..       1     313 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 340.5 bits;  conditional E-value: 5.2e-106
+                    955at2085  86 eektewseirkfnllfktkqGvvedekskvylrPetaqgifvnfknvlrstraklPlgiaqiGksfrnevtpgnfifrtref 167
+                                  + k+ew++ +kfnllf t qG++edek+ +ylrPetaqgif+nfkn+lr+t+++lPl iaq+Gksfrne++pgnfifrtref
+  NZ_CP142079.1:70027-71001|+   3 NAKVEWASPKKFNLLFPTYQGIIEDEKTLLYLRPETAQGIFINFKNLLRTTKNSLPLIIAQVGKSFRNEISPGNFIFRTREF 84 
+                                  5689****************************************************************************** PP
+
+                    955at2085 168 eqlelevfkp.e.................ealglkkenirlrehekeelahysk.tsdleykfpfGwgellGianrgdfdlk 230
+                                   qlele+f + +                 ++lg+ k++irl+ h+ke+lahy+k t+d+ey+f+fGwgel+Gi+nrgd+dlk
+  NZ_CP142079.1:70027-71001|+  85 VQLELEIFLKpDqsenffqneiekiknflKKLGFAKNSIRLNYHKKEKLAHYAKaTVDFEYNFNFGWGELIGISNRGDYDLK 166
+                                  ******98531211112211222222222358999*****************97589************************6 PP
+
+                    955at2085 231 .....skekleyldeetnekiipaviepsvGldrlllavlveay......erivlkl...laPykvavlPlvkk...lakel 295
+                                       s+ekle++d++t +k++p++ieps+Gldrl+lavl e++      +r++lkl   l+PykvavlPl+kk   la+++
+  NZ_CP142079.1:70027-71001|+ 167 nhsekSGEKLEFVDSATGKKFLPHIIEPSMGLDRLMLAVLEECFcfdsvkNRYFLKLpfiLSPYKVAVLPLLKKfnfLAEKI 248
+                                  44444899********************************997644444468999965559************955559*** PP
+
+                    955at2085 296 fekllyde.......sgsiGkryrrqdaiGtlycitvdfdsle...vtirerdtmeqkrikieel 350
+                                  +++l+ ++       sgsiGkry++qd iGt++cit+d++s+e   vt+r rdt+eqk++ki+e+
+  NZ_CP142079.1:70027-71001|+ 249 WNELISQKisatlvtSGSIGKRYYHQDVIGTYFCITIDQKSVEnsiVTLRFRDTTEQKTLKIDEI 313
+                                  ***9865322222228***********************99876669***************997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (350 nodes)
+Target sequences:                        692  (268492 residues searched)
+Passed MSV filter:                        53  (0.0765896); expected 13.8 (0.02)
+Passed bias filter:                        8  (0.0115607); expected 13.8 (0.02)
+Passed Vit filter:                         1  (0.00144509); expected 0.7 (0.001)
+Passed Fwd filter:                         1  (0.00144509); expected 0.0 (1e-05)
+Initial search space (Z):                692  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 4081.23
+//
+[ok]

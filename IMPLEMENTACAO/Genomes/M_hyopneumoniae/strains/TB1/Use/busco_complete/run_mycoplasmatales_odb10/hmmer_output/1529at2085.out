@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:468356-469795|+ -            480 1529at2085           -            392  5.6e-153  505.1  17.8   1   2  5.2e-148    1e-145  481.2  12.1     1   341     1   372     1   385 0.90 scf00000000_418 # 468356 # 469795 # 1 # ID=1_418;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.308
+scf00000000:468356-469795|+ -            480 1529at2085           -            392  5.6e-153  505.1  17.8   2   2   3.1e-08     6e-06   21.0   0.3   334   386   386   448   380   451 0.85 scf00000000_418 # 468356 # 469795 # 1 # ID=1_418;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.308
+scf00000000:48414-49781|+   -            456 1529at2085           -            392   1.1e-08   30.0   1.2   1   2   3.1e-06    0.0006   14.4   0.4    82   159   143   222   118   273 0.76 scf00000000_45 # 48414 # 49781 # 1 # ID=1_45;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.298
+scf00000000:48414-49781|+   -            456 1529at2085           -            392   1.1e-08   30.0   1.2   2   2   3.3e-06   0.00064   14.3   0.0   295   341   394   440   354   454 0.85 scf00000000_45 # 48414 # 49781 # 1 # ID=1_45;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.298
+scf00000000:296113-297354|+ -            414 1529at2085           -            392   1.3e-06   23.1   0.1   1   2     0.053        10    0.5   0.2   306   368    37   101    18   105 0.75 scf00000000_275 # 296113 # 297354 # 1 # ID=1_275;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.316
+scf00000000:296113-297354|+ -            414 1529at2085           -            392   1.3e-06   23.1   0.1   2   2   5.4e-08     1e-05   20.2   0.0   103   246   225   377   162   400 0.80 scf00000000_275 # 296113 # 297354 # 1 # ID=1_275;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.316
+scf00000000:729691-731430|- -            580 1529at2085           -            392   1.3e-05   19.9   2.2   1   2   9.7e-06    0.0019   12.8   0.1    39   158   206   325   174   353 0.79 scf00000000_615 # 729691 # 731430 # -1 # ID=1_615;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.295
+scf00000000:729691-731430|- -            580 1529at2085           -            392   1.3e-05   19.9   2.2   2   2   0.00093      0.18    6.3   0.4   280   329   503   552   426   568 0.78 scf00000000_615 # 729691 # 731430 # -1 # ID=1_615;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.295
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1529at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/1529at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1529at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use
+# Date:            Sun Dec  1 19:28:24 2024
+# [ok]

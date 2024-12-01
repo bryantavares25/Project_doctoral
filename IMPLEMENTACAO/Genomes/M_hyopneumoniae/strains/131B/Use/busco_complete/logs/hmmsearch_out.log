@@ -1,0 +1,88 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/131B/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/955at2085.hmm
+# target sequence database:        /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/131B/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# per-dom hits tabular output:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/131B/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/955at2085.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       955at2085  [M=350]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+   1.1e-102  339.0   6.6    5.1e-61  201.9   0.5    2.0  2  NZ_CP098240.1:69957-70910|+  NZ_CP098240.1_64 # 69957 # 70910
+    8.8e-33  109.1   0.2    1.1e-32  108.8   0.2    1.1  1  NZ_CP098240.1:69544-70008|+  NZ_CP098240.1_63 # 69544 # 70008
+
+
+Domain annotation for each sequence (and alignments):
+>> NZ_CP098240.1:69957-70910|+  NZ_CP098240.1_64 # 69957 # 70910 # 1 # ID=1_64;partial=00;start_type=ATG;rbs_motif=3Base
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.6   1.0   6.1e-45   2.3e-42      94     178 ..       4      88 ..       1      93 [. 0.95
+   2 !  201.9   0.5   1.4e-63   5.1e-61     165     350 .]      92     306 ..      89     306 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 140.6 bits;  conditional E-value: 6.1e-45
+                    955at2085  94 irkfnllfktkqGvvedekskvylrPetaqgifvnfknvlrstraklPlgiaqiGksfrnevtpgnfifrtrefeqlelevf 175
+                                   +kfnllf t qG++edek+ +ylrPetaqgif+nfkn+lr+t+++lPl iaq+Gksfrne++pgnfifrtref qlele+f
+  NZ_CP098240.1:69957-70910|+   4 PKKFNLLFPTYQGIIEDEKTLLYLRPETAQGIFINFKNLLRTTKNSLPLIIAQVGKSFRNEISPGNFIFRTREFVQLELEIF 85 
+                                  79*******************************************************************************9 PP
+
+                    955at2085 176 kpe 178
+                                   + 
+  NZ_CP098240.1:69957-70910|+  86 LKP 88 
+                                  764 PP
+
+  == domain 2  score: 201.9 bits;  conditional E-value: 1.4e-63
+                    955at2085 165 refeqlelevfkp.eealglkkenirlrehekeelahysk.tsdleykfpfGwgellGianrgdfdlk.....skekleyld 239
+                                   +f q e+e  k+  ++lg+ k++irl+ h+ke+lahy+k t+d+ey+f+fGwgel+Gi+nrgd+dlk     s+ekle++d
+  NZ_CP098240.1:69957-70910|+  92 ENFFQNEIEKIKNfLKKLGFAKNSIRLNYHKKEKLAHYAKaTVDFEYNFNFGWGELIGISNRGDYDLKnhsekSGEKLEFVD 173
+                                  57999999999873589*********************97589************************644444899****** PP
+
+                    955at2085 240 eetnekiipaviepsvGldrlllavlveay......erivlkl...laPykvavlPlvkk...lakelfekllyde...... 303
+                                  ++t +k++p++ieps+Gldrl+lavl e++      +r++lkl   l+PykvavlPl+kk   la++++++l+ ++      
+  NZ_CP098240.1:69957-70910|+ 174 SATGKKFLPHIIEPSMGLDRLMLAVLEECFcfdsvkNRYFLKLpfiLSPYKVAVLPLLKKfnfLAEKIWNELISQKisatlv 255
+                                  **************************997644444468999965559************955559******98653222222 PP
+
+                    955at2085 304 .sgsiGkryrrqdaiGtlycitvdfdsle...vtirerdtmeqkrikieel 350
+                                   sgsiGkry++qd iGt++cit+d++s+e   vt+r rdt+eqk++ki+e+
+  NZ_CP098240.1:69957-70910|+ 256 tSGSIGKRYYHQDVIGTYFCITIDQKSVEnsiVTLRFRDTTEQKTLKIDEI 306
+                                  28***********************99876669***************997 PP
+
+>> NZ_CP098240.1:69544-70008|+  NZ_CP098240.1_63 # 69544 # 70008 # 1 # ID=1_63;partial=00;start_type=ATG;rbs_motif=AGGA;
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  108.8   0.2   2.9e-35   1.1e-32       2      87 ..      11     107 ..      10     122 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 108.8 bits;  conditional E-value: 2.9e-35
+                    955at2085   2 vnhlkekgfvfqgseiygglantwdyGplgvllkenikk...kefikke.....ldskillnkkvWkasGhldnfsdllien 75 
+                                  +n+l+e gfvf++s+iygglan++dyG+lgvll++ni++   ++f++++     +dskilln+kvW+asGhldnf dll+en
+  NZ_CP098240.1:69544-70008|+  11 INQLRELGFVFPSSQIYGGLANSYDYGHLGVLLRKNIENfwaDFFVNSNpnaffIDSKILLNPKVWQASGHLDNFVDLLVEN 92 
+                                  899**********************************9655599**997777779**************************7 PP
+
+                    955at2085  76 ...kkryradkliee 87 
+                                     kkryr+d+l+ee
+  NZ_CP098240.1:69544-70008|+  93 kinKKRYRVDHLFEE 107
+                                  33369*******997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (350 nodes)
+Target sequences:                        746  (274794 residues searched)
+Passed MSV filter:                        64  (0.0857909); expected 14.9 (0.02)
+Passed bias filter:                        9  (0.0120643); expected 14.9 (0.02)
+Passed Vit filter:                         2  (0.00268097); expected 0.7 (0.001)
+Passed Fwd filter:                         2  (0.00268097); expected 0.0 (1e-05)
+Initial search space (Z):                746  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 3136.72
+//
+[ok]

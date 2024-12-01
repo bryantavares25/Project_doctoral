@@ -1,0 +1,15 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_CP098241.1:59981-60466|+ -            162 3487at2085           -            121   5.7e-40  131.5  11.6   1   2   1.3e-40   9.4e-38  124.4   9.5     1   108     4   124     4   135 0.82 NZ_CP098241.1_59 # 59981 # 60466 # 1 # ID=1_59;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.272
+NZ_CP098241.1:59981-60466|+ -            162 3487at2085           -            121   5.7e-40  131.5  11.6   2   2   0.00024      0.18    7.3   0.0   106   121   139   154   133   154 0.88 NZ_CP098241.1_59 # 59981 # 60466 # 1 # ID=1_59;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.272
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/111A/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3487at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/111A/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/111A/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/3487at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/111A/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3487at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/111A/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/111A/Use
+# Date:            Sun Dec  1 18:59:42 2024
+# [ok]

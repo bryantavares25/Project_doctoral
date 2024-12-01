@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_KZ266899.1:28698-33107|+ -           1470 56at2085             -           1080         0 1374.2  32.3   1   1         0         0 1365.7  32.3    49  1080   318  1468   277  1468 0.89 NZ_KZ266899.1_28 # 28698 # 33107 # 1 # ID=6_28;partial=00;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.298
+NZ_KZ266900.1:12543-15488|- -            982 56at2085             -           1080   1.4e-27   91.4  36.4   1   7   3.7e-08   1.4e-05   18.6   0.0    54   118     4    69     1    87 0.92 NZ_KZ266900.1_14 # 12543 # 15488 # -1 # ID=7_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.289
+NZ_KZ266900.1:12543-15488|- -            982 56at2085             -           1080   1.4e-27   91.4  36.4   2   7     1e-14   3.9e-12   40.3   2.6   348   566   100   320    78   324 0.73 NZ_KZ266900.1_14 # 12543 # 15488 # -1 # ID=7_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.289
+NZ_KZ266900.1:12543-15488|- -            982 56at2085             -           1080   1.4e-27   91.4  36.4   3   7   2.1e-05    0.0079    9.5   0.0   606   677   323   394   321   402 0.89 NZ_KZ266900.1_14 # 12543 # 15488 # -1 # ID=7_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.289
+NZ_KZ266900.1:12543-15488|- -            982 56at2085             -           1080   1.4e-27   91.4  36.4   4   7    0.0015       0.6    3.3   0.1   674   754   437   512   426   544 0.78 NZ_KZ266900.1_14 # 12543 # 15488 # -1 # ID=7_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.289
+NZ_KZ266900.1:12543-15488|- -            982 56at2085             -           1080   1.4e-27   91.4  36.4   5   7     0.013       5.2    0.2   0.3   292   372   584   666   582   684 0.78 NZ_KZ266900.1_14 # 12543 # 15488 # -1 # ID=7_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.289
+NZ_KZ266900.1:12543-15488|- -            982 56at2085             -           1080   1.4e-27   91.4  36.4   6   7   2.4e-07   9.3e-05   15.9   7.8   906   945   684   723   667   737 0.83 NZ_KZ266900.1_14 # 12543 # 15488 # -1 # ID=7_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.289
+NZ_KZ266900.1:12543-15488|- -            982 56at2085             -           1080   1.4e-27   91.4  36.4   7   7   2.1e-08   8.1e-06   19.4   0.3   987  1065   734   814   724   830 0.80 NZ_KZ266900.1_14 # 12543 # 15488 # -1 # ID=7_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.289
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/56at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/56at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/56at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use
+# Date:            Sun Dec  1 19:27:37 2024
+# [ok]

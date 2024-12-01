@@ -1,0 +1,17 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_CP098239.1:543810-544766|+ -            319 1978at2085           -            276  1.7e-109  361.1  12.5   1   1  1.1e-111  2.6e-109  360.5  12.5     1   275     8   313     8   314 0.92 NZ_CP098239.1_475 # 543810 # 544766 # 1 # ID=1_475;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.318
+NZ_CP098239.1:328417-329814|+ -            466 1978at2085           -            276   7.3e-08   27.8  10.8   1   1   2.4e-09   5.8e-07   24.8  10.8     1   227    15   260    15   307 0.57 NZ_CP098239.1_295 # 328417 # 329814 # 1 # ID=1_295;partial=00;start_type=GTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.268
+NZ_CP098239.1:90804-91493|+   -            230 1978at2085           -            276   3.3e-05   19.1   2.2   1   2   0.00017     0.043    8.8   0.0    36    57     9    30     5    46 0.87 NZ_CP098239.1_79 # 90804 # 91493 # 1 # ID=1_79;partial=00;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;gc_cont=0.300
+NZ_CP098239.1:90804-91493|+   -            230 1978at2085           -            276   3.3e-05   19.1   2.2   2   2    0.0001     0.025    9.6   0.6    93   167   122   195    79   228 0.74 NZ_CP098239.1_79 # 90804 # 91493 # 1 # ID=1_79;partial=00;start_type=ATG;rbs_motif=4Base/6BMM;rbs_spacer=13-15bp;gc_cont=0.300
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1978at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/1978at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1978at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use
+# Date:            Sun Dec  1 18:58:39 2024
+# [ok]

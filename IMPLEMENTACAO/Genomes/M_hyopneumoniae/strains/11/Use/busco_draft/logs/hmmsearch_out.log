@@ -1,0 +1,80 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/11/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/955at2085.hmm
+# target sequence database:        /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/11/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# per-dom hits tabular output:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/11/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/955at2085.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       955at2085  [M=350]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                          -----------
+   4.2e-136  448.8   9.5   1.2e-102  338.7   5.5    3.0  2  NZ_MWWN01000001.1:291168-292535|+  NZ_MWWN01000001.1_214 # 291168 #
+
+
+Domain annotation for each sequence (and alignments):
+>> NZ_MWWN01000001.1:291168-292535|+  NZ_MWWN01000001.1_214 # 291168 # 292535 # 1 # ID=1_214;partial=00;start_type=ATG;r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  105.4   0.1   1.5e-34   1.1e-31       2      87 ..      11     107 ..      10     121 .. 0.90
+   2 !  338.7   5.5  1.8e-105  1.2e-102      84     350 .]     132     444 ..     114     444 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 105.4 bits;  conditional E-value: 1.5e-34
+                          955at2085   2 vnhlkekgfvfqgseiygglantwdyGplgvllkenikk...kefikke.....ldskillnkkvWkasGhldnfs 69 
+                                        +n+l+e gfvf++s+iygglan++dyG+lgvll++ni++   ++f++++     +dskilln+kvW+asGhldnf 
+  NZ_MWWN01000001.1:291168-292535|+  11 INQLRELGFVFPSSQIYGGLANSYDYGHLGVLLRKNIENfwaDFFVNSNpnaffIDSKILLNPKVWQASGHLDNFV 86 
+                                        899**********************************9655599**997777779********************* PP
+
+                          955at2085  70 dllien...kkryradkliee 87 
+                                        dll+en   kkryr+d+l+ee
+  NZ_MWWN01000001.1:291168-292535|+  87 DLLVENkinKKRYRVDHLFEE 107
+                                        *****733369*******997 PP
+
+  == domain 2  score: 338.7 bits;  conditional E-value: 1.8e-105
+                          955at2085  84 lieektewseirkfnllfktkqGvvedekskvylrPetaqgifvnfknvlrstraklPlgiaqiGksfrnevtpgn 159
+                                        l + k+ew++ +kfnllf t qG++edek+ +ylrPetaqgif+nfkn+lr+t+++lPl iaq+Gksfrne++pgn
+  NZ_MWWN01000001.1:291168-292535|+ 132 LENTKVEWASPKKFNLLFPTYQGIIEDEKTLLYLRPETAQGIFINFKNLLRTTKNSLPLIIAQVGKSFRNEISPGN 207
+                                        567899********************************************************************** PP
+
+                          955at2085 160 fifrtrefeqlelevfkp.e.................ealglkkenirlrehekeelahysk.tsdleykfpfGwg 216
+                                        fifrtref qlele+f + +                 ++lg+ +++irl+ h+ke+lahy+k t+d+ey+f+fGwg
+  NZ_MWWN01000001.1:291168-292535|+ 208 FIFRTREFVQLELEIFLKpDqsenffqneiekiknflKKLGFARNSIRLNYHKKEKLAHYAKaTVDFEYNFNFGWG 283
+                                        **************985312111122112222222223588999****************97589*********** PP
+
+                          955at2085 217 ellGianrgdfdlk.....skekleyldeetnekiipaviepsvGldrlllavlveay......erivlkl...la 278
+                                        el+Gi+nrgd+dlk     s+ekle++d++t +k++p++ieps+Gldrl+lavl e++      +r++lkl   l+
+  NZ_MWWN01000001.1:291168-292535|+ 284 ELIGISNRGDYDLKnhsekSGEKLEFVDSATGKKFLPHIIEPSMGLDRLMLAVLEECFcfdsvkNRYFLKLpfiLS 359
+                                        *************644444899********************************997644444468999965559* PP
+
+                          955at2085 279 PykvavlPlvkk...lakelfekllyde.......sgsiGkryrrqdaiGtlycitvdfdsle...vtirerdtme 341
+                                        PykvavlPl+kk   la++++++l+ ++       sgsiGkry++qd iGt++cit+d++s+e   vt+r rdt+e
+  NZ_MWWN01000001.1:291168-292535|+ 360 PYKVAVLPLLKKfnfLAEKIWKELISQKisatlvtSGSIGKRYYHQDVIGTYFCITIDQKSVEnsiVTLRFRDTTE 435
+                                        ***********955559******9865322222228***********************99876669********* PP
+
+                          955at2085 342 qkrikieel 350
+                                        qk++ki+e+
+  NZ_MWWN01000001.1:291168-292535|+ 436 QKTLKIDEI 444
+                                        ******997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (350 nodes)
+Target sequences:                        683  (269564 residues searched)
+Passed MSV filter:                        49  (0.0717423); expected 13.7 (0.02)
+Passed bias filter:                        8  (0.011713); expected 13.7 (0.02)
+Passed Vit filter:                         1  (0.00146413); expected 0.7 (0.001)
+Passed Fwd filter:                         1  (0.00146413); expected 0.0 (1e-05)
+Initial search space (Z):                683  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 2589.69
+//
+[ok]

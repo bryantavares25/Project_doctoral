@@ -1,0 +1,21 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_CP034597.1:55449-56708|+   -            420 1851at2085           -            347  9.3e-134  441.1  14.1   1   2  1.3e-122  1.7e-120  397.4   7.3     1   297     1   317     1   324 0.92 NZ_CP034597.1_43 # 55449 # 56708 # 1 # ID=1_43;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.309
+NZ_CP034597.1:55449-56708|+   -            420 1851at2085           -            347  9.3e-134  441.1  14.1   2   2   2.7e-16   3.7e-14   47.8   1.4   281   347   346   418   310   418 0.77 NZ_CP034597.1_43 # 55449 # 56708 # 1 # ID=1_43;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.309
+NZ_CP034597.1:361374-362477|- -            368 1851at2085           -            347   7.1e-15   50.1   1.0   1   1   9.9e-15   1.4e-12   42.6   1.0   154   250     5   118     2   209 0.80 NZ_CP034597.1_311 # 361374 # 362477 # -1 # ID=1_311;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.300
+NZ_CP034597.1:92881-94182|+   -            434 1851at2085           -            347   5.7e-09   30.7   0.2   1   2   8.1e-06    0.0011   13.3   0.1   153   273     4   124     1   153 0.73 NZ_CP034597.1_74 # 92881 # 94182 # 1 # ID=1_74;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.293
+NZ_CP034597.1:92881-94182|+   -            434 1851at2085           -            347   5.7e-09   30.7   0.2   2   2   2.3e-06   0.00032   15.1   0.0   145   278   164   300   156   308 0.80 NZ_CP034597.1_74 # 92881 # 94182 # 1 # ID=1_74;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.293
+NZ_CP034597.1:112783-113574|+ -            264 1851at2085           -            347   4.1e-06   21.3   2.0   1   2      0.12        16   -0.4   0.3   214   248    29    63     8   111 0.60 NZ_CP034597.1_91 # 112783 # 113574 # 1 # ID=1_91;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=3-4bp;gc_cont=0.269
+NZ_CP034597.1:112783-113574|+ -            264 1851at2085           -            347   4.1e-06   21.3   2.0   2   2   3.1e-08   4.2e-06   21.2   0.1   156   296   115   251    99   261 0.86 NZ_CP034597.1_91 # 112783 # 113574 # 1 # ID=1_91;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=3-4bp;gc_cont=0.269
+NZ_CP034597.1:190097-190978|- -            294 1851at2085           -            347    0.0005   14.4   1.7   1   1   5.2e-06   0.00071   13.9   1.7   148   302     3   157     1   163 0.78 NZ_CP034597.1_155 # 190097 # 190978 # -1 # ID=1_155;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.295
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/F72C/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1851at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/F72C/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/F72C/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/1851at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/F72C/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1851at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/F72C/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/F72C/Use
+# Date:            Sun Dec  1 19:03:24 2024
+# [ok]

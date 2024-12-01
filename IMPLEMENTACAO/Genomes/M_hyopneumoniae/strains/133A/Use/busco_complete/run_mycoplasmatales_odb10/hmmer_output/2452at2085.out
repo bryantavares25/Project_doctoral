@@ -1,0 +1,19 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_CP098239.1:350637-351317|+ -            227 2452at2085           -            224   1.6e-70  232.6   0.2   1   1   7.5e-73   1.9e-70  232.4   0.2    35   220    17   221     5   226 0.86 NZ_CP098239.1_313 # 350637 # 351317 # 1 # ID=1_313;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.300
+NZ_CP098239.1:258853-260319|+ -            489 2452at2085           -            224   8.3e-07   24.2   0.5   1   3   4.7e-06    0.0012   14.0   0.1    91   144   236   287   215   303 0.85 NZ_CP098239.1_245 # 258853 # 260319 # 1 # ID=1_245;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.312
+NZ_CP098239.1:258853-260319|+ -            489 2452at2085           -            224   8.3e-07   24.2   0.5   2   3      0.13        31   -0.5   0.0     8    49   321   366   314   371 0.74 NZ_CP098239.1_245 # 258853 # 260319 # 1 # ID=1_245;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.312
+NZ_CP098239.1:258853-260319|+ -            489 2452at2085           -            224   8.3e-07   24.2   0.5   3   3    0.0011      0.26    6.3   0.0   193   213   457   477   440   480 0.90 NZ_CP098239.1_245 # 258853 # 260319 # 1 # ID=1_245;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;gc_cont=0.312
+NZ_CP098239.1:667755-668756|- -            334 2452at2085           -            224   0.00019   16.5   1.0   1   2   4.1e-05      0.01   10.9   0.2    89   148    97   153    76   165 0.74 NZ_CP098239.1_555 # 667755 # 668756 # -1 # ID=1_555;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.258
+NZ_CP098239.1:667755-668756|- -            334 2452at2085           -            224   0.00019   16.5   1.0   2   2    0.0057       1.4    3.9   0.0   192   213   299   320   289   324 0.87 NZ_CP098239.1_555 # 667755 # 668756 # -1 # ID=1_555;partial=00;start_type=ATG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.258
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2452at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/2452at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/2452at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/133A/Use
+# Date:            Sun Dec  1 18:58:39 2024
+# [ok]

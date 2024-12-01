@@ -1,0 +1,31 @@
+# BUSCO version is: 5.8.1 
+# The lineage dataset is: mycoplasmatales_odb10 (Creation date: 2024-01-08, number of genomes: 79, number of BUSCOs: 174)
+# Summarized benchmarking in BUSCO notation for file /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/153B/Use/GCF_045005995.1/GCF_045005995.1_ASM4500599v1_genomic.fna
+# BUSCO was run in mode: prok_genome_prod
+# Gene predictor used: prodigal
+
+	***** Results: *****
+
+	C:97.1%[S:97.1%,D:0.0%],F:1.7%,M:1.1%,n:174	   
+	169	Complete BUSCOs (C)			   
+	169	Complete and single-copy BUSCOs (S)	   
+	0	Complete and duplicated BUSCOs (D)	   
+	3	Fragmented BUSCOs (F)			   
+	2	Missing BUSCOs (M)			   
+	174	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	1	Number of scaffolds
+	1	Number of contigs
+	920392	Total length
+	0.000%	Percent gaps
+	920 KB	Scaffold N50
+	920 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	bbtools: None
+	prodigal: 2.6.3
+	python: sys.version_info(major=3, minor=10, micro=15, releaselevel='final', serial=0)
+	busco: 5.8.1

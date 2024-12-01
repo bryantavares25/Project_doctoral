@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.046*1.04] collected minimizers
+[M::mm_idx_gen::0.069*1.03] sorted minimizers
+[M::main::0.069*1.03] loaded/built the index for 5 target sequence(s)
+[M::mm_mapopt_update::0.073*1.03] mid_occ = 50
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 5
+[M::mm_idx_stat::0.075*1.03] distinct minimizers: 88102 (94.87% are singletons); average occurrences: 1.088; average spacing: 10.023; total length: 960532
+[M::worker_pipeline::0.236*1.01] mapped 57 sequences
+[M::main] Version: 2.28-r1209
+[M::main] CMD: minimap2 -x asm5 -t 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/NCTC10127/Use/GCF_900660565.1/GCF_900660565.1_51334_A01-3_genomic.fna /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/TB1/Use/GCF_002213485.1/GCF_002213485.1_ASM221348v1_genomic.fna
+[M::main] Real time: 0.243 sec; CPU: 0.245 sec; Peak RSS: 0.022 GB

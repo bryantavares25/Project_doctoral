@@ -1,0 +1,17 @@
+#                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_VBRW01000002.1:38479-39195|+   -            239 3656at2085           -            168   1.5e-43  143.5   7.4   1   2   1.4e-45   3.4e-43  142.3   6.5     6   162    23   212    10   218 0.81 NZ_VBRW01000002.1_34 # 38479 # 39195 # 1 # ID=2_34;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.291
+NZ_VBRW01000002.1:38479-39195|+   -            239 3656at2085           -            168   1.5e-43  143.5   7.4   2   2      0.23        56   -1.5   0.0   155   167   219   231   215   232 0.86 NZ_VBRW01000002.1_34 # 38479 # 39195 # 1 # ID=2_34;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.291
+NZ_VBRW01000002.1:50004-50564|-   -            187 3656at2085           -            168   1.6e-06   23.0   1.4   1   1     1e-08   2.5e-06   22.4   1.4    52   142    45   152    40   178 0.66 NZ_VBRW01000002.1_48 # 50004 # 50564 # -1 # ID=2_48;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.287
+NZ_VBRW01000005.1:174799-175569|+ -            257 3656at2085           -            168   3.9e-06   21.7   3.9   1   1   1.1e-07   2.7e-05   19.0   3.9    50   116    44   130    39   172 0.75 NZ_VBRW01000005.1_142 # 174799 # 175569 # 1 # ID=5_142;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.296
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/UFV01/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3656at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/UFV01/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/UFV01/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/3656at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/UFV01/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3656at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/UFV01/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/UFV01/Use
+# Date:            Sun Dec  1 19:08:36 2024
+# [ok]

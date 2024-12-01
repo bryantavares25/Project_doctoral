@@ -1,0 +1,15 @@
+1: PREPARING DATA
+2,3: RUNNING mummer AND CREATING CLUSTERS
+# reading input file "/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/ragtag/ragtag_patch/ragtag.patch.asm.ntref" of length 903495
+# construct suffix tree for sequence of length 903495
+# (maximum reference length is 2305843009213693948)
+# (maximum query length is 18446744073709551615)
+# process 9034 characters per dot
+#....................................................................................................
+# CONSTRUCTIONTIME /home/bryan/miniconda3/envs/ragtag/opt/mummer-3.23/mummer /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/ragtag/ragtag_patch/ragtag.patch.asm.ntref 0.33
+# reading input file "/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/ragtag/ragtag_patch/ragtag.patch.rename.fasta" of length 964503
+# matching query-file "/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/ragtag/ragtag_patch/ragtag.patch.rename.fasta"
+# against subject-file "/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/ragtag/ragtag_patch/ragtag.patch.asm.ntref"
+# COMPLETETIME /home/bryan/miniconda3/envs/ragtag/opt/mummer-3.23/mummer /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/ragtag/ragtag_patch/ragtag.patch.asm.ntref 1.00
+# SPACE /home/bryan/miniconda3/envs/ragtag/opt/mummer-3.23/mummer /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/ragtag/ragtag_patch/ragtag.patch.asm.ntref 1.80
+4: FINISHING DATA

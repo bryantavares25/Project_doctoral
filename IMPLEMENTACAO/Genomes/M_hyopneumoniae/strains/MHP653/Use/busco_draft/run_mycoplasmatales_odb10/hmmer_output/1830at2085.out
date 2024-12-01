@@ -1,0 +1,20 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_QQRB01000004.1:19326-20540|- -            405 1830at2085           -            299  7.1e-101  332.8  30.2   1   3   1.8e-38   4.4e-36  120.1   9.6     1   129    10   157    10   160 0.84 NZ_QQRB01000004.1_14 # 19326 # 20540 # -1 # ID=43_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.263
+NZ_QQRB01000004.1:19326-20540|- -            405 1830at2085           -            299  7.1e-101  332.8  30.2   2   3   1.8e-65   4.5e-63  208.7   6.4   114   296   157   345   152   348 0.87 NZ_QQRB01000004.1_14 # 19326 # 20540 # -1 # ID=43_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.263
+NZ_QQRB01000004.1:19326-20540|- -            405 1830at2085           -            299  7.1e-101  332.8  30.2   3   3   2.6e-06   0.00063   14.5   2.0   244   295   347   399   340   402 0.87 NZ_QQRB01000004.1_14 # 19326 # 20540 # -1 # ID=43_14;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.263
+NZ_QQRB01000020.1:7440-8981|-   -            514 1830at2085           -            299   7.2e-09   30.7   5.7   1   3   0.00061      0.15    6.7   0.3     2    99     5   110     4   133 0.79 NZ_QQRB01000020.1_9 # 7440 # 8981 # -1 # ID=12_9;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.272
+NZ_QQRB01000020.1:7440-8981|-   -            514 1830at2085           -            299   7.2e-09   30.7   5.7   2   3   9.8e-10   2.4e-07   25.7   0.1   193   259   294   361   282   383 0.81 NZ_QQRB01000020.1_9 # 7440 # 8981 # -1 # ID=12_9;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.272
+NZ_QQRB01000020.1:7440-8981|-   -            514 1830at2085           -            299   7.2e-09   30.7   5.7   3   3      0.14        35   -1.1   0.1    67   100   405   442   393   450 0.62 NZ_QQRB01000020.1_9 # 7440 # 8981 # -1 # ID=12_9;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.272
+NZ_QQRB01000004.1:26229-28601|- -            791 1830at2085           -            299   2.4e-06   22.4   0.0   1   1   3.5e-08   8.5e-06   20.6   0.0   191   236   548   594   504   626 0.85 NZ_QQRB01000004.1_20 # 26229 # 28601 # -1 # ID=43_20;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.306
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP653/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1830at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP653/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP653/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/1830at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP653/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1830at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP653/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP653/Use
+# Date:            Sun Dec  1 19:23:06 2024
+# [ok]

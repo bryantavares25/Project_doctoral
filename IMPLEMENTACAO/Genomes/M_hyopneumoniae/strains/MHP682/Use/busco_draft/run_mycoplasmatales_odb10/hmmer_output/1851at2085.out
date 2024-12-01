@@ -1,0 +1,21 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_QQRA01000001.1:48912-50171|- -            420 1851at2085           -            347  2.2e-133  439.9  14.8   1   2  1.9e-122  2.7e-120  396.9   6.7     1   297     1   317     1   324 0.92 NZ_QQRA01000001.1_44 # 48912 # 50171 # -1 # ID=12_44;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.310
+NZ_QQRA01000001.1:48912-50171|- -            420 1851at2085           -            347  2.2e-133  439.9  14.8   2   2   2.3e-16   3.4e-14   48.0   2.3   253   347   321   418   309   418 0.78 NZ_QQRA01000001.1_44 # 48912 # 50171 # -1 # ID=12_44;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.310
+NZ_QQRA01000030.1:4757-5860|-   -            368 1851at2085           -            347   7.4e-15   50.1   1.0   1   1   9.9e-15   1.4e-12   42.6   1.0   154   250     5   118     2   209 0.80 NZ_QQRA01000030.1_4 # 4757 # 5860 # -1 # ID=24_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.299
+NZ_QQRA01000001.1:11443-12744|- -            434 1851at2085           -            347   3.8e-09   31.4   0.2   1   2   3.1e-06   0.00045   14.6   0.1   153   273     4   124     1   153 0.75 NZ_QQRA01000001.1_13 # 11443 # 12744 # -1 # ID=12_13;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.291
+NZ_QQRA01000001.1:11443-12744|- -            434 1851at2085           -            347   3.8e-09   31.4   0.2   2   2   3.8e-06   0.00056   14.4   0.0   145   278   164   300   156   308 0.80 NZ_QQRA01000001.1_13 # 11443 # 12744 # -1 # ID=12_13;partial=00;start_type=ATG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.291
+NZ_QQRA01000033.1:664-1455|-    -            264 1851at2085           -            347   3.4e-06   21.6   0.1   1   2      0.11        16   -0.3   0.2   214   248    29    63     8   108 0.58 NZ_QQRA01000033.1_2 # 664 # 1455 # -1 # ID=27_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.268
+NZ_QQRA01000033.1:664-1455|-    -            264 1851at2085           -            347   3.4e-06   21.6   0.1   2   2   2.3e-08   3.4e-06   21.6   0.1   156   296   115   251    98   261 0.86 NZ_QQRA01000033.1_2 # 664 # 1455 # -1 # ID=27_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.268
+NZ_QQRA01000005.1:8215-9096|+   -            294 1851at2085           -            347    0.0015   13.0   1.6   1   1   1.5e-05    0.0022   12.4   1.6   148   295     3   150     1   160 0.74 NZ_QQRA01000005.1_11 # 8215 # 9096 # 1 # ID=56_11;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.289
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1851at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/1851at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1851at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP682/Use
+# Date:            Sun Dec  1 19:24:35 2024
+# [ok]

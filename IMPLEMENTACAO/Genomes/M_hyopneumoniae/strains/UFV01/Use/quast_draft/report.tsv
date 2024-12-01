@@ -1,0 +1,23 @@
+Assembly	GCF_022793035.1_ASM2279303v1_genomic
+# contigs (>= 0 bp)	15
+# contigs (>= 1000 bp)	13
+# contigs (>= 5000 bp)	8
+# contigs (>= 10000 bp)	8
+# contigs (>= 25000 bp)	8
+# contigs (>= 50000 bp)	7
+Total length (>= 0 bp)	909816
+Total length (>= 1000 bp)	909088
+Total length (>= 5000 bp)	898917
+Total length (>= 10000 bp)	898917
+Total length (>= 25000 bp)	898917
+Total length (>= 50000 bp)	853789
+# contigs	13
+Largest contig	259373
+Total length	909088
+GC (%)	28.45
+N50	237234
+N90	58830
+auN	166850.2
+L50	2
+L90	7
+# N's per 100 kbp	1.32

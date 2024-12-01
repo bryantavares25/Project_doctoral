@@ -1,0 +1,14 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_CP142079.1:225220-225540|- -            107 4319at2085           -             81   6.7e-36  117.7   2.4   1   1   4.5e-37   3.1e-34  112.4   2.4     2    80     6   100     5   101 0.81 NZ_CP142079.1_208 # 225220 # 225540 # -1 # ID=1_208;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.324
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/Ue273/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/4319at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/Ue273/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/Ue273/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/4319at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/Ue273/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/4319at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/Ue273/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/Ue273/Use
+# Date:            Sun Dec  1 19:02:57 2024
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:733521-734435|+ -            305 1770at2085           -            239   4.5e-72  237.8   8.3   1   2   3.5e-05    0.0086   11.0   2.4     3    50    13    62    11    70 0.80 scf00000000_583 # 733521 # 734435 # 1 # ID=1_583;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.322
+scf00000000:733521-734435|+ -            305 1770at2085           -            239   4.5e-72  237.8   8.3   2   2   3.2e-72   7.9e-70  230.5   0.8    42   227    76   281    61   295 0.85 scf00000000_583 # 733521 # 734435 # 1 # ID=1_583;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.322
+scf00000000:657274-658119|+ -            282 1770at2085           -            239     3e-25   84.5  14.4   1   2   0.00082       0.2    6.5   4.9    13    68     7    62     2    70 0.86 scf00000000_538 # 657274 # 658119 # 1 # ID=1_538;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.252
+scf00000000:657274-658119|+ -            282 1770at2085           -            239     3e-25   84.5  14.4   2   2   2.5e-27   6.1e-25   83.5   3.4    28   224    61   260    56   264 0.82 scf00000000_538 # 657274 # 658119 # 1 # ID=1_538;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.252
+scf00000000:357571-358293|+ -            241 1770at2085           -            239   3.2e-08   28.7   3.3   1   1   2.6e-10   6.4e-08   27.8   3.3     4   200     2   196     1   199 0.78 scf00000000_285 # 357571 # 358293 # 1 # ID=1_285;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.289
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1770at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/1770at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1770at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP650/Use
+# Date:            Sun Dec  1 19:22:34 2024
+# [ok]

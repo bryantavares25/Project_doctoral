@@ -1,0 +1,17 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scf00000000:135735-137636|- -            634 406at2085            -            489  7.6e-116  382.9   1.9   1   2  3.3e-118  7.6e-116  382.9   1.9   170   488     1   365     1   366 0.87 scf00000000_109 # 135735 # 137636 # -1 # ID=1_109;partial=00;start_type=GTG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.280
+scf00000000:135735-137636|- -            634 406at2085            -            489  7.6e-116  382.9   1.9   2   2      0.32        74   -3.0   3.8   443   481   444   482   422   491 0.74 scf00000000_109 # 135735 # 137636 # -1 # ID=1_109;partial=00;start_type=GTG;rbs_motif=3Base/5BMM;rbs_spacer=13-15bp;gc_cont=0.280
+scf00000000:137720-138307|- -            196 406at2085            -            489   2.2e-66  219.8   3.9   1   1   1.2e-68   2.8e-66  219.4   3.9     1   140     7   161     7   164 0.91 scf00000000_110 # 137720 # 138307 # -1 # ID=1_110;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.457
+scf00000000:23898-25919|+   -            674 406at2085            -            489   1.8e-55  183.8  14.6   1   1   1.3e-57     3e-55  183.0  14.6     3   481     5   533     3   542 0.80 scf00000000_20 # 23898 # 25919 # 1 # ID=1_20;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.299
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/406at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/406at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/406at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use
+# Date:            Sun Dec  1 19:21:07 2024
+# [ok]

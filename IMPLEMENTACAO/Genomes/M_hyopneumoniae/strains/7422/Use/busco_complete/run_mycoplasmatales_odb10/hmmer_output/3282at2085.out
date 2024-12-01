@@ -1,0 +1,19 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NC_021831.1:15849-16694|+   -            282 3282at2085           -            198     5e-57  188.0  21.5   1   2   1.1e-37   2.6e-35  117.1  17.1     1   142     1   162     1   173 0.86 NC_021831.1_15 # 15849 # 16694 # 1 # ID=1_15;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.251
+NC_021831.1:15849-16694|+   -            282 3282at2085           -            198     5e-57  188.0  21.5   2   2   2.2e-22   5.2e-20   67.1   0.1   141   198   214   274   194   274 0.89 NC_021831.1_15 # 15849 # 16694 # 1 # ID=1_15;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.251
+NC_021831.1:598673-599587|+ -            305 3282at2085           -            198   2.2e-33  110.8  11.8   1   2   1.1e-20   2.5e-18   61.7   7.7    10   134    13   160     6   201 0.77 NC_021831.1_488 # 598673 # 599587 # 1 # ID=1_488;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.322
+NC_021831.1:598673-599587|+ -            305 3282at2085           -            198   2.2e-33  110.8  11.8   2   2   7.4e-17   1.7e-14   49.1   0.1   135   189   224   280   206   286 0.86 NC_021831.1_488 # 598673 # 599587 # 1 # ID=1_488;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.322
+NC_021831.1:223216-223938|+ -            241 3282at2085           -            198   1.2e-06   23.6   1.8   1   2   4.9e-09   1.2e-06   23.6   1.8    13   133     4   123     1   138 0.78 NC_021831.1_196 # 223216 # 223938 # 1 # ID=1_196;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.286
+NC_021831.1:223216-223938|+ -            241 3282at2085           -            198   1.2e-06   23.6   1.8   2   2       0.2        47   -1.3   0.9    32    57   201   224   171   234 0.50 NC_021831.1_196 # 223216 # 223938 # 1 # ID=1_196;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.286
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/7422/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3282at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/7422/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/7422/Use/busco_complete/run_mycoplasmatales_odb10/hmmer_output/3282at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/7422/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/3282at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/7422/Use/busco_complete/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/7422/Use
+# Date:            Sun Dec  1 19:07:01 2024
+# [ok]

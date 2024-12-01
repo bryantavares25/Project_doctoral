@@ -1,0 +1,18 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NZ_QQRJ01000004.1:77200-78396|- -            399 1182at2085           -            360   1.1e-90  299.6  26.5   1   3     3e-88     7e-86  283.8   6.6    67   294     6   255     1   267 0.87 NZ_QQRJ01000004.1_64 # 77200 # 78396 # -1 # ID=43_64;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.260
+NZ_QQRJ01000004.1:77200-78396|- -            399 1182at2085           -            360   1.1e-90  299.6  26.5   2   3     0.047        11    0.2   0.1   271   289   261   279   239   286 0.75 NZ_QQRJ01000004.1_64 # 77200 # 78396 # -1 # ID=43_64;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.260
+NZ_QQRJ01000004.1:77200-78396|- -            399 1182at2085           -            360   1.1e-90  299.6  26.5   3   3   2.5e-08   5.8e-06   20.9  11.5   263   359   292   395   276   396 0.75 NZ_QQRJ01000004.1_64 # 77200 # 78396 # -1 # ID=43_64;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.260
+NZ_QQRJ01000040.1:2-139|-       -             46 1182at2085           -            360   2.4e-12   41.9   0.1   1   1   1.1e-14   2.7e-12   41.7   0.1     2    41     3    46     2    46 0.87 NZ_QQRJ01000040.1_1 # 2 # 139 # -1 # ID=34_1;partial=10;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.261
+NZ_QQRJ01000004.1:78443-78529|- -             29 1182at2085           -            360   1.4e-10   36.0   0.1   1   1   6.1e-13   1.4e-10   36.0   0.1   154   179     2    27     1    28 0.93 NZ_QQRJ01000004.1_65 # 78443 # 78529 # -1 # ID=43_65;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.264
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1182at2085.hmm
+# Target file:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use/busco_draft/run_mycoplasmatales_odb10/hmmer_output/1182at2085.out --cpu 1 /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use/busco_downloads/lineages/mycoplasmatales_odb10/hmms/1182at2085.hmm /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use/busco_draft/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/MHP709/Use
+# Date:            Sun Dec  1 19:20:07 2024
+# [ok]
