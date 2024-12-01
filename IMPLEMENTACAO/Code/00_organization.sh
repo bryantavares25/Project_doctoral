@@ -10,12 +10,12 @@ pcH=/home/bryan/
 pcL=/home/lgef/
 direc_mhp=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/
 direc_mfc=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/
-mhp_table="IMPLEMENTACAO/Genomes/mhp_table.tsv" # Curadoria manual
-mhp_list="IMPLEMENTACAO/Genomes/mhp_list.txt"
-mhp_temp="IMPLEMENTACAO/Genomes/mhp_result.txt"
-mfc_table="IMPLEMENTACAO/Genomes/mfc_table.tsv" # Curadoria manual
-mfc_list="IMPLEMENTACAO/Genomes/mfc_list.txt"
-mfc_temp="IMPLEMENTACAO/Genomes/mfc_result.txt"
+mhp_table=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
+mhp_list=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
+mhp_temp=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
+mfc_table=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv # Curadoria manual
+mfc_list=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
+mfc_temp=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
 
 # In collumn
 awk -F '\t' 'NR > 1 && !seen[$5]++ {print $5}' "$mhp_table" > "$mhp_list"
