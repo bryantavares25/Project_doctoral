@@ -36,6 +36,11 @@ done
 
 # FROM QUAST
 
+# Data: Scaffold | Lenght | GC content
+
 # Quast draft
 quast_draft=/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/quast_draft/transposed_report.tsv
- 
+
+# coluna 2 > Quantity Scaffold
+# coluna 8 > Total lenght
+# coluna 17 > Conteúdo GC 
