@@ -20,6 +20,7 @@ mfc_table=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_tab
 mfc_list=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
 mfc_temp=${pcH}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
 
+complete=()
 for file in $(cat $mhp_list); do
     result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mhp_table)
     if [ -n "$result" ]; then
@@ -28,8 +29,8 @@ for file in $(cat $mhp_list); do
         found=false
     fi
     echo $file $found
+    complete+=($file)
 done
-
     if [ "$found" == true ]; then # COMPLETE
         conda activate busco
         cd ${mhp_strains}${file}/Use/
@@ -66,7 +67,6 @@ done
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_patch/
-        complete=(J ES2 133A 131B 111A LH 154B 153B ES2L 116 Ue273 F72C 1257 NCTC10127 168 168L 7448 7422 232 KM014 4284)
         select_sum=0
         select_strain=""
         for i in "${complete[@]}"; do
@@ -90,13 +90,13 @@ done
         done
 
         # Merge
-        mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
-        echo "----------------------------------------- RAGTAG MERGE -----------------------------------------------"
-        ragtag.py merge ${mhp_strains}${file}/Use/G*/G*.fna ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out*/*agp -o ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
+        #mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
+        #echo "----------------------------------------- RAGTAG MERGE -----------------------------------------------"
+        #ragtag.py merge ${mhp_strains}${file}/Use/G*/G*.fna ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out*/*agp -o ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
         
         # Patch
         echo "----------------------------------------- RAGTAG PATCH -----------------------------------------------"
-        ragtag.py patch ${mhp_strains}${file}/Use/ragtag/ragtag_merge/ragtag.merge.fasta ${mhp_strains}${select_strain}/Use/G*/G*.fna -o ${mhp_strains}${file}/Use/ragtag/ragtag_patch/
+        ragtag.py patch ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/out_${select_strain}/ragtag.scaffold.fasta ${mhp_strains}${select_strain}/Use/G*/G*.fna -o ${mhp_strains}${file}/Use/ragtag/ragtag_patch/
         conda deactivate
 
         echo "----------------------------------------- BUSCO COMPLETE -----------------------------------------------"
@@ -110,8 +110,8 @@ done
         conda activate quast
         quast ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta -o ${mhp_strains}${file}/Use/quast_complete
         conda deactivate
-    
-        cd
+
+        cd 
     else
         echo "ERRO"
     fi
