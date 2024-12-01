@@ -63,7 +63,7 @@ for file in $(cat $mhp_list); do
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_scaffold/
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_merge/
         mkdir -p ${mhp_strains}${file}/Use/ragtag/ragtag_patch/
-        complete=(J ES2 133A 131B 111A LH 154B 153B ES2L 116 Ue273 F72C 1257 NCTC10127 168 168L 7448 7422 232 KM014)
+        complete=(J ES2 133A 131B 111A LH 154B 153B ES2L 116 Ue273 F72C 1257 NCTC10127 168 168L 7448 7422 232 KM014 4284)
         select_sum=0
         select_strain=""
         for i in "${complete[@]}"; do
