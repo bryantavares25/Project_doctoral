@@ -14,8 +14,6 @@ Propriedades:
 '''
 
 '''import matplotlib.pyplot as plt
-#import pylustrator
-#pylustrator.start()
 
 # Dados para o gráfico
 categorias = ['A', 'B', 'C', 'D']
@@ -34,16 +32,18 @@ plt.ylabel('Valores')
 plt.figure(1).ax_dict = {ax.get_label(): ax for ax in plt.figure(1).axes}
 import matplotlib as mpl
 getattr(plt.figure(1), '_pylustrator_init', lambda: ...)()
-plt.figure(1).axes[0].set(position=[0.1521, 0.5475, 0.3057, 0.3782], xlim=(-0.6394, 3.541), ylim=(0.5006, 26.75))
+plt.figure(1).axes[0].legend(loc=(0.07802, 0.6899), labelspacing=0.2, handlelength=0.8)
+plt.figure(1).axes[0].set(position=[0.0554, 0.5517, 0.4212, 0.3675])
 plt.figure(1).axes[0].patches[3].set_height(1.065341)
 plt.figure(1).axes[0].patches[3].set_width(0.529376)
 plt.figure(1).axes[0].patches[3].set_xy([3.184997, 21.244537])
 #% end: automatic generated code from pylustrator
 plt.show()
 '''
-
+import pylustrator
 import matplotlib.pyplot as plt
 import numpy as np
+pylustrator.start()
 
 # Dados de exemplo
 categorias = ['Categoria A', 'Categoria B', 'Categoria C', 'Categoria D', 'Categoria E']
