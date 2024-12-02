@@ -27,7 +27,7 @@ mfc_temp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_resu
 complete=()
 uncomplete=()
 for file in $(cat $mfc_list); do
-    
+
     #result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mfc_table)
     #if [ -n "$result" ]; then
     #    found=true
@@ -38,6 +38,9 @@ for file in $(cat $mfc_list); do
     #fi
     #echo $file $found
 done
+
+awk '/^>/ {if (seq) print seq; print; seq=""; next} {seq=seq$0} END {print seq}' input.fasta > combined_sequence.fasta
+
 
 #echo "${complete[@]}"
 #echo "${uncomplete[@]}"
