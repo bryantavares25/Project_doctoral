@@ -42,7 +42,7 @@ done
 
 conda activate sibeliaz
 
-sibeliaz "${genomes[@]}" -o ${direc_mfc}/mult_aling/
+sibeliaz "${genomes[@]}"
 
 conda deactivate
 
