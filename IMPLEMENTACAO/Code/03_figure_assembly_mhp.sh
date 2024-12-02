@@ -36,18 +36,25 @@ done
 
 # FROM QUAST
 
+uncomplete=(ATCC27716)
+
+categoria=()
+valores_1=()
+valores_2=()
+
 for i in "${uncomplete[@]}"; do
+    # Data: Scaffold | Lenght | GC content
+    # Quast draft
+    # coluna 2 > Quantity Scaffold
+    categoria+=($i)
+    valores_1=$(awk -F'\t' '{print $2}' quast_draft=${mfc_strains}${file}/Use/quast_draft/transposed_report.tsv)
+    valores_2=$(awk -F'\t' '{print $2}' quast_draft=${mfc_strains}${file}/Use/quast_complete/transposed_report.tsv)
+done
 
-# Data: Scaffold | Lenght | GC content
-# Quast draft
-quast_draft=/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/quast_draft/transposed_report.tsv
-
-# coluna 2 > Quantity Scaffold
-cat=()
-val1=()
-val2=()
-
-c_in=$(awk -F'\t' '{print $1}' input_file.tsv)
+echo $categoria
+echo $valores_1
+echo $valores_2
+    
 
 
 # coluna 8 > Total lenght
