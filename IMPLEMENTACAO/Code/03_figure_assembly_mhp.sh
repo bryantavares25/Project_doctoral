@@ -60,6 +60,7 @@ echo "${categoria[@]}"
 echo "${valores_1[@]}"
 echo "${valores_2[@]}"
 
+cat_convert=()
 for l in "${categoria[@]}"; do
     echo "'${l}', "
     cat_convert+=("'${l}', ")
