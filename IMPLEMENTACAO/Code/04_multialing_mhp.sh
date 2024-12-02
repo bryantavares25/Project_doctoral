@@ -37,12 +37,9 @@ for file in $(cat $mhp_list); do
     echo $file $found
 
     if [ "$found" == true ]; then # COMPLETE
-        grep -v "^>" ${mhp_strains}${file}/Use/G*.1/G*.fna | tr -d '\n' | sed '1 i >"${file}"' > ${mhp_strains}${file}/Use/G*/${file}_combined.fasta
-        mv mkdir ${direc_mhp}/mult_aling/seqs_to_aling/
-    
+        grep -v "^>" ${mhp_strains}${file}/Use/G*.1/G*.fna | tr -d '\n' | sed '1 i >Genome' > ${direc_mhp}/mult_aling/seqs_to_aling/${file}_combined.fasta
     elif [ "$found" == false ]; then # UNCOMPLETE
-        grep -v "^>" ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta | tr -d '\n' | sed '1 i >"${file}"' > ${mhp_strains}${file}/Use/ragtag/ragtag_patch/${file}_combined.fasta
-        mv mkdir ${direc_mhp}/mult_aling/seqs_to_aling/
+        grep -v "^>" ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta | tr -d '\n' | sed '1 i >Genome' > ${mhp_strains}${file}/mult_aling/seqs_to_aling/${file}_combined.fasta
     else
         echo "ERRO"
     fi
