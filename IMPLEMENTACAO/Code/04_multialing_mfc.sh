@@ -32,17 +32,17 @@ for file in $(cat $mfc_list); do
     echo $file $found
 
     if [ "$found" == true ]; then # COMPLETE
-        grep -v "^>" ${mfc_strains}${file}/Use/G*.1/G*.fna | tr -d '\n' | sed '1 i >Genome' > ${direc_mfc}/mult_aling/seqs_to_aling/${file}.fasta
+        grep -v "^>" ${mfc_strains}${file}/Use/G*.1/G*.fna | tr -d '\n' | sed "1 i >ID${file}" > ${direc_mfc}/mult_aling/seqs_to_aling/${file}.fasta
     elif [ "$found" == false ]; then # UNCOMPLETE
-        grep -v "^>" ${mfc_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta | tr -d '\n' | sed '1 i >Genome' > ${direc_mfc}/mult_aling/seqs_to_aling/${file}.fasta
+        grep -v "^>" ${mfc_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta | tr -d '\n' | sed "1 i >ID${file}" > ${direc_mfc}/mult_aling/seqs_to_aling/${file}.fasta
     else
         echo "ERRO"
     fi
 done
 
 conda activate sibeliaz
-
+cd ${direc_mfc}/mult_aling/
 sibeliaz "${genomes[@]}"
-
+cd
 conda deactivate
 

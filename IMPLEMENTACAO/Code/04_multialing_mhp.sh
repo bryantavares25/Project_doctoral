@@ -37,17 +37,18 @@ for file in $(cat $mhp_list); do
     echo $file $found
 
     if [ "$found" == true ]; then # COMPLETE
-        grep -v "^>" ${mhp_strains}${file}/Use/G*.1/G*.fna | tr -d '\n' | sed '1 i >Genome' > ${direc_mhp}/mult_aling/seqs_to_aling/${file}.fasta
+        grep -v "^>" ${mhp_strains}${file}/Use/G*.1/G*.fna | tr -d '\n' | sed "1 i >ID${file}" > ${direc_mhp}/mult_aling/seqs_to_aling/${file}.fasta
     elif [ "$found" == false ]; then # UNCOMPLETE
-        grep -v "^>" ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta | tr -d '\n' | sed '1 i >Genome' > ${direc_mhp}/mult_aling/seqs_to_aling/${file}.fasta
+        grep -v "^>" ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta | tr -d '\n' | sed "1 i >ID${file}" > ${direc_mhp}/mult_aling/seqs_to_aling/${file}.fasta
     else
         echo "ERRO"
     fi
 done
 
 conda activate sibeliaz
-
-sibeliaz "${genomes[@]}" -o ${direc_mhp}/mult_aling/
-
+cd ${direc_mhp}/mult_aling/
+sibeliaz "${genomes[@]}"
+maf2synteny ${direc_mhp}/mult_aling/sibeliaz_out/alignment.maf
+cd
 conda deactivate
 
