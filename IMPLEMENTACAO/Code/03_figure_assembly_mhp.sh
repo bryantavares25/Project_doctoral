@@ -36,7 +36,7 @@ done
 
 # FROM QUAST
 
-uncomplete=(ATCC27716)
+uncomplete=(ATCC27716 MF11)
 
 categoria=()
 valores_1=()
@@ -46,16 +46,18 @@ for i in "${uncomplete[@]}"; do
     # Data: Scaffold | Lenght | GC content
     # Quast draft
     # coluna 2 > Quantity Scaffold
-    categoria+=($i)
-    valores_1=$(awk -F'\t' '{print $2}' quast_draft=${mfc_strains}${file}/Use/quast_draft/transposed_report.tsv)
-    valores_2=$(awk -F'\t' '{print $2}' quast_draft=${mfc_strains}${file}/Use/quast_complete/transposed_report.tsv)
+    cat=$i
+    val_1=$(awk -F'\t' 'NR>1 {print $2}' ${mfc_strains}${i}/Use/quast_draft/transposed_report.tsv)
+    val_2=$(awk -F'\t' 'NR>1 {print $2}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
+
+    categoria+=($cat)
+    valores_1+=($val_1)
+    valores_2+=($val_2)
 done
 
-echo $categoria
-echo $valores_1
-echo $valores_2
-    
-
+echo "${categoria[@]}"
+echo "${valores_1[@]}"
+echo "${valores_2[@]}"
 
 # coluna 8 > Total lenght
 # coluna 17 > Conteúdo GC 
