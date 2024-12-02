@@ -7,8 +7,8 @@ conda init bash
 pcH=/home/bryan/
 pcL=/home/lgef/
 pcR=/home/regenera/
-direc_mhp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/
-direc_mfc=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/
+direc_mhp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
+direc_mfc=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare
 mhp_strains=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/
 mfc_strains=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/
 mhp_table=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
@@ -24,7 +24,7 @@ genomes=()
 for file in $(cat $mhp_list); do
     gi=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mhp_table)
     result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mhp_table)
-    genomes+=($mhp_strains$file.fasta)
+    genomes+=($direc_mhp/mult_aling/seqs_to_aling/$file.fasta)
     if [ -n "$result" ]; then # complete
         found=true
     else # uncomplete
@@ -35,7 +35,7 @@ for file in $(cat $mhp_list); do
     echo $file $found
     echo
 
-    mkdir ${direc_mhp}mult_aling/seqs_to_aling/
+    mkdir -p ${direc_mhp}mult_aling/seqs_to_aling/
 
     if [ "$found" == true ]; then # COMPLETE
             grep -v "^>" ${mhp_strains}${file}/Use/G*.1/G*.fna | tr -d '\n' | sed '1 i >"${file}"' > ${mhp_strains}${file}/Use/G*.1/${file}_combined.fasta
