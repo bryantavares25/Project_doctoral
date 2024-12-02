@@ -59,5 +59,12 @@ echo "${categoria[@]}"
 echo "${valores_1[@]}"
 echo "${valores_2[@]}"
 
+for l in "${categoria[@]}"; do
+    echo "'${l}', "
+    cat_convert+=("'${l}', ")
+done
+
+echo "${cat_convert[@]}"
+
 # coluna 8 > Total lenght
 # coluna 17 > Conteúdo GC 
