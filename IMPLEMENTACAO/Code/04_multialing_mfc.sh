@@ -43,6 +43,7 @@ done
 conda activate sibeliaz
 cd ${direc_mfc}/mult_aling/
 sibeliaz "${genomes[@]}"
+maf2synteny ${direc_mfc}/mult_aling/sibeliaz_out/alignment.maf
 cd
 conda deactivate
 
