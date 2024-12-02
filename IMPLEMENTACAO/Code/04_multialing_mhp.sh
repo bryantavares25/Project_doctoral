@@ -21,6 +21,9 @@ mfc_temp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_resu
 complete=()
 uncomplete=()
 genomes=()
+
+mkdir -p ${direc_mhp}/mult_aling/seqs_to_aling/
+
 for file in $(cat $mhp_list); do
     gi=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mhp_table)
     result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mhp_table)
@@ -31,20 +34,18 @@ for file in $(cat $mhp_list); do
         found=false
     fi
     
-    echo
     echo $file $found
-    echo
-
-    mkdir -p ${direc_mhp}mult_aling/seqs_to_aling/
 
     if [ "$found" == true ]; then # COMPLETE
-            grep -v "^>" ${mhp_strains}${file}/Use/G*.1/G*.fna | tr -d '\n' | sed '1 i >"${file}"' > ${mhp_strains}${file}/Use/G*.1/${file}_combined.fasta
-            mv mkdir ${direc_mhp}mult_aling/seqs_to_aling/
+        grep -v "^>" ${mhp_strains}${file}/Use/G*.1/G*.fna | tr -d '\n' | sed '1 i >"${file}"' > ${mhp_strains}${file}/Use/G*/${file}_combined.fasta
+        mv mkdir ${direc_mhp}/mult_aling/seqs_to_aling/
     
     elif [ "$found" == false ]; then # UNCOMPLETE
-            grep -v "^>" ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta | tr -d '\n' | sed '1 i >"${file}"' > ${mhp_strains}${file}/Use/ragtag/ragtag_patch/${file}_combined.fasta
-            mv mkdir ${direc_mhp}mult_aling/seqs_to_aling/
-
+        grep -v "^>" ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta | tr -d '\n' | sed '1 i >"${file}"' > ${mhp_strains}${file}/Use/ragtag/ragtag_patch/${file}_combined.fasta
+        mv mkdir ${direc_mhp}/mult_aling/seqs_to_aling/
+    else
+        echo "ERRO"
+    fi
 done
 
 conda activate sibeliaz
