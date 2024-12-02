@@ -46,3 +46,6 @@ awk '/^>/ {if (seq) print seq; print; seq=""; next} {seq=seq$0} END {print seq}'
 #echo "${uncomplete[@]}"
 
 
+grep -v "^>" /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/ragtag/ragtag_patch/ragtag.patch.fasta | tr -d '\n' | sed '1 i >combined' > combined.fasta
+
+
