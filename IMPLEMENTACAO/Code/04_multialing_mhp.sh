@@ -1,14 +1,8 @@
 #!/bin/bash
 
+conda init bash
+
 # # # #
-
-
-'''
-mauveAligner --output=ec_sa.mauve --output-alignment=ec_vs_sa.alignment /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/11/Use/ragtag/ragtag_patch/ragtag.patch.fasta /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/11/Use/ragtag/ragtag_patch/11.sml /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/98/Use/ragtag/ragtag_patch/ragtag.patch.fasta /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/MHP_ncbi_dataset/ncbi_dataset/data/strains/98/Use/ragtag/ragtag_patch/98.sml
-progressivemauve
-
-sibeliaz
-'''
 
 pcH=/home/bryan/
 pcL=/home/lgef/
@@ -26,26 +20,40 @@ mfc_temp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_resu
 
 complete=()
 uncomplete=()
-for file in $(cat $mfc_list); do
+genomes=()
+for file in $(cat $mhp_list); do
+    gi=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mhp_table)
+    result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mhp_table)
+    genomes+=($mhp_strains$file.fasta)
+    if [ -n "$result" ]; then # complete
+        found=true
+    else # uncomplete
+        found=false
+    fi
+    
+    echo
+    echo $file $found
+    echo
 
-    #result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mfc_table)
-    #if [ -n "$result" ]; then
-    #    found=true
-    #    complete+=($file)
-    #else
-    #    found=false
-    #    uncomplete+=($file)
-    #fi
-    #echo $file $found
+    mkdir ${direc_mhp}mult_aling/seqs_to_aling/
+
+    if [ "$found" == true ]; then # COMPLETE
+            grep -v "^>" ${mhp_strains}${file}/Use/G*.1/G*.fna | tr -d '\n' | sed '1 i >"${file}"' > ${mhp_strains}${file}/Use/G*.1/${file}_combined.fasta
+            mv mkdir ${direc_mhp}mult_aling/seqs_to_aling/
+    
+    elif [ "$found" == false ]; then # UNCOMPLETE
+            grep -v "^>" ${mhp_strains}${file}/Use/ragtag/ragtag_patch/ragtag.patch.fasta | tr -d '\n' | sed '1 i >"${file}"' > ${mhp_strains}${file}/Use/ragtag/ragtag_patch/${file}_combined.fasta
+            mv mkdir ${direc_mhp}mult_aling/seqs_to_aling/
+
 done
 
-awk '/^>/ {if (seq) print seq; print; seq=""; next} {seq=seq$0} END {print seq}' input.fasta > combined_sequence.fasta
+conda activate sibeliaz
 
+sibeliaz "${genomes[@]}" #sibeliaz genome1.fa genome2.fa 
+
+conda deactivate
 
 #echo "${complete[@]}"
 #echo "${uncomplete[@]}"
-
-
-grep -v "^>" /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/ragtag/ragtag_patch/ragtag.patch.fasta | tr -d '\n' | sed '1 i >combined' > combined.fasta
 
 
