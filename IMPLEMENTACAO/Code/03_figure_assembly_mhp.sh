@@ -37,8 +37,6 @@ done
 
 # FROM QUAST
 
-uncomplete=(ATCC27716 MF11)
-
 categoria=()
 valores_1=()
 valores_2=()

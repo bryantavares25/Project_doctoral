@@ -40,15 +40,15 @@ plt.figure(1).axes[0].patches[3].set_xy([3.184997, 21.244537])
 #% end: automatic generated code from pylustrator
 plt.show()
 '''
-import pylustrator
+#import pylustrator
 import matplotlib.pyplot as plt
 import numpy as np
-pylustrator.start()
+#pylustrator.start()
 
 # Dados de exemplo
-categorias = ['Categoria A', 'Categoria B', 'Categoria C', 'Categoria D', 'Categoria E']
-valores1 = [5, 7, 6, 10, 11]
-valores2 = [6, 8, 5, 14, 14]
+categorias = ['MF30',  'ATCC27716',  'MF22',  'MF18',  'MF11',  'MF33',  'MF29']
+valores1 = [31, 14, 24, 31, 67, 28, 37,]
+valores2 = [21, 4, 9, 17, 49, 11, 12,]
 
 # Configuração para barras lado a lado
 x = np.arange(len(categorias))  # Posições no eixo X
@@ -56,8 +56,8 @@ largura = 0.35  # Largura das barras
 
 # Criação do gráfico
 fig, ax = plt.subplots()
-barras1 = ax.bar(x - largura/2, valores1, largura, label='Grupo 1', color='skyblue')
-barras2 = ax.bar(x + largura/2, valores2, largura, label='Grupo 2', color='salmon')
+barras1 = ax.bar(x - largura/2, valores1, largura, label='Draft', color='skyblue')
+barras2 = ax.bar(x + largura/2, valores2, largura, label='Whole', color='salmon')
 
 # Personalização do gráfico
 ax.set_xlabel('Categorias')
