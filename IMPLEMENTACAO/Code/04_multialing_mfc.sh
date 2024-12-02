@@ -42,11 +42,7 @@ done
 
 conda activate sibeliaz
 
-sibeliaz "${genomes[@]}" -o ${direc_mhp}/mult_aling/
+sibeliaz "${genomes[@]}" -o ${direc_mfc}/mult_aling/
 
 conda deactivate
-
-#echo "${complete[@]}"
-#echo "${uncomplete[@]}"
-
 
