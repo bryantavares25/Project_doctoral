@@ -66,5 +66,33 @@ done
 
 echo "${cat_convert[@]}"
 
+#############
+
+for i in "${complete[@]}"; do
+    # Data: Scaffold | Lenght | GC content
+    # Quast draft
+    # coluna 2 > Quantity Scaffold
+    cat=$i
+    val_1=$(awk -F'\t' 'NR>1 {print $2}' ${mfc_strains}${i}/Use/quast_draft/transposed_report.tsv)
+    val_2=$(awk -F'\t' 'NR>1 {print 0}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
+
+    categoria+=($cat)
+    valores_1+=($val_1)
+    valores_2+=($val_2)
+done
+
+echo "${categoria[@]}"
+echo "${valores_1[@]}"
+echo "${valores_2[@]}"
+
+cat_convert=()
+for l in "${categoria[@]}"; do
+    echo "'${l}', "
+    cat_convert+=("'${l}', ")
+done
+
+echo "${cat_convert[@]}"
+
+
 # coluna 8 > Total lenght
-# coluna 17 > Conteúdo GC 
+# coluna 17 > Conteúdo GC
