@@ -47,9 +47,7 @@ done
 
 conda activate sibeliaz
 
-r= echo "${genomes[@]}"
-
-sibeliaz $r
+sibeliaz "${genomes[@]}" -o ${direc_mhp}/mult_aling/
 
 conda deactivate
 
