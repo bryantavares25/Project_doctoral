@@ -45,10 +45,10 @@ for file in $(cat $mhp_list); do
     fi
 done
 
-conda activate sibeliaz
+conda activate sibelia
 cd ${direc_mhp}/mult_aling/
-sibeliaz "${genomes[@]}"
-maf2synteny ${direc_mhp}/mult_aling/sibeliaz_out/alignment.maf
+sibelia "${genomes[@]}"
+#maf2synteny ${direc_mhp}/mult_aling/sibeliaz_out/alignment.maf
 cd
 conda deactivate
 

@@ -40,10 +40,10 @@ for file in $(cat $mfc_list); do
     fi
 done
 
-conda activate sibeliaz
+conda activate sibelia
 cd ${direc_mfc}/mult_aling/
-sibeliaz "${genomes[@]}"
-maf2synteny ${direc_mfc}/mult_aling/sibeliaz_out/alignment.maf
+sibelia "${genomes[@]}"
+#maf2synteny ${direc_mfc}/mult_aling/sibeliaz_out/alignment.maf
 cd
 conda deactivate
 
