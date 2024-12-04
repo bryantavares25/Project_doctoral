@@ -1,10 +1,10 @@
 # # # F I G U R E S # # #
 
-import pylustrator
+#import pylustrator
 import matplotlib.pyplot as plt
 import numpy as np
 import csv
-pylustrator.start()
+#pylustrator.start()
 
 # FIGURA 1
 
@@ -41,8 +41,8 @@ fig, ax = plt.subplots() # Criação do gráfico
 barras1 = ax.bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
 barras2 = ax.bar(x + largura/2, values2, largura, label='Whole', color='salmon')
 # Personalização do gráfico
-ax.set_xlabel('Categorias')
-ax.set_ylabel('Valores')
+ax.set_xlabel('M. hyopneumoniae strains')
+ax.set_ylabel('Scaffolds')
 ax.set_title('Gráfico de Barras Lado a Lado')
 ax.set_xticks(x)
 ax.set_xticklabels(category)
