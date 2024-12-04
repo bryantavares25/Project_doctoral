@@ -38,24 +38,22 @@ print(values2)
 # Configuração para barras lado a lado
 x = np.arange(len(category))  # Posições no eixo X
 largura = 0.35  # Largura das barras
-fig, bx = plt.subplots() # Criação do gráfico
-barras1 = bx.bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
-barras2 = bx.bar(x + largura/2, values2, largura, label='Whole', color='salmon')
+fig, ax = plt.subplots() # Criação do gráfico
+barras1 = ax.bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
+barras2 = ax.bar(x + largura/2, values2, largura, label='Whole', color='salmon')
 # Personalização do gráfico
-bx.set_xlabel('M. hyopneumoniae strains')
-bx.set_ylabel('Scaffolds')
-bx.set_title('Gráfico de Barras Lado a Lado')
-bx.set_xticks(x)
-bx.set_xticklabels(category, rotation=45, ha='right')
-bx.tick_params(bxis='x', labelsize=5)
+ax.set_xlabel('M. hyopneumoniae strains')
+ax.set_ylabel('Scaffolds')
+ax.set_title('Gráfico de Barras Lado a Lado')
+ax.set_xticks(x)
+ax.set_xticklabels(category, rotation=45, ha='right')
+ax.tick_params(axis='x', labelsize=10)
 
-
-
-bx.legend()
+ax.legend()
 # Exibição
 plt.tight_layout()
 #% start: automatic generated code from pylustrator
-plt.figure(1).bx_dict = {bx.get_label(): bx for bx in plt.figure(1).bxes}
+plt.figure(1).ax_dict = {ax.get_label(): ax for ax in plt.figure(1).axes}
 import matplotlib as mpl
 getattr(plt.figure(1), '_pylustrator_init', lambda: ...)()
 #% end: automatic generated code from pylustrator

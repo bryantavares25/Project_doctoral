@@ -1,10 +1,10 @@
 # # # F I G U R E S # # #
 
-import pylustrator
+#import pylustrator
 import matplotlib.pyplot as plt
 import numpy as np
 import csv
-pylustrator.start()
+#pylustrator.start()
 
 # FIGURA 1
 
@@ -46,7 +46,6 @@ ax.set_xlabel('M. hyopneumoniae strains')
 ax.set_ylabel('Scaffolds')
 ax.set_title('Gráfico de Barras Lado a Lado')
 ax.set_xticks(x)
-ax
 ax.set_xticklabels(category, rotation=45, ha='right')
 ax.tick_params(axis='x', labelsize=10)
 
