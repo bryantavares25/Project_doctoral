@@ -42,14 +42,14 @@ done
 
 conda activate sibelia
 cd ${direc_mfc}/mult_align/
-Sibelia -s loose --sequencesfile "${genomes[@]}" -o sibelia_results
+Sibelia -s loose "${genomes[@]}" --sequencesfile
 cd 
 conda deactivate
 
 conda activate sibeliaz
 cd ${direc_mfc}/mult_align/
-sibeliaz "${genomes[@]}" -o sibeliaz_results
-maf2synteny ${direc_mfc}/mult_aling/sibeliaz_results/alignment.maf -o ${direc_mfc}/mult_aling/sibeliaz_results/
+sibeliaz "${genomes[@]}"
+maf2synteny ${direc_mfc}/mult_aling/sibeliaz_out/alignment.maf
 cd
 conda deactivate
 

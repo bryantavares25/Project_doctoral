@@ -47,19 +47,19 @@ done
 
 conda activate sibelia
 cd ${direc_mhp}/mult_align/
-Sibelia -s loose --sequencesfile "${genomes[@]}" -o sibelia_results
+Sibelia -s loose --sequencesfile "${genomes[@]}"
 cd 
 conda deactivate
 
 conda activate sibeliaz
 cd ${direc_mhp}/mult_align/
-sibeliaz "${genomes[@]}" -o sibeliaz_results
-maf2synteny ${direc_mhp}/mult_aling/sibeliaz_results/alignment.maf -o ${direc_mhp}/mult_aling/sibeliaz_results/
+sibeliaz "${genomes[@]}"
+maf2synteny ${direc_mhp}/mult_aling/sibeliaz_results/alignment.maf
 cd
 conda deactivate
 
 conda activate progressivemauve
 cd ${direc_mhp}/mult_aling/
-progressiveMauve "${genomes[@]}" --output=pm_alignment.xmfa
+progressiveMauve "${genomes[@]}" -
 cd
 conda deactivate

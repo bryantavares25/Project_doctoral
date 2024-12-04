@@ -1,0 +1,8 @@
+chr - seq1 IDMs42 0 778866 green_a4
+chr - seq2 IDMF30 0 734720 green_a4
+chr - seq3 IDATCC27716 0 832915 green_a4
+chr - seq4 IDMF22 0 754291 green_a4
+chr - seq5 IDMF18 0 759377 green_a4
+chr - seq6 IDMF11 0 767312 green_a4
+chr - seq7 IDMF33 0 757794 green_a4
+chr - seq8 IDMF29 0 780069 green_a4

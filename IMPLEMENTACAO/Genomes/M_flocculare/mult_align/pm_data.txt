@@ -1,0 +1,3 @@
+root alignment has 41 superintervals
+root alignment length: 923341
+Organisms have 29% GC
