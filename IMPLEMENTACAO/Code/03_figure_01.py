@@ -25,8 +25,9 @@ def tsv_read(archive):
         data.append(line)
     return data
 
-data=tsv_read("/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/Stats_DtC/scaffolds.tsv")
 
+# FIGURE 1 A
+data=tsv_read("/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/Stats_DtC/scaffolds.tsv")
 category=data[0]
 print(category)
 values1=list(map(int, data[1]))  # Converte para int
