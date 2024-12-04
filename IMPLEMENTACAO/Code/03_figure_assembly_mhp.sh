@@ -1,6 +1,6 @@
 #!/bin/bash
 
-conda init bash
+#conda init bash
 
 # # # # #
 
@@ -8,23 +8,20 @@ conda init bash
 pcH=/home/bryan/
 pcL=/home/lgef/
 pcR=/home/regenera/
-direc_mhp=${pcR}Documents/BART_gitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/
-direc_mfc=${pcR}Documents/BART_gitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/
-mhp_strains=${pcR}Documents/BART_gitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/
-mfc_strains=${pcR}Documents/BART_gitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/
-mhp_table=${pcR}Documents/BART_gitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
-mhp_list=${pcR}Documents/BART_gitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
-mhp_temp=${pcR}Documents/BART_gitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
-mfc_table=${pcR}Documents/BART_gitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv # Curadoria manual
-mfc_list=${pcR}Documents/BART_gitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
-mfc_temp=${pcR}Documents/BART_gitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
+direc_mhp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
+mhp_strains=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/
+mhp_table=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
+mhp_list=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
+mhp_temp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
 
 # # # DATA COLLECT # # #
 
+mkdir -p ${direc_mhp}/Stats_DtC/
+
 complete=()
 uncomplete=()
-for file in $(cat $mfc_list); do
-    result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mfc_table)
+for file in $(cat $mhp_list); do
+    result=$(awk -v id="$file" '($5 == id && ($0 ~ /Complete/ || $0 ~ /Chromosome/)) {print $5}' $mhp_table)
     if [ -n "$result" ]; then
         found=true
         complete+=($file)
@@ -36,63 +33,54 @@ for file in $(cat $mfc_list); do
 done
 
 # FROM QUAST
-
-categoria=()
-valores_1=()
-valores_2=()
-
-for i in "${uncomplete[@]}"; do
-    # Data: Scaffold | Lenght | GC content
-    # Quast draft
-    # coluna 2 > Quantity Scaffold
-    cat=$i
-    val_1=$(awk -F'\t' 'NR>1 {print $2}' ${mfc_strains}${i}/Use/quast_draft/transposed_report.tsv)
-    val_2=$(awk -F'\t' 'NR>1 {print $2}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
-
-    categoria+=($cat)
-    valores_1+=($val_1)
-    valores_2+=($val_2)
-done
-
-echo "${categoria[@]}"
-echo "${valores_1[@]}"
-echo "${valores_2[@]}"
-
-cat_convert=()
-for l in "${categoria[@]}"; do
-    echo "'${l}', "
-    cat_convert+=("'${l}', ")
-done
-
-echo "${cat_convert[@]}"
-
-#############
+category=()
+values1=()
+values2=()
 
 for i in "${complete[@]}"; do
     # Data: Scaffold | Lenght | GC content
     # Quast draft
     # coluna 2 > Quantity Scaffold
     cat=$i
-    val_1=$(awk -F'\t' 'NR>1 {print $2}' ${mfc_strains}${i}/Use/quast_draft/transposed_report.tsv)
-    val_2=$(awk -F'\t' 'NR>1 {print 0}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
+    val1=0
+    val2=$(awk -F'\t' 'NR>1 {print $2}' ${mhp_strains}${i}/Use/quast_complete/transposed_report.tsv)
 
-    categoria+=($cat)
-    valores_1+=($val_1)
-    valores_2+=($val_2)
+    category+=($cat)
+    values1+=($val1)
+    values2+=($val2)
 done
 
-echo "${categoria[@]}"
-echo "${valores_1[@]}"
-echo "${valores_2[@]}"
+for i in "${uncomplete[@]}"; do
+    # Data: Scaffold | Lenght | GC content
+    # Quast draft
+    # coluna 2 > Quantity Scaffold
+    cat=$i
+    val1=$(awk -F'\t' 'NR>1 {print $2}' ${mhp_strains}${i}/Use/quast_draft/transposed_report.tsv)
+    val2=$(awk -F'\t' 'NR>1 {print $2}' ${mhp_strains}${i}/Use/quast_complete/transposed_report.tsv)
 
-cat_convert=()
-for l in "${categoria[@]}"; do
-    echo "'${l}', "
-    cat_convert+=("'${l}', ")
+    category+=($cat)
+    values1+=($val1)
+    values2+=($val2)
 done
 
-echo "${cat_convert[@]}"
+echo "${category[@]}"
+echo "${values1[@]}"
+echo "${values2[@]}"
 
+tsv_line=$(printf "%s\t" "${category[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" > ${direc_mhp}/Stats_DtC/scaffolds.tsv
+
+tsv_line=$(printf "%s\t" "${values1[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" >> ${direc_mhp}/Stats_DtC/scaffolds.tsv
+
+tsv_line=$(printf "%s\t" "${values2[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" >> ${direc_mhp}/Stats_DtC/scaffolds.tsv
+
+#############
 
 # coluna 8 > Total lenght
 # coluna 17 > Conteúdo GC
+
