@@ -8,10 +8,7 @@ def xmfa_to_fasta(xmfa_file, output_dir):
 
         # Iterar sobre o arquivo XMFA
         for line in xmfa:
-            if line.startswith(">"):  # Quando encontrar um cabeçalho (linha de identificação)
-                a=line.split()
-                current_id=a[-1:]
-                print(current_id)
+            if line.startswith(">"):  # Quando encontrar um cabeçalho (linha de identificaç
                 if current_id:
                     # Armazenar a sequência antes de começar uma nova
                     if current_id not in sequences:
@@ -20,7 +17,8 @@ def xmfa_to_fasta(xmfa_file, output_dir):
                         sequences[current_id] += sequence
                 
                 # Extrair o novo ID
-                current_id = line.split()[0][-1:]  # O ID está após o ">", então removemos
+                current_id = line.split()[-1]
+                print(current_id) # O ID está após o ">", então removemos
                 sequence = ""  # Resetar a sequência para o novo ID
             elif line.strip():  # Se a linha não for vazia
                 sequence += line.strip()  # Adicionar a sequência à variável `sequence`
