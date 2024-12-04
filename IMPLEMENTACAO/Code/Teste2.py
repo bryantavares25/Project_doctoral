@@ -37,7 +37,7 @@ def xmfa_to_fasta(xmfa_file, output_dir):
                 fasta_file.write(f">{seq_id}\n{seq}\n")
 
 # Defina o arquivo XMFA de entrada e o diretório de saída
-xmfa_file = "IMPLEMENTACAO/Code/testet.mauve"  # Caminho para o arquivo XMFA
+xmfa_file = "IMPLEMENTACAO/Code/Ttestet.mauve"  # Caminho para o arquivo XMFA
 output_dir = "/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Code/testet"  # Caminho para o diretório de saída (FASTA)
 
 # Chame a função para converter
