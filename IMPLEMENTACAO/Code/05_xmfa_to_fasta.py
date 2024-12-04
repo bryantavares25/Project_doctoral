@@ -38,7 +38,7 @@ def xmfa_to_fasta(xmfa_file, output_dir):
 
 # Defina o arquivo XMFA de entrada e o diretório de saída
 xmfa_file = "/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/mult_align/pm_alignment.xmfa"  # Caminho para o arquivo XMFA
-output_dir = "/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniaeflocculare/mult_align/final_alignment/"  # Caminho para o diretório de saída (FASTA)
+output_dir = "/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/mult_align/final_alignment/"  # Caminho para o diretório de saída (FASTA)
 
 # Chame a função para converter
 xmfa_to_fasta(xmfa_file, output_dir)
