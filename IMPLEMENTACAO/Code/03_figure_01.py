@@ -1,6 +1,10 @@
-# # #
+# # # F I G U R E S # # #
 
-# import pylustrator
+import pylustrator
+import matplotlib.pyplot as plt
+import numpy as np
+import csv
+pylustrator.start()
 
 # FIGURA 1
 
@@ -12,39 +16,6 @@ Propriedades:
     - Tamanho
     - Quantidade de Ns
 '''
-
-'''import matplotlib.pyplot as plt
-
-# Dados para o gráfico
-categorias = ['A', 'B', 'C', 'D']
-valores = [10, 20, 15, 25]
-
-# Criando o gráfico de barras
-plt.bar(categorias, valores, color='blue')
-
-# Personalização do gráfico
-plt.title('Gráfico de Barras com Matplotlib')
-plt.xlabel('Categorias')
-plt.ylabel('Valores')
-
-# Exibindo o gráfico
-#% start: automatic generated code from pylustrator
-plt.figure(1).ax_dict = {ax.get_label(): ax for ax in plt.figure(1).axes}
-import matplotlib as mpl
-getattr(plt.figure(1), '_pylustrator_init', lambda: ...)()
-plt.figure(1).axes[0].legend(loc=(0.07802, 0.6899), labelspacing=0.2, handlelength=0.8)
-plt.figure(1).axes[0].set(position=[0.0554, 0.5517, 0.4212, 0.3675])
-plt.figure(1).axes[0].patches[3].set_height(1.065341)
-plt.figure(1).axes[0].patches[3].set_width(0.529376)
-plt.figure(1).axes[0].patches[3].set_xy([3.184997, 21.244537])
-#% end: automatic generated code from pylustrator
-plt.show()
-'''
-#import pylustrator
-import matplotlib.pyplot as plt
-import numpy as np
-import csv
-#pylustrator.start()
 
 def tsv_read(archive):
     data = []
@@ -58,20 +29,17 @@ data=tsv_read("/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genom
 
 category=data[0]
 print(category)
-values1=data[1]
+values1=list(map(int, data[1]))  # Converte para int
 print(values1)
-values2=int(data[2])
+values2=list(map(int, data[2]))  # Converte para int
 print(values2)
 
 # Configuração para barras lado a lado
 x = np.arange(len(category))  # Posições no eixo X
 largura = 0.35  # Largura das barras
-
-# Criação do gráfico
-fig, ax = plt.subplots()
+fig, ax = plt.subplots() # Criação do gráfico
 barras1 = ax.bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
 barras2 = ax.bar(x + largura/2, values2, largura, label='Whole', color='salmon')
-
 # Personalização do gráfico
 ax.set_xlabel('Categorias')
 ax.set_ylabel('Valores')
@@ -79,7 +47,6 @@ ax.set_title('Gráfico de Barras Lado a Lado')
 ax.set_xticks(x)
 ax.set_xticklabels(category)
 ax.legend()
-
 # Exibição
 plt.tight_layout()
 plt.show()
