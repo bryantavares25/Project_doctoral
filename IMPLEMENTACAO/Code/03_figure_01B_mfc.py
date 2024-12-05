@@ -30,9 +30,9 @@ def tsv_read(archive):
 data=tsv_read("/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/stats_DtC/gccontent.tsv")
 category=data[0]
 print(category)
-values1=list(map(int, data[1]))  # Converte para int
+values1=list(map(float, data[1]))  # Converte para int
 print(values1)
-values2=list(map(int, data[2]))  # Converte para int
+values2=list(map(float, data[2]))  # Converte para int
 print(values2)
 
 # Configuração para barras lado a lado
