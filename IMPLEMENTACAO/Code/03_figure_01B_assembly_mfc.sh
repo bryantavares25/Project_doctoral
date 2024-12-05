@@ -21,7 +21,7 @@ mfc_temp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_resu
 
 # # # DATA COLLECT # # #
 
-mkdir -p ${direc_mfc}/Stats_DtC/
+mkdir -p ${direc_mfc}/stats_DtC/
 
 complete=()
 uncomplete=()
