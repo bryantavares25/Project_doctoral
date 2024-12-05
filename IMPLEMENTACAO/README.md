@@ -17,3 +17,13 @@ Download > All genomes > MHP and MFC
         3.2
     4. Avaliar a completude da montagem com BUSCO
     OUTPUT >
+
+    APRESENTAÇÃO DOS DADOS > 
+    Figura 1 - Comparar propriedades genômicos para avaliar os genomas completos e os genomas completados.
+    Propriedades:
+    - Conteúdo GC 
+    - Completude Busco Result
+    - Cromossomos
+    - Tamanho
+    - Quantidade de Ns
+

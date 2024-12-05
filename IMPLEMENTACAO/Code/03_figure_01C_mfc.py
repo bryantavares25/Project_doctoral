@@ -48,7 +48,6 @@ ax.set_title('Gráfico de Barras Lado a Lado')
 ax.set_xticks(x)
 ax.set_xticklabels(category, rotation=45, ha='right')
 ax.tick_params(axis='x', labelsize=10)
-
 ax.legend()
 # Exibição
 plt.tight_layout()
