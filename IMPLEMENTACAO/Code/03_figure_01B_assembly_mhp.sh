@@ -42,7 +42,7 @@ for i in "${complete[@]}"; do
     # Quast draft
     # coluna 2 > Quantity Scaffold
     cat=$i
-    val1=0
+    val1=$(awk -F'\t' 'NR>1 {print $17}' ${mhp_strains}${i}/Use/quast_complete/transposed_report.tsv)
     val2=$(awk -F'\t' 'NR>1 {print $17}' ${mhp_strains}${i}/Use/quast_complete/transposed_report.tsv)
 
     category+=($cat)
