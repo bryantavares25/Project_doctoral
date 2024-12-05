@@ -69,15 +69,15 @@ echo "${values2[@]}"
 
 tsv_line=$(printf "%s\t" "${category[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" > ${direc_mhp}/Stats_DtC/scaffolds.tsv
+echo "$tsv_line" > ${direc_mhp}/stats_DtC/gccontent.tsv
 
 tsv_line=$(printf "%s\t" "${values1[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" >> ${direc_mhp}/Stats_DtC/scaffolds.tsv
+echo "$tsv_line" >> ${direc_mhp}/stats_DtC/gccontent.tsv
 
 tsv_line=$(printf "%s\t" "${values2[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" >> ${direc_mhp}/Stats_DtC/scaffolds.tsv
+echo "$tsv_line" >> ${direc_mhp}/stats_DtC/gccontent.tsv
 
 #############
 
