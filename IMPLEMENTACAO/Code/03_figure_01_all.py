@@ -4,11 +4,11 @@
 
 # LIBRARIES
 
-#import pylustrator
+import pylustrator
 import matplotlib.pyplot as plt
 import numpy as np
 import csv
-#pylustrator.start()
+pylustrator.start()
 
 # FUNCTIONS
 
@@ -92,6 +92,7 @@ plots[3,0].set_xticks(x)
 plots[3,0].set_xticklabels([])
 plots[3,0].tick_params(axis='x', labelsize=10)
 plots[3,0].legend()
+plots[3,0].set_xticklabels(category, rotation=45, ha='right')
 
 # MFC
 
@@ -158,6 +159,7 @@ plots[3,1].set_xticks(x)
 plots[3,1].set_xticklabels([])
 plots[3,1].tick_params(axis='x', labelsize=10)
 plots[3,1].legend()
+plots[3,1].set_xticklabels(category, rotation=45, ha='right')
 
 plt.show() # PLOT
 
