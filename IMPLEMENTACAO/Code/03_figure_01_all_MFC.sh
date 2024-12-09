@@ -59,26 +59,22 @@ echo "${values1[@]}"
 echo "${values2[@]}"
 tsv_line=$(printf "%s\t" "${category[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" > ${direc_mfc}/stats_dtc/totalleght.tsv
+echo "$tsv_line" > ${direc_mfc}/stats_dtc/totallenght.tsv
 tsv_line=$(printf "%s\t" "${values1[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" >> ${direc_mfc}/stats_dtc/totalleght.tsv
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/totallenght.tsv
 tsv_line=$(printf "%s\t" "${values2[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" >> ${direc_mfc}/stats_dtc/totalleght.tsv
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/totallenght.tsv
 
 # Scaffold - FROM QUAST
 category=()
 values1=()
 values2=()
 for i in "${complete[@]}"; do
-    # Data: Scaffold | Lenght | GC content
-    # Quast draft
-    # coluna 2 > Quantity Scaffold
     cat=$i
-    val1=0
+    val1=$(awk -F'\t' 'NR>1 {print $2}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
     val2=$(awk -F'\t' 'NR>1 {print $2}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
-
     category+=($cat)
     values1+=($val1)
     values2+=($val2)
@@ -138,9 +134,36 @@ tsv_line=${tsv_line%$'\t'}
 echo "$tsv_line" >> ${direc_mfc}/stats_dtc/gccontent.tsv
 
 # Completeness - FROM BUSCO
-
-# complete=$(jq '.results."Complete percentage"' seu_arquivo.json)
-# echo "$complete"
-
+category=()
+values1=()
+values2=()
+for i in "${complete[@]}"; do
+    cat=$i
+    val1=$(jq '.results."Complete percentage"' ${mfc_strains}${i}/Use/busco_complete/short_summary.specific.mycoplasmatales_odb10.busco_complete.json)
+    val2=$(jq '.results."Complete percentage"' ${mfc_strains}${i}/Use/busco_complete/short_summary.specific.mycoplasmatales_odb10.busco_complete.json)
+    category+=($cat)
+    values1+=($val1)
+    values2+=($val2)
+done
+for i in "${uncomplete[@]}"; do
+    cat=$i
+    val1=$(jq '.results."Complete percentage"' ${mfc_strains}${i}/Use/busco_draft/short_summary.specific.mycoplasmatales_odb10.busco_complete.json)
+    val2=$(jq '.results."Complete percentage"' ${mfc_strains}${i}/Use/busco_complete/short_summary.specific.mycoplasmatales_odb10.busco_complete.json)
+    category+=($cat)
+    values1+=($val1)
+    values2+=($val2)
+done
+echo "${category[@]}"
+echo "${values1[@]}"
+echo "${values2[@]}"
+tsv_line=$(printf "%s\t" "${category[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" > ${direc_mfc}/stats_dtc/competenessbusco.tsv
+tsv_line=$(printf "%s\t" "${values1[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/competenessbusco.tsv
+tsv_line=$(printf "%s\t" "${values2[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/competenessbusco.tsv
 
 # END
