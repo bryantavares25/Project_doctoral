@@ -45,7 +45,7 @@ x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[0,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
 barras2 = plots[0,0].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
-plots[0,0].set_ylabel('Genome length')
+plots[0,0].set_ylabel('Total length')
 plots[0,0].set_xticks(x)
 plots[0,0].set_xticklabels([])
 plots[0,0].tick_params(axis='x', labelsize=10)
@@ -65,13 +65,24 @@ plots[1,0].legend()
 # Figure 01 C
 x = np.arange(len(category))
 largura = 0.35
-barras1 = plots[1,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
-barras2 = plots[1,0].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
-plots[1,0].set_ylabel('Scaffolds amount')
-plots[1,0].set_xticks(x)
-plots[1,0].set_xticklabels([])
-plots[1,0].tick_params(axis='x', labelsize=10)
-plots[1,0].legend()
+barras1 = plots[2,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
+barras2 = plots[2,0].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
+plots[2,0].set_ylabel('GC content')
+plots[2,0].set_xticks(x)
+plots[2,0].set_xticklabels([])
+plots[2,0].tick_params(axis='x', labelsize=10)
+plots[2,0].legend()
+
+# Figure 01 D
+x = np.arange(len(category))
+largura = 0.35
+barras1 = plots[3,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
+barras2 = plots[3,0].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
+plots[3,0].set_ylabel('Completeness')
+plots[3,0].set_xticks(x)
+plots[3,0].set_xticklabels([])
+plots[3,0].tick_params(axis='x', labelsize=10)
+plots[3,0].legend()
 
 # MFC
 
@@ -89,4 +100,39 @@ plots[0,1].set_xticklabels([])
 plots[0,1].tick_params(axis='x', labelsize=10)
 plots[0,1].legend()
 #plt.tight_layout()
-plt.show() #
+#
+
+# Figure 01 B
+x = np.arange(len(category))
+largura = 0.35
+barras1 = plots[1,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
+barras2 = plots[1,1].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
+plots[1,1].set_ylabel('Scaffolds amount')
+plots[1,1].set_xticks(x)
+plots[1,1].set_xticklabels([])
+plots[1,1].tick_params(axis='x', labelsize=10)
+plots[1,1].legend()
+
+# Figure 01 C
+x = np.arange(len(category))
+largura = 0.35
+barras1 = plots[2,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
+barras2 = plots[2,1].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
+plots[2,1].set_ylabel('GC content')
+plots[2,1].set_xticks(x)
+plots[2,1].set_xticklabels([])
+plots[2,1].tick_params(axis='x', labelsize=10)
+plots[2,1].legend()
+
+# Figure 01 D
+x = np.arange(len(category))
+largura = 0.35
+barras1 = plots[3,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
+barras2 = plots[3,1].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
+plots[3,1].set_ylabel('Completeness')
+plots[3,1].set_xticks(x)
+plots[3,1].set_xticklabels([])
+plots[3,1].tick_params(axis='x', labelsize=10)
+plots[3,1].legend()
+
+plt.show() 
