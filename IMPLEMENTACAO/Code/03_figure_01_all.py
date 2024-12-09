@@ -25,14 +25,6 @@ def tsv_read(archive):
 mhp="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/"
 mfc="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/"
 
-data=tsv_read(f"{mhp}stats_dtc/scaffolds.tsv")
-category=data[0]
-print(category)
-values1=list(map(int, data[1]))  # Converte para int
-print(values1)
-values2=list(map(int, data[2]))  # Converte para int
-print(values2)
-
 # EXECUTION
 
 # Page confuiguration
@@ -41,6 +33,11 @@ fig, plots = plt.subplots(4, 2, figsize=(20, 16))
 # MHP
 
 # Figure 01 A
+data=tsv_read(f"{mhp}stats_dtc/totallenght.tsv")
+category=data[0]
+values1=list(map(int, data[1]))  # Converte para int
+values2=list(map(int, data[2]))  # Converte para int
+
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[0,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -52,6 +49,10 @@ plots[0,0].tick_params(axis='x', labelsize=10)
 plots[0,0].legend()
 
 # Figure 01 B
+data=tsv_read(f"{mhp}stats_dtc/scaffolds.tsv")
+category=data[0]
+values1=list(map(int, data[1]))  # Converte para int
+values2=list(map(int, data[2]))  # Converte para int
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[1,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -63,6 +64,10 @@ plots[1,0].tick_params(axis='x', labelsize=10)
 plots[1,0].legend()
 
 # Figure 01 C
+data=tsv_read(f"{mhp}stats_dtc/gccontent.tsv")
+category=data[0]
+values1=list(map(int, data[1]))  # Converte para int
+values2=list(map(int, data[2]))  # Converte para int
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[2,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -74,6 +79,10 @@ plots[2,0].tick_params(axis='x', labelsize=10)
 plots[2,0].legend()
 
 # Figure 01 D
+data=tsv_read(f"{mhp}stats_dtc/completenessbusco.tsv")
+category=data[0]
+values1=list(map(int, data[1]))  # Converte para int
+values2=list(map(int, data[2]))  # Converte para int
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[3,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -87,22 +96,29 @@ plots[3,0].legend()
 # MFC
 
 # Figure 01 A
+data=tsv_read(f"{mhp}stats_dtc/totallenght.tsv")
+category=data[0]
+values1=list(map(int, data[1]))  # Converte para int
+values2=list(map(int, data[2]))  # Converte para int
 x = np.arange(len(category))  # Posições no eixo X
 largura = 0.35  # Largura das barras
 barras1 = plots[0,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
 barras2 = plots[0,1].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
 #plots[0,0].set_xlabel('M. hyopneumoniae strains')
-plots[0,1].set_ylabel('Scaffolds')
-plots[0,1].set_title('Gráfico de Barras Lado a Lado')
+plots[0,1].set_ylabel('Total lenght')
+#plots[0,1].set_title('Gráfico de Barras Lado a Lado')
 plots[0,1].set_xticks(x)
 plots[0,1].set_xticklabels([])
 #plots[0,0].set_xticklabels(category, rotation=45, ha='right')
 plots[0,1].tick_params(axis='x', labelsize=10)
 plots[0,1].legend()
 #plt.tight_layout()
-#
 
 # Figure 01 B
+data=tsv_read(f"{mhp}stats_dtc/scaffolds.tsv")
+category=data[0]
+values1=list(map(int, data[1]))  # Converte para int
+values2=list(map(int, data[2]))  # Converte para int
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[1,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -114,6 +130,10 @@ plots[1,1].tick_params(axis='x', labelsize=10)
 plots[1,1].legend()
 
 # Figure 01 C
+data=tsv_read(f"{mhp}stats_dtc/gccontent.tsv")
+category=data[0]
+values1=list(map(int, data[1]))  # Converte para int
+values2=list(map(int, data[2]))  # Converte para int
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[2,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -125,6 +145,10 @@ plots[2,1].tick_params(axis='x', labelsize=10)
 plots[2,1].legend()
 
 # Figure 01 D
+data=tsv_read(f"{mhp}stats_dtc/completenessbusco.tsv")
+category=data[0]
+values1=list(map(int, data[1]))  # Converte para int
+values2=list(map(int, data[2]))  # Converte para int
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[3,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -135,4 +159,7 @@ plots[3,1].set_xticklabels([])
 plots[3,1].tick_params(axis='x', labelsize=10)
 plots[3,1].legend()
 
-plt.show() 
+
+
+plt.show() # PLOT
+
