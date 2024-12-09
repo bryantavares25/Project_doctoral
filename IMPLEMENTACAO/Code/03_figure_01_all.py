@@ -66,8 +66,8 @@ plots[1,0].legend()
 # Figure 01 C
 data=tsv_read(f"{mhp}stats_dtc/gccontent.tsv")
 category=data[0]
-values1=list(map(int, data[1]))  # Converte para int
-values2=list(map(int, data[2]))  # Converte para int
+values1=list(map(float, data[1]))  # Converte para int
+values2=list(map(float, data[2]))  # Converte para int
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[2,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -81,8 +81,8 @@ plots[2,0].legend()
 # Figure 01 D
 data=tsv_read(f"{mhp}stats_dtc/completenessbusco.tsv")
 category=data[0]
-values1=list(map(int, data[1]))  # Converte para int
-values2=list(map(int, data[2]))  # Converte para int
+values1=list(map(float, data[1]))  # Converte para int
+values2=list(map(float, data[2]))  # Converte para int
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[3,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -96,7 +96,7 @@ plots[3,0].legend()
 # MFC
 
 # Figure 01 A
-data=tsv_read(f"{mhp}stats_dtc/totallenght.tsv")
+data=tsv_read(f"{mfc}stats_dtc/totallenght.tsv")
 category=data[0]
 values1=list(map(int, data[1]))  # Converte para int
 values2=list(map(int, data[2]))  # Converte para int
@@ -115,7 +115,7 @@ plots[0,1].legend()
 #plt.tight_layout()
 
 # Figure 01 B
-data=tsv_read(f"{mhp}stats_dtc/scaffolds.tsv")
+data=tsv_read(f"{mfc}stats_dtc/scaffolds.tsv")
 category=data[0]
 values1=list(map(int, data[1]))  # Converte para int
 values2=list(map(int, data[2]))  # Converte para int
@@ -130,10 +130,10 @@ plots[1,1].tick_params(axis='x', labelsize=10)
 plots[1,1].legend()
 
 # Figure 01 C
-data=tsv_read(f"{mhp}stats_dtc/gccontent.tsv")
+data=tsv_read(f"{mfc}stats_dtc/gccontent.tsv")
 category=data[0]
-values1=list(map(int, data[1]))  # Converte para int
-values2=list(map(int, data[2]))  # Converte para int
+values1=list(map(float, data[1]))  # Converte para int
+values2=list(map(float, data[2]))  # Converte para int
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[2,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -145,10 +145,10 @@ plots[2,1].tick_params(axis='x', labelsize=10)
 plots[2,1].legend()
 
 # Figure 01 D
-data=tsv_read(f"{mhp}stats_dtc/completenessbusco.tsv")
+data=tsv_read(f"{mfc}stats_dtc/completenessbusco.tsv")
 category=data[0]
-values1=list(map(int, data[1]))  # Converte para int
-values2=list(map(int, data[2]))  # Converte para int
+values1=list(map(float, data[1]))  # Converte para int
+values2=list(map(float, data[2]))  # Converte para int
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[3,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -159,7 +159,6 @@ plots[3,1].set_xticklabels([])
 plots[3,1].tick_params(axis='x', labelsize=10)
 plots[3,1].legend()
 
-
-
 plt.show() # PLOT
 
+# END

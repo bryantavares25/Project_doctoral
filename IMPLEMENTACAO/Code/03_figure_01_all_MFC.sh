@@ -158,12 +158,12 @@ echo "${values1[@]}"
 echo "${values2[@]}"
 tsv_line=$(printf "%s\t" "${category[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" > ${direc_mfc}/stats_dtc/competenessbusco.tsv
+echo "$tsv_line" > ${direc_mfc}/stats_dtc/completenessbusco.tsv
 tsv_line=$(printf "%s\t" "${values1[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" >> ${direc_mfc}/stats_dtc/competenessbusco.tsv
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/completenessbusco.tsv
 tsv_line=$(printf "%s\t" "${values2[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" >> ${direc_mfc}/stats_dtc/competenessbusco.tsv
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/completenessbusco.tsv
 
 # END
