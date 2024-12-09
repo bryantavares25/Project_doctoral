@@ -8,20 +8,17 @@
 pcH=/home/bryan/
 pcL=/home/lgef/
 pcR=/home/regenera/
-direc_mhp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
 direc_mfc=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare
-mhp_strains=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/
 mfc_strains=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/
-mhp_table=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
-mhp_list=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
-mhp_temp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
-mfc_table=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv # Curadoria manual
+mfc_table=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv
 mfc_list=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
 mfc_temp=${pcL}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
 
+# EXECUTION
+
 # # # DATA COLLECT # # #
 
-mkdir -p ${direc_mfc}/Stats_DtC/
+mkdir -p ${direc_mfc}/stats_dtc/
 
 complete=()
 uncomplete=()
@@ -37,11 +34,43 @@ for file in $(cat $mfc_list); do
     echo $file $found
 done
 
-# FROM QUAST
+# Total lenght - FROM QUAST
 category=()
 values1=()
 values2=()
+for i in "${complete[@]}"; do
+    cat=$i
+    val1=$(awk -F'\t' 'NR>1 {print $8}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
+    val2=$(awk -F'\t' 'NR>1 {print $8}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
+    category+=($cat)
+    values1+=($val1)
+    values2+=($val2)
+done
+for i in "${uncomplete[@]}"; do
+    cat=$i
+    val1=$(awk -F'\t' 'NR>1 {print $8}' ${mfc_strains}${i}/Use/quast_draft/transposed_report.tsv)
+    val2=$(awk -F'\t' 'NR>1 {print $8}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
+    category+=($cat)
+    values1+=($val1)
+    values2+=($val2)
+done
+echo "${category[@]}"
+echo "${values1[@]}"
+echo "${values2[@]}"
+tsv_line=$(printf "%s\t" "${category[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" > ${direc_mfc}/stats_dtc/totalleght.tsv
+tsv_line=$(printf "%s\t" "${values1[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/totalleght.tsv
+tsv_line=$(printf "%s\t" "${values2[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/totalleght.tsv
 
+# Scaffold - FROM QUAST
+category=()
+values1=()
+values2=()
 for i in "${complete[@]}"; do
     # Data: Scaffold | Lenght | GC content
     # Quast draft
@@ -54,38 +83,64 @@ for i in "${complete[@]}"; do
     values1+=($val1)
     values2+=($val2)
 done
-
 for i in "${uncomplete[@]}"; do
-    # Data: Scaffold | Lenght | GC content
-    # Quast draft
-    # coluna 2 > Quantity Scaffold
     cat=$i
     val1=$(awk -F'\t' 'NR>1 {print $2}' ${mfc_strains}${i}/Use/quast_draft/transposed_report.tsv)
     val2=$(awk -F'\t' 'NR>1 {print $2}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
-
     category+=($cat)
     values1+=($val1)
     values2+=($val2)
 done
-
 echo "${category[@]}"
 echo "${values1[@]}"
 echo "${values2[@]}"
-
 tsv_line=$(printf "%s\t" "${category[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" > ${direc_mfc}/Stats_DtC/scaffolds.tsv
-
+echo "$tsv_line" > ${direc_mfc}/stats_dtc/scaffolds.tsv
 tsv_line=$(printf "%s\t" "${values1[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" >> ${direc_mfc}/Stats_DtC/scaffolds.tsv
-
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/scaffolds.tsv
 tsv_line=$(printf "%s\t" "${values2[@]}")
 tsv_line=${tsv_line%$'\t'}
-echo "$tsv_line" >> ${direc_mfc}/Stats_DtC/scaffolds.tsv
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/scaffolds.tsv
 
-#############
+# GC content - FROM QUAST
+category=()
+values1=()
+values2=()
+for i in "${complete[@]}"; do
+    cat=$i
+    val1=$(awk -F'\t' 'NR>1 {print $17}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
+    val2=$(awk -F'\t' 'NR>1 {print $17}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
+    category+=($cat)
+    values1+=($val1)
+    values2+=($val2)
+done
+for i in "${uncomplete[@]}"; do
+    cat=$i
+    val1=$(awk -F'\t' 'NR>1 {print $17}' ${mfc_strains}${i}/Use/quast_draft/transposed_report.tsv)
+    val2=$(awk -F'\t' 'NR>1 {print $17}' ${mfc_strains}${i}/Use/quast_complete/transposed_report.tsv)
+    category+=($cat)
+    values1+=($val1)
+    values2+=($val2)
+done
+echo "${category[@]}"
+echo "${values1[@]}"
+echo "${values2[@]}"
+tsv_line=$(printf "%s\t" "${category[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" > ${direc_mfc}/stats_dtc/gccontent.tsv
+tsv_line=$(printf "%s\t" "${values1[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/gccontent.tsv
+tsv_line=$(printf "%s\t" "${values2[@]}")
+tsv_line=${tsv_line%$'\t'}
+echo "$tsv_line" >> ${direc_mfc}/stats_dtc/gccontent.tsv
 
-# coluna 8 > Total lenght
-# coluna 17 > Conteúdo GC
+# Completeness - FROM BUSCO
 
+# complete=$(jq '.results."Complete percentage"' seu_arquivo.json)
+# echo "$complete"
+
+
+# END
