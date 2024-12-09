@@ -38,6 +38,8 @@ print(values2)
 # Page confuiguration
 fig, plots = plt.subplots(4, 2, figsize=(20, 16))
 
+# MHP
+
 # Figure 01 A
 x = np.arange(len(category))  # Posições no eixo X
 largura = 0.35  # Largura das barras
@@ -51,5 +53,39 @@ plots[0,0].set_xticklabels([])
 #plots[0,0].set_xticklabels(category, rotation=45, ha='right')
 plots[0,0].tick_params(axis='x', labelsize=10)
 plots[0,0].legend()
+#plt.tight_layout()
+# plt.show() #
+
+# Figure 01 B
+x = np.arange(len(category))  # Posições no eixo X
+largura = 0.35  # Largura das barras
+barras1 = plots[1,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
+barras2 = plots[1,0].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
+#plots[0,0].set_xlabel('M. hyopneumoniae strains')
+plots[1,0].set_ylabel('Scaffolds')
+plots[1,0].set_title('Gráfico de Barras Lado a Lado')
+plots[1,0].set_xticks(x)
+plots[1,0].set_xticklabels([])
+#plots[0,0].set_xticklabels(category, rotation=45, ha='right')
+plots[1,0].tick_params(axis='x', labelsize=10)
+plots[1,0].legend()
+#plt.tight_layout()
+# plt.show() #
+
+# MFC
+
+# Figure 01 A
+x = np.arange(len(category))  # Posições no eixo X
+largura = 0.35  # Largura das barras
+barras1 = plots[0,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
+barras2 = plots[0,1].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
+#plots[0,0].set_xlabel('M. hyopneumoniae strains')
+plots[0,1].set_ylabel('Scaffolds')
+plots[0,1].set_title('Gráfico de Barras Lado a Lado')
+plots[0,1].set_xticks(x)
+plots[0,1].set_xticklabels([])
+#plots[0,0].set_xticklabels(category, rotation=45, ha='right')
+plots[0,1].tick_params(axis='x', labelsize=10)
+plots[0,1].legend()
 #plt.tight_layout()
 plt.show() #
