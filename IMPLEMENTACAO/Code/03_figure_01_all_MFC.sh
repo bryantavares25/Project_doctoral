@@ -146,7 +146,7 @@ for i in "${complete[@]}"; do
     values2+=($val2)
 done
 for i in "${uncomplete[@]}"; do
-    cclearat=$i
+    cat=$i
     val1=$(jq '.results."Complete percentage"' ${mfc_strains}${i}/Use/busco_draft/short_summary.specific.mycoplasmatales_odb10.busco_draft.json)
     val2=$(jq '.results."Complete percentage"' ${mfc_strains}${i}/Use/busco_complete/short_summary.specific.mycoplasmatales_odb10.busco_complete.json)
     category+=($cat)
