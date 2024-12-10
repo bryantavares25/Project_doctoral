@@ -29,6 +29,8 @@ mfc="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocc
 # Page confuiguration
 fig, plots = plt.subplots(4, 2, figsize=(20, 16))
 
+fig.suptitle('Gráfico de Barras Lado a Lado')
+
 # MHP
 
 # Figure 01 A
@@ -55,7 +57,6 @@ data=tsv_read(f"{mhp}stats_dtc/totallenght.tsv")
 category=data[0]
 values1=list(map(int, data[1]))  # Converte para int
 values2=list(map(int, data[2]))  # Converte para int
-
 x = np.arange(len(category))
 largura = 0.35
 barras1 = plots[1,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
@@ -101,47 +102,43 @@ plots[3,0].set_ylim(top=100)
 plots[3,0].set_ylim(bottom=0)
 plots[3,0].grid(axis='y', linestyle='--', alpha=0.7)
 plots[3,0].set_xticks(x)
-#plots[3,0].set_xticklabels([])
 plots[3,0].set_xlabel('M. hyopneumoniae strains')
 plots[3,0].tick_params(axis='x', labelsize=10)
-plots[3,0].legend()
 plots[3,0].set_xticklabels(category, rotation=45, ha='right')
 
 # MFC
 
 # Figure 01 A
-data=tsv_read(f"{mfc}stats_dtc/totallenght.tsv")
-category=data[0]
-values1=list(map(int, data[1]))  # Converte para int
-values2=list(map(int, data[2]))  # Converte para int
-x = np.arange(len(category))  # Posições no eixo X
-largura = 0.35  # Largura das barras
-barras1 = plots[0,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
-barras2 = plots[0,1].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
-
-plots[0,1].set_ylabel('Total lenght')
-plots[0,1].set_ylim(top=1000000)
-plots[0,1].set_ylim(bottom=0)
-plots[0,1].grid(axis='y', linestyle='--', alpha=0.7)
-#plots[0,1].set_title('Gráfico de Barras Lado a Lado')
-plots[0,1].set_xticks(x)
-plots[0,1].set_xticklabels([])
-#plots[0,0].set_xticklabels(category, rotation=45, ha='right')
-plots[0,1].tick_params(axis='x', labelsize=10)
-plots[0,1].legend()
-
-# Figure 01 B
 data=tsv_read(f"{mfc}stats_dtc/scaffolds.tsv")
 category=data[0]
 values1=list(map(int, data[1]))  # Converte para int
 values2=list(map(int, data[2]))  # Converte para int
 x = np.arange(len(category))
 largura = 0.35
+barras1 = plots[0,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
+barras2 = plots[0,1].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
+plots[0,1].set_ylabel('Scaffolds amount')
+plots[0,1].set_yscale('log', base=2)
+plots[0,1].set_ylim(top=128)
+plots[0,1].set_ylim(bottom=0)
+plots[0,1].grid(axis='y', linestyle='--', alpha=0.7)
+plots[0,1].set_xticks(x)
+plots[0,1].set_xticklabels([])
+plots[0,1].tick_params(axis='x', labelsize=10)
+plots[0,1].legend()
+
+
+# Figure 01 B
+data=tsv_read(f"{mfc}stats_dtc/totallenght.tsv")
+category=data[0]
+values1=list(map(int, data[1]))  # Converte para int
+values2=list(map(int, data[2]))  # Converte para int
+x = np.arange(len(category))  # Posições no eixo X
+largura = 0.35  # Largura das barras
 barras1 = plots[1,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
 barras2 = plots[1,1].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
-plots[1,1].set_ylabel('Scaffolds amount')
-plots[1,1].set_yscale('log', base=2)
-plots[1,1].set_ylim(top=128)
+plots[1,1].set_ylabel('Total lenght')
+plots[1,1].set_ylim(top=1000000)
 plots[1,1].set_ylim(bottom=0)
 plots[1,1].grid(axis='y', linestyle='--', alpha=0.7)
 plots[1,1].set_xticks(x)
