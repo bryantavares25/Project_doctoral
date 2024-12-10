@@ -21,8 +21,8 @@ def tsv_read(archive):
     return data
 
 # DATA
-mhp="/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/"
-mfc="/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/"
+mhp="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/"
+mfc="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/"
 
 # EXECUTION
 
@@ -60,6 +60,7 @@ barras1 = plots[1,0].bar(x - largura/2, values1, largura, label='Draft', color='
 barras2 = plots[1,0].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
 plots[1,0].set_ylabel('Scaffolds amount')
 plots[1,0].set_yscale('log', base=2)
+plots[1,0].set_ylim(top=64)
 plots[1,0].grid(axis='y', linestyle='--', alpha=0.7)
 plots[1,0].set_xticks(x)
 plots[1,0].set_xticklabels([])
@@ -76,6 +77,8 @@ largura = 0.35
 barras1 = plots[2,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
 barras2 = plots[2,0].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
 plots[2,0].set_ylabel('GC content')
+plots[2,0].set_ymax(100)
+plots[2,0].set_ymin(0)
 plots[2,0].set_xticks(x)
 plots[2,0].set_xticklabels([])
 plots[2,0].tick_params(axis='x', labelsize=10)
@@ -91,6 +94,8 @@ largura = 0.35
 barras1 = plots[3,0].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
 barras2 = plots[3,0].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
 plots[3,0].set_ylabel('Completeness')
+plots[3,0].set_ymax(100)
+plots[3,0].set_ymin(0)
 plots[3,0].set_xticks(x)
 plots[3,0].set_xticklabels([])
 plots[3,0].tick_params(axis='x', labelsize=10)
@@ -130,8 +135,10 @@ largura = 0.35
 barras1 = plots[1,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
 barras2 = plots[1,1].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
 plots[1,1].set_ylabel('Scaffolds amount')
+plots[1,1].set_yscale('log', base=2)
+plots[1,1].set_ylim(top=64)
+plots[1,1].grid(axis='y', linestyle='--', alpha=0.7)
 plots[1,1].set_xticks(x)
-plots[1,1].set_yscale('log')
 plots[1,1].set_xticklabels([])
 plots[1,1].tick_params(axis='x', labelsize=10)
 plots[1,1].legend()
@@ -146,6 +153,8 @@ largura = 0.35
 barras1 = plots[2,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
 barras2 = plots[2,1].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
 plots[2,1].set_ylabel('GC content')
+plots[2,1].set_ymax(100)
+plots[2,1].set_ymin(0)
 plots[2,1].set_xticks(x)
 plots[2,1].set_xticklabels([])
 plots[2,1].tick_params(axis='x', labelsize=10)
@@ -161,6 +170,8 @@ largura = 0.35
 barras1 = plots[3,1].bar(x - largura/2, values1, largura, label='Draft', color='skyblue')
 barras2 = plots[3,1].bar(x + largura/2, values2, largura, label='Whole', color='salmon')
 plots[3,1].set_ylabel('Completeness')
+plots[3,1].set_ymax(100)
+plots[3,1].set_ymin(0)
 plots[3,1].set_xticks(x)
 plots[3,1].set_xticklabels([])
 plots[3,1].tick_params(axis='x', labelsize=10)
