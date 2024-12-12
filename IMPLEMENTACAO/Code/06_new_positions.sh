@@ -5,11 +5,11 @@ conda init bash
 # START > > > ZERO
 
 # ARCHIVE
-dir=/home/lgef
-#dir=/home/bryan
+#dir=/home/lgef
+dir=/home/bryan
 
 # INPUT FILE
-input_gff=
+input_gff=$dir/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/genomic.gff
 
 # EXECUTION
 
@@ -26,8 +26,9 @@ awk '$2 == "RefSeq" && $3 != "Region" {
 }' genomic.gff > teste.txt
 
 # Create the .txt: seqregion | start | stop
-awk 'print {$1, $3, $4}' teste.txt > teste_02.txt
+awk '{print $1, $3, $4}' teste.txt > teste_02.txt
 
 # Recovery from .fna with base from .txt and ID: >ID+fasta sequence
+seqtk subseq /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
 
 # END
