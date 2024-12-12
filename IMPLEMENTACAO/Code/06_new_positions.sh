@@ -29,6 +29,15 @@ awk '$2 == "RefSeq" && $3 != "Region" {
 awk '{print $1, $3, $4}' teste.txt > teste_02.txt
 
 # Recovery from .fna with base from .txt and ID: >ID+fasta sequence
-seqtk subseq /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
+
+seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
+
+t=$(awk '{print $2, $3}' teste_02.txt)
+
+t=$(awk '{print ($1, $3, $4)}' teste.txt)
+
+for  in ; do echo $i; echo TR; done
+
+seqkit locate -i -p $t ALL_GCF_002193015.fna
 
 # END
