@@ -77,4 +77,9 @@ sequence=$(awk '!/^>/' "$input_file" | tr '\n' ' ')
 echo "$sequence"
 for i in $sequence; do echo $i; echo ffffffffff; done
 
+# # #
+sequence=$(awk '!/^>/' "$input_file")
+# Exibir a sequência
+echo "$sequence"
+
 # END
