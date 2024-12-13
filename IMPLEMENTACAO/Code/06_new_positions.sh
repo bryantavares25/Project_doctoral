@@ -39,4 +39,12 @@ for c in $t; do echo $c; done
 
 seqkit locate -i -p "" $t ALL_GCF_002193015.fna
 
+# # #
+
+awk '/^>/ {if (seq) print seq; seq=""; print; next} {seq = seq $0} END {if (seq) print seq}' "$input_file" > output_ordenado.fasta
+echo "Sequências FASTA extraídas e ordenadas em 'output_ordenado.fasta'."
+
+# # #
+
+
 # END
