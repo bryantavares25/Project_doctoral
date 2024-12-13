@@ -34,10 +34,9 @@ seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
 
 t=$(awk '{print $2, $3}' teste_02.txt)
 
-t=$(awk '{print ($1, $3, $4)}' teste.txt)
+t=$(awk '{print $1 $3 $4}' teste.txt)
+for c in $t; do echo $c; done
 
-for  in ; do echo $i; echo TR; done
-
-seqkit locate -i -p $t ALL_GCF_002193015.fna
+seqkit locate -i -p "" $t ALL_GCF_002193015.fna
 
 # END
