@@ -41,10 +41,40 @@ seqkit locate -i -p "" $t ALL_GCF_002193015.fna
 
 # # #
 
-awk '/^>/ {if (seq) print seq; seq=""; print; next} {seq = seq $0} END {if (seq) print seq}' "$input_file" > output_ordenado.fasta
+awk '/^>/ {if (seq) print seq; seq=""; print; next} {seq = seq $0} END {if (seq) print seq}' /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta > output_ordenado.fasta
 echo "Sequências FASTA extraídas e ordenadas em 'output_ordenado.fasta'."
+
+awk '/^>/ {if (seq) {print seq > output_file}; seq=""; output_file=substr($0,2)".fasta"; print $0 > output_file; next} {seq = seq $0} END {if (seq) print seq > output_file}' /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta
 
 # # #
 
+#!/bin/bash
+
+# Nome do arquivo de entrada
+input_file="arquivo.fasta"
+
+# ID ou padrão para a sequência que você quer extrair
+target_id="NZ_MWWN01000001.1:2-1624"
+
+# Extrair a sequência para uma variável
+sequence=$(awk '
+    BEGIN {found=0}
+    /^>/ {next}
+    found {printf $0}
+' /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta)
+
+# Imprimir a sequência (ou usar a variável como necessário)
+echo "$sequence"
+
+
+#!/bin/bash
+
+# Nome do arquivo FASTA
+input_file=/home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta
+# Extrair as linhas de sequência mantendo as quebras de linha
+sequence=$(awk '!/^>/' "$input_file" | tr '\n' ' ')
+# Exibir o resultado
+echo "$sequence"
+for i in $sequence; do echo $i; echo ffffffffff; done
 
 # END
