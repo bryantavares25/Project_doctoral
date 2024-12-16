@@ -51,9 +51,25 @@ sequence=$(awk '!/^>/' "$input_file")
 echo "${sequence[@]}" # Exibir a sequência
 for i in $sequence; do
     seqkit locate -i -p "$i" /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_GCF_002193015.fna >> /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_FASTA.fasta
-    
+
 done
 
 #### OUTPUT : FASTA SEQ
 
 
+#### SUBSTITUIR:
+
+awk 'NR==FNR {
+    map[$1 FS $2] = $3 FS $4 # Lê o arquivo de mapeamento (mapa.txt)
+    next
+}
+{
+    key = $4 FS $5 # Cria uma chave com base nas colunas 4 e 5 do arquivo principal
+    if (key in map) { # Verifica se essa chave está no mapa
+        split(map[key], new_values, FS) # Substitui as colunas 4 e 5 pelos valores mapeados
+        #$1 = new_values[0]
+        $4 = new_values[1]
+        $5 = new_values[2]
+    }
+    print
+}' mapa.txt arquivo1.txt > arquivo_modificado.txt
