@@ -70,7 +70,7 @@ echo "$sequence"
 #!/bin/bash
 
 # Nome do arquivo FASTA
-input_file=/home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta
+input_file=/home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta
 # Extrair as linhas de sequência mantendo as quebras de linha
 sequence=$(awk '!/^>/' "$input_file" | tr '\n' ' ')
 # Exibir o resultado
@@ -78,8 +78,10 @@ echo "$sequence"
 for i in $sequence; do echo $i; echo ffffffffff; done
 
 # # #
-sequence=$(awk '!/^>/' "$input_file")
-# Exibir a sequência
-echo "$sequence"
 
-# END
+
+#### CORRECT
+sequence=$(awk '!/^>/' "$input_file")
+echo "${sequence[@]}" # Exibir a sequência
+for i in $sequence; do echo $i; echo ffffffffff; done
+#### END
