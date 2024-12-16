@@ -33,10 +33,8 @@ awk '{print $1, $3, $4}' teste.txt > teste_02.txt
 seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
 
 t=$(awk '{print $2, $3}' teste_02.txt)
-
 t=$(awk '{print $1 $3 $4}' teste.txt)
 for c in $t; do echo $c; done
-
 seqkit locate -i -p "" $t ALL_GCF_002193015.fna
 
 # # #
@@ -51,7 +49,9 @@ awk '/^>/ {if (seq) {print seq > output_file}; seq=""; output_file=substr($0,2)"
 #### CORRECT
 sequence=$(awk '!/^>/' "$input_file")
 echo "${sequence[@]}" # Exibir a sequência
-for i in $sequence; do echo $i; echo ffffffffff; done
+for i in $sequence; do
+    seqkit locate -i -p "$i" /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_GCF_002193015.fna
+done
 #### OUTPUT : FASTA SEQ
 
 
