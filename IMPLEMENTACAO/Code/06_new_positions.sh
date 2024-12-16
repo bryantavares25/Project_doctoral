@@ -51,7 +51,9 @@ sequence=$(awk '!/^>/' "$input_file")
 echo "${sequence[@]}" # Exibir a sequência
 for i in $sequence; do
     seqkit locate -i -p "$i" /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_GCF_002193015.fna >> /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_FASTA.fasta
+    
 done
+
 #### OUTPUT : FASTA SEQ
 
 
