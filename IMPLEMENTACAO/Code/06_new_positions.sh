@@ -48,40 +48,10 @@ awk '/^>/ {if (seq) {print seq > output_file}; seq=""; output_file=substr($0,2)"
 
 # # #
 
-#!/bin/bash
-
-# Nome do arquivo de entrada
-input_file="arquivo.fasta"
-
-# ID ou padrão para a sequência que você quer extrair
-target_id="NZ_MWWN01000001.1:2-1624"
-
-# Extrair a sequência para uma variável
-sequence=$(awk '
-    BEGIN {found=0}
-    /^>/ {next}
-    found {printf $0}
-' /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta)
-
-# Imprimir a sequência (ou usar a variável como necessário)
-echo "$sequence"
-
-
-#!/bin/bash
-
-# Nome do arquivo FASTA
-input_file=/home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta
-# Extrair as linhas de sequência mantendo as quebras de linha
-sequence=$(awk '!/^>/' "$input_file" | tr '\n' ' ')
-# Exibir o resultado
-echo "$sequence"
-for i in $sequence; do echo $i; echo ffffffffff; done
-
-# # #
-
-
 #### CORRECT
 sequence=$(awk '!/^>/' "$input_file")
 echo "${sequence[@]}" # Exibir a sequência
 for i in $sequence; do echo $i; echo ffffffffff; done
-#### END
+#### OUTPUT : FASTA SEQ
+
+
