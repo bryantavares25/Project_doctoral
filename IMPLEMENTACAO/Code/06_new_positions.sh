@@ -57,7 +57,9 @@ done
 
 # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
 
-# 
+
+
+# Substituição
 awk 'BEGIN { OFS="\t" }
 NR==FNR {
     map[$1 FS $2 FS $3] = $4 FS $5 FS $6
