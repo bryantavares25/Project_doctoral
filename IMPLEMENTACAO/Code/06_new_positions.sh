@@ -26,7 +26,7 @@ awk '$2 == "RefSeq" && $3 != "Region" {
 }' genomic.gff > teste.txt
 
 # Create the .txt: seqregion | start | stop
-awk '{print $1, $3, $4}' teste.txt > teste_02.txt
+awk '{print $1, $3 -1, $4}' teste.txt > teste_02.txt
 
 # Recovery from .fna with base from .txt and ID: >ID+fasta sequence
 seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
@@ -51,14 +51,14 @@ for i in $sequence; do
     seqkit locate -i -p "$i" /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_GCF_002193015.fna >> /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_FASTA.fasta
 done
 
-# limpar ALL_FASTA.fasta
+# limpar ALL_FASTA.fasta # CURADORIA MANUAL
 
 #### OUTPUT : FASTA SEQ
 
 #### SUBSTITUIR:
 
 # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
-
+# Cria o código para construção automática do mapa de substituição
 
 
 # Substituição
@@ -79,3 +79,6 @@ NR==FNR {
 }' mapa.tsv genomic.gff > genomic_novo.gff
 
 # END > > > 
+
+
+''' A partir do genomic_novo_gff gerado, será possível prosseguir para as análises estruturais'''
