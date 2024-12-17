@@ -59,12 +59,14 @@ done
 
 #### SUBSTITUIR:
 
+NZ_MWWN01000001.1 1	1624
+
 awk 'NR==FNR {
-    map[$1 FS $2] = $3 FS $4 # Lê o arquivo de mapeamento (mapa.txt)
+    map[$1 FS $2 FS $3] = $4 FS $5 FS $6 # Lê o arquivo de mapeamento (mapa.txt)
     next
 }
 {
-    key = $4 FS $5 # Cria uma chave com base nas colunas 4 e 5 do arquivo principal
+    key = $1 FS $4 FS $5 # Cria uma chave com base nas colunas 4 e 5 do arquivo principal
     if (key in map) { # Verifica se essa chave está no mapa
         split(map[key], new_values, FS) # Substitui as colunas 4 e 5 pelos valores mapeados
         #$1 = new_values[0]
