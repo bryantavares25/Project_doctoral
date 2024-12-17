@@ -26,7 +26,7 @@ awk '$2 == "RefSeq" && $3 != "Region" {
 }' genomic.gff > teste.txt
 
 # Create the .txt: seqregion | start | stop
-awk '{print $1, $3 - 1, $4}' teste.txt > teste_02.txt
+awk '{print $1, $3, $4}' teste.txt > teste_02.txt
 
 # Recovery from .fna with base from .txt and ID: >ID+fasta sequence
 seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
@@ -53,11 +53,11 @@ done
 
 #### OUTPUT : FASTA SEQ
 
-
 #### SUBSTITUIR:
 
 # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
 
+# 
 awk 'BEGIN { OFS="\t" }
 NR==FNR {
     map[$1 FS $2 FS $3] = $4 FS $5 FS $6
@@ -73,3 +73,5 @@ NR==FNR {
     }
     print
 }' mapa.tsv genomic.gff > genomic_novo.gff
+
+# END > > > 
