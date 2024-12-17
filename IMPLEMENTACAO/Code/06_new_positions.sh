@@ -59,19 +59,20 @@ done
 
 #### SUBSTITUIR:
 
-NZ_MWWN01000001.1 1	1624
+# mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
 
-awk 'NR==FNR {
-    map[$1 FS $2 FS $3] = $4 FS $5 FS $6 # Lê o arquivo de mapeamento (mapa.txt)
+awk 'BEGIN { OFS="\t" }
+NR==FNR {
+    map[$1 FS $2 FS $3] = $4 FS $5 FS $6
     next
 }
 {
-    key = $1 FS $4 FS $5 # Cria uma chave com base nas colunas 4 e 5 do arquivo principal
-    if (key in map) { # Verifica se essa chave está no mapa
-        split(map[key], new_values, FS) # Substitui as colunas 4 e 5 pelos valores mapeados
-        #$1 = new_values[0]
-        $4 = new_values[1]
-        $5 = new_values[2]
+    key = $1 FS $4 FS $5
+    if (key in map) {
+        split(map[key], new_values, FS)
+        $1 = new_values[1]
+        $4 = new_values[2]
+        $5 = new_values[3]
     }
     print
-}' mapa.txt arquivo1.txt > arquivo_modificado.txt
+}' mapa.tsv genomic.gff > genomic_novo.gff
