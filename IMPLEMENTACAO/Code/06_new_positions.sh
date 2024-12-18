@@ -45,6 +45,8 @@ done
 #### SUBSTITUIR:
 # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
 cat teste_02.txt > teste_03.txt
+join -t $'\t' -1 1 -2 1 arquivo1.tsv arquivo2.tsv > arquivo_junto.tsv
+
 # Cria o código para construção automática do mapa de substituição
 
 # Substituição
