@@ -13,7 +13,6 @@ input_gff=$dir/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/genomic.gff
 
 # EXECUTION
 
-# Recovery from .gff: seqregion ($1) | strand ($7) | start | stop | ID | gene_biotype > > > file.txt
 awk '$2 == "RefSeq" && $3 != "Region" {
     split($9, a, ";")
     split(a[1], b, "-")
@@ -25,10 +24,8 @@ awk '$2 == "RefSeq" && $3 != "Region" {
         print $1, $7, $4, $5, b[2], d[2]}
 }' genomic.gff > teste.txt
 
-# Create the .txt: seqregion | start | stop
 awk '{print $1, $3 -1, $4}' teste.txt > teste_02.txt
 
-# Recovery from .fna with base from .txt and ID: >ID+fasta sequence
 seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
 
 t=$(awk '{print $2, $3}' teste_02.txt)
@@ -38,17 +35,13 @@ seqkit locate -i -p "" $t ALL_GCF_002193015.fna
 
 # # #
 
-awk '/^>/ {if (seq) print seq; seq=""; print; next} {seq = seq $0} END {if (seq) print seq}' /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta > output_ordenado.fasta
-echo "Sequências FASTA extraídas e ordenadas em 'output_ordenado.fasta'."
-awk '/^>/ {if (seq) {print seq > output_file}; seq=""; output_file=substr($0,2)".fasta"; print $0 > output_file; next} {seq = seq $0} END {if (seq) print seq > output_file}' /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta
-
-# # #
-
 #### CORRECT
+input_file=/home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta
 sequence=$(awk '!/^>/' "$input_file")
 echo "${sequence[@]}" # Exibir a sequência
 for i in $sequence; do
-    seqkit locate -i -p "$i" /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_GCF_002193015.fna >> /home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_FASTA.fasta
+    echo $i
+    #seqkit locate -i -p "$i" /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_GCF_002193015.fna >> /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_FASTA.fasta
 done
 
 # limpar ALL_FASTA.fasta # CURADORIA MANUAL
