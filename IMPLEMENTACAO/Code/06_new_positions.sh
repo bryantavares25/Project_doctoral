@@ -1,6 +1,6 @@
 #!/bin/bash
 
-conda init bash
+#conda init bash
 
 # START > > > ZERO
 
@@ -28,11 +28,6 @@ awk '{print $1, $3 -1, $4}' teste.txt > teste_02.txt
 
 seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
 
-t=$(awk '{print $2, $3}' teste_02.txt)
-t=$(awk '{print $1 $3 $4}' teste.txt)
-for c in $t; do echo $c; done
-seqkit locate -i -p "" $t ALL_GCF_002193015.fna
-
 # # #
 
 #### CORRECT
@@ -40,8 +35,7 @@ input_file=/home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.
 sequence=$(awk '!/^>/' "$input_file")
 echo "${sequence[@]}" # Exibir a sequência
 for i in $sequence; do
-    echo $i
-    #seqkit locate -i -p "$i" /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_GCF_002193015.fna >> /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_FASTA.fasta
+    seqkit locate -i -p "$i" /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_GCF_002193015.fna >> /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_FASTA.fasta
 done
 
 # limpar ALL_FASTA.fasta # CURADORIA MANUAL
@@ -49,10 +43,9 @@ done
 #### OUTPUT : FASTA SEQ
 
 #### SUBSTITUIR:
-
 # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
+cat teste_02.txt > teste_03.txt
 # Cria o código para construção automática do mapa de substituição
-
 
 # Substituição
 awk 'BEGIN { OFS="\t" }
@@ -73,5 +66,4 @@ NR==FNR {
 
 # END > > > 
 
-
-''' A partir do genomic_novo_gff gerado, será possível prosseguir para as análises estruturais'''
+#A partir do genomic_novo_gff gerado, será possível prosseguir para as análises estruturais
