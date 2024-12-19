@@ -40,12 +40,16 @@ done
 
 # limpar ALL_FASTA.fasta # CURADORIA MANUAL
 
+
+# > > > $1 $4 $5 $6 
+awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $5, $6}' ALL_FASTA_CLEANED.fasta > ALL_FASTA_CLEANED_AWK.tsv
+
 #### OUTPUT : FASTA SEQ
 
 #### SUBSTITUIR:
 # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
 cat teste_02.txt > teste_03.txt
-join -t $'\t' -1 1 -2 1 teste_02.tsv teste_03.tsv > arquivo_junto.tsv
+paste ALL_FASTA_CLEANED_AWK.tsv teste_03.tsv > arquivo_junto.tsv
 
 # Cria o código para construção automática do mapa de substituição
 
