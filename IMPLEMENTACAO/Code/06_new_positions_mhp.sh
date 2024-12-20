@@ -23,10 +23,8 @@ for file in $(cat $mhp_list); do
     mkdir -p $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/
 
     # Input
-    #mhp_genome_fna="$direc_mhp/strains/$file/Use/G*/*.fna"
-    mhp_genome_fna=$(find "$direc_mhp/strains/$file/Use/G*" -name "*.fna" | tr '\n' ' ')
-    #mhp_genome_gff="$direc_mhp/strains/$file/Use/G*/genomic.gff"
-    mhp_genome_gff=$(find "$direc_mhp/strains/$file/Use/G*" -name "*.fna" | tr '\n' ' ')
+    mhp_genome_fna=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/G*.fna")
+    mhp_genome_gff=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/g*.gff")
     mhp_gff_data=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/gff_data.tsv
     mhp_gff_location=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/gff_data.tsv
     mhp_genes_fasta=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_fasta.tsv
@@ -50,9 +48,9 @@ for file in $(cat $mhp_list); do
     seqtk subseq "$mhp_genome_fna" "$mhp_gff_location" > "$mhp_genes_fasta"
     # Recuperar a nova localização das sequenciais no genoma montado
     sequence=$(awk '!/^>/' "$mhp_genes_fasta")
-    for i in $sequence; do
-        seqkit locate -i -p "$i" "$mhp_genome_new" >> "$mhp_genes_location"
-    done
+    #for i in $sequence; do
+    #    seqkit locate -i -p "$i" "$mhp_genome_new" >> "$mhp_genes_location"
+    #done
     # limpar ALL_FASTA.fasta # CURADORIA MANUAL # a ordem seguida é do arquivo .gff (podemos melhorar a confiabilidade)
     # Pegar as linhas pares e jogar o resultado dentro do outro arquivo
     #awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $5, $6}' ALL_FASTA_CLEANED.fasta > ALL_FASTA_CLEANED_AWK.tsv
