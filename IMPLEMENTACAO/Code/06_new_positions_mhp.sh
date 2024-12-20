@@ -17,7 +17,7 @@ mhp_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_resul
 
 
 # INPUT FILE
-input_gff=$dir/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/genomic.gff
+input_gff=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/mult_align/seqs_to_align/$file.fasta
 
 # EXECUTION
 for file in $(cat $mhp_list); do
