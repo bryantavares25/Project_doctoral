@@ -10,26 +10,18 @@
 dir=/home/lgef
 #dir=/home/bryan
 
-direc_mhp=${dir}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/
-direc_mfc=${dir}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/
-mhp_table=${dir}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
-mhp_list=${dir}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
-mhp_temp=${dir}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
-mfc_table=${dir}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv # Curadoria manual
-mfc_list=${dir}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
-mfc_temp=${dir}Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
+direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/
+mhp_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
+mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
+mhp_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
 
 
 # INPUT FILE
 input_gff=$dir/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/genomic.gff
 
 # EXECUTION
-
 for file in $(cat $mhp_list); do
-
-###########
-
-
+# FIRST >>> Ler arquivo .gff para recuperar informações interessantes
 awk '$2 == "RefSeq" && $3 != "Region" {
     split($9, a, ";")
     split(a[1], b, "-")
@@ -40,10 +32,14 @@ awk '$2 == "RefSeq" && $3 != "Region" {
     if (d[1] == "gene_biotype") {
         print $1, $7, $4, $5, b[2], d[2]}
 }' genomic.gff > teste.txt
-
+# $sequence_region $start $end
 awk '{print $1, $3 -1, $4}' teste.txt > teste_02.txt
-
+# 
 seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
+
+done
+###########
+
 
 # # #
 
