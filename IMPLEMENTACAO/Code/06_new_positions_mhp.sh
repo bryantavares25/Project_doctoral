@@ -19,12 +19,14 @@ mhp_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_resul
 for file in $(cat $mhp_list); do
 
     # Input
+    mhp_genome_gff=$direc_mhps/strains/$file/Use/G*/*.fna
     mhp_genome_gff=$direc_mhps/strains/$file/Use/G*/genomic.gff
     mhp_gff_data=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/gff_data.fasta
+    mhp_gff_location=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/gff_data.fasta
 
     mhp_genome_gff=$direc_mhp/mult_align/seqs_to_align/$file.fasta
 
-# FIRST >>> Ler arquivo .gff para recuperar informações interessantes
+    # FIRST >>> Ler arquivo .gff para recuperar informações interessantes
     awk '$2 == "RefSeq" && $3 != "Region" {
         split($9, a, ";")
         split(a[1], b, "-")
@@ -36,9 +38,9 @@ for file in $(cat $mhp_list); do
             print $1, $7, $4, $5, b[2], d[2]}
     }' "$mhp_genome_gff" > "$mhp_gff_data"
     # $sequence_region $start $end
-    awk '{print $1, $3 -1, $4}' teste.txt > teste_02.txt
+    awk '{print $1, $3 -1, $4}' "$mhp_gff_data" > "$mhp_gff_location"
     # Recuperar as sequencias de nucleotídeos de todos os genes conforme localização
-    seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
+    seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna "$mhp_gff_location" > teste.fasta
     # Recuperar a nova localização das sequenciais no genoma montado
     sequence=$(awk '!/^>/' teste.fasta)
     for i in $sequence; do
