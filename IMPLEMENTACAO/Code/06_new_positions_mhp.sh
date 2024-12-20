@@ -22,69 +22,48 @@ input_gff=$dir/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/genomic.gff
 # EXECUTION
 for file in $(cat $mhp_list); do
 # FIRST >>> Ler arquivo .gff para recuperar informações interessantes
-awk '$2 == "RefSeq" && $3 != "Region" {
-    split($9, a, ";")
-    split(a[1], b, "-")
-    split(a[4], c, "=")
-    split(a[5], d, "=")
-    if (c[1] == "gene_biotype") {
-        print $1, $7, $4, $5, b[2], c[2]}
-    if (d[1] == "gene_biotype") {
-        print $1, $7, $4, $5, b[2], d[2]}
-}' genomic.gff > teste.txt
-# $sequence_region $start $end
-awk '{print $1, $3 -1, $4}' teste.txt > teste_02.txt
-# 
-seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
-
-done
-###########
-
-
-# # #
-
-#### CORRECT
-input_file=/home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta
-sequence=$(awk '!/^>/' "$input_file")
-echo "${sequence[@]}" # Exibir a sequência
-for i in $sequence; do
-    seqkit locate -i -p "$i" /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_GCF_002193015.fna >> /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_FASTA.fasta
-done
-
-# limpar ALL_FASTA.fasta # CURADORIA MANUAL
-
-
-# > > > $1 $4 $5 $6 
-awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $5, $6}' ALL_FASTA_CLEANED.fasta > ALL_FASTA_CLEANED_AWK.tsv
-
-#### OUTPUT : FASTA SEQ
-
-#### SUBSTITUIR:
-# mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
-cat teste_02.txt > teste_03.txt
-paste ALL_FASTA_CLEANED_AWK.tsv teste_03.tsv > arquivo_junto.tsv
-
-# Cria o código para construção automática do mapa de substituição
-
-# Substituição
-awk 'BEGIN { OFS="\t" }
-NR==FNR {
-    map[$1 FS $2 FS $3] = $4 FS $5 FS $6
-    next
-}
-{
-    key = $1 FS $4 FS $5
-    if (key in map) {
-        split(map[key], new_values, FS)
-        $1 = new_values[1]
-        $4 = new_values[2]
-        $5 = new_values[3]
+    awk '$2 == "RefSeq" && $3 != "Region" {
+        split($9, a, ";")
+        split(a[1], b, "-")
+        split(a[4], c, "=")
+        split(a[5], d, "=")
+        if (c[1] == "gene_biotype") {
+            print $1, $7, $4, $5, b[2], c[2]}
+        if (d[1] == "gene_biotype") {
+            print $1, $7, $4, $5, b[2], d[2]}
+    }' genomic.gff > teste.txt
+    # $sequence_region $start $end
+    awk '{print $1, $3 -1, $4}' teste.txt > teste_02.txt
+    # Recuperar as sequencias de nucleotídeos de todos os genes conforme localização
+    seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
+    # Recuperar a nova localização das sequenciais no genoma montado
+    sequence=$(awk '!/^>/' teste.fasta)
+    for i in $sequence; do
+        seqkit locate -i -p "$i" ALL_GCF_002193015.fna >> ALL_FASTA.fasta
+    done
+    # limpar ALL_FASTA.fasta # CURADORIA MANUAL # a ordem seguida é do arquivo .gff (podemos melhorar a confiabilidade)
+    # Pegar as linhas pares e jogar o resultado dentro do outro arquivo
+    awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $5, $6}' ALL_FASTA_CLEANED.fasta > ALL_FASTA_CLEANED_AWK.tsv
+    # Construir MAPA # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
+    paste ALL_FASTA_CLEANED_AWK.tsv teste_03.tsv > arquivo_junto.tsv
+    # Substituição da localização
+    awk 'BEGIN { OFS="\t" }
+    NR==FNR {
+        map[$1 FS $2 FS $3] = $4 FS $5 FS $6
+        next
     }
-    print
-}' mapa.tsv genomic.gff > genomic_novo.gff
+    {
+        key = $1 FS $4 FS $5
+        if (key in map) {
+            split(map[key], new_values, FS)
+            $1 = new_values[1]
+            $4 = new_values[2]
+            $5 = new_values[3]
+        }
+        print
+    }' mapa.tsv genomic.gff > genomic_novo.gff
+done
 
 # END > > > 
-
 # GENOMES TO GENE_CLUSTERS
-
 #A partir do genomic_novo_gff gerado, será possível prosseguir para as análises estruturais
