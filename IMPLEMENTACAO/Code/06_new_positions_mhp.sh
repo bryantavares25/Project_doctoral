@@ -10,17 +10,20 @@
 dir=/home/lgef
 #dir=/home/bryan
 
-direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/
+direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
 mhp_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
 mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
 mhp_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
 
-
-# INPUT FILE
-input_gff=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/mult_align/seqs_to_align/$file.fasta
-
 # EXECUTION
 for file in $(cat $mhp_list); do
+
+    # Input
+    mhp_genome_gff=$direc_mhps/strains/$file/Use/G*/genomic.gff
+    mhp_gff_data=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/gff_data.fasta
+
+    mhp_genome_gff=$direc_mhp/mult_align/seqs_to_align/$file.fasta
+
 # FIRST >>> Ler arquivo .gff para recuperar informações interessantes
     awk '$2 == "RefSeq" && $3 != "Region" {
         split($9, a, ";")
@@ -31,7 +34,7 @@ for file in $(cat $mhp_list); do
             print $1, $7, $4, $5, b[2], c[2]}
         if (d[1] == "gene_biotype") {
             print $1, $7, $4, $5, b[2], d[2]}
-    }' genomic.gff > teste.txt
+    }' "$mhp_genome_gff" > "$mhp_gff_data"
     # $sequence_region $start $end
     awk '{print $1, $3 -1, $4}' teste.txt > teste_02.txt
     # Recuperar as sequencias de nucleotídeos de todos os genes conforme localização
