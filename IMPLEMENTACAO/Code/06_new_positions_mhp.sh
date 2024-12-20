@@ -29,7 +29,7 @@ for file in $(cat $mhp_list); do
     mhp_gff_location=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/location_data.tsv
     mhp_genes_fasta=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_fasta.tsv
     mhp_genome_new=$direc_mhp/mult_align/seqs_to_align/$file.fasta
-    mhp_genes_location=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_fasta.tsv
+    mhp_genes_location=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_location.tsv
 
     # FIRST >>> Ler arquivo .gff para recuperar informações interessantes
     awk 'BEGIN {OFS="\t"}
