@@ -27,3 +27,5 @@ Download > All genomes > MHP and MFC
     - Tamanho
     - Quantidade de Ns
 
+
+# STEP 02 - Positions update
