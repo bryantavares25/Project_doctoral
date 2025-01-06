@@ -11,6 +11,14 @@ mhp_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_resul
 
 # limpar ALL_FASTA.fasta # CURADORIA MANUAL # a ordem seguida é do arquivo .gff (podemos melhorar a confiabilidade)
 
+genes_location_clean.fasta=$dir
+ALL_FASTA_CLEANED_AWK.tsv=
+ALL_FASTA_CLEANED_AWK.tsv=
+teste_03.tsv=
+arquivo_junto.tsv=
+genomic.gff=
+genomic_novo.gff=
+
 # Pegar as linhas pares e jogar o resultado dentro do outro arquivo
 awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $5, $6}' ALL_FASTA_CLEANED.fasta > ALL_FASTA_CLEANED_AWK.tsv
 # Construir MAPA # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625

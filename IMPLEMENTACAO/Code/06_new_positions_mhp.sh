@@ -30,6 +30,7 @@ for file in $(cat $mhp_list); do
     mhp_genes_fasta=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_fasta.tsv
     mhp_genome_new=$direc_mhp/mult_align/seqs_to_align/$file.fasta
     mhp_genes_location=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_location.tsv
+    mhp_genes_location_clean=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_location_clean.tsv
 
     # FIRST >>> Ler arquivo .gff para recuperar informações interessantes
     awk 'BEGIN {OFS="\t"}
@@ -53,6 +54,8 @@ for file in $(cat $mhp_list); do
         seqkit locate -i -p "$i" "$mhp_genome_new" >> "$mhp_genes_location"
     done
     
+    cp $mhp_genes_location $mhp_genes_location_clean
+
     echo $file
     
     # limpar ALL_FASTA.fasta # CURADORIA MANUAL # a ordem seguida é do arquivo .gff (podemos melhorar a confiabilidade)
