@@ -39,7 +39,7 @@ awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4}' $teste > $testes
 # Pegar as linhas pares e jogar o resultado dentro do outro arquivo
 awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $4, $5, $6}' /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_location_clean.tsv > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_location_awk.tsv
 
-paste $testes /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_location_awk.tsv > arquivo_junto.tsv
+paste $testes /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_location_awk.tsv > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_juntos.tsv
 
 awk 'BEGIN {OFS="\t"} {
     if ($6 == "+") {
@@ -49,7 +49,7 @@ awk 'BEGIN {OFS="\t"} {
         else if ($2 == "-") sign = "+"
         print $0, sign
     }
-}' input_file.txt > output_file.txt
+}' /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_juntos.tsv > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_juntos_juntos.tsv
 
 
 
