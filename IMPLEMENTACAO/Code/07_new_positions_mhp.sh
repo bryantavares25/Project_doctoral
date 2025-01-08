@@ -9,6 +9,9 @@ mhp_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_tabl
 mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
 mhp_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
 
+teste=/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/11/Use/GCF_002193015.1/genomic.gff
+testes=/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/11/Use/GCF_002193015.1/TESTE.tsv
+
 # limpar ALL_FASTA.fasta # CURADORIA MANUAL # a ordem seguida é do arquivo .gff (podemos melhorar a confiabilidade)
 
 genes_location_clean.fasta=$dir
@@ -23,7 +26,7 @@ genomic_novo.gff=
 awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $4, $5, $6}' ALL_FASTA_CLEANED.fasta > ALL_FASTA_CLEANED_AWK.tsv
 
 # Criar arquivo base like teste_03.tsv
-awk 'BEGIN {OFS="\t"} {print $1, $4, $5, $7}'
+awk 'BEGIN {OFS="\t"} NR > 9 {print $1, $4, $5, $7}' $teste > $testes
 
 
 # Construir MAPA # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
