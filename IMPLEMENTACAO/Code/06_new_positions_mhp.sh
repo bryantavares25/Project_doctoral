@@ -57,28 +57,6 @@ for file in $(cat $mhp_list); do
     cp $mhp_genes_location $mhp_genes_location_clean
 
     echo $file
-    
-    # limpar ALL_FASTA.fasta # CURADORIA MANUAL # a ordem seguida é do arquivo .gff (podemos melhorar a confiabilidade)
-    # Pegar as linhas pares e jogar o resultado dentro do outro arquivo
-    #awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $5, $6}' ALL_FASTA_CLEANED.fasta > ALL_FASTA_CLEANED_AWK.tsv
-    # Construir MAPA # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
-    #paste ALL_FASTA_CLEANED_AWK.tsv teste_03.tsv > arquivo_junto.tsv
-    # Substituição da localização
-    #awk 'BEGIN { OFS="\t" }
-    #NR==FNR {
-    #    map[$1 FS $2 FS $3] = $4 FS $5 FS $6
-    #    next
-    #}
-    #{
-    #    key = $1 FS $4 FS $5
-    #    if (key in map) {
-    #        split(map[key], new_values, FS)
-    #        $1 = new_values[1]
-    #        $4 = new_values[2]
-    #        $5 = new_values[3]
-    #    }
-    #    print
-    #}' mapa.tsv genomic.gff > genomic_novo.gff
 done
 
 # END > > > 

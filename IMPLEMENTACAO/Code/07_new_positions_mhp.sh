@@ -19,6 +19,12 @@ arquivo_junto.tsv=
 genomic.gff=
 genomic_novo.gff=
 
+    # IF + :
+        #manter
+    # ELIF - :
+        #inverter
+
+
 # Pegar as linhas pares e jogar o resultado dentro do outro arquivo
 awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $5, $6}' ALL_FASTA_CLEANED.fasta > ALL_FASTA_CLEANED_AWK.tsv
 # Construir MAPA # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
