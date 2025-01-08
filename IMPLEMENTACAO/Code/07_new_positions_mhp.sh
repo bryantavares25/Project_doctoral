@@ -33,6 +33,11 @@ arquivo_junto.tsv=
 genomic.gff=
 genomic_novo.gff=
 
+# FOLDERS
+mhp_gff_data=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/gff_data.tsv
+mhp_gff_strand=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/gff_data.tsv
+
+
 # Criar arquivo base like teste_03.tsv
 awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4}' $teste > $testes
 
