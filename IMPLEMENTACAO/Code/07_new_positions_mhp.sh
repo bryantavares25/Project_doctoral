@@ -22,7 +22,7 @@ mhp_genes_location_clean=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/G
 
 teste=/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/gff_data.tsv
 testes=/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/gff_data_to_map.tsv
-
+testes_juntos=/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/gff_juntos.tsv
 # limpar ALL_FASTA.fasta # CURADORIA MANUAL # a ordem seguida é do arquivo .gff (podemos melhorar a confiabilidade)
 
 genes_location_clean.fasta=$dir
@@ -37,10 +37,25 @@ genomic_novo.gff=
 awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4}' $teste > $testes
 
 # Pegar as linhas pares e jogar o resultado dentro do outro arquivo
-awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $4, $5, $6}' ALL_FASTA_CLEANED.fasta > ALL_FASTA_CLEANED_AWK.tsv
+awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $4, $5, $6}' /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_location_clean.tsv > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_location_awk.tsv
+
+paste $testes /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_location_awk.tsv > arquivo_junto.tsv
+
+awk 'BEGIN {OFS="\t"} {
+    if ($6 == "+") {
+        print $0, $2
+    } else {
+        if ($2 == "+") sign = "-" 
+        else if ($2 == "-") sign = "+"
+        print $0, sign
+    }
+}' input_file.txt > output_file.txt
+
+
 
 # Construir MAPA # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
 paste ALL_FASTA_CLEANED_AWK.tsv teste_03.tsv > arquivo_junto.tsv
+
 # Substituição da localização
 awk 'BEGIN { OFS="\t" }
     NR==FNR {
