@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Folders
-#dir=/home/lgef
-dir=/home/bryan
+dir=/home/lgef
+#dir=/home/bryan
 
 direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
 mhp_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
@@ -21,6 +21,11 @@ genomic_novo.gff=
 
 # Pegar as linhas pares e jogar o resultado dentro do outro arquivo
 awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $4, $5, $6}' ALL_FASTA_CLEANED.fasta > ALL_FASTA_CLEANED_AWK.tsv
+
+# Criar arquivo base like teste_03.tsv
+awk 'BEGIN {OFS="\t"} {print $1, $4, $5, $7}'
+
+
 # Construir MAPA # mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
 paste ALL_FASTA_CLEANED_AWK.tsv teste_03.tsv > arquivo_junto.tsv
 # Substituição da localização
