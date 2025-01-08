@@ -33,28 +33,28 @@ arquivo_junto.tsv=
 genomic.gff=
 genomic_novo.gff=
 
-# FOLDERS
-mhp_gff_data=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/gff_data.tsv
-mhp_gff_strand=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/gff_data.tsv
+for file in $(cat $mhp_list); do
+    # Folders
+    mhp_gff_data=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/gff_data.tsv
+    mhp_gff_strand=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/gff_strand.tsv
+    mhp_genes_location_clean=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_location_clean.tsv
+    mhp_genes_location_clean_strand=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_location_clean_strand.tsv
 
+    # Criar arquivos para estabelecer a strand correta
+    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4}' $mhp_gff_data > $mhp_gff_strand
+    awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $4, $5, $6}' $mhp_genes_location_clean > $mhp_genes_location_clean_strand
+    # Colando arquivos   
+    paste $testes /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_location_awk.tsv > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_juntos.tsv
 
-# Criar arquivo base like teste_03.tsv
-awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4}' $teste > $testes
-
-# Pegar as linhas pares e jogar o resultado dentro do outro arquivo
-awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $4, $5, $6}' /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_location_clean.tsv > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_location_awk.tsv
-
-paste $testes /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_location_awk.tsv > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_juntos.tsv
-
-awk 'BEGIN {OFS="\t"} {
-    if ($6 == "+") {
-        print $0, $2
-    } else {
-        if ($2 == "+") sign = "-" 
-        else if ($2 == "-") sign = "+"
-        print $0, sign
-    }
-}' /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_juntos.tsv > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_juntos_juntos.tsv
+    awk 'BEGIN {OFS="\t"} {
+        if ($6 == "+") {
+            print $0, $2
+        } else {
+            if ($2 == "+") sign = "-" 
+            else if ($2 == "-") sign = "+"
+            print $0, sign
+        }
+    }' /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_juntos.tsv > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/11/genes_juntos_juntos.tsv
 
 
 
