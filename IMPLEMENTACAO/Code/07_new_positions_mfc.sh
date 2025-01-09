@@ -4,30 +4,30 @@
 dir=/home/lgef
 #dir=/home/bryan
 
-direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
-mhp_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
-mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
-mhp_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
+direc_mfc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare
+mfc_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv # Curadoria manual
+mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
+mfc_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
 
-for file in $(cat $mhp_list); do
+for file in $(cat $mfc_list); do
     # Folders
-    mhp_gff_data=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/gff_data.tsv
-    mhp_gff_strand=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/gff_strand.tsv
-    mhp_genes_location_clean=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/genes_location_clean.tsv
-    mhp_genes_location_clean_strand=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/genes_location_clean_strand.tsv
-    mhp_genes_location_strand_complete=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/genes_strand_complete.tsv
-    mhp_genes_location_strand_final=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/genes_strand_final.tsv
-    mhp_genes_map=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/genes_map.tsv
-    mhp_genomic_gff=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/g*.gff")
-    mhp_genomic_gff_novo=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genomic.gff
+    mfc_gff_data=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/gff_data.tsv
+    mfc_gff_strand=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/gff_strand.tsv
+    mfc_genes_location_clean=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/genes_location_clean.tsv
+    mfc_genes_location_clean_strand=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/genes_location_clean_strand.tsv
+    mfc_genes_location_strand_complete=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/genes_strand_complete.tsv
+    mfc_genes_location_strand_final=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/genes_strand_final.tsv
+    mfc_genes_map=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/genes_map.tsv
+    mfc_genomic_gff=$(find "${direc_mfc}/strains/${file}/Use/" -type f -path "*/G*.1/g*.gff")
+    mfc_genomic_gff_novo=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/genomic.gff
 
-    mkdir -p $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/
+    mkdir -p $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/
 
     # Criar arquivos para estabelecer a strand correta
-    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4}' $mhp_gff_data > $mhp_gff_strand
-    awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $4, $5, $6}' $mhp_genes_location_clean > $mhp_genes_location_clean_strand
+    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4}' $mfc_gff_data > $mfc_gff_strand
+    awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $4, $5, $6}' $mfc_genes_location_clean > $mfc_genes_location_clean_strand
     # Colando arquivos   
-    paste $mhp_gff_strand $mhp_genes_location_clean_strand > $mhp_genes_location_strand_complete
+    paste $mfc_gff_strand $mfc_genes_location_clean_strand > $mfc_genes_location_strand_complete
     # Calculando final strand
     awk 'BEGIN {OFS="\t"} {
         if ($6 == "+") {
@@ -37,10 +37,10 @@ for file in $(cat $mhp_list); do
             else if ($2 == "-") sign = "+"
             print $0, sign
         }
-    }' $mhp_genes_location_strand_complete > $mhp_genes_location_strand_final
+    }' $mfc_genes_location_strand_complete > $mfc_genes_location_strand_final
 
     # Criando mapa
-    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4, $5, $9, $7, $8'} $mhp_genes_location_strand_final > $mhp_genes_map
+    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4, $5, $9, $7, $8'} $mfc_genes_location_strand_final > $mfc_genes_map
 
     # Substituição da localização
     awk 'BEGIN { OFS="\t" }
@@ -59,7 +59,7 @@ for file in $(cat $mhp_list); do
                 $7 = new_values[4]
             }
             print
-        }' $mhp_genes_map $mhp_genomic_gff > $mhp_genomic_gff_novo
+        }' $mfc_genes_map $mhp_genomic_gff > $mfc_genomic_gff_novo
 done
 
 # END > > > 
