@@ -28,6 +28,9 @@ for file in $(cat $mhp_list); do
     mhp_genes_location_strand_complete=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_strand_complete.tsv
     mhp_genes_location_strand_final=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_strand_final.tsv
     mhp_genes_map=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/genes_map.tsv
+    genomic.gff=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/g*.gff")
+    genomic_novo.gff=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/g*.gff")
+
 
     # Criar arquivos para estabelecer a strand correta
     awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4}' $mhp_gff_data > $mhp_gff_strand
@@ -63,7 +66,7 @@ for file in $(cat $mhp_list); do
                 $5 = new_values[3]
             }
             print
-        }' mapa.tsv genomic.gff > genomic_novo.gff
+        }' $mhp_genes_map genomic.gff > genomic_novo.gff
 
 # END > > > 
 # GENOMES TO GENE_CLUSTERS
