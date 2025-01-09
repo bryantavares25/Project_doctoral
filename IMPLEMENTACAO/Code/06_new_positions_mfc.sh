@@ -10,83 +10,55 @@
 dir=/home/lgef
 #dir=/home/bryan
 
-direc_mfc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/
-mfc_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv # Curadoria manual
-mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
-mfc_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
+direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
+mhp_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
+mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
+mhp_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
 
-
-# INPUT FILE
-input_gff=$dir/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/genomic.gff
+mkdir -p $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/
 
 # EXECUTION
+for file in $(cat $mhp_list); do
 
-for file in $(cat $mfc_list); do
+    mkdir -p $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/
 
+    # Input
+    mhp_genome_fna=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/G*.fna")
+    mhp_genome_gff=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/g*.gff")
+    mhp_gff_data=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/gff_data.tsv
+    mhp_gff_location=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/location_data.tsv
+    mhp_genes_fasta=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/genes_fasta.tsv
+    mhp_genome_new=$direc_mhp/mult_align/seqs_to_align/$file.fasta
+    mhp_genes_location=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/genes_location.tsv
+    mhp_genes_location_clean=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/genes_location_clean.tsv
+
+    # FIRST >>> Ler arquivo .gff para recuperar informações interessantes
+    awk 'BEGIN {OFS="\t"}
+    $2 == "RefSeq" && $3 != "Region" {
+        split($9, a, ";")
+        split(a[1], b, "-")
+        split(a[4], c, "=")
+        split(a[5], d, "=")
+        if (c[1] == "gene_biotype") {
+            print $1, $7, $4, $5, b[2], c[2]}
+        if (d[1] == "gene_biotype") {
+            print $1, $7, $4, $5, b[2], d[2]}
+    }' "$mhp_genome_gff" > "$mhp_gff_data"
+    # $sequence_region $start $end
+    awk 'BEGIN {OFS="\t"} {print $1, $3 -1, $4}' "$mhp_gff_data" > "$mhp_gff_location"
+    # Recuperar as sequencias de nucleotídeos de todos os genes conforme localização
+    seqtk subseq "$mhp_genome_fna" "$mhp_gff_location" > "$mhp_genes_fasta"
+    # Recuperar a nova localização das sequenciais no genoma montado
+    sequence=$(awk '!/^>/' "$mhp_genes_fasta")
+    for i in $sequence; do
+        seqkit locate -i -p "$i" "$mhp_genome_new" >> "$mhp_genes_location"
+    done
+    
+    cp $mhp_genes_location $mhp_genes_location_clean
+
+    echo $file
 done
-
-###########
-
-
-awk '$2 == "RefSeq" && $3 != "Region" {
-    split($9, a, ";")
-    split(a[1], b, "-")
-    split(a[4], c, "=")
-    split(a[5], d, "=")
-    if (c[1] == "gene_biotype") {
-        print $1, $7, $4, $5, b[2], c[2]}
-    if (d[1] == "gene_biotype") {
-        print $1, $7, $4, $5, b[2], d[2]}
-}' genomic.gff > teste.txt
-
-awk '{print $1, $3 -1, $4}' teste.txt > teste_02.txt
-
-seqtk subseq GCF_002193015.1_ASM219301v1_genomic.fna teste_02.txt > teste.fasta
-
-# # #
-
-#### CORRECT
-input_file=/home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/teste.fasta
-sequence=$(awk '!/^>/' "$input_file")
-echo "${sequence[@]}" # Exibir a sequência
-for i in $sequence; do
-    seqkit locate -i -p "$i" /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_GCF_002193015.fna >> /home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/11/ALL_FASTA.fasta
-done
-
-# limpar ALL_FASTA.fasta # CURADORIA MANUAL
-
-
-# > > > $1 $4 $5 $6 
-awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $5, $6}' ALL_FASTA_CLEANED.fasta > ALL_FASTA_CLEANED_AWK.tsv
-
-#### OUTPUT : FASTA SEQ
-
-#### SUBSTITUIR:
-# mapa.tsv > > > NZ_MWWN01000001.1 1 1624 NZ_MWWN01000002.1 2 1625
-cat teste_02.txt > teste_03.txt
-paste ALL_FASTA_CLEANED_AWK.tsv teste_03.tsv > arquivo_junto.tsv
-
-# Cria o código para construção automática do mapa de substituição
-
-# Substituição
-awk 'BEGIN { OFS="\t" }
-NR==FNR {
-    map[$1 FS $2 FS $3] = $4 FS $5 FS $6
-    next
-}
-{
-    key = $1 FS $4 FS $5
-    if (key in map) {
-        split(map[key], new_values, FS)
-        $1 = new_values[1]
-        $4 = new_values[2]
-        $5 = new_values[3]
-    }
-    print
-}' mapa.tsv genomic.gff > genomic_novo.gff
 
 # END > > > 
-
 # GENOMES TO GENE_CLUSTERS
-
 #A partir do genomic_novo_gff gerado, será possível prosseguir para as análises estruturais
