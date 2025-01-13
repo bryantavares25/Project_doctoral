@@ -29,3 +29,8 @@ Download > All genomes > MHP and MFC
 
 
 # STEP 02 - Positions update
+
+    Done GFF update OK
+
+# STEP 03 - Recuperação de proteínas de referência de M. hyopneumonia 7448
+
