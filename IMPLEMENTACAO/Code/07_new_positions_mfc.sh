@@ -59,7 +59,7 @@ for file in $(cat $mfc_list); do
                 $7 = new_values[4]
             }
             print
-        }' $mfc_genes_map $mhp_genomic_gff > $mfc_genomic_gff_novo
+        }' $mfc_genes_map $mfc_genomic_gff > $mfc_genomic_gff_novo
 done
 
 # END > > > 
