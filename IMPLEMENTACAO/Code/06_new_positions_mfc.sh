@@ -28,7 +28,7 @@ for file in $(cat $mfc_list); do
     mfc_gff_data=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/gff_data.tsv
     mfc_gff_location=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/location_data.tsv
     mfc_genes_fasta=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/genes_fasta.tsv
-    mfc_genome_new=$direc_mhp/mult_align/seqs_to_align/$file.fasta
+    mfc_genome_new=$direc_mfc/mult_align/seqs_to_align/$file.fasta
     mfc_genes_location=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/genes_location.tsv
     mfc_genes_location_clean=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/genes_location_clean.tsv
 
