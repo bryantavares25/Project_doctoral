@@ -7,6 +7,14 @@ file = "/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hy
 
 print("S T A R T")
 
+
+
+print("E N D")
+
+
+# # # 
+
+'''
 data=[]
 
 for i in SeqIO.parse(file, "fasta"):
@@ -21,15 +29,14 @@ for i in SeqIO.parse(file, "fasta"):
     
     # Extrair informações da descrição
     if "locus_tag=" in description:
-        locus_tag = description.split("[locus_tag=")[1].split("]")[0]
+        locus_tag = description.split("locus_tag=")[1].split("]")[0]
     if "protein=" in description:
-        protein = description.split("[protein=")[1].split("]")[0]
+        protein = description.split("protein=")[1].split("]")[0]
     if "protein_id=" in description:
-        protein_id = description.split("[protein_id=")[1].split("]")[0]
+        protein_id = description.split("protein_id=")[1].split("]")[0]
     
     # Adicionar os dados à lista
     data.append([locus_tag, protein, protein_id])
 
 print(data)
-
-print("E N D")
+'''
