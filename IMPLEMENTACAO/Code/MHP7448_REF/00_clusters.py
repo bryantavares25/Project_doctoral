@@ -1,10 +1,9 @@
-
-
 import csv
 from Bio import SeqIO
 
 #file = "/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/11/GCF_002193015.1/cds_from_genomic.fna"
-file = "/home/lgef/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/cds_from_genomic.fna"
+file = "/home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/cds_from_genomic.fna"
+fule = "/home/bryan/Documentos/GitHub/Project_doctoral/BIOINFO_TEST/MHP_7448_dataset/ncbi_dataset/data/GCF_000008225.1/protein.faa"
 
 print("S T A R T")
 
@@ -20,7 +19,9 @@ for r in refproteases:
             protein = description.split("protein=")[1].split("]")[0]
             protein_id = description.split("protein_id=")[1].split("]")[0]
             data.append([locus_tag, protein, protein_id])
-print(data)
+        
+            print(protein_id)
+#print(data)
 
 print("E N D")
 
@@ -28,7 +29,6 @@ print("E N D")
 
 '''
 data=[]
-
 for i in SeqIO.parse(file, "fasta"):
     #print(i.description)
     description = i.description
