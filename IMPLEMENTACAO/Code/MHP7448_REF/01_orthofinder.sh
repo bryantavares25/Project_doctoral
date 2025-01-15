@@ -1,24 +1,31 @@
 #!/bin/bash
 
-direc=/home/lgef
-/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/Orthofinder
-input_folder=${direc}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/Orthofinder
+dir=/home/lgef
+#dir=/home/bryan
 
-# Copy MHP
-for genome in "${genomesmhp[@]}"; do
-    cd ${direc}Genomes/Mesomycoplasma_hyopneumoniae/${genome}/ncbi_dataset/data/GCF_*.1
-    cp protein.faa ${genome}_protein.fasta
+#/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/Orthofinder
+input_folder=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/input_proteins/
+
+direc_mfc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare
+mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
+for file in $(cat $mfc_list); do
+    cd ${direc_mfc}/strains/${file}/Use/G*.1 # OK
+    cp protein.faa ${file}_proteins_mfc.fasta
+    #rm ${file}_proteins.fasta
     cd
+    mv ${direc_mfc}/strains/${file}/Use/G*.1/${file}_proteins_mfc.fasta $input_folder
 done
 
-# Copy MFC
-for genome in "${genomesmfc[@]}"; do cd ${direc}Genomes/Mesomycoplasma_flocculare/${genome}/ncbi_dataset/data/GCF_*.1; cp protein.faa ${genome}_protein.fasta; cd; done
-
-# # # STEP 1 - Proteins file mv
-# Move MHP
-for genome in "${genomesmhp[@]}"; do
-    mv ${direc}Genomes/Mesomycoplasma_hyopneumoniae/${genome}/ncbi_dataset/data/GCF_*.1/${genome}_protein.fasta ${direc}Orthofinder_db/
+direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
+mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
+for file in $(cat $mhp_list); do
+    cd ${direc_mhp}/strains/${file}/Use/G*.1 # OK
+    cp protein.faa ${file}_proteins_mhp.fasta
+    #rm ${file}_proteins.fasta
+    cd
+    mv ${direc_mhp}/strains/${file}/Use/G*.1/${file}_proteins_mhp.fasta $input_folder
 done
 
-# Move MFC
-for genome in "${genomesmfc[@]}"; do mv ${direc}Genomes/Mesomycoplasma_flocculare/${genome}/ncbi_dataset/data/GCF_*.1/${genome}_protein.fasta ${direc}Orthofinder_db/; done
+# # # END > > > RUN ORTHOFINDER
+
+#
