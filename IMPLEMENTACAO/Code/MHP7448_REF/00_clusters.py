@@ -21,6 +21,9 @@ for r in refproteases:
             data.append([locus_tag, protein, protein_id])
         
             print(protein_id)
+
+            
+
 #print(data)
 
 print("E N D")
