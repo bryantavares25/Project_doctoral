@@ -1,6 +1,5 @@
-# # # #
+#!/bin/bash
 
-# # # LYBRARIES # # #
-from Bio import SeqIO
-import csv
+dir=/home/lgef
+#dir=/home/bryan
 
