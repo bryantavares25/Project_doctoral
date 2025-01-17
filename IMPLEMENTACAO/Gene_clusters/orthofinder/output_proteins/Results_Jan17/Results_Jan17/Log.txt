@@ -49,3 +49,6 @@ Species used:
 42: MHP_UFV02_genes.fasta
 43: MHP_Ue273_genes.fasta
 
+FN_Orthogroups: /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/Results_Jan17/Results_Jan17/WorkingDirectory/clusters_OrthoFinder_I1.2.txt_id_pairs.txt
+WorkingDirectory_Trees: /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/Results_Jan17/Results_Jan17/WorkingDirectory/
+2025-01-17 11:03:34 : OrthoFinder run completed
