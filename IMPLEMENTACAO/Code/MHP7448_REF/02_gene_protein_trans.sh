@@ -33,11 +33,11 @@ done
 dir=/home/lgef
 #dir=/home/bryan
 
-mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
-for i in $(cat $mfc_list); do
-    input_fasta=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/input_proteins/proteins_id/MFC_${i}_proteins.fasta
-    id_map=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/input_proteins/dic_protein_gene/M_flocculare/${i}_dic.txt
-    output_fasta=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/input_proteins/genes_id/MFC_${i}_genes.fasta
+mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
+for i in $(cat $mhp_list); do
+    input_fasta=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/input_proteins/proteins_id/MHP_${i}_proteins.fasta
+    id_map=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/input_proteins/dic_protein_gene/M_hyopneumoniae/${i}_dic.txt
+    output_fasta=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/input_proteins/genes_id/MHP_${i}_genes.fasta
     
     awk '
         BEGIN {

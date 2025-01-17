@@ -1,0 +1,51 @@
+2025-01-17 10:28:25 : Started OrthoFinder version 3.0.1b1
+Command Line: /home/lgef/miniconda3/envs/orthofinder/bin/orthofinder -f /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/input_proteins/genes_id -o /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/Results_Jan17
+
+WorkingDirectory_Base: /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/Results_Jan17/Results_Jan17/WorkingDirectory/
+
+Species used: 
+0: MFC_ATCC27716_genes.fasta
+1: MFC_MF11_genes.fasta
+2: MFC_MF18_genes.fasta
+3: MFC_MF22_genes.fasta
+4: MFC_MF29_genes.fasta
+5: MFC_MF30_genes.fasta
+6: MFC_MF33_genes.fasta
+7: MFC_Ms42_genes.fasta
+8: MHP_111A_genes.fasta
+9: MHP_112B_genes.fasta
+10: MHP_116_genes.fasta
+11: MHP_11_genes.fasta
+12: MHP_1257_genes.fasta
+13: MHP_131B_genes.fasta
+14: MHP_133A_genes.fasta
+15: MHP_153B_genes.fasta
+16: MHP_154B_genes.fasta
+17: MHP_168L_genes.fasta
+18: MHP_168_genes.fasta
+19: MHP_232_genes.fasta
+20: MHP_4284_genes.fasta
+21: MHP_7422_genes.fasta
+22: MHP_7448_genes.fasta
+23: MHP_98_genes.fasta
+24: MHP_ES2L_genes.fasta
+25: MHP_ES2_genes.fasta
+26: MHP_F72C_genes.fasta
+27: MHP_J_genes.fasta
+28: MHP_KM014_genes.fasta
+29: MHP_LH_genes.fasta
+30: MHP_MHP650_genes.fasta
+31: MHP_MHP653_genes.fasta
+32: MHP_MHP679_genes.fasta
+33: MHP_MHP682_genes.fasta
+34: MHP_MHP691_genes.fasta
+35: MHP_MHP694_genes.fasta
+36: MHP_MHP696_genes.fasta
+37: MHP_MHP699_genes.fasta
+38: MHP_MHP709_genes.fasta
+39: MHP_NCTC10127_genes.fasta
+40: MHP_TB1_genes.fasta
+41: MHP_UFV01_genes.fasta
+42: MHP_UFV02_genes.fasta
+43: MHP_Ue273_genes.fasta
+
