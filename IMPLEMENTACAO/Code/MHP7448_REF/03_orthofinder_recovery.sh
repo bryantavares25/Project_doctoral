@@ -9,9 +9,6 @@ awk ' NR==1 {print}' /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACA
 
 for i in ${refproteases[@]}; do grep $i /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/gene_id/Orthogroups/Orthogroups.tsv >> /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/gene_id/Orthogroups/Orthogroups_test.tsv; done
 
-
-
-
 # DICIO
 
 # 
