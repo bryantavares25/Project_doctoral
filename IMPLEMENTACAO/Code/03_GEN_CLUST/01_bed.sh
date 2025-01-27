@@ -3,24 +3,28 @@
 # START > > > OPERON VIEWER
 
 # ARCHIVE
-dir=/home/regenera
+dir=/home/bryan
+#dir=/home/lgef
 org=$dir/Documents/Projects/Project_REGENERA/Project_VANESSA/Bioluminescentes
 
 # INPUT FILE
-read -r line < /home/regenera/Documents/Github/Project_regenera/VAN_projects/strain.txt
+
+# cat ?
+#read -r line < $dir/Documents/Github/Project_regenera/VAN_projects/strain.txt
 #line=REG_001554_SEQ_240819201486
-echo $line 
+#echo $line
+line=11
 
-input_gff=$(find "${org}/Genome_02v/Genomes/${line}/12_ref_ann/prokka/" -type f | grep -E ".*\.gff")
+input_gff=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}" -type f | grep -E ".*\.gff")
 
-pipe_bed=$dir/Documents/Github/Project_regenera/VAN_projects/Genomes/${line}/00_PROKKA.bed
-pipe_sor=$dir/Documents/Github/Project_regenera/VAN_projects/Genomes/${line}/01_PROKKA_sort.bed
-trun_bed=$dir/Documents/Github/Project_regenera/VAN_projects/Genomes/${line}/02_PROKKA_transcriptunit.bed
+pipe_bed=$dir/Documents/GitHib/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic.bed
+pipe_sor=$dir/Documents/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic_sort.bed
+trun_bed=$dir/Documents/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic_gene_coc.bed
 
 # EXECUTION 
 
 # .gff to .bed [Ajuste de formatação]
-awk 'BEGIN { OFS = "\t" } $3 == "CDS" || $3 == "tRNA" { 
+awk 'BEGIN { OFS = "\t" } $3 == "RefSeq" { 
         split($9, a, ";")
         split(a[1], b, "=")
         print $1, $4-1, $5, b[2], 0, $7
