@@ -5,7 +5,7 @@
 # ARCHIVE
 dir=/home/bryan
 #dir=/home/lgef
-org=$dir/Documents/Projects/Project_REGENERA/Project_VANESSA/Bioluminescentes
+#org=$dir/Documents/Projects/Project_REGENERA/Project_VANESSA/Bioluminescentes
 
 # INPUT FILE
 
@@ -17,19 +17,18 @@ line=11
 
 input_gff=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}" -type f | grep -E ".*\.gff")
 
-pipe_bed=$dir/Documents/GitHib/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic.bed
-pipe_sor=$dir/Documents/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic_sort.bed
-trun_bed=$dir/Documents/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic_gene_coc.bed
+pipe_bed=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic.bed
+pipe_sor=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic_sort.bed
+trun_bed=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic_gene_coc.bed
 
 # EXECUTION 
 
 # .gff to .bed [Ajuste de formatação]
-awk 'BEGIN { OFS = "\t" } $3 == "RefSeq" { 
+awk 'BEGIN { OFS = "\t" } $2 == "RefSeq" && $3 != "region" { 
         split($9, a, ";")
         split(a[1], b, "=")
         print $1, $4-1, $5, b[2], 0, $7
     }' "$input_gff" > "$pipe_bed"
-#$1 Sequence-region | $4
 
 # Sort data [ordenação dos dados > Cromossomo:Inicio] 
 sort -k1,1 -k2,2n "$pipe_bed" > "$pipe_sor"

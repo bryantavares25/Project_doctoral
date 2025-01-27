@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Folders
-dir=/home/lgef
-#dir=/home/bryan
+#dir=/home/lgef
+dir=/home/bryan
 
 direc_mfc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare
 mfc_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv # Curadoria manual
