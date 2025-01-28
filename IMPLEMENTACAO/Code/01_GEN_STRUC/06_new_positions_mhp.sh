@@ -40,19 +40,22 @@ for file in $(cat $mhp_list); do
         split(a[4], c, "=")
         split(a[5], d, "=")
         split(a[6], e, "=")
-        if (c[1] == "gene_biotype") {
-            print $1, $7, $4, $5, b[2], c[2]}
-        if (d[1] == "gene_biotype") {
-            print $1, $7, $4, $5, b[2], d[2]}
         if (e[1] == "gene_biotype") {
             print $1, $7, $4, $5, b[2], e[2]}
     }' "$mhp_genome_gff" > "$mhp_gff_data"
+
+#        if (c[1] == "gene_biotype") {
+#            print $1, $7, $4, $5, b[2], c[2]}
+#       if (d[1] == "gene_biotype") {
+#            print $1, $7, $4, $5, b[2], d[2]}
+
     # $sequence_region $start $end
     awk 'BEGIN {OFS="\t"} {print $1, $3 -1, $4}' "$mhp_gff_data" > "$mhp_gff_location"
     # Recuperar as sequencias de nucleotídeos de todos os genes conforme localização
     seqtk subseq "$mhp_genome_fna" "$mhp_gff_location" > "$mhp_genes_fasta"
     # Recuperar a nova localização das sequenciais no genoma montado
     sequence=$(awk '!/^>/' "$mhp_genes_fasta")
+    echo "A" >> "$mfc_genes_location"
     for i in $sequence; do
         seqkit locate -i -p "$i" "$mhp_genome_new" >> "$mhp_genes_location"
     done
