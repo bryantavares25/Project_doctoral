@@ -7,8 +7,8 @@
 # ARCHIVE
 
 # Folders
-dir=/home/lgef
-#dir=/home/bryan
+#dir=/home/lgef
+dir=/home/bryan
 
 direc_mfc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare
 mfc_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv # Curadoria manual
@@ -43,20 +43,29 @@ for file in $(cat $mfc_list); do
                 print $1, $7, $4, $5, b[2], field[2]
             }
         }
-
     }' "$mfc_genome_gff" > "$mfc_gff_data"
 
     # $sequence_region $start $end
     awk 'BEGIN {OFS="\t"} {print $1, $3 -1, $4}' "$mfc_gff_data" > "$mfc_gff_location"
+    
     # Recuperar as sequencias de nucleotídeos de todos os genes conforme localização
     seqtk subseq "$mfc_genome_fna" "$mfc_gff_location" > "$mfc_genes_fasta"
-    # Recuperar a nova localização das sequenciais no genoma montado
-    sequence=$(awk '!/^>/' "$mfc_genes_fasta")
-    echo "A" >> "$mfc_genes_location"
-    for i in $sequence; do
-        seqkit locate -i -p "$i" "$mfc_genome_new" >> "$mfc_genes_location"
-    done
+    # Recuperar a nova localização das sequenciais no genoma montado    
     
+    #id=$(awk '$5' "$mfc_genes_data")
+    #sequence=$(awk '!/^>/' "$mfc_genes_fasta")
+    #for i in $sequence; do
+    #    seqkit locate -i -p "$i" "$mfc_genome_new" >> "$mfc_genes_location"
+    #done
+
+    id=$(awk '{print $5}' "$mfc_genes_data")
+    sequence=$(awk '!/^>/' "$mfc_genes_fasta")
+
+    paste <(echo "$id") <(echo "$sequence") | while IFS=$'\t' read -r id seq; do
+    seqkit locate -i -p "$seq" "$mfc_genome_new" >> "$mfc_genes_location"
+    done
+
+
     #cp $mfc_genes_location $mfc_genes_location_clean  # DANGER - Substitui arquivo curado manualmente
 
     echo $file
