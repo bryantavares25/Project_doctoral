@@ -7,8 +7,8 @@
 # ARCHIVE
 
 # Folders
-dir=/home/lgef
-#dir=/home/bryan
+#dir=/home/lgef
+dir=/home/bryan
 
 direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
 mhp_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
@@ -37,17 +37,13 @@ for file in $(cat $mhp_list); do
     $2 == "RefSeq" && $3 != "Region" {
         split($9, a, ";")
         split(a[1], b, "-")
-        split(a[4], c, "=")
-        split(a[5], d, "=")
-        split(a[6], e, "=")
-        if (e[1] == "gene_biotype") {
-            print $1, $7, $4, $5, b[2], e[2]}
+        for (i in a) {
+            split(a[i], field, "=")
+            if (field[1] == "gene_biotype") {
+                print $1, $7, $4, $5, b[2], field[2]
+            }
+        }
     }' "$mhp_genome_gff" > "$mhp_gff_data"
-
-#        if (c[1] == "gene_biotype") {
-#            print $1, $7, $4, $5, b[2], c[2]}
-#       if (d[1] == "gene_biotype") {
-#            print $1, $7, $4, $5, b[2], d[2]}
 
     # $sequence_region $start $end
     awk 'BEGIN {OFS="\t"} {print $1, $3 -1, $4}' "$mhp_gff_data" > "$mhp_gff_location"
@@ -55,7 +51,7 @@ for file in $(cat $mhp_list); do
     seqtk subseq "$mhp_genome_fna" "$mhp_gff_location" > "$mhp_genes_fasta"
     # Recuperar a nova localização das sequenciais no genoma montado
     sequence=$(awk '!/^>/' "$mhp_genes_fasta")
-    echo "A" >> "$mfc_genes_location"
+    echo "A" >> "$mhp_genes_location"
     for i in $sequence; do
         seqkit locate -i -p "$i" "$mhp_genome_new" >> "$mhp_genes_location"
     done
@@ -68,3 +64,33 @@ done
 # END > > > 
 # GENOMES TO GENE_CLUSTERS
 #A partir do genomic_novo_gff gerado, será possível prosseguir para as análises estruturais
+
+
+#awk 'BEGIN {
+#    OFS = "\t"  # Define o separador de saída como tabulação
+#}
+
+# Função para extrair o valor de um campo específico
+#function extract_value(field, separator,   parts) {
+#    split(field, parts, separator)
+#    return parts[2]
+#}
+
+# Processa apenas as linhas onde a segunda coluna é "RefSeq" e a terceira não é "Region"
+#$2 == "RefSeq" && $3 != "Region" {
+#    split($9, a, ";")  # Divide o nono campo em subcampos separados por ";"
+#    split(a[1], b, "-")  # Divide o primeiro subcampo para obter o ID
+
+    # Itera sobre os subcampos para encontrar o campo "gene_biotype"
+#    for (i in a) {
+#        if (a[i] ~ /^gene_biotype=/) {
+#            gene_biotype = extract_value(a[i], "=")
+#            break  # Sai do loop assim que encontrar o campo desejado
+#        }
+#    }
+#
+    # Se o gene_biotype foi encontrado, imprime a linha formatada
+#    if (gene_biotype != "") {
+#        print $1, $7, $4, $5, b[2], gene_biotype
+#    }
+#}' "$mhp_genome_gff" > "$mhp_gff_data"
