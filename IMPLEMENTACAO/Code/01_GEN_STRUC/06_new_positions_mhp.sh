@@ -10,10 +10,10 @@
 # dir=/home/lgef
 dir=/home/bryan
 
-direc_mfc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
-mfc_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
-mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
-mfc_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
+direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
+mhp_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
+mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
+mhp_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
 
 output_dir=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/
 mkdir -p $output_dir
@@ -25,8 +25,8 @@ for file in $(cat $mhp_list); do
     mkdir -p "$file_output_dir"
 
     # Inputs
-    mfc_genome_fna=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/G*.fna")
-    mfc_genome_gff=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/g*.gff")
+    mhp_genome_fna=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/G*.fna")
+    mhp_genome_gff=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/g*.gff")
     
     # Arquivos de saída
     mhp_gff_data="$file_output_dir/gff_data.tsv"
@@ -34,6 +34,8 @@ for file in $(cat $mhp_list); do
     mhp_genes_fasta="$file_output_dir/genes_fasta.tsv"
     mhp_genes_location="$file_output_dir/genes_location.tsv"
     mhp_genes_location_clean="$file_output_dir/genes_location_clean.tsv"
+
+    rm $mhp_genes_location
 
     # PRIMEIRA ETAPA: Extrair informações relevantes do arquivo .gff
     awk 'BEGIN {
