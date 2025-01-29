@@ -58,12 +58,12 @@ for file in $(cat $mfc_list); do
     #    seqkit locate -i -p "$i" "$mfc_genome_new" >> "$mfc_genes_location"
     #done
 
-    id=$(awk '{print $5}' "$mfc_genes_data")
+    id=$(awk '$5' "$mfc_genes_data")
     sequence=$(awk '!/^>/' "$mfc_genes_fasta")
 
-    paste <(echo "$id") <(echo "$sequence") | while IFS=$'\t' read -r id seq; do
-    seqkit locate -i -p "$seq" "$mfc_genome_new" >> "$mfc_genes_location"
-    done
+    #paste <(echo "$id") <(echo "$sequence") | while IFS=$'\t' read -r id seq; do seqkit locate -i -p "$seq" "$mfc_genome_new" >> "$mfc_genes_location"; done
+
+    paste <(echo "$id") <(echo "$sequence") | while IFS=$'\t' read -r id seq; do echo "$id" "$seq"; done
 
 
     #cp $mfc_genes_location $mfc_genes_location_clean  # DANGER - Substitui arquivo curado manualmente
