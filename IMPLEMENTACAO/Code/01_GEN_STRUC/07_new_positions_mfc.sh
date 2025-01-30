@@ -26,7 +26,7 @@ for file in $(cat $mfc_list); do
     # Criar arquivos para estabelecer a strand correta
     
     awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4, prev, $5; prev=$1}' $mfc_gff_data > $mfc_gff_strand
-    awk 'BEGIN {OFS="\t"} {print two_before, $1, $4, $5, $6; two_before=one_before; one_before=$1}'
+    awk 'BEGIN {OFS="\t"} {print two_before, $1, $4, $5, $6; two_before=one_before; one_before=$1}' # !
     awk 'BEGIN {OFS="\t"} NR%3 == 0 {print $1, $4, $5, $6}' $mfc_genes_location_clean > $mfc_genes_location_clean_strand
 
     
