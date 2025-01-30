@@ -27,7 +27,8 @@ for file in $(cat $mfc_list); do
     # Inputs
     mfc_genome_fna=$(find "${direc_mfc}/strains/${file}/Use/" -type f -path "*/G*.1/G*.fna")
     mfc_genome_gff=$(find "${direc_mfc}/strains/${file}/Use/" -type f -path "*/G*.1/g*.gff")
-    
+    mfc_genome_new="$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/mult_align/seqs_to_align/$file.fasta"
+
     # Arquivos de saída
     mfc_gff_data="$file_output_dir/gff_data.tsv"
     mfc_gff_location="$file_output_dir/location_data.tsv"

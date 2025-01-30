@@ -27,6 +27,7 @@ for file in $(cat $mhp_list); do
     # Inputs
     mhp_genome_fna=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/G*.fna")
     mhp_genome_gff=$(find "${direc_mhp}/strains/${file}/Use/" -type f -path "*/G*.1/g*.gff")
+    mhp_genome_new="$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/mult_align/seqs_to_align/$file.fasta"
     
     # Arquivos de saída
     mhp_gff_data="$file_output_dir/gff_data.tsv"
