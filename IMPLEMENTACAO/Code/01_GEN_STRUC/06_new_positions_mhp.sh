@@ -73,7 +73,7 @@ for file in $(cat $mhp_list); do
     echo "SEQTIK"
     paste <(echo "$id") <(echo "$sequence") | while IFS=$'\t' read -r id seq; do
         echo $id >> $mhp_genes_location
-        seqkit locate -i -p "$seq" "$mhp_genome_fna" >> "$mhp_genes_location"
+        seqkit locate -i -p "$seq" "$mhp_genome_new" >> "$mhp_genes_location"
     done
 
     # DESCOMENTAR APENAS SE PRECISAR SUBSTITUIR ARQUIVOS MANUALMENTE EDITADOS

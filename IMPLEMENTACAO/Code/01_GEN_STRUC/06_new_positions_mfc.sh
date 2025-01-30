@@ -71,7 +71,7 @@ for file in $(cat $mfc_list); do
     echo "SEQTIK"
     paste <(echo "$id") <(echo "$sequence") | while IFS=$'\t' read -r id seq; do
         echo $id >> $mfc_genes_location
-        seqkit locate -i -p "$seq" "$mfc_genome_fna" >> "$mfc_genes_location"
+        seqkit locate -i -p "$seq" "$mfc_genome_new" >> "$mfc_genes_location"
     done
 
     # DESCOMENTAR APENAS SE PRECISAR SUBSTITUIR ARQUIVOS MANUALMENTE EDITADOS
