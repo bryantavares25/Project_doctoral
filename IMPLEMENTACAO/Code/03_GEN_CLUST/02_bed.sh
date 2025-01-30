@@ -3,13 +3,24 @@
 # START > > > OPERON SELECTION
 
 # ARCHIVE
-dir=/home/regenera
-org=$dir/Documents/Projects/Project_REGENERA/Project_VANESSA/Bioluminescentes
+#dir=/home/bryan
+dir=/home/lgef
+#org=$dir/Documents/Projects/Project_REGENERA/Project_VANESSA/Bioluminescentes
 
 # INPUT FILE
-read -r line < /home/regenera/Documents/Github/Project_regenera/VAN_projects/strain.txt
+
+# cat ?
+#read -r line < $dir/Documents/Github/Project_regenera/VAN_projects/strain.txt
 #line=REG_001554_SEQ_240819201486
-echo $line
+#echo $line
+line=11
+
+input_gff=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}" -type f | grep -E ".*\.gff")
+
+pipe_bed=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic.bed
+pipe_sor=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic_sort.bed
+trun_bed=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}/genomic_gene_coc.bed
+
 
 input_tsv=$(find "${org}/Genome_02v/Genomes/${line}/12_ref_ann/prokka/" -type f | grep -E "4.*\.tsv")
 
