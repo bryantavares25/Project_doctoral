@@ -86,6 +86,9 @@ done
 # GENOMES TO GENE_CLUSTERS
 # A partir do arquivo gerado, será possível prosseguir para análises estruturais
 
-for file in $(cat $mhp_list); do
-    cp "$mhp_genes_location" "$mhp_genes_location_clean"  # DANGER - Substitui arquivo curado manualmente
+for file in $(cat $mfc_list); do
+    mfc_genes_location="$file_output_dir/genes_location.tsv"
+    file_output_dir="$output_dir/$file/Position_update"
+    mfc_genes_location_clean="$file_output_dir/genes_location_clean.tsv"
+    cp "$mfc_genes_location" "$mfc_genes_location_clean"
 done
