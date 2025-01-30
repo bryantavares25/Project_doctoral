@@ -85,3 +85,7 @@ done
 # END > > > 
 # GENOMES TO GENE_CLUSTERS
 # A partir do arquivo gerado, será possível prosseguir para análises estruturais
+
+for file in $(cat $mhp_list); do
+    cp "$mhp_genes_location" "$mhp_genes_location_clean"  # DANGER - Substitui arquivo curado manualmente
+done
