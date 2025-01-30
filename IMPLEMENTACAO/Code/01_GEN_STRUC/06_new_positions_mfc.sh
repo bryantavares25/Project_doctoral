@@ -36,6 +36,8 @@ for file in $(cat $mfc_list); do
     mfc_genes_location="$file_output_dir/genes_location.tsv"
     mfc_genes_location_clean="$file_output_dir/genes_location_clean.tsv"
 
+    rm $mfc_genes_location
+
     # PRIMEIRA ETAPA: Extrair informações relevantes do arquivo .gff
     awk 'BEGIN {
         OFS = "\t"
