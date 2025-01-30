@@ -77,7 +77,7 @@ for file in $(cat $mhp_list); do
     done
 
     # DESCOMENTAR APENAS SE PRECISAR SUBSTITUIR ARQUIVOS MANUALMENTE EDITADOS
-    # cp "$mfc_genes_location" "$mfc_genes_location_clean"  # DANGER - Substitui arquivo curado manualmente
+    cp "$mfc_genes_location" "$mfc_genes_location_clean"  # DANGER - Substitui arquivo curado manualmente
 
     echo "Finalizado $file."
 done
