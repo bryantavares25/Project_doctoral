@@ -50,8 +50,8 @@ for file in $(cat $mfc_list); do
     # Substituição da localização
     awk 'BEGIN { OFS="\t" }
         NR==FNR {
-            key = $1 FS $3 FS $4 FS $2
-            map[key] = $5 FS $7 FS $8 FS $6
+            key = $2 FS $4 FS $5 FS $3
+            map[key] = $7 FS $9 FS $10 FS $8
             next
         }
         {
