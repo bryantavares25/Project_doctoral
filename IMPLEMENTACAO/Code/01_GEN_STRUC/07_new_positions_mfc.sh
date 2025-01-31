@@ -54,17 +54,17 @@ for file in $(cat $mfc_list); do
             map[key] = $5 FS $7 FS $8 FS $6
             next
         }
-    #    {
-    #        key = $1 FS $4 FS $5 FS $7
-    #        if (key in map) {
-    #            split(map[key], new_values, FS)
-    #            $1 = new_values[1]
-    #            $4 = new_values[2]
-    #            $5 = new_values[3]
-    #            $7 = new_values[4]
-    #        }
-    #        print
-    #    }' $mfc_genes_map $mfc_genomic_gff > $mfc_genomic_gff_novo
+        {
+            key = $1 FS $4 FS $5 FS $7
+            if (key in map) {
+                split(map[key], new_values, FS)
+                $1 = new_values[1]
+                $4 = new_values[2]
+                $5 = new_values[3]
+                $7 = new_values[4]
+            }
+            print
+        }' $mfc_genes_map $mfc_genomic_gff > $mfc_genomic_gff_novo
 done
 
 # END > > > 
