@@ -15,6 +15,11 @@ dir=/home/lgef
 #echo $line
 #line=11
 
+direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
+mhp_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
+mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
+mhp_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_result.txt
+
 for line in $(cat $mhp_list); do
     input_gff=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/${line}" -type f | grep -E ".*\.gff")
 
@@ -28,7 +33,7 @@ for line in $(cat $mhp_list); do
     awk 'BEGIN { OFS = "\t" } $2 == "RefSeq" && $3 != "region" { 
             split($9, a, ";")
             split(a[1], b, "=")
-            print $1, $4-1, $5, b[2], 0, $7
+            print $1, $4, $5, b[2], 0, $7
         }' "$input_gff" > "$pipe_bed"
 
     # Sort data [ordenação dos dados > Cromossomo:Inicio] 
@@ -52,6 +57,11 @@ for line in $(cat $mhp_list); do
     }' "$pipe_sor" > "$trun_bed"
 done
 
+direc_mfc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare
+mfc_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_table.tsv # Curadoria manual
+mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
+mfc_temp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_result.txt
+
 for line in $(cat $mfc_list); do
     input_gff=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/${line}" -type f | grep -E ".*\.gff")
 
@@ -65,7 +75,7 @@ for line in $(cat $mfc_list); do
     awk 'BEGIN { OFS = "\t" } $2 == "RefSeq" && $3 != "region" { 
             split($9, a, ";")
             split(a[1], b, "=")
-            print $1, $4-1, $5, b[2], 0, $7
+            print $1, $4, $5, b[2], 0, $7
         }' "$input_gff" > "$pipe_bed"
 
     # Sort data [ordenação dos dados > Cromossomo:Inicio] 
