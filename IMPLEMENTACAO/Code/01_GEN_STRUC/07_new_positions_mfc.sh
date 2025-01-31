@@ -24,46 +24,47 @@ for file in $(cat $mfc_list); do
     mkdir -p $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/
 
     # Criar arquivos para estabelecer a strand correta
-    
-    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4, prev, $5; prev=$1}' $mfc_gff_data > $mfc_gff_strand
-    awk 'BEGIN {OFS="\t"} {print two_before, $1, $4, $5, $6; two_before=one_before; one_before=$1}' # !
-    awk 'BEGIN {OFS="\t"} NR%3 == 0 {print $1, $4, $5, $6}' $mfc_genes_location_clean > $mfc_genes_location_clean_strand
 
+    mfc_genes_location_clean_org=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/genes_location_clean_org.tsv
+
+    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4, $5}' $mfc_gff_data > $mfc_gff_strand
+    awk 'BEGIN {OFS="\t"} {print two_before, $1, $4, $5, $6; two_before=one_before; one_before=$1}' $mfc_genes_location_clean > $mfc_genes_location_clean_org
+    awk 'BEGIN {OFS="\t"} NR%3 == 0 {print $0}' $mfc_genes_location_clean_org > $mfc_genes_location_clean_strand
     
     # Colando arquivos   
     paste $mfc_gff_strand $mfc_genes_location_clean_strand > $mfc_genes_location_strand_complete
     # Calculando final strand
-    awk 'BEGIN {OFS="\t"} {
-        if ($6 == "+") {
-            print $0, $2
-        } else {
-            if ($2 == "+") sign = "-" 
-            else if ($2 == "-") sign = "+"
-            print $0, sign
-        }
-    }' $mfc_genes_location_strand_complete > $mfc_genes_location_strand_final
+    #awk 'BEGIN {OFS="\t"} {
+    #    if ($6 == "+") {
+    #        print $0, $2
+    #    } else {
+    #        if ($2 == "+") sign = "-" 
+    #        else if ($2 == "-") sign = "+"
+    #        print $0, sign
+    #    }
+    #}' $mfc_genes_location_strand_complete > $mfc_genes_location_strand_final
 
     # Criando mapa
-    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4, $5, $9, $7, $8'} $mfc_genes_location_strand_final > $mfc_genes_map
+    #awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4, $5, $9, $7, $8'} $mfc_genes_location_strand_final > $mfc_genes_map
 
     # Substituição da localização
-    awk 'BEGIN { OFS="\t" }
-        NR==FNR {
-            key = $1 FS $3 FS $4 FS $2
-            map[key] = $5 FS $7 FS $8 FS $6
-            next
-        }
-        {
-            key = $1 FS $4 FS $5 FS $7
-            if (key in map) {
-                split(map[key], new_values, FS)
-                $1 = new_values[1]
-                $4 = new_values[2]
-                $5 = new_values[3]
-                $7 = new_values[4]
-            }
-            print
-        }' $mfc_genes_map $mfc_genomic_gff > $mfc_genomic_gff_novo
+    #awk 'BEGIN { OFS="\t" }
+    #    NR==FNR {
+    #        key = $1 FS $3 FS $4 FS $2
+    #        map[key] = $5 FS $7 FS $8 FS $6
+    #        next
+    #    }
+    #    {
+    #        key = $1 FS $4 FS $5 FS $7
+    #        if (key in map) {
+    #            split(map[key], new_values, FS)
+    #            $1 = new_values[1]
+    #            $4 = new_values[2]
+    #            $5 = new_values[3]
+    #            $7 = new_values[4]
+    #        }
+    #        print
+    #    }' $mfc_genes_map $mfc_genomic_gff > $mfc_genomic_gff_novo
 done
 
 # END > > > 
