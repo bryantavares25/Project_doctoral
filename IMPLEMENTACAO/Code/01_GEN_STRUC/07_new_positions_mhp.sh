@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Folders
-#dir=/home/lgef
-dir=/home/bryan
+dir=/home/lgef
+#dir=/home/bryan
 
 direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
 mhp_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
@@ -24,29 +24,34 @@ for file in $(cat $mhp_list); do
     mkdir -p $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/$file/Position_update/
 
     # Criar arquivos para estabelecer a strand correta
-    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4}' $mhp_gff_data > $mhp_gff_strand
-    awk 'BEGIN {OFS="\t"} NR%2 == 0 {print $1, $4, $5, $6}' $mhp_genes_location_clean > $mhp_genes_location_clean_strand
+    
+    mhp_genes_location_clean_org=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$file/Position_update/genes_location_clean_org.tsv
+
+    awk 'BEGIN {OFS="\t"} {print $5, $1, $2, $3, $4}' $mhp_gff_data > $mhp_gff_strand
+    awk 'BEGIN {OFS="\t"} {print two_before, $1, $4, $5, $6; two_before=one_before; one_before=$1}' $mhp_genes_location_clean > $mhp_genes_location_clean_org
+    awk 'BEGIN {OFS="\t"} NR%3 == 0 {print $0}' $mhp_genes_location_clean > $mhp_genes_location_clean_strand
+    
     # Colando arquivos   
     paste $mhp_gff_strand $mhp_genes_location_clean_strand > $mhp_genes_location_strand_complete
     # Calculando final strand
     awk 'BEGIN {OFS="\t"} {
-        if ($6 == "+") {
-            print $0, $2
+        if ($8 == "+") {
+            print $0, $3
         } else {
-            if ($2 == "+") sign = "-" 
-            else if ($2 == "-") sign = "+"
+            if ($3 == "+") sign = "-" 
+            else if ($3 == "-") sign = "+"
             print $0, sign
         }
     }' $mhp_genes_location_strand_complete > $mhp_genes_location_strand_final
 
     # Criando mapa
-    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4, $5, $9, $7, $8'} $mhp_genes_location_strand_final > $mhp_genes_map
+    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $4, $5, $6, $7, $11, $9, $10'} $mhp_genes_location_strand_final > $mhp_genes_map
 
     # Substituição da localização
     awk 'BEGIN { OFS="\t" }
         NR==FNR {
-            key = $1 FS $3 FS $4 FS $2
-            map[key] = $5 FS $7 FS $8 FS $6
+            key = $2 FS $4 FS $5 FS $3
+            map[key] = $7 FS $9 FS $10 FS $8
             next
         }
         {
