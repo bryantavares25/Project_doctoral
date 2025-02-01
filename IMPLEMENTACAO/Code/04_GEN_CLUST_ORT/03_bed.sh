@@ -3,13 +3,11 @@
 # START > > > OPERON ORGANIZATION
 
 # ARCHIVE
-dir=/home/regenera
+#dir=/home/bryan
+dir=/home/lgef
 org=$dir/Documents/Projects/Project_REGENERA/Project_VANESSA/Bioluminescentes
 
 # INPUT FILE
-read -r line < /home/regenera/Documents/Github/Project_regenera/VAN_projects/strain.txt
-#line=REG_001554_SEQ_240819201486
-echo $line
 
 input_faa=$(find "${org}/Genome_02v/Genomes/${line}/12_ref_ann/prokka/" -type f | grep -E ".*\.faa")
 
