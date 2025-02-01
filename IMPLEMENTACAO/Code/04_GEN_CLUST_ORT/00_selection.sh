@@ -10,11 +10,14 @@ dir=/home/bryan
 
 mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
 
+ort=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder
+
+#gene_id > Orthologues
+
 # E X E C U T I O N
 
 for line in $(cat $mfc_list); do
-
-    echo $line
+    echo "MHP_${line}_genes"
 
     for gene in ${OG[@]}; do
 
