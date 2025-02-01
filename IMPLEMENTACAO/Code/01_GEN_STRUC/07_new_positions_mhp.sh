@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Folders
-dir=/home/lgef
-#dir=/home/bryan
+#dir=/home/lgef
+dir=/home/bryan
 
 direc_mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae
 mhp_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_table.tsv # Curadoria manual
