@@ -12,6 +12,8 @@ mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.
 
 ort=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder
 
+IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/gene_id/Orthologues/MHP_7448_genes.tsv
+
 #gene_id > Orthologues
 
 # E X E C U T I O N
