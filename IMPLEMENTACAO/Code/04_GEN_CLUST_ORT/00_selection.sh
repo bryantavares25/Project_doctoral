@@ -8,11 +8,11 @@ OG=(OG0000003 OG0000011 OG0000013 OG0000055 OG0000072 OG0000078 OG0000100 OG0000
 dir=/home/bryan
 #dir=/home/lgef
 
-mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
+mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
 
 # E X E C U T I O N
 
-for line in $(cat $mhp_list); do
+for line in $(cat $mfc_list); do
 
     echo $line
 
@@ -23,3 +23,5 @@ for line in $(cat $mhp_list); do
     done
 
 done
+
+# E N D
