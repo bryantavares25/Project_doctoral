@@ -3,8 +3,8 @@
 # START > > > OPERON VIEWER
 
 # ARCHIVE
-#dir=/home/bryan
-dir=/home/lgef
+dir=/home/bryan
+#dir=/home/lgef
 #org=$dir/Documents/Projects/Project_REGENERA/Project_VANESSA/Bioluminescentes
 
 # INPUT FILE

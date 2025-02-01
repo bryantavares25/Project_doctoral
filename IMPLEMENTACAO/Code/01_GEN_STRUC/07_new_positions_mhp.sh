@@ -29,7 +29,7 @@ for file in $(cat $mhp_list); do
 
     awk 'BEGIN {OFS="\t"} {print $5, $1, $2, $3, $4}' $mhp_gff_data > $mhp_gff_strand
     awk 'BEGIN {OFS="\t"} {print two_before, $1, $4, $5, $6; two_before=one_before; one_before=$1}' $mhp_genes_location_clean > $mhp_genes_location_clean_org
-    awk 'BEGIN {OFS="\t"} NR%3 == 0 {print $0}' $mhp_genes_location_clean > $mhp_genes_location_clean_strand
+    awk 'BEGIN {OFS="\t"} NR%3 == 0 {print $0}' $mhp_genes_location_clean_org > $mhp_genes_location_clean_strand
     
     # Colando arquivos   
     paste $mhp_gff_strand $mhp_genes_location_clean_strand > $mhp_genes_location_strand_complete
