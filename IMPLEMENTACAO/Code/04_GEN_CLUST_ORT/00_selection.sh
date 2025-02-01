@@ -16,6 +16,9 @@ IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/gene_id/Orthologues/MHP_
 
 #gene_id > Orthologues
 
+# Uma árvore 
+# Strain | OG | GENEID >>> pega o ID do gene >>> /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/genomic_gene_coc.bed
+
 # E X E C U T I O N
 
 for line in $(cat $mfc_list); do
