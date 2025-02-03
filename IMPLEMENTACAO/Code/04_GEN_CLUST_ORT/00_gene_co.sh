@@ -46,14 +46,26 @@ while read -r line; do
         $2 ~ ("MFC_" line "_genes") && $1 ~ (og) {
         n = split ($NF, ids, ", ")
         for (i = 1; i <= n; i++) 
-            print $1, $2, $3, ids[i]          
+            print $1, line, $3, ids[i]          
         }' $mfc >> $mfc_after
     done
-    
+done    
     # Pegar cada linha e descobrir operon
-    for line in $(cat $mfc_after); do
-        echo $line
-    done
+    while read -r data; do
+        echo ${data[2]}
+    #awk -v data="$data" -F'\t' 'BEGIN {OFS = "\t"} {print $2}' $mfc_after
+    done < $mfc_after
+
+    # Pegar cada linha e descobrir operon
+    while IFS=$'\t' read -r col1 col2 col3 rest; do
+    echo "$col3"
+    # awk -F'\t' '{print $2}' "$mfc_after"
+    done < "$mfc_after"
+
+
+    #for line in $(cat ${mfc_after[@]}); do
+    #    awk $line
+    #done
 
 done < $mfc_list
 

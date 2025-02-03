@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# START > > > OPERON SELECTION
+
+# ARCHIVE
+
+
+# INPUT FILE
+
+
+# EXECUTION
+
+
+
+
+# E N D > > > TO OPERON ORGANIZATION
