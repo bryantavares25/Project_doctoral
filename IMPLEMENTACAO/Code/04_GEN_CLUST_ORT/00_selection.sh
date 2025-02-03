@@ -37,16 +37,26 @@ mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.
 
 ort_clus=
 
+rm $mfc_after
+
 while read -r line; do
     for og in "${OG[@]}"; do
         awk -v line="$line" -v og="$og" -F'\t' 'BEGIN {OFS = "\t"}
-        $2 ~ ("MFC_" line "_genes") && $1 ~ (og)
-        n = split ($NF, ids, ",")
+        $2 ~ ("MFC_" line "_genes") && $1 ~ (og) {
+        n = split ($NF, ids, ", ")
         for (i = 1; i <= n; i++) 
-            print ids[i]
-            
-        }' $mfc
+            print $1, $2, $3, ids[i]          
+        }' $mfc >> $mfc_after
     done
+    
+    /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort
+    
+    # Pegar cada linha e descobrir operon
+    for line in $(cat $mfc_after); do
+        awk -F'\t' 'BEGIN {OFS="\t"} {gsub(/gene-/, "", $4); print}'    
+    done
+
+
 done < $mfc_list
 
 # E N D
