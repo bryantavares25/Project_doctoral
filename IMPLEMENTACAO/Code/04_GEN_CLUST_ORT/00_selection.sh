@@ -30,9 +30,9 @@ mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.
 
 ort_clus=
 
-mfc_after=/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_co.tsv
+mfc_after=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_co.tsv
 
-rm $mfc_after
+#rm $mfc_after
 
 while read -r line; do
 
