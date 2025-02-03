@@ -37,10 +37,8 @@ mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.
 
 while read -r line; do
     for og in "${OG[@]}"; do
-        echo "MFC_${line}_genes ${og}"
-        awk -v line="MFC_${line}_genes" -v og="${og}_genes" 'BEGIN {OFS = "\t"} $1 ~ line && $2 ~ og {print $0}' "$mfc"
+        awk -v line="$line" -v og="$og" -F'\t' 'BEGIN {OFS = "\t"} $2 ~ ("MFC_" line "_genes") && $1 ~ (og) {print $NF}' $mfc
     done
-done < "$mfc_list"
-
+done < $mfc_list
 
 # E N D
