@@ -13,6 +13,7 @@ OG=(OG0000003 OG0000011 OG0000013 OG0000055 OG0000072 OG0000078 OG0000100 OG0000
 mfc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/gene_id/Orthologues/MHP_7448_genes.tsv
 mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
 mfc_after=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_co.tsv
+mfc_after_operon=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_co_coc.tsv
 
 # EXECUTION
 while read -r line; do
@@ -21,11 +22,11 @@ while read -r line; do
 
     # Pegar cada linha e descobrir operon
     while IFS=$'\t' read -r col1 col2 col3 col4; do
-        echo "$col4"
-        awk -v col4="$col4" -F'\t' ' $0 ~ col4 {print $0}' $mfc_coc_clean
-    done < "$mfc_after"
+        awk -v line="$line" -v col1="$col1" -v col2="$col2" -v col3="$col3" -v col4="$col4" -F'\t' ' ($1 ~ line) && ($0 ~ col4)  {print col2, col1, col3, col4, $2, $3, $5, $4}' $mfc_coc_clean >> $mfc_after_operon
+    done < $mfc_after
 
 done < $mfc_list
+
 
 
 # E N D > > > TO OPERON ORGANIZATION
