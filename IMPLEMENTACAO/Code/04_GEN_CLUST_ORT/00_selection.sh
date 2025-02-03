@@ -35,9 +35,17 @@ OG=(OG0000003 OG0000011 OG0000013 OG0000055 OG0000072 OG0000078 OG0000100 OG0000
 mfc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/gene_id/Orthologues/MHP_7448_genes.tsv
 mfc_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mfc_list.txt
 
+ort_clus=
+
 while read -r line; do
     for og in "${OG[@]}"; do
-        awk -v line="$line" -v og="$og" -F'\t' 'BEGIN {OFS = "\t"} $2 ~ ("MFC_" line "_genes") && $1 ~ (og) {print $NF}' $mfc
+        awk -v line="$line" -v og="$og" -F'\t' 'BEGIN {OFS = "\t"}
+        $2 ~ ("MFC_" line "_genes") && $1 ~ (og)
+        n = split ($NF, ids, ",")
+        for (i = 1; i <= n; i++) 
+            print ids[i]
+            
+        }' $mfc
     done
 done < $mfc_list
 
