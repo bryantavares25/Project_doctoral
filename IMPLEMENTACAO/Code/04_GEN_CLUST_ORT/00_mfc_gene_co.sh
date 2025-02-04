@@ -32,6 +32,6 @@ while read -r line; do
             print $1, line, $3, ids[i]          
         }' $mfc >> $mfc_after
     done
-done < $mfc_list
+done < $m_list
 
 # E N D
