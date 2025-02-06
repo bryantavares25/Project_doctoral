@@ -3,8 +3,8 @@
 # START > > > OPERON SELECTION
 
 # ARCHIVE
-#dir=/home/bryan
-dir=/home/lgef
+dir=/home/bryan
+#dir=/home/lgef
 mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
 ort=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder
 
@@ -22,7 +22,7 @@ while read -r line; do
 
     # Pegar cada linha e descobrir operon
     while IFS=$'\t' read -r col1 col2 col3 col4; do
-        awk -v line="$line" -v col1="$col1" -v col2="$col2" -v col3="$col3" -v col4="$col4" -F'\t' ' ($1 ~ line) && ($0 ~ col4)  {print col2, col1, col3, col4, $2, $3, $5, $4}' $mhp_coc_clean >> $mhp_after_operon
+        awk -v line="$line" -v col1="$col1" -v col2="$col2" -v col3="$col3" -v col4="$col4" -F'\t' '($1 ~ line) && ($0 ~ col4) {print col2, col1, col3, col4, $2, $3, $5, $4}' OFS='\t' $mhp_coc_clean >> $mhp_after_operon
     done < $mhp_after
 
 done < $mhp_list
