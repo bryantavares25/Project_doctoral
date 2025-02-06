@@ -27,6 +27,4 @@ while read -r line; do
 
 done < $mhp_list
 
-
-
 # E N D > > > TO OPERON ORGANIZATION
