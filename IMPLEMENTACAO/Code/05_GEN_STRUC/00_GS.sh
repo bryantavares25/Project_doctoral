@@ -10,13 +10,16 @@ dir=/home/bryan
 
 r=(OG0000011 OG0000072 OG0000078 OG0000100 OG0000145 OG0000169 OG0000215 OG0000248 OG0000278 OG0000306 OG0000359)
 
-/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_co_coc.tsv
+t=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_co_coc.tsv
 
 # EXECUTION
 
-while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6; do
+while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
+    echo  echo $((c5 - 1))
 
-done
+    #rec=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_co_coc.tsv
+
+done < $t
 # Recovery sequence
 
 # Construc GFF and Update
