@@ -3,31 +3,27 @@
 # START > > > OPERON ORGANIZATION
 
 # ARCHIVE
-#dir=/home/bryan
-dir=/home/lgef
+dir=/home/bryan
+#dir=/home/lgef
 
 # INPUT FILE
 
-OG=(OG0000003 OG0000011 OG0000013 OG0000055 OG0000072 OG0000078 OG0000100 OG0000145 OG0000169 OG0000215 OG0000248 OG0000278 OG0000306 OG0000359 OG0000427 OG0000458 OG0000472 OG0000497 OG0000523 OG0000532 OG0000537 OG0000538 OG0000553 OG0000599 OG0000608)
-
-MHP=(MHP7448_RS00505 MHP7448_RS01785 MHP7448_RS03870 MHP7448_RS01830 MHP7448_RS01970 MHP7448_RS01965 MHP7448_RS03945 MHP7448_RS02430 MHP7448_RS00135 MHP7448_RS03310 MHP7448_RS01695 MHP7448_RS03555 MHP7448_RS02910 MHP7448_RS03080 MHP7448_RS00965 MHP7448_RS00160 MHP7448_RS03465 MHP7448_RS02825 MHP7448_RS00780 MHP7448_RS00895 MHP7448_RS02535 MHP7448_RS03360 MHP7448_RS02840 MHP7448_RS03395 MHP7448_RS01645 MHP7448_RS00735 MHP7448_RS01125 MHP7448_RS02710 MHP7448_RS01760 MHP7448_RS03865)
-
-#$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/7448/genomic_gene_coc_clean.bed
-
-t=/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/reference_table.tsv
+reference_table=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/reference_table.tsv
+font=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_hyopneumoniae/7448/genomic_gene_coc_clean.bed
+output=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_co_coc.tsv
 
 # EXECUTION
 
 while IFS=$'\t' read -r c1 c2; do
-    echo $c1
-    while IFS=$'\t' read -r col1 col2 col3 col4; do
-        awk -v line="$line" -v col1="$col1" -v col2="$col2" -v col3="$col3" -v col4="$col4" -F'\t' '($1 ~ line) && ($0 ~ col4) {print col2, col1, col3, col4, $2, $3, $5, $4}' OFS='\t' $mhp_coc_clean >> $mhp_after_operon
-    done < $mhp_after
-done < $t
+    #while IFS=$'\t' read -r col1 col2 col3 col4 col5; do
+    awk -v c1="$c1" -v c2="$c2" -F'\t' '($4 ~ c1) {print "7448", c2, c1, c1, $2, $3, $5, $4}' OFS='\t' $font >> $output
+    #>> $mhp_after_operon
+    #done < $font -v col1="$col1" -v col2="$col2" -v col3="$col3" -v col4="$col4" -v col5="$col5"
+done < $reference_table
 
 
 
 #END > > >
 
-KM014	OG0000608	MHP7448_RS03865	CIB43_RS02690	633855	636402	+	CIB43_RS02690,CIB43_RS02695,CIB43_RS02700,CIB43_RS02705,CIB43_RS02710
+#KM014	OG0000608	MHP7448_RS03865	CIB43_RS02690	633855	636402	+	CIB43_RS02690,CIB43_RS02695,CIB43_RS02700,CIB43_RS02705,CIB43_RS02710
 
