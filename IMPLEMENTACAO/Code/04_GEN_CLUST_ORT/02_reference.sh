@@ -20,8 +20,14 @@ t=/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort
 
 while IFS=$'\t' read -r c1 c2; do
     echo $c1
+    while IFS=$'\t' read -r col1 col2 col3 col4; do
+        awk -v line="$line" -v col1="$col1" -v col2="$col2" -v col3="$col3" -v col4="$col4" -F'\t' '($1 ~ line) && ($0 ~ col4) {print col2, col1, col3, col4, $2, $3, $5, $4}' OFS='\t' $mhp_coc_clean >> $mhp_after_operon
+    done < $mhp_after
 done < $t
 
 
 
 #END > > >
+
+KM014	OG0000608	MHP7448_RS03865	CIB43_RS02690	633855	636402	+	CIB43_RS02690,CIB43_RS02695,CIB43_RS02700,CIB43_RS02705,CIB43_RS02710
+
