@@ -15,10 +15,16 @@ t=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_c
 # EXECUTION
 
 while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
-    echo  echo $((c5 - 1))
+    a=$((c5 - 250))
+    b=$((c6 + 250))
+    echo $b
 
+    local=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/
+    mhp=M_hyopneumoniae/mult_align/seqs_to_align/$c1.fasta
+    mfc=M_flocculare/mult_align/seqs_to_align/$c1.fasta
+    ls $local$mhp && recip=$local$mhp || ls $local$mfc && recip=$local$mfc
+    echo $recip
     #rec=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_co_coc.tsv
-
 done < $t
 # Recovery sequence
 
