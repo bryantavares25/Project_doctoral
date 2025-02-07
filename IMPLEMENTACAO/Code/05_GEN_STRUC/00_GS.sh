@@ -34,7 +34,7 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
 
         if [ "$c7" == "+" ]; then
             # Recovery sequence
-            seqkit subseq -r "$a:$b" "$recip" -o $output_fasta
+            seqkit subseq -r "$a:$b" --seq-type "DNA" $recip -o $output_fasta
         
             # Construc GFF and Update
             #c8="MHL_RS03735,MHL_RS02240,MHL_RS02245,MHL_RS02250,MHL_RS02255"
