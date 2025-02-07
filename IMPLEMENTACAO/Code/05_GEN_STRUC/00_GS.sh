@@ -32,14 +32,21 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
         # Recovery sequence
         seqkit subseq -r "$a:$b" "$recip" -o $output
         # Construc GFF and Update
+        tac /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/01_genomic.gff | \
+        awk '{temp=$4; $4=$5; $5=temp} 1' | \
+        awk 'NR==1 {delta = $4 - 250; $4 = 250; $5 -= delta} NR>1 {$4 -= delta; $5 -= delta} {print}' > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/02_genomic.gff
     else
         echo "-"
         # Recovery sequence
         seqkit subseq -r "$a:$b" "$recip" | seqkit seq --reverse --complement > $output
         # Construc GFF and Update
+        grep -F -f /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/ids.txt /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/genomic.gff > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/01_genomic.gff
+        grep -E 'RefSeq.*MFC_RS00295' /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/genomic.gff >> /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/01_genomic.gff
+        tac /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/01_genomic.gff | \
+        awk '{temp=$4; $4=$5; $5=temp} 1' | \
+        awk 'NR==1 {delta = $4 + 250; $4 = 250; $5 = -$5 +delta} NR>1 {$4 = -$4 + delta; $5 = -$5 + delta} {print}' > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/02_genomic.gff
     fi 
 done < $t
-
 
 #seqid  source  type  start  end  score  strand  phase  attributes
 
@@ -49,12 +56,3 @@ done < $t
 # Ms42	OG0000003	MHP7448_RS03870	MYF_RS01515	395941	402036	-	MYF_RS03220,MYF_RS01500,MYF_RS01505,MYF_RS01510,MYF_RS01515
 # Ms42	OG0000003	MHP7448_RS03870	MYF_RS01515	402040	502036	-	MYF_RS03220,MYF_RS01500,MYF_RS01505,MYF_RS01510,MYF_RS01515
 # Ms42	OG0000003	MHP7448_RS03870	MYF_RS01515	502040	602036	-	MYF_RS03220,MYF_RS01500,MYF_RS01505,MYF_RS01510,MYF_RS01515
-
-grep -F -f /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/ids.txt /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/genomic.gff > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/01_genomic.gff
-grep -E 'RefSeq.*MFC_RS00295' /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/genomic.gff >> /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/01_genomic.gff
-tac /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/01_genomic.gff | awk '{temp=$4; $4=$5; $5=temp} 1' | awk 'NR==1 {delta = $4 + 250; $4 = 250; $5 = -$5 +delta} NR>1 {$4 -= delta; $5 -= delta} {print}' > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/02_genomic.gff
-
-tac /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/01_genomic.gff | \
-awk '{temp=$4; $4=$5; $5=temp} 1' | \
-awk 'NR==1 {delta = $4 - 250; $4 = 250; $5 -= delta} NR>1 {$4 -= delta; $5 -= delta} {print}' | \
-tac > /home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/ATCC27716/02_genomic.gff
