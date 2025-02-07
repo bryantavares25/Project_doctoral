@@ -26,9 +26,9 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
     echo $recip
     #rec=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_co_coc.tsv
 
-    outpu=/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural
+    output="/home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c1}_{}"
     # Executa seqkit diretamente para extrair a sequência
-    seqkit subseq -r "$a:$b" "$fasta_ref" -o 
+    seqkit subseq -r "$a:$b" "$fasta_ref" -o $output
 
 done < $t
 # Recovery sequence
