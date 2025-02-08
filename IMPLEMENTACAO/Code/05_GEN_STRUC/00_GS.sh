@@ -50,7 +50,7 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
             # Construc GFF and Update
             IFS=',' read -r -a l <<< "$c8"
             for g in ${l[@]}; do
-                grep -E "RefSeq.*$g" $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic.gff >> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff
+                grep -E "ID$c1.*RefSeq.*$g" $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic.gff >> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff
             done
             
             tac $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff | \
@@ -76,11 +76,4 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
     echo " - Finalizando linha"
 done < $t
 
-#seqid  source  type  start  end  score  strand  phase  attributes
-
-# Construc GFF and Update
-#
-#END > > >
-# Ms42	OG0000003	MHP7448_RS03870	MYF_RS01515	395941	402036	-	MYF_RS03220,MYF_RS01500,MYF_RS01505,MYF_RS01510,MYF_RS01515
-# Ms42	OG0000003	MHP7448_RS03870	MYF_RS01515	402040	502036	-	MYF_RS03220,MYF_RS01500,MYF_RS01505,MYF_RS01510,MYF_RS01515
-# Ms42	OG0000003	MHP7448_RS03870	MYF_RS01515	502040	602036	-	MYF_RS03220,MYF_RS01500,MYF_RS01505,MYF_RS01510,MYF_RS01515
+#END

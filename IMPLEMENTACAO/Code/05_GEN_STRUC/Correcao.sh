@@ -25,6 +25,7 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
         mhp=M_hyopneumoniae/mult_align/seqs_to_align/$c1.fasta
         mfc=M_flocculare/mult_align/seqs_to_align/$c1.fasta
 
+        # Verifica se o arquivo existe
         if [[ -f $local$mhp ]]; then
             recip=$local$mhp
             m="M_hyopneumoniae"
