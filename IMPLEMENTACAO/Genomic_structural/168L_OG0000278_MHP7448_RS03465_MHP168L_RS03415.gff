@@ -1,0 +1,12 @@
+ID168L RefSeq gene 250 2622 . - . ID=gene-MHP168L_RS03440;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=MHP168L_RS03440;old_locus_tag=MHP168L_657
+ID168L RefSeq gene 2683 4623 . - . ID=gene-MHP168L_RS03435;Name=MHP168L_RS03435;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS03435
+ID168L RefSeq gene 4604 5041 . - . ID=gene-MHP168L_RS03430;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=MHP168L_RS03430;old_locus_tag=MHP168L_654
+ID168L RefSeq gene 5034 6425 . - . ID=gene-MHP168L_RS03425;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding;locus_tag=MHP168L_RS03425;old_locus_tag=MHP168L_653
+ID168L RefSeq gene 6425 7657 . - . ID=gene-MHP168L_RS03420;Name=MHP168L_RS03420;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS03420;old_locus_tag=MHP168L_652
+ID168L RefSeq gene 7641 8324 . - . ID=gene-MHP168L_RS03415;Name=MHP168L_RS03415;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS03415;old_locus_tag=MHP168L_651
+ID168L RefSeq gene 8311 9525 . - . ID=gene-MHP168L_RS03410;Name=MHP168L_RS03410;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS03410;old_locus_tag=MHP168L_650
+ID168L RefSeq gene 9559 10260 . - . ID=gene-MHP168L_RS03405;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=MHP168L_RS03405;old_locus_tag=MHP168L_648
+ID168L RefSeq gene 10281 10826 . - . ID=gene-MHP168L_RS03400;Name=MHP168L_RS03400;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS03400;old_locus_tag=MHP168L_647
+ID168L RefSeq gene 10877 11017 . - . ID=gene-MHP168L_RS03780;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=MHP168L_RS03780;old_locus_tag=MHP168L_744
+ID168L RefSeq gene 11030 11254 . - . ID=gene-MHP168L_RS03395;Name=secE;gbkey=Gene;gene=secE;gene_biotype=protein_coding;locus_tag=MHP168L_RS03395;old_locus_tag=MHP168L_646
+ID168L RefSeq gene 11274 11846 . - . ID=gene-MHP168L_RS03390;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=MHP168L_RS03390;old_locus_tag=MHP168L_645

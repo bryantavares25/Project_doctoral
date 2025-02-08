@@ -1,0 +1,12 @@
+IDMF11 RefSeq gene 250 2622 . - . ID=gene-DR093_RS01310;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=DR093_RS01310;old_locus_tag=DR093_01320
+IDMF11 RefSeq gene 2626 4623 . - . ID=gene-DR093_RS03860;Name=DR093_RS03860;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS03860;old_locus_tag=DR093_01325
+IDMF11 RefSeq gene 4604 5041 . - . ID=gene-DR093_RS01320;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=DR093_RS01320;old_locus_tag=DR093_01330
+IDMF11 RefSeq gene 5034 6425 . - . ID=gene-DR093_RS01325;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding;locus_tag=DR093_RS01325;old_locus_tag=DR093_01335
+IDMF11 RefSeq gene 6425 7657 . - . ID=gene-DR093_RS03865;Name=DR093_RS03865;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS03865;old_locus_tag=DR093_01340
+IDMF11 RefSeq gene 7641 8324 . - . ID=gene-DR093_RS01335;Name=DR093_RS01335;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS01335;old_locus_tag=DR093_01345
+IDMF11 RefSeq gene 8311 9525 . - . ID=gene-DR093_RS01340;Name=DR093_RS01340;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS01340;old_locus_tag=DR093_01350
+IDMF11 RefSeq gene 9559 10248 . - . ID=gene-DR093_RS01345;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=DR093_RS01345;old_locus_tag=DR093_01355
+IDMF11 RefSeq gene 10272 10817 . - . ID=gene-DR093_RS01350;Name=DR093_RS01350;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS01350;old_locus_tag=DR093_01360
+IDMF11 RefSeq gene 10873 11013 . - . ID=gene-DR093_RS01355;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=DR093_RS01355;old_locus_tag=DR093_01365
+IDMF11 RefSeq gene 11013 11249 . - . ID=gene-DR093_RS03870;Name=secE;gbkey=Gene;gene=secE;gene_biotype=protein_coding;locus_tag=DR093_RS03870;old_locus_tag=DR093_01370
+IDMF11 RefSeq gene 11269 11841 . - . ID=gene-DR093_RS03875;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=DR093_RS03875;old_locus_tag=DR093_01375

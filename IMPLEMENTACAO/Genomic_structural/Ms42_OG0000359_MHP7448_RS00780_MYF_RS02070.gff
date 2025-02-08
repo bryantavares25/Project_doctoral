@@ -1,0 +1,7 @@
+IDMs42 RefSeq gene 250 3087 . + . ID=gene-MYF_RS02070;Name=MYF_RS02070;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS02070;old_locus_tag=MYF_02215
+IDMs42 RefSeq gene 3144 4229 . + . ID=gene-MYF_RS02075;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=MYF_RS02075;old_locus_tag=MYF_02220
+IDMs42 RefSeq gene 4216 4944 . + . ID=gene-MYF_RS02080;Name=MYF_RS02080;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS02080;old_locus_tag=MYF_02225
+IDMs42 RefSeq gene 4965 6368 . + . ID=gene-MYF_RS02085;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=MYF_RS02085;old_locus_tag=MYF_02230
+IDMs42 RefSeq gene 6359 6769 . + . ID=gene-MYF_RS02090;Name=MYF_RS02090;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS02090;old_locus_tag=MYF_02235
+IDMs42 RefSeq gene 6762 7286 . + . ID=gene-MYF_RS02095;Name=MYF_RS02095;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS02095;old_locus_tag=MYF_02240
+IDMs42 RefSeq gene 7273 8031 . + . ID=gene-MYF_RS02100;Name=MYF_RS02100;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS02100;old_locus_tag=MYF_02245

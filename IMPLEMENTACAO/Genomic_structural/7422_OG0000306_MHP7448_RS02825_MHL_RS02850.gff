@@ -1,0 +1,5 @@
+ID7422 RefSeq gene 250 2073 . - . ID=gene-MHL_RS02850;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=MHL_RS02850;old_locus_tag=MHL_3064
+ID7422 RefSeq gene 2783 2908 . - . ID=gene-MHL_RS04155;Name=MHL_RS04155;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS04155
+ID7422 RefSeq gene 3284 3538 . - . ID=gene-MHL_RS02845;Name=MHL_RS02845;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS02845;old_locus_tag=MHL_2648
+ID7422 RefSeq gene 3954 4460 . - . ID=gene-MHL_RS02840;Name=MHL_RS02840;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS02840
+ID7422 RefSeq gene 4496 5524 . - . ID=gene-MHL_RS02835;Name=MHL_RS02835;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS02835;old_locus_tag=MHL_2872

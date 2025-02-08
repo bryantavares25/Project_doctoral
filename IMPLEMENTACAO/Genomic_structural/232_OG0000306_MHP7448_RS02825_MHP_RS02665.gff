@@ -1,0 +1,5 @@
+ID232 RefSeq gene 250 2073 . - . ID=gene-MHP_RS02665;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=MHP_RS02665;old_locus_tag=mhp520
+ID232 RefSeq gene 2777 2902 . - . ID=gene-MHP_RS03985;Name=MHP_RS03985;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03985
+ID232 RefSeq gene 3278 3532 . - . ID=gene-MHP_RS03580;Name=MHP_RS03580;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03580;old_locus_tag=mhp518
+ID232 RefSeq gene 3927 4454 . - . ID=gene-MHP_RS02655;Name=MHP_RS02655;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS02655
+ID232 RefSeq gene 4490 5518 . - . ID=gene-MHP_RS02650;Name=MHP_RS02650;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS02650;old_locus_tag=mhp516

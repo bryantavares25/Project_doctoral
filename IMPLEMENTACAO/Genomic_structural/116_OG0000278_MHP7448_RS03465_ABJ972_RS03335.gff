@@ -1,0 +1,12 @@
+ID116 RefSeq gene 250 2622 . - . ID=gene-ABJ972_RS03360;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=ABJ972_RS03360;old_locus_tag=ABJ972_03360
+ID116 RefSeq gene 2683 4623 . - . ID=gene-ABJ972_RS03355;Name=ABJ972_RS03355;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03355;old_locus_tag=ABJ972_03355
+ID116 RefSeq gene 4604 5041 . - . ID=gene-ABJ972_RS03350;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=ABJ972_RS03350;old_locus_tag=ABJ972_03350
+ID116 RefSeq gene 5034 6425 . - . ID=gene-ABJ972_RS03345;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding;locus_tag=ABJ972_RS03345;old_locus_tag=ABJ972_03345
+ID116 RefSeq gene 6425 7657 . - . ID=gene-ABJ972_RS03340;Name=ABJ972_RS03340;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03340;old_locus_tag=ABJ972_03340
+ID116 RefSeq gene 7641 8324 . - . ID=gene-ABJ972_RS03335;Name=ABJ972_RS03335;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03335;old_locus_tag=ABJ972_03335
+ID116 RefSeq gene 8311 9525 . - . ID=gene-ABJ972_RS03330;Name=ABJ972_RS03330;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03330;old_locus_tag=ABJ972_03330
+ID116 RefSeq gene 9559 10260 . - . ID=gene-ABJ972_RS03325;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=ABJ972_RS03325;old_locus_tag=ABJ972_03325
+ID116 RefSeq gene 10281 10826 . - . ID=gene-ABJ972_RS03320;Name=ABJ972_RS03320;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03320;old_locus_tag=ABJ972_03320
+ID116 RefSeq gene 10877 11017 . - . ID=gene-ABJ972_RS03315;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=ABJ972_RS03315;old_locus_tag=ABJ972_03315
+ID116 RefSeq gene 11108 11254 . - . ID=gene-ABJ972_RS03310;Name=ABJ972_RS03310;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03310;old_locus_tag=ABJ972_03310
+ID116 RefSeq gene 11274 11846 . - . ID=gene-ABJ972_RS03305;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=ABJ972_RS03305;old_locus_tag=ABJ972_03305

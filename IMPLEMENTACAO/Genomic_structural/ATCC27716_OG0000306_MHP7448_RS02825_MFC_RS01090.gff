@@ -1,0 +1,5 @@
+IDATCC27716 RefSeq gene 250 2073 . + . ID=gene-MFC_RS01090;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=MFC_RS01090;old_locus_tag=MFC_00021
+IDATCC27716 RefSeq gene 2438 3127 . + . ID=gene-MFC_RS03345;Name=MFC_RS03345;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MFC_RS03345;old_locus_tag=MFC_00023
+IDATCC27716 RefSeq gene 3137 4507 . + . ID=gene-MFC_RS03350;Name=MFC_RS03350;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MFC_RS03350;old_locus_tag=MFC_00025
+IDATCC27716 RefSeq gene 4681 5514 . + . ID=gene-MFC_RS01110;Name=MFC_RS01110;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MFC_RS01110;old_locus_tag=MFC_00026
+IDATCC27716 RefSeq gene 5498 5653 . + . ID=gene-MFC_RS03280;Name=MFC_RS03280;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MFC_RS03280

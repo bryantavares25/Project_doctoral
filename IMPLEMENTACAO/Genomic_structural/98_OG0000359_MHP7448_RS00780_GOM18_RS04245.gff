@@ -1,0 +1,7 @@
+ID98 RefSeq gene 250 3090 . + . ID=gene-GOM18_RS04245;Name=GOM18_RS04245;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS04245;old_locus_tag=GOM18_00205
+ID98 RefSeq gene 3135 4220 . + . ID=gene-GOM18_RS00210;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=GOM18_RS00210;old_locus_tag=GOM18_00210
+ID98 RefSeq gene 4207 4923 . + . ID=gene-GOM18_RS00215;Name=GOM18_RS00215;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS00215;old_locus_tag=GOM18_00215
+ID98 RefSeq gene 4984 6387 . + . ID=gene-GOM18_RS00220;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=GOM18_RS00220;old_locus_tag=GOM18_00220
+ID98 RefSeq gene 6378 6782 . + . ID=gene-GOM18_RS00225;Name=GOM18_RS00225;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS00225;old_locus_tag=GOM18_00225
+ID98 RefSeq gene 6775 7299 . + . ID=gene-GOM18_RS00230;Name=GOM18_RS00230;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS00230;old_locus_tag=GOM18_00230
+ID98 RefSeq gene 7286 8044 . + . ID=gene-GOM18_RS00235;Name=GOM18_RS00235;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS00235;old_locus_tag=GOM18_00235

@@ -1,0 +1,12 @@
+ID111A RefSeq gene 250 2622 . - . ID=gene-NB623_RS03645;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=NB623_RS03645;old_locus_tag=NB623_03640
+ID111A RefSeq gene 2626 4623 . - . ID=gene-NB623_RS03640;Name=NB623_RS03640;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS03640;old_locus_tag=NB623_03635
+ID111A RefSeq gene 4604 5041 . - . ID=gene-NB623_RS03635;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=NB623_RS03635;old_locus_tag=NB623_03630
+ID111A RefSeq gene 5034 6425 . - . ID=gene-NB623_RS03630;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding;locus_tag=NB623_RS03630;old_locus_tag=NB623_03625
+ID111A RefSeq gene 6425 7657 . - . ID=gene-NB623_RS03625;Name=NB623_RS03625;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS03625;old_locus_tag=NB623_03620
+ID111A RefSeq gene 7641 8324 . - . ID=gene-NB623_RS03620;Name=NB623_RS03620;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS03620;old_locus_tag=NB623_03615
+ID111A RefSeq pseudogene 8311 9526 . - . ID=gene-NB623_RS03615;Name=cysS;gbkey=Gene;gene=cysS;gene_biotype=pseudogene;locus_tag=NB623_RS03615;old_locus_tag=NB623_03610;pseudo=true
+ID111A RefSeq gene 9560 10261 . - . ID=gene-NB623_RS03610;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=NB623_RS03610;old_locus_tag=NB623_03605
+ID111A RefSeq gene 10282 10827 . - . ID=gene-NB623_RS03605;Name=NB623_RS03605;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS03605;old_locus_tag=NB623_03600
+ID111A RefSeq gene 10878 11018 . - . ID=gene-NB623_RS03600;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=NB623_RS03600;old_locus_tag=NB623_03595
+ID111A RefSeq gene 11109 11255 . - . ID=gene-NB623_RS03595;Name=NB623_RS03595;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS03595;old_locus_tag=NB623_03590
+ID111A RefSeq gene 11275 11847 . - . ID=gene-NB623_RS03590;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=NB623_RS03590;old_locus_tag=NB623_03585

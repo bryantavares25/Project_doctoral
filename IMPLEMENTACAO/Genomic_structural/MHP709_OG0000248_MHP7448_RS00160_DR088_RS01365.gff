@@ -1,0 +1,4 @@
+IDMHP709 RefSeq gene 250 2178 . - . ID=gene-DR088_RS01350;Name=DR088_RS01350;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS01350;old_locus_tag=DR088_01345
+IDMHP709 RefSeq gene 2171 4711 . - . ID=gene-DR088_RS01355;Name=DR088_RS01355;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS01355;old_locus_tag=DR088_01350
+IDMHP709 RefSeq gene 4711 7371 . - . ID=gene-DR088_RS01360;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=DR088_RS01360;old_locus_tag=DR088_01355
+IDMHP709 RefSeq gene 7349 7942 . - . ID=gene-DR088_RS01365;Name=DR088_RS01365;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS01365;old_locus_tag=DR088_01360

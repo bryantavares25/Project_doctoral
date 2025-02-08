@@ -1,0 +1,7 @@
+ID7448 RefSeq gene 250 3177 . + . ID=gene-MHP7448_RS00780;Name=MHP7448_RS00780;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS00780;old_locus_tag=MHP0138%2CMHP7448_0138
+ID7448 RefSeq gene 3222 4307 . + . ID=gene-MHP7448_RS00785;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=MHP7448_RS00785;old_locus_tag=MHP0139%2CMHP7448_0139
+ID7448 RefSeq gene 4294 5010 . + . ID=gene-MHP7448_RS00790;Name=MHP7448_RS00790;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS00790;old_locus_tag=MHP0140%2CMHP7448_0140
+ID7448 RefSeq gene 5071 6474 . + . ID=gene-MHP7448_RS00795;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=MHP7448_RS00795;old_locus_tag=MHP0141%2CMHP7448_0141
+ID7448 RefSeq gene 6465 6950 . + . ID=gene-MHP7448_RS00800;Name=MHP7448_RS00800;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS00800;old_locus_tag=MHP0142%2CMHP7448_0142
+ID7448 RefSeq gene 6943 7467 . + . ID=gene-MHP7448_RS00805;Name=MHP7448_RS00805;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS00805;old_locus_tag=MHP0143%2CMHP7448_0143
+ID7448 RefSeq gene 7457 8212 . + . ID=gene-MHP7448_RS00810;Name=MHP7448_RS00810;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS00810;old_locus_tag=MHP0144%2CMHP7448_0144

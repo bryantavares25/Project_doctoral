@@ -1,0 +1,5 @@
+ID7448 RefSeq gene 250 2073 . - . ID=gene-MHP7448_RS02825;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=MHP7448_RS02825;old_locus_tag=MHP0521%2CMHP7448_0521
+ID7448 RefSeq gene 2783 2908 . - . ID=gene-MHP7448_RS04090;Name=MHP7448_RS04090;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS04090
+ID7448 RefSeq gene 3284 3538 . - . ID=gene-MHP7448_RS02820;Name=MHP7448_RS02820;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS02820;old_locus_tag=MHP0520%2CMHP7448_0520
+ID7448 RefSeq gene 3933 4460 . - . ID=gene-MHP7448_RS02815;Name=MHP7448_RS02815;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS02815
+ID7448 RefSeq gene 4496 5524 . - . ID=gene-MHP7448_RS02810;Name=MHP7448_RS02810;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS02810;old_locus_tag=MHP0518%2CMHP7448_0518

@@ -1,0 +1,3 @@
+IDJ RefSeq gene 250 780 . - . ID=gene-MHJ_RS04005;Dbxref=GeneID:93225535;Name=MHJ_RS04005;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS04005;old_locus_tag=MHJ0352%2CMHJ_0352
+IDJ RefSeq gene 768 1808 . - . ID=gene-MHJ_RS01900;Dbxref=GeneID:41334662;Name=MHJ_RS01900;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS01900;old_locus_tag=MHJ0351%2CMHJ_0351
+IDJ RefSeq gene 1922 3568 . - . ID=gene-MHJ_RS01895;Dbxref=GeneID:41334661;Name=MHJ_RS01895;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS01895;old_locus_tag=MHJ0350%2CMHJ_0350

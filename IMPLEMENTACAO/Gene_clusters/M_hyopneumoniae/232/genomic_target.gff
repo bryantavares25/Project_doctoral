@@ -1,5 +1,4 @@
 ID232	RefSeq	gene	263634	264389	.	-	.	ID=gene-MHP_RS01195;Name=MHP_RS01195;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS01195;old_locus_tag=mhp238
-NC_006360.1	Protein Homology	CDS	263634	264389	.	-	0	ID=cds-WP_232039585.1;Parent=gene-MHP_RS01195;Dbxref=GenBank:WP_232039585.1;Name=WP_232039585.1;Ontology_term=GO:0001510,GO:0008173,GO:0016740;gbkey=CDS;go_function=RNA methyltransferase activity|0008173||IEA,transferase activity|0016740||IEA;go_process=RNA methylation|0001510||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_014579636.1;locus_tag=MHP_RS01195;product=RNA methyltransferase;protein_id=WP_232039585.1;transl_table=4
 ID232	RefSeq	gene	264379	264903	.	-	.	ID=gene-MHP_RS01200;Name=MHP_RS01200;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS01200;old_locus_tag=mhp239
 ID232	RefSeq	gene	264896	265306	.	-	.	ID=gene-MHP_RS01205;Name=MHP_RS01205;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS01205;old_locus_tag=mhp240
 ID232	RefSeq	gene	265297	266700	.	-	.	ID=gene-MHP_RS01210;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=MHP_RS01210;old_locus_tag=mhp241

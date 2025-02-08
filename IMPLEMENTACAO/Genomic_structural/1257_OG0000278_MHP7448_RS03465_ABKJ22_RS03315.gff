@@ -1,0 +1,12 @@
+ID1257 RefSeq gene 250 2622 . - . ID=gene-ABKJ22_RS03340;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03340;old_locus_tag=ABKJ22_03340
+ID1257 RefSeq gene 2683 4623 . - . ID=gene-ABKJ22_RS03335;Name=ABKJ22_RS03335;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03335;old_locus_tag=ABKJ22_03335
+ID1257 RefSeq gene 4604 5041 . - . ID=gene-ABKJ22_RS03330;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03330;old_locus_tag=ABKJ22_03330
+ID1257 RefSeq gene 5034 6425 . - . ID=gene-ABKJ22_RS03325;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03325;old_locus_tag=ABKJ22_03325
+ID1257 RefSeq gene 6425 7657 . - . ID=gene-ABKJ22_RS03320;Name=ABKJ22_RS03320;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03320;old_locus_tag=ABKJ22_03320
+ID1257 RefSeq gene 7641 8324 . - . ID=gene-ABKJ22_RS03315;Name=ABKJ22_RS03315;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03315;old_locus_tag=ABKJ22_03315
+ID1257 RefSeq gene 8311 9525 . - . ID=gene-ABKJ22_RS03310;Name=ABKJ22_RS03310;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03310;old_locus_tag=ABKJ22_03310
+ID1257 RefSeq gene 9559 10260 . - . ID=gene-ABKJ22_RS03305;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03305;old_locus_tag=ABKJ22_03305
+ID1257 RefSeq gene 10281 10826 . - . ID=gene-ABKJ22_RS03300;Name=ABKJ22_RS03300;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03300;old_locus_tag=ABKJ22_03300
+ID1257 RefSeq gene 10877 11017 . - . ID=gene-ABKJ22_RS03295;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03295;old_locus_tag=ABKJ22_03295
+ID1257 RefSeq gene 11108 11254 . - . ID=gene-ABKJ22_RS03290;Name=ABKJ22_RS03290;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03290;old_locus_tag=ABKJ22_03290
+ID1257 RefSeq gene 11274 11846 . - . ID=gene-ABKJ22_RS03285;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03285;old_locus_tag=ABKJ22_03285

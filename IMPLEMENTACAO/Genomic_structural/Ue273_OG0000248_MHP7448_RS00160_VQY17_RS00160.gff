@@ -1,0 +1,4 @@
+IDUe273 RefSeq gene 250 2178 . - . ID=gene-VQY17_RS00175;Name=VQY17_RS00175;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS00175;old_locus_tag=VQY17_00175
+IDUe273 RefSeq gene 2171 4711 . - . ID=gene-VQY17_RS00170;Name=VQY17_RS00170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS00170;old_locus_tag=VQY17_00170
+IDUe273 RefSeq gene 4711 7371 . - . ID=gene-VQY17_RS00165;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=VQY17_RS00165;old_locus_tag=VQY17_00165
+IDUe273 RefSeq gene 7349 7942 . - . ID=gene-VQY17_RS00160;Name=VQY17_RS00160;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS00160;old_locus_tag=VQY17_00160

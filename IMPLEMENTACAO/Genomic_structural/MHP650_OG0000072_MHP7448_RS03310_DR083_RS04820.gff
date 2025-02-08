@@ -1,0 +1,9 @@
+IDMHP650 RefSeq gene 250 747 . - . ID=gene-DR083_RS03105;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=DR083_RS03105;old_locus_tag=DR083_03120
+IDMHP650 RefSeq gene 759 1124 . - . ID=gene-DR083_RS03100;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=DR083_RS03100;old_locus_tag=DR083_03115
+IDMHP650 RefSeq gene 1331 4993 . - . ID=gene-DR083_RS03095;Name=DR083_RS03095;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR083_RS03095;old_locus_tag=DR083_03110
+IDMHP650 RefSeq gene 5050 9288 . - . ID=gene-DR083_RS03090;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=DR083_RS03090;old_locus_tag=DR083_03105
+IDMHP650 RefSeq gene 9295 9714 . - . ID=gene-DR083_RS03085;Name=DR083_RS03085;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR083_RS03085;old_locus_tag=DR083_03100
+IDMHP650 RefSeq pseudogene 9776 10520 . - . ID=gene-DR083_RS05040;Name=DR083_RS05040;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR083_RS05040;old_locus_tag=DR083_03095;partial=true;pseudo=true;start_range=.,27
+IDMHP650 RefSeq gene 10746 11336 . - . ID=gene-DR083_RS04815;Name=DR083_RS04815;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR083_RS04815;old_locus_tag=DR083_02790
+IDMHP650 RefSeq gene 11849 13936 . - . ID=gene-DR083_RS02780;Name=DR083_RS02780;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR083_RS02780;old_locus_tag=DR083_02795
+IDMHP650 RefSeq gene 13959 16415 . - . ID=gene-DR083_RS04820;Name=mip;gbkey=Gene;gene=mip;gene_biotype=protein_coding;locus_tag=DR083_RS04820;old_locus_tag=DR083_02800

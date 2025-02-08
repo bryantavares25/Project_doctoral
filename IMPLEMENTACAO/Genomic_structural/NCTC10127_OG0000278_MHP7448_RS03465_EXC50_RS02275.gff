@@ -1,0 +1,12 @@
+IDNCTC10127 RefSeq gene 250 2622 . - . ID=gene-EXC50_RS02300;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=EXC50_RS02300;old_locus_tag=NCTC10127_00454
+IDNCTC10127 RefSeq gene 2626 4623 . - . ID=gene-EXC50_RS02295;Name=EXC50_RS02295;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02295;old_locus_tag=NCTC10127_00453
+IDNCTC10127 RefSeq gene 4604 5041 . - . ID=gene-EXC50_RS02290;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=EXC50_RS02290;old_locus_tag=NCTC10127_00452
+IDNCTC10127 RefSeq gene 5034 6425 . - . ID=gene-EXC50_RS02285;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding;locus_tag=EXC50_RS02285;old_locus_tag=NCTC10127_00451
+IDNCTC10127 RefSeq gene 6425 7657 . - . ID=gene-EXC50_RS02280;Name=EXC50_RS02280;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02280;old_locus_tag=NCTC10127_00450
+IDNCTC10127 RefSeq gene 7641 8324 . - . ID=gene-EXC50_RS02275;Name=EXC50_RS02275;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02275;old_locus_tag=NCTC10127_00449
+IDNCTC10127 RefSeq gene 8311 9525 . - . ID=gene-EXC50_RS02270;Name=EXC50_RS02270;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02270;old_locus_tag=NCTC10127_00448
+IDNCTC10127 RefSeq gene 9559 10260 . - . ID=gene-EXC50_RS02265;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=EXC50_RS02265;old_locus_tag=NCTC10127_00447
+IDNCTC10127 RefSeq gene 10281 10826 . - . ID=gene-EXC50_RS02260;Name=EXC50_RS02260;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02260;old_locus_tag=NCTC10127_00446
+IDNCTC10127 RefSeq gene 10877 11017 . - . ID=gene-EXC50_RS02255;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=EXC50_RS02255
+IDNCTC10127 RefSeq gene 11108 11254 . - . ID=gene-EXC50_RS02250;Name=EXC50_RS02250;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02250
+IDNCTC10127 RefSeq gene 11275 11847 . - . ID=gene-EXC50_RS02245;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=EXC50_RS02245;old_locus_tag=NCTC10127_00445

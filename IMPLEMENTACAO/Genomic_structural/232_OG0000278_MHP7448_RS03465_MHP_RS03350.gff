@@ -1,0 +1,12 @@
+ID232 RefSeq gene 250 2622 . - . ID=gene-MHP_RS03375;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=MHP_RS03375;old_locus_tag=mhp667
+ID232 RefSeq gene 2683 4623 . - . ID=gene-MHP_RS03370;Name=MHP_RS03370;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03370;old_locus_tag=mhp666
+ID232 RefSeq gene 4604 5041 . - . ID=gene-MHP_RS03365;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=MHP_RS03365;old_locus_tag=mhp665
+ID232 RefSeq gene 5034 6425 . - . ID=gene-MHP_RS03360;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding;locus_tag=MHP_RS03360;old_locus_tag=mhp664
+ID232 RefSeq gene 6425 7657 . - . ID=gene-MHP_RS03355;Name=MHP_RS03355;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03355;old_locus_tag=mhp663
+ID232 RefSeq gene 7641 8324 . - . ID=gene-MHP_RS03350;Name=MHP_RS03350;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03350;old_locus_tag=mhp662
+ID232 RefSeq gene 8311 9525 . - . ID=gene-MHP_RS03345;Name=MHP_RS03345;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03345;old_locus_tag=mhp661
+ID232 RefSeq gene 9559 10260 . - . ID=gene-MHP_RS03340;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=MHP_RS03340;old_locus_tag=mhp660
+ID232 RefSeq gene 10281 10826 . - . ID=gene-MHP_RS03335;Name=MHP_RS03335;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03335;old_locus_tag=mhp659
+ID232 RefSeq gene 10877 11017 . - . ID=gene-MHP_RS03680;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=MHP_RS03680
+ID232 RefSeq gene 11108 11254 . - . ID=gene-MHP_RS03330;Name=MHP_RS03330;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03330;old_locus_tag=mhp658
+ID232 RefSeq gene 11275 11847 . - . ID=gene-MHP_RS03325;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=MHP_RS03325;old_locus_tag=mhp657

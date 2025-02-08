@@ -1,0 +1,7 @@
+IDMF29 RefSeq gene 250 3165 . + . ID=gene-DR095_RS03900;Name=DR095_RS03900;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS03900;old_locus_tag=DR095_02200
+IDMF29 RefSeq gene 3222 4307 . + . ID=gene-DR095_RS02155;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=DR095_RS02155;old_locus_tag=DR095_02205
+IDMF29 RefSeq gene 4294 5022 . + . ID=gene-DR095_RS02160;Name=DR095_RS02160;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS02160;old_locus_tag=DR095_02210
+IDMF29 RefSeq gene 5043 6446 . + . ID=gene-DR095_RS02165;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=DR095_RS02165;old_locus_tag=DR095_02215
+IDMF29 RefSeq gene 6437 6847 . + . ID=gene-DR095_RS02170;Name=DR095_RS02170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS02170;old_locus_tag=DR095_02220
+IDMF29 RefSeq gene 6840 7364 . + . ID=gene-DR095_RS02175;Name=DR095_RS02175;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS02175;old_locus_tag=DR095_02225
+IDMF29 RefSeq gene 7354 8109 . + . ID=gene-DR095_RS03905;Name=DR095_RS03905;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS03905;old_locus_tag=DR095_02230

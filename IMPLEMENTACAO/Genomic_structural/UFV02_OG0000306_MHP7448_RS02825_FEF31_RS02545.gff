@@ -1,0 +1,5 @@
+IDUFV02 RefSeq gene 250 2073 . - . ID=gene-FEF31_RS02545;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=FEF31_RS02545;old_locus_tag=FEF31_02530
+IDUFV02 RefSeq gene 2783 2908 . - . ID=gene-FEF31_RS04155;Name=FEF31_RS04155;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF31_RS04155
+IDUFV02 RefSeq gene 3425 3679 . - . ID=gene-FEF31_RS02540;Name=FEF31_RS02540;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF31_RS02540;old_locus_tag=FEF31_02525
+IDUFV02 RefSeq gene 4074 4601 . - . ID=gene-FEF31_RS02535;Name=FEF31_RS02535;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF31_RS02535;old_locus_tag=FEF31_02520
+IDUFV02 RefSeq gene 4637 5665 . - . ID=gene-FEF31_RS02530;Name=FEF31_RS02530;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF31_RS02530;old_locus_tag=FEF31_02515

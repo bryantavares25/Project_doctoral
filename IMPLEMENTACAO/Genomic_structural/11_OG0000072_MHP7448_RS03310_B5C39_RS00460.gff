@@ -1,0 +1,9 @@
+ID11 RefSeq gene 250 747 . - . ID=gene-B5C39_RS00500;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=B5C39_RS00500;old_locus_tag=B5C39_00500
+ID11 RefSeq gene 759 1124 . - . ID=gene-B5C39_RS00495;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=B5C39_RS00495;old_locus_tag=B5C39_00495
+ID11 RefSeq gene 1331 4993 . - . ID=gene-B5C39_RS00490;Name=B5C39_RS00490;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5C39_RS00490;old_locus_tag=B5C39_00490
+ID11 RefSeq gene 5050 9288 . - . ID=gene-B5C39_RS00485;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=B5C39_RS00485;old_locus_tag=B5C39_00485
+ID11 RefSeq gene 9295 9714 . - . ID=gene-B5C39_RS00480;Name=B5C39_RS00480;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5C39_RS00480;old_locus_tag=B5C39_00480
+ID11 RefSeq gene 9776 11026 . - . ID=gene-B5C39_RS00475;Name=dcm;gbkey=Gene;gene=dcm;gene_biotype=protein_coding;locus_tag=B5C39_RS00475;old_locus_tag=B5C39_00475
+ID11 RefSeq gene 11016 11516 . - . ID=gene-B5C39_RS00470;Name=B5C39_RS00470;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5C39_RS00470;old_locus_tag=B5C39_00470
+ID11 RefSeq gene 11966 14050 . - . ID=gene-B5C39_RS00465;Name=B5C39_RS00465;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5C39_RS00465;old_locus_tag=B5C39_00465
+ID11 RefSeq gene 14074 16530 . - . ID=gene-B5C39_RS00460;Name=B5C39_RS00460;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5C39_RS00460;old_locus_tag=B5C39_00460

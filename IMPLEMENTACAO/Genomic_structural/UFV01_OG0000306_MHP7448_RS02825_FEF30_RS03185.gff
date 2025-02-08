@@ -1,0 +1,6 @@
+IDUFV01 RefSeq gene 250 2073 . - . ID=gene-FEF30_RS03185;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=FEF30_RS03185;old_locus_tag=FEF30_03195
+IDUFV01 RefSeq gene 2783 2908 . - . ID=gene-FEF30_RS04060;Name=FEF30_RS04060;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS04060
+IDUFV01 RefSeq pseudogene 3394 3580 . - . ID=gene-FEF30_RS03180;Name=FEF30_RS03180;end_range=80612,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=FEF30_RS03180;partial=true;pseudo=true
+IDUFV01 RefSeq gene 3556 3810 . - . ID=gene-FEF30_RS03175;Name=FEF30_RS03175;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS03175;old_locus_tag=FEF30_03190
+IDUFV01 RefSeq gene 4205 4732 . - . ID=gene-FEF30_RS03170;Name=FEF30_RS03170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS03170;old_locus_tag=FEF30_03185
+IDUFV01 RefSeq gene 4768 5796 . - . ID=gene-FEF30_RS03165;Name=FEF30_RS03165;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS03165;old_locus_tag=FEF30_03180

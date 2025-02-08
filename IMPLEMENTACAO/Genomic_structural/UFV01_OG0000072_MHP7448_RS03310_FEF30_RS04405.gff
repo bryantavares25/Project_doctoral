@@ -1,0 +1,4 @@
+IDUFV01 RefSeq gene 250 1055 . - . ID=gene-FEF30_RS03630;Name=FEF30_RS03630;end_range=1704,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS03630;old_locus_tag=FEF30_03680;partial=true
+IDUFV01 RefSeq gene 1055 1732 . - . ID=gene-FEF30_RS03625;Name=FEF30_RS03625;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS03625;old_locus_tag=FEF30_03675
+IDUFV01 RefSeq gene 2200 4287 . - . ID=gene-FEF30_RS03620;Name=FEF30_RS03620;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS03620;old_locus_tag=FEF30_03670
+IDUFV01 RefSeq gene 4311 6767 . - . ID=gene-FEF30_RS04405;Name=FEF30_RS04405;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS04405;old_locus_tag=FEF30_03665

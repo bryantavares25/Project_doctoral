@@ -1,0 +1,2 @@
+IDMF18 RefSeq pseudogene 250 448 . + . ID=gene-DR082_RS03120;Name=DR082_RS03120;end_range=78644,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR082_RS03120;old_locus_tag=DR082_01655;partial=true;pseudo=true
+IDMF18 RefSeq gene 900 1562 . + . ID=gene-DR082_RS01635;Name=DR082_RS01635;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR082_RS01635;old_locus_tag=DR082_01665

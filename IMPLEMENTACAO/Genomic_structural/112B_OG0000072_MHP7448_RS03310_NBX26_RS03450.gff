@@ -1,0 +1,11 @@
+ID112B RefSeq gene 250 747 . - . ID=gene-NBX26_RS03500;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=NBX26_RS03500;old_locus_tag=NBX26_03480
+ID112B RefSeq gene 759 1124 . - . ID=gene-NBX26_RS03495;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=NBX26_RS03495;old_locus_tag=NBX26_03475
+ID112B RefSeq gene 1331 4993 . - . ID=gene-NBX26_RS03490;Name=NBX26_RS03490;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS03490;old_locus_tag=NBX26_03470
+ID112B RefSeq gene 5050 9288 . - . ID=gene-NBX26_RS03485;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=NBX26_RS03485;old_locus_tag=NBX26_03465
+ID112B RefSeq gene 9295 9714 . - . ID=gene-NBX26_RS03480;Name=NBX26_RS03480;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS03480;old_locus_tag=NBX26_03460
+ID112B RefSeq gene 9776 10069 . - . ID=gene-NBX26_RS03475;Name=NBX26_RS03475;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS03475
+ID112B RefSeq gene 9990 10646 . - . ID=gene-NBX26_RS03470;Name=NBX26_RS03470;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS03470
+ID112B RefSeq gene 10667 10879 . - . ID=gene-NBX26_RS03465;Name=NBX26_RS03465;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS03465
+ID112B RefSeq gene 10846 11013 . - . ID=gene-NBX26_RS03460;Name=NBX26_RS03460;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS03460
+ID112B RefSeq gene 11525 13612 . - . ID=gene-NBX26_RS03455;Name=NBX26_RS03455;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS03455;old_locus_tag=NBX26_03450
+ID112B RefSeq gene 13635 16091 . - . ID=gene-NBX26_RS03450;Name=mip;gbkey=Gene;gene=mip;gene_biotype=protein_coding;locus_tag=NBX26_RS03450;old_locus_tag=NBX26_03445

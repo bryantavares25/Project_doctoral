@@ -1,0 +1,5 @@
+IDES2 RefSeq gene 250 2073 . - . ID=gene-E5E95_RS03005;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=E5E95_RS03005;old_locus_tag=E5E95_03005
+IDES2 RefSeq gene 2780 2905 . - . ID=gene-E5E95_RS04220;Name=E5E95_RS04220;gbkey=Gene;gene_biotype=protein_coding;locus_tag=E5E95_RS04220
+IDES2 RefSeq gene 3281 3535 . - . ID=gene-E5E95_RS03000;Name=E5E95_RS03000;gbkey=Gene;gene_biotype=protein_coding;locus_tag=E5E95_RS03000;old_locus_tag=E5E95_03000
+IDES2 RefSeq gene 3570 4457 . - . ID=gene-E5E95_RS04160;Name=E5E95_RS04160;gbkey=Gene;gene_biotype=protein_coding;locus_tag=E5E95_RS04160
+IDES2 RefSeq gene 4493 5359 . - . ID=gene-E5E95_RS02990;Name=E5E95_RS02990;gbkey=Gene;gene_biotype=protein_coding;locus_tag=E5E95_RS02990;old_locus_tag=E5E95_02990

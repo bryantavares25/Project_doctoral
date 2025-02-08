@@ -1,0 +1,8 @@
+ID116 RefSeq gene 250 1242 . + . ID=gene-ABJ972_RS03400;Name=ABJ972_RS03400;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03400;old_locus_tag=ABJ972_03400
+ID116 RefSeq gene 1265 1873 . + . ID=gene-ABJ972_RS03405;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=ABJ972_RS03405;old_locus_tag=ABJ972_03405
+ID116 RefSeq gene 2014 3981 . + . ID=gene-ABJ972_RS03410;Name=ABJ972_RS03410;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03410;old_locus_tag=ABJ972_03410
+ID116 RefSeq gene 4179 7118 . + . ID=gene-ABJ972_RS03415;Name=ABJ972_RS03415;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03415;old_locus_tag=ABJ972_03415
+ID116 RefSeq gene 7240 7392 . + . ID=gene-ABJ972_RS03420;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=ABJ972_RS03420;old_locus_tag=ABJ972_03420
+ID116 RefSeq gene 7394 8431 . + . ID=gene-ABJ972_RS03425;Name=ABJ972_RS03425;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03425;old_locus_tag=ABJ972_03425
+ID116 RefSeq gene 8485 10155 . + . ID=gene-ABJ972_RS03430;Name=ABJ972_RS03430;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03430;old_locus_tag=ABJ972_03430
+ID116 RefSeq gene 10234 11796 . + . ID=gene-ABJ972_RS03435;Name=ABJ972_RS03435;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS03435;old_locus_tag=ABJ972_03435

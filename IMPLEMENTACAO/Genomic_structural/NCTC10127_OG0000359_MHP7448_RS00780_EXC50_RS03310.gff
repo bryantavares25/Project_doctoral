@@ -1,0 +1,7 @@
+IDNCTC10127 RefSeq gene 250 3090 . - . ID=gene-EXC50_RS03310;Name=EXC50_RS03310;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS03310;old_locus_tag=NCTC10127_00656
+IDNCTC10127 RefSeq gene 3135 4220 . - . ID=gene-EXC50_RS03305;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=EXC50_RS03305;old_locus_tag=NCTC10127_00655
+IDNCTC10127 RefSeq gene 4207 4923 . - . ID=gene-EXC50_RS03300;Name=EXC50_RS03300;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS03300;old_locus_tag=NCTC10127_00654
+IDNCTC10127 RefSeq gene 4984 6387 . - . ID=gene-EXC50_RS03295;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=EXC50_RS03295;old_locus_tag=NCTC10127_00653
+IDNCTC10127 RefSeq gene 6378 6791 . - . ID=gene-EXC50_RS03290;Name=EXC50_RS03290;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS03290;old_locus_tag=NCTC10127_00652
+IDNCTC10127 RefSeq gene 6784 7308 . - . ID=gene-EXC50_RS03285;Name=EXC50_RS03285;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS03285;old_locus_tag=NCTC10127_00651
+IDNCTC10127 RefSeq gene 7298 8053 . - . ID=gene-EXC50_RS03280;Name=EXC50_RS03280;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS03280;old_locus_tag=NCTC10127_00650

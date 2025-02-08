@@ -1,0 +1,8 @@
+IDTB1 RefSeq gene 250 1242 . + . ID=gene-B5M19_RS00410;Name=B5M19_RS00410;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS00410;old_locus_tag=B5M19_00435
+IDTB1 RefSeq gene 1338 1892 . + . ID=gene-B5M19_RS00405;Name=rsmG;end_range=18942,.;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=B5M19_RS00405;old_locus_tag=B5M19_00430;partial=true;start_range=.,18388
+IDTB1 RefSeq gene 2051 3934 . + . ID=gene-B5M19_RS00400;Name=B5M19_RS00400;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS00400;old_locus_tag=B5M19_00425
+IDTB1 RefSeq gene 4132 6914 . + . ID=gene-B5M19_RS00395;Name=B5M19_RS00395;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS00395;old_locus_tag=B5M19_00420;partial=true;start_range=.,13366
+IDTB1 RefSeq gene 7276 7428 . + . ID=gene-B5M19_RS00390;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=B5M19_RS00390;old_locus_tag=B5M19_00415
+IDTB1 RefSeq gene 7430 8467 . + . ID=gene-B5M19_RS00385;Name=B5M19_RS00385;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS00385;old_locus_tag=B5M19_00410
+IDTB1 RefSeq gene 8521 10191 . + . ID=gene-B5M19_RS00380;Name=B5M19_RS00380;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS00380;old_locus_tag=B5M19_00405
+IDTB1 RefSeq gene 10271 11836 . + . ID=gene-B5M19_RS00375;Name=B5M19_RS00375;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS00375;old_locus_tag=B5M19_00400

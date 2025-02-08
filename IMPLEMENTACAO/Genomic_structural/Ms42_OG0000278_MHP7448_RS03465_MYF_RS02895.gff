@@ -1,0 +1,12 @@
+IDMs42 RefSeq gene 250 2622 . - . ID=gene-MYF_RS02920;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=MYF_RS02920;old_locus_tag=MYF_03105
+IDMs42 RefSeq gene 2626 4623 . - . ID=gene-MYF_RS02915;Name=MYF_RS02915;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS02915;old_locus_tag=MYF_03100
+IDMs42 RefSeq gene 4604 5041 . - . ID=gene-MYF_RS02910;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=MYF_RS02910;old_locus_tag=MYF_03095
+IDMs42 RefSeq gene 5034 6425 . - . ID=gene-MYF_RS02905;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding;locus_tag=MYF_RS02905;old_locus_tag=MYF_03090
+IDMs42 RefSeq gene 6425 7657 . - . ID=gene-MYF_RS02900;Name=MYF_RS02900;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS02900;old_locus_tag=MYF_03085
+IDMs42 RefSeq gene 7641 8324 . - . ID=gene-MYF_RS02895;Name=MYF_RS02895;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS02895;old_locus_tag=MYF_03080
+IDMs42 RefSeq gene 8311 9525 . - . ID=gene-MYF_RS02890;Name=MYF_RS02890;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS02890;old_locus_tag=MYF_03075
+IDMs42 RefSeq gene 9559 10248 . - . ID=gene-MYF_RS02885;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=MYF_RS02885;old_locus_tag=MYF_03070
+IDMs42 RefSeq gene 10272 10817 . - . ID=gene-MYF_RS02880;Name=MYF_RS02880;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS02880;old_locus_tag=MYF_03065
+IDMs42 RefSeq gene 10873 11013 . - . ID=gene-MYF_RS03275;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=MYF_RS03275;old_locus_tag=MYF_03063
+IDMs42 RefSeq gene 11013 11249 . - . ID=gene-MYF_RS02875;Name=secE;gbkey=Gene;gene=secE;gene_biotype=protein_coding;locus_tag=MYF_RS02875;old_locus_tag=MYF_03060
+IDMs42 RefSeq gene 11269 11841 . - . ID=gene-MYF_RS02870;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=MYF_RS02870;old_locus_tag=MYF_03055

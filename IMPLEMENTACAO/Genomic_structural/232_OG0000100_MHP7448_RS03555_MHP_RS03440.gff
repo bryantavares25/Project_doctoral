@@ -1,0 +1,8 @@
+ID232 RefSeq gene 250 1242 . + . ID=gene-MHP_RS03415;Name=MHP_RS03415;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03415;old_locus_tag=mhp675
+ID232 RefSeq gene 1265 1873 . + . ID=gene-MHP_RS03420;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=MHP_RS03420;old_locus_tag=mhp676
+ID232 RefSeq gene 2013 3896 . + . ID=gene-MHP_RS03425;Name=MHP_RS03425;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03425;old_locus_tag=mhp677
+ID232 RefSeq gene 4094 7033 . + . ID=gene-MHP_RS03430;Name=MHP_RS03430;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03430;old_locus_tag=mhp678
+ID232 RefSeq gene 7155 7307 . + . ID=gene-MHP_RS03435;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=MHP_RS03435;old_locus_tag=mhp679
+ID232 RefSeq gene 7309 8346 . + . ID=gene-MHP_RS03440;Name=MHP_RS03440;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03440;old_locus_tag=mhp680
+ID232 RefSeq gene 8401 10086 . + . ID=gene-MHP_RS03445;Name=MHP_RS03445;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03445;old_locus_tag=mhp681
+ID232 RefSeq gene 10150 11715 . + . ID=gene-MHP_RS03450;Name=MHP_RS03450;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS03450;old_locus_tag=mhp682

@@ -1,0 +1,12 @@
+IDMHP653 RefSeq gene 250 2622 . - . ID=gene-DR096_RS00970;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=DR096_RS00970;old_locus_tag=DR096_00990
+IDMHP653 RefSeq gene 2683 4623 . - . ID=gene-DR096_RS04560;Name=DR096_RS04560;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS04560;old_locus_tag=DR096_00985
+IDMHP653 RefSeq gene 4604 5041 . - . ID=gene-DR096_RS00960;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=DR096_RS00960;old_locus_tag=DR096_00980
+IDMHP653 RefSeq gene 5034 6425 . - . ID=gene-DR096_RS00955;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding;locus_tag=DR096_RS00955;old_locus_tag=DR096_00975
+IDMHP653 RefSeq gene 6425 7657 . - . ID=gene-DR096_RS00950;Name=DR096_RS00950;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS00950;old_locus_tag=DR096_00970
+IDMHP653 RefSeq gene 7641 8324 . - . ID=gene-DR096_RS00945;Name=DR096_RS00945;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS00945;old_locus_tag=DR096_00965
+IDMHP653 RefSeq gene 8311 9525 . - . ID=gene-DR096_RS00940;Name=cysS;gbkey=Gene;gene=cysS;gene_biotype=protein_coding;locus_tag=DR096_RS00940;old_locus_tag=DR096_00960
+IDMHP653 RefSeq gene 9559 10260 . - . ID=gene-DR096_RS00935;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=DR096_RS00935;old_locus_tag=DR096_00955
+IDMHP653 RefSeq gene 10281 10826 . - . ID=gene-DR096_RS00930;Name=DR096_RS00930;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS00930;old_locus_tag=DR096_00950
+IDMHP653 RefSeq gene 10877 11017 . - . ID=gene-DR096_RS00925;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=DR096_RS00925;old_locus_tag=DR096_00945
+IDMHP653 RefSeq gene 11117 11254 . - . ID=gene-DR096_RS04835;Name=DR096_RS04835;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS04835
+IDMHP653 RefSeq gene 11274 11846 . - . ID=gene-DR096_RS04555;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=DR096_RS04555;old_locus_tag=DR096_00935

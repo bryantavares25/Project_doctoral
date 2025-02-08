@@ -1,0 +1,7 @@
+ID154B RefSeq gene 250 3090 . - . ID=gene-NB624_RS00900;Name=NB624_RS00900;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB624_RS00900;old_locus_tag=NB624_00915
+ID154B RefSeq gene 3135 4220 . - . ID=gene-NB624_RS00895;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=NB624_RS00895;old_locus_tag=NB624_00910
+ID154B RefSeq gene 4207 4923 . - . ID=gene-NB624_RS00890;Name=NB624_RS00890;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB624_RS00890;old_locus_tag=NB624_00905
+ID154B RefSeq gene 4984 6387 . - . ID=gene-NB624_RS00885;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=NB624_RS00885;old_locus_tag=NB624_00900
+ID154B RefSeq gene 6378 6818 . - . ID=gene-NB624_RS00880;Name=NB624_RS00880;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB624_RS00880;old_locus_tag=NB624_00895
+ID154B RefSeq gene 6811 7335 . - . ID=gene-NB624_RS00875;Name=NB624_RS00875;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB624_RS00875;old_locus_tag=NB624_00890
+ID154B RefSeq gene 7322 8080 . - . ID=gene-NB624_RS00870;Name=NB624_RS00870;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB624_RS00870;old_locus_tag=NB624_00885

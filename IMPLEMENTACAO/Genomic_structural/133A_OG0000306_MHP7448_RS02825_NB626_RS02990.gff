@@ -1,0 +1,5 @@
+ID133A RefSeq gene 250 2073 . - . ID=gene-NB626_RS02990;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=NB626_RS02990;old_locus_tag=NB626_03010
+ID133A RefSeq gene 2778 2903 . - . ID=gene-NB626_RS02985;Name=NB626_RS02985;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB626_RS02985
+ID133A RefSeq gene 3279 4637 . - . ID=gene-NB626_RS02980;Name=NB626_RS02980;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB626_RS02980;old_locus_tag=NB626_03005
+ID133A RefSeq gene 5166 5693 . - . ID=gene-NB626_RS02975;Name=NB626_RS02975;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB626_RS02975;old_locus_tag=NB626_03000
+ID133A RefSeq gene 5729 6757 . - . ID=gene-NB626_RS02970;Name=NB626_RS02970;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB626_RS02970;old_locus_tag=NB626_02995

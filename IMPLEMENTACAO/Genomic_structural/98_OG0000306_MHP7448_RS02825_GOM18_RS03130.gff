@@ -1,0 +1,4 @@
+ID98 RefSeq gene 250 2073 . - . ID=gene-GOM18_RS03130;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=GOM18_RS03130;old_locus_tag=GOM18_03170
+ID98 RefSeq gene 2780 2905 . - . ID=gene-GOM18_RS04135;Name=GOM18_RS04135;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS04135
+ID98 RefSeq gene 3281 3535 . - . ID=gene-GOM18_RS03125;Name=GOM18_RS03125;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS03125;old_locus_tag=GOM18_03165
+ID98 RefSeq gene 4492 5520 . - . ID=gene-GOM18_RS03120;Name=GOM18_RS03120;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS03120;old_locus_tag=GOM18_03155

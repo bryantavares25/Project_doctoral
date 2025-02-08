@@ -1,0 +1,4 @@
+IDMF33 RefSeq gene 250 699 . + . ID=gene-DR085_RS02450;Name=DR085_RS02450;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS02450;old_locus_tag=DR085_02500
+IDMF33 RefSeq gene 882 1034 . + . ID=gene-DR085_RS02445;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=DR085_RS02445;old_locus_tag=DR085_02495
+IDMF33 RefSeq gene 1036 2070 . + . ID=gene-DR085_RS02440;Name=DR085_RS02440;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS02440;old_locus_tag=DR085_02490
+IDMF33 RefSeq gene 2573 4063 . + . ID=gene-DR085_RS02435;Name=DR085_RS02435;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS02435;old_locus_tag=DR085_02485

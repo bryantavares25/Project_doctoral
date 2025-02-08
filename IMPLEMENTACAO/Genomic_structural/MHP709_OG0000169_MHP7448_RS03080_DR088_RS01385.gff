@@ -1,0 +1,2 @@
+IDMHP709 RefSeq pseudogene 250 586 . + . ID=gene-DR088_RS03660;Name=DR088_RS03660;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR088_RS03660;old_locus_tag=DR088_01380;partial=true;pseudo=true;start_range=.,1
+IDMHP709 RefSeq gene 859 1521 . + . ID=gene-DR088_RS01385;Name=DR088_RS01385;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS01385;old_locus_tag=DR088_01390

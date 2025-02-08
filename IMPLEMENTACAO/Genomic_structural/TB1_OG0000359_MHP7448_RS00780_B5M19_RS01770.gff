@@ -1,0 +1,7 @@
+IDTB1 RefSeq gene 250 3042 . - . ID=gene-B5M19_RS01770;Name=B5M19_RS01770;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS01770;old_locus_tag=B5M19_01900
+IDTB1 RefSeq gene 3087 4172 . - . ID=gene-B5M19_RS01765;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=B5M19_RS01765;old_locus_tag=B5M19_01895
+IDTB1 RefSeq gene 4159 4875 . - . ID=gene-B5M19_RS01760;Name=B5M19_RS01760;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS01760;old_locus_tag=B5M19_01890
+IDTB1 RefSeq gene 4936 6339 . - . ID=gene-B5M19_RS01755;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=B5M19_RS01755;old_locus_tag=B5M19_01885
+IDTB1 RefSeq gene 6330 6746 . - . ID=gene-B5M19_RS01750;Name=B5M19_RS01750;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS01750;old_locus_tag=B5M19_01880
+IDTB1 RefSeq gene 6739 7263 . - . ID=gene-B5M19_RS01745;Name=B5M19_RS01745;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS01745;old_locus_tag=B5M19_01875
+IDTB1 RefSeq gene 7253 8008 . - . ID=gene-B5M19_RS01740;Name=B5M19_RS01740;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS01740;old_locus_tag=B5M19_01870

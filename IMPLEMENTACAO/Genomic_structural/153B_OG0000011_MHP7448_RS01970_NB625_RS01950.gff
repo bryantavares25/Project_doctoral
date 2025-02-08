@@ -1,0 +1,2 @@
+ID153B RefSeq gene 250 1809 . - . ID=gene-NB625_RS01950;Name=NB625_RS01950;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB625_RS01950;old_locus_tag=NB625_01950
+ID153B RefSeq pseudogene 1923 3579 . - . ID=gene-NB625_RS01945;Name=NB625_RS01945;gbkey=Gene;gene_biotype=pseudogene;locus_tag=NB625_RS01945;old_locus_tag=NB625_01945;pseudo=true

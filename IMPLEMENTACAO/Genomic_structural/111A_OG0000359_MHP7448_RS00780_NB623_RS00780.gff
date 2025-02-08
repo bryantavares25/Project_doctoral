@@ -1,0 +1,8 @@
+ID111A RefSeq gene 250 2460 . + . ID=gene-NB623_RS00780;Name=NB623_RS00780;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS00780;old_locus_tag=NB623_00790
+ID111A RefSeq gene 2529 3089 . + . ID=gene-NB623_RS00785;Name=NB623_RS00785;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS00785;old_locus_tag=NB623_00795
+ID111A RefSeq gene 3134 4219 . + . ID=gene-NB623_RS00790;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=NB623_RS00790;old_locus_tag=NB623_00800
+ID111A RefSeq gene 4206 4922 . + . ID=gene-NB623_RS00795;Name=NB623_RS00795;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS00795;old_locus_tag=NB623_00805
+ID111A RefSeq gene 4983 6386 . + . ID=gene-NB623_RS00800;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=NB623_RS00800;old_locus_tag=NB623_00810
+ID111A RefSeq gene 6377 6934 . + . ID=gene-NB623_RS00805;Name=NB623_RS00805;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS00805;old_locus_tag=NB623_00815
+ID111A RefSeq gene 6953 7477 . + . ID=gene-NB623_RS00810;Name=NB623_RS00810;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS00810;old_locus_tag=NB623_00820
+ID111A RefSeq gene 7464 8222 . + . ID=gene-NB623_RS00815;Name=NB623_RS00815;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS00815;old_locus_tag=NB623_00825

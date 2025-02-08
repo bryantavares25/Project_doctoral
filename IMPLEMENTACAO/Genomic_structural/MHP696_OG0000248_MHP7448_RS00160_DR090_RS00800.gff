@@ -1,0 +1,4 @@
+IDMHP696 RefSeq gene 250 2178 . - . ID=gene-DR090_RS00785;Name=DR090_RS00785;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS00785;old_locus_tag=DR090_00785
+IDMHP696 RefSeq gene 2171 4711 . - . ID=gene-DR090_RS00790;Name=DR090_RS00790;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS00790;old_locus_tag=DR090_00790
+IDMHP696 RefSeq gene 4711 7371 . - . ID=gene-DR090_RS00795;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=DR090_RS00795;old_locus_tag=DR090_00795
+IDMHP696 RefSeq gene 7349 7942 . - . ID=gene-DR090_RS00800;Name=DR090_RS00800;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS00800;old_locus_tag=DR090_00800

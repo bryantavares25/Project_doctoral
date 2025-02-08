@@ -1,0 +1,4 @@
+IDMHP694 RefSeq gene 250 2178 . - . ID=gene-DR099_RS00820;Name=DR099_RS00820;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS00820;old_locus_tag=DR099_00820
+IDMHP694 RefSeq gene 2171 4711 . - . ID=gene-DR099_RS00825;Name=DR099_RS00825;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS00825;old_locus_tag=DR099_00825
+IDMHP694 RefSeq gene 4711 7371 . - . ID=gene-DR099_RS00830;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=DR099_RS00830;old_locus_tag=DR099_00830
+IDMHP694 RefSeq gene 7349 7942 . - . ID=gene-DR099_RS00835;Name=DR099_RS00835;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS00835;old_locus_tag=DR099_00835

@@ -1,0 +1,9 @@
+IDMHP709 RefSeq gene 250 747 . - . ID=gene-DR088_RS02030;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=DR088_RS02030;old_locus_tag=DR088_02045
+IDMHP709 RefSeq gene 759 1124 . - . ID=gene-DR088_RS02025;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=DR088_RS02025;old_locus_tag=DR088_02040
+IDMHP709 RefSeq gene 1331 4993 . - . ID=gene-DR088_RS02020;Name=DR088_RS02020;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS02020;old_locus_tag=DR088_02035
+IDMHP709 RefSeq gene 5050 9288 . - . ID=gene-DR088_RS02015;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=DR088_RS02015;old_locus_tag=DR088_02030
+IDMHP709 RefSeq gene 9295 9714 . - . ID=gene-DR088_RS02010;Name=DR088_RS02010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS02010;old_locus_tag=DR088_02025
+IDMHP709 RefSeq gene 9776 10069 . - . ID=gene-DR088_RS04000;Name=DR088_RS04000;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS04000
+IDMHP709 RefSeq gene 10023 11012 . - . ID=gene-DR088_RS03995;Name=DR088_RS03995;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS03995;old_locus_tag=DR088_02020
+IDMHP709 RefSeq gene 11536 13623 . - . ID=gene-DR088_RS02000;Name=DR088_RS02000;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS02000;old_locus_tag=DR088_02015
+IDMHP709 RefSeq gene 13646 16102 . - . ID=gene-DR088_RS04430;Name=DR088_RS04430;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS04430;old_locus_tag=DR088_02010

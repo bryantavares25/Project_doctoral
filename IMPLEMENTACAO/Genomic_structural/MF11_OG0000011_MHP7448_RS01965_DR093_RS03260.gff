@@ -1,0 +1,2 @@
+IDMF11 RefSeq gene 250 1776 . - . ID=gene-DR093_RS03770;Name=DR093_RS03770;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS03770;old_locus_tag=DR093_03055
+IDMF11 RefSeq gene 2134 3665 . - . ID=gene-DR093_RS03260;Name=DR093_RS03260;end_range=3744,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS03260;partial=true

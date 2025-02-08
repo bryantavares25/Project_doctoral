@@ -1,0 +1,5 @@
+IDMF30 RefSeq gene 250 2073 . + . ID=gene-DR084_RS00625;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=DR084_RS00625;old_locus_tag=DR084_00645
+IDMF30 RefSeq gene 2438 3127 . + . ID=gene-DR084_RS02995;Name=DR084_RS02995;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS02995
+IDMF30 RefSeq gene 3137 4507 . + . ID=gene-DR084_RS03095;Name=DR084_RS03095;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS03095
+IDMF30 RefSeq gene 4765 5514 . + . ID=gene-DR084_RS00640;Name=DR084_RS00640;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS00640;old_locus_tag=DR084_00660
+IDMF30 RefSeq gene 5498 5653 . + . ID=gene-DR084_RS03000;Name=DR084_RS03000;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS03000

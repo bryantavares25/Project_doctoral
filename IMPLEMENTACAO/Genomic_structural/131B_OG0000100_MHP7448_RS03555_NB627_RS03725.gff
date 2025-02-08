@@ -1,0 +1,8 @@
+ID131B RefSeq pseudogene 250 1243 . + . ID=gene-NB627_RS03700;Name=NB627_RS03700;gbkey=Gene;gene_biotype=pseudogene;locus_tag=NB627_RS03700;old_locus_tag=NB627_03710;pseudo=true
+ID131B RefSeq gene 1266 1874 . + . ID=gene-NB627_RS03705;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=NB627_RS03705;old_locus_tag=NB627_03715
+ID131B RefSeq gene 2012 3895 . + . ID=gene-NB627_RS03710;Name=NB627_RS03710;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS03710;old_locus_tag=NB627_03720
+ID131B RefSeq gene 4093 7032 . + . ID=gene-NB627_RS03715;Name=NB627_RS03715;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS03715;old_locus_tag=NB627_03725
+ID131B RefSeq gene 7154 7306 . + . ID=gene-NB627_RS03720;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=NB627_RS03720;old_locus_tag=NB627_03730
+ID131B RefSeq gene 7308 8345 . + . ID=gene-NB627_RS03725;Name=NB627_RS03725;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS03725;old_locus_tag=NB627_03735
+ID131B RefSeq gene 8399 10072 . + . ID=gene-NB627_RS03730;Name=NB627_RS03730;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS03730;old_locus_tag=NB627_03740
+ID131B RefSeq gene 10136 11698 . + . ID=gene-NB627_RS03735;Name=NB627_RS03735;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS03735;old_locus_tag=NB627_03745

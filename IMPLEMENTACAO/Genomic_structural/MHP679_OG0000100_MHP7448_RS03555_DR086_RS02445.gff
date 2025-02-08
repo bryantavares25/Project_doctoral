@@ -1,0 +1,8 @@
+IDMHP679 RefSeq gene 250 1242 . + . ID=gene-DR086_RS02420;Name=DR086_RS02420;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR086_RS02420;old_locus_tag=DR086_02460
+IDMHP679 RefSeq gene 1265 1873 . + . ID=gene-DR086_RS02425;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=DR086_RS02425;old_locus_tag=DR086_02465
+IDMHP679 RefSeq gene 2006 3889 . + . ID=gene-DR086_RS02430;Name=DR086_RS02430;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR086_RS02430;old_locus_tag=DR086_02470
+IDMHP679 RefSeq gene 4087 7026 . + . ID=gene-DR086_RS02435;Name=DR086_RS02435;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR086_RS02435;old_locus_tag=DR086_02475
+IDMHP679 RefSeq gene 7148 7300 . + . ID=gene-DR086_RS02440;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=DR086_RS02440;old_locus_tag=DR086_02480
+IDMHP679 RefSeq gene 7302 8339 . + . ID=gene-DR086_RS02445;Name=DR086_RS02445;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR086_RS02445;old_locus_tag=DR086_02485
+IDMHP679 RefSeq gene 8393 10078 . + . ID=gene-DR086_RS02450;Name=DR086_RS02450;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR086_RS02450;old_locus_tag=DR086_02490
+IDMHP679 RefSeq gene 10142 11704 . + . ID=gene-DR086_RS02455;Name=DR086_RS02455;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR086_RS02455;old_locus_tag=DR086_02495

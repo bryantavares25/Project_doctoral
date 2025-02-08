@@ -1,0 +1,3 @@
+IDMF18 RefSeq gene 250 870 . - . ID=gene-DR082_RS03895;Name=DR082_RS03895;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR082_RS03895
+IDMF18 RefSeq gene 806 1888 . - . ID=gene-DR082_RS03545;Name=DR082_RS03545;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR082_RS03545;old_locus_tag=DR082_02670
+IDMF18 RefSeq gene 2325 3857 . - . ID=gene-DR082_RS02625;Name=DR082_RS02625;end_range=9415,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR082_RS02625;old_locus_tag=DR082_02665;partial=true

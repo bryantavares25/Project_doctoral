@@ -1,0 +1,5 @@
+IDMF33 RefSeq gene 250 2073 . + . ID=gene-DR085_RS00650;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=DR085_RS00650;old_locus_tag=DR085_00665
+IDMF33 RefSeq gene 2438 3127 . + . ID=gene-DR085_RS00655;Name=DR085_RS00655;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS00655;old_locus_tag=DR085_00670
+IDMF33 RefSeq gene 3137 4507 . + . ID=gene-DR085_RS03235;Name=DR085_RS03235;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS03235
+IDMF33 RefSeq gene 4681 5514 . + . ID=gene-DR085_RS00665;Name=DR085_RS00665;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS00665;old_locus_tag=DR085_00680
+IDMF33 RefSeq gene 5498 5653 . + . ID=gene-DR085_RS03120;Name=DR085_RS03120;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS03120

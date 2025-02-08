@@ -1,0 +1,13 @@
+IDUe273 RefSeq gene 250 2622 . - . ID=gene-VQY17_RS03460;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=VQY17_RS03460;old_locus_tag=VQY17_03460
+IDUe273 RefSeq gene 2683 4623 . - . ID=gene-VQY17_RS03455;Name=VQY17_RS03455;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03455;old_locus_tag=VQY17_03455
+IDUe273 RefSeq gene 4604 5041 . - . ID=gene-VQY17_RS03450;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=VQY17_RS03450;old_locus_tag=VQY17_03450
+IDUe273 RefSeq gene 5034 6425 . - . ID=gene-VQY17_RS03445;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding;locus_tag=VQY17_RS03445;old_locus_tag=VQY17_03445
+IDUe273 RefSeq gene 6425 6922 . - . ID=gene-VQY17_RS03440;Name=VQY17_RS03440;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03440;old_locus_tag=VQY17_03440
+IDUe273 RefSeq gene 7081 7656 . - . ID=gene-VQY17_RS03435;Name=VQY17_RS03435;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03435;old_locus_tag=VQY17_03435
+IDUe273 RefSeq gene 7640 8323 . - . ID=gene-VQY17_RS03430;Name=VQY17_RS03430;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03430;old_locus_tag=VQY17_03430
+IDUe273 RefSeq gene 8310 9524 . - . ID=gene-VQY17_RS03425;Name=VQY17_RS03425;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03425;old_locus_tag=VQY17_03425
+IDUe273 RefSeq gene 9558 10259 . - . ID=gene-VQY17_RS03420;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=VQY17_RS03420;old_locus_tag=VQY17_03420
+IDUe273 RefSeq gene 10280 10825 . - . ID=gene-VQY17_RS03415;Name=VQY17_RS03415;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03415;old_locus_tag=VQY17_03415
+IDUe273 RefSeq gene 10876 11016 . - . ID=gene-VQY17_RS03410;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=VQY17_RS03410;old_locus_tag=VQY17_03410
+IDUe273 RefSeq gene 11107 11253 . - . ID=gene-VQY17_RS03405;Name=VQY17_RS03405;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03405;old_locus_tag=VQY17_03405
+IDUe273 RefSeq gene 11273 11845 . - . ID=gene-VQY17_RS03400;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=VQY17_RS03400;old_locus_tag=VQY17_03400

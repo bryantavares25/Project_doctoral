@@ -1,0 +1,9 @@
+ID131B RefSeq gene 250 747 . - . ID=gene-NB627_RS03510;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=NB627_RS03510;old_locus_tag=NB627_03510
+ID131B RefSeq gene 759 1124 . - . ID=gene-NB627_RS03505;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=NB627_RS03505;old_locus_tag=NB627_03505
+ID131B RefSeq gene 1331 4993 . - . ID=gene-NB627_RS03500;Name=NB627_RS03500;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS03500;old_locus_tag=NB627_03500
+ID131B RefSeq gene 5050 9288 . - . ID=gene-NB627_RS03495;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=NB627_RS03495;old_locus_tag=NB627_03495
+ID131B RefSeq gene 9295 9714 . - . ID=gene-NB627_RS03490;Name=NB627_RS03490;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS03490;old_locus_tag=NB627_03490
+ID131B RefSeq gene 9776 10630 . - . ID=gene-NB627_RS03485;Name=NB627_RS03485;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS03485;old_locus_tag=NB627_03485
+ID131B RefSeq gene 10651 10995 . - . ID=gene-NB627_RS03480;Name=NB627_RS03480;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS03480;old_locus_tag=NB627_03480
+ID131B RefSeq gene 11516 13603 . - . ID=gene-NB627_RS03475;Name=NB627_RS03475;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS03475;old_locus_tag=NB627_03475
+ID131B RefSeq gene 13626 16082 . - . ID=gene-NB627_RS03470;Name=mip;gbkey=Gene;gene=mip;gene_biotype=protein_coding;locus_tag=NB627_RS03470;old_locus_tag=NB627_03470

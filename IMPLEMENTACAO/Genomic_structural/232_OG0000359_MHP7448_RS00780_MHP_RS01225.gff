@@ -1,0 +1,7 @@
+ID232 RefSeq gene 250 3147 . - . ID=gene-MHP_RS01225;Name=MHP_RS01225;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS01225;old_locus_tag=mhp244
+ID232 RefSeq gene 3192 4277 . - . ID=gene-MHP_RS01220;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=MHP_RS01220;old_locus_tag=mhp243
+ID232 RefSeq gene 4264 4980 . - . ID=gene-MHP_RS01215;Name=MHP_RS01215;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS01215;old_locus_tag=mhp242
+ID232 RefSeq gene 5041 6444 . - . ID=gene-MHP_RS01210;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=MHP_RS01210;old_locus_tag=mhp241
+ID232 RefSeq gene 6435 6845 . - . ID=gene-MHP_RS01205;Name=MHP_RS01205;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS01205;old_locus_tag=mhp240
+ID232 RefSeq gene 6838 7362 . - . ID=gene-MHP_RS01200;Name=MHP_RS01200;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS01200;old_locus_tag=mhp239
+ID232 RefSeq gene 7352 8107 . - . ID=gene-MHP_RS01195;Name=MHP_RS01195;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS01195;old_locus_tag=mhp238

@@ -1,0 +1,11 @@
+IDMHP682 RefSeq gene 250 747 . - . ID=gene-DR097_RS02970;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=DR097_RS02970;old_locus_tag=DR097_02985
+IDMHP682 RefSeq gene 759 1124 . - . ID=gene-DR097_RS02975;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=DR097_RS02975;old_locus_tag=DR097_02990
+IDMHP682 RefSeq gene 1331 4993 . - . ID=gene-DR097_RS02980;Name=DR097_RS02980;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS02980;old_locus_tag=DR097_02995
+IDMHP682 RefSeq gene 5050 9288 . - . ID=gene-DR097_RS02985;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=DR097_RS02985;old_locus_tag=DR097_03000
+IDMHP682 RefSeq gene 9295 9714 . - . ID=gene-DR097_RS02990;Name=DR097_RS02990;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS02990;old_locus_tag=DR097_03005
+IDMHP682 RefSeq gene 9776 11026 . - . ID=gene-DR097_RS04785;Name=DR097_RS04785;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS04785;old_locus_tag=DR097_03010
+IDMHP682 RefSeq gene 11016 11282 . - . ID=gene-DR097_RS03000;Name=DR097_RS03000;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS03000;old_locus_tag=DR097_03015
+IDMHP682 RefSeq pseudogene 11471 11895 . - . ID=gene-DR097_RS03860;Name=DR097_RS03860;end_range=425,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR097_RS03860;partial=true;pseudo=true;start_range=.,1
+IDMHP682 RefSeq gene 11996 13669 . - . ID=gene-DR097_RS03560;Name=DR097_RS03560;end_range=3039,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS03560;old_locus_tag=DR097_03580;partial=true
+IDMHP682 RefSeq gene 13692 15034 . - . ID=gene-DR097_RS04860;Name=DR097_RS04860;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS04860;old_locus_tag=DR097_03575;partial=true;start_range=.,1
+IDMHP682 RefSeq gene 15135 16325 . - . ID=gene-DR097_RS03580;Name=DR097_RS03580;end_range=2923,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS03580;old_locus_tag=DR097_03600;partial=true

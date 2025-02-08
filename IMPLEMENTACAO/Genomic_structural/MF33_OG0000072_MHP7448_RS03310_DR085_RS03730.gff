@@ -1,0 +1,2 @@
+IDMF33 RefSeq gene 250 2211 . - . ID=gene-DR085_RS01600;Name=DR085_RS01600;end_range=128393,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS01600;old_locus_tag=DR085_01650;partial=true
+IDMF33 RefSeq gene 2233 4683 . - . ID=gene-DR085_RS03730;Name=DR085_RS03730;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS03730;old_locus_tag=DR085_01645

@@ -1,0 +1,5 @@
+IDLH RefSeq gene 250 2073 . - . ID=gene-KUD10_RS02880;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=KUD10_RS02880;old_locus_tag=KUD10_02850
+IDLH RefSeq gene 2782 2907 . - . ID=gene-KUD10_RS03715;Name=KUD10_RS03715;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03715
+IDLH RefSeq gene 3283 3537 . - . ID=gene-KUD10_RS02875;Name=KUD10_RS02875;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS02875;old_locus_tag=KUD10_02845
+IDLH RefSeq gene 3572 4459 . - . ID=gene-KUD10_RS02870;Name=KUD10_RS02870;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS02870
+IDLH RefSeq gene 4495 5523 . - . ID=gene-KUD10_RS02865;Name=KUD10_RS02865;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS02865;old_locus_tag=KUD10_02835

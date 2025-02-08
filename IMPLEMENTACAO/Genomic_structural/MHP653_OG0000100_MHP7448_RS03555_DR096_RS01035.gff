@@ -1,0 +1,9 @@
+IDMHP653 RefSeq gene 250 1242 . + . ID=gene-DR096_RS01010;Name=DR096_RS01010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS01010;old_locus_tag=DR096_01030
+IDMHP653 RefSeq gene 1265 1873 . + . ID=gene-DR096_RS01015;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=DR096_RS01015;old_locus_tag=DR096_01035
+IDMHP653 RefSeq gene 2009 3892 . + . ID=gene-DR096_RS01020;Name=DR096_RS01020;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS01020;old_locus_tag=DR096_01040
+IDMHP653 RefSeq gene 4090 7029 . + . ID=gene-DR096_RS01025;Name=DR096_RS01025;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS01025;old_locus_tag=DR096_01045
+IDMHP653 RefSeq gene 7139 7291 . + . ID=gene-DR096_RS01030;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=DR096_RS01030;old_locus_tag=DR096_01050
+IDMHP653 RefSeq gene 7293 8330 . + . ID=gene-DR096_RS01035;Name=DR096_RS01035;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS01035;old_locus_tag=DR096_01055
+IDMHP653 RefSeq gene 8384 10069 . + . ID=gene-DR096_RS01040;Name=DR096_RS01040;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS01040;old_locus_tag=DR096_01060
+IDMHP653 RefSeq gene 10133 11695 . + . ID=gene-DR096_RS01045;Name=DR096_RS01045;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS01045;old_locus_tag=DR096_01065
+IDMHP653 RefSeq gene 12361 13795 . + . ID=gene-DR096_RS01050;Name=DR096_RS01050;end_range=48479,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS01050;old_locus_tag=DR096_01070;partial=true

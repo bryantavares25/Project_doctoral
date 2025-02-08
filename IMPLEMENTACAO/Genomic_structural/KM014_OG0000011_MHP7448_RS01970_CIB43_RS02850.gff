@@ -1,0 +1,3 @@
+IDKM014 RefSeq gene 250 780 . - . ID=gene-CIB43_RS02850;Name=CIB43_RS02850;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CIB43_RS02850;old_locus_tag=CIB43_00661
+IDKM014 RefSeq gene 789 1808 . - . ID=gene-CIB43_RS02845;Name=CIB43_RS02845;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CIB43_RS02845;old_locus_tag=CIB43_00660
+IDKM014 RefSeq pseudogene 1922 3579 . - . ID=gene-CIB43_RS02840;Name=CIB43_RS02840;gbkey=Gene;gene_biotype=pseudogene;locus_tag=CIB43_RS02840;old_locus_tag=CIB43_00658;pseudo=true

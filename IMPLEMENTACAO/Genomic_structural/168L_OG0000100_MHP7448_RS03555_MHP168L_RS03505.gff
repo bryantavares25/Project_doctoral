@@ -1,0 +1,8 @@
+ID168L RefSeq gene 250 1242 . + . ID=gene-MHP168L_RS03480;Name=MHP168L_RS03480;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS03480;old_locus_tag=MHP168L_664
+ID168L RefSeq pseudogene 1265 1872 . + . ID=gene-MHP168L_RS03485;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=pseudogene;locus_tag=MHP168L_RS03485;old_locus_tag=MHP168L_666;pseudo=true
+ID168L RefSeq gene 2009 3892 . + . ID=gene-MHP168L_RS03490;Name=MHP168L_RS03490;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS03490
+ID168L RefSeq gene 4090 7029 . + . ID=gene-MHP168L_RS03495;Name=MHP168L_RS03495;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS03495;old_locus_tag=MHP168L_670
+ID168L RefSeq gene 7151 7303 . + . ID=gene-MHP168L_RS03500;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=MHP168L_RS03500;old_locus_tag=MHP168L_745
+ID168L RefSeq gene 7305 8342 . + . ID=gene-MHP168L_RS03505;Name=MHP168L_RS03505;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS03505;old_locus_tag=MHP168L_671
+ID168L RefSeq gene 8396 10066 . + . ID=gene-MHP168L_RS03510;Name=MHP168L_RS03510;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS03510;old_locus_tag=MHP168L_672
+ID168L RefSeq gene 10146 11711 . + . ID=gene-MHP168L_RS03515;Name=MHP168L_RS03515;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS03515;old_locus_tag=MHP168L_673

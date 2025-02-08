@@ -1,0 +1,4 @@
+ID98 RefSeq gene 250 2178 . - . ID=gene-GOM18_RS01285;Name=GOM18_RS01285;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS01285;old_locus_tag=GOM18_01300
+ID98 RefSeq gene 2171 4711 . - . ID=gene-GOM18_RS01280;Name=GOM18_RS01280;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS01280;old_locus_tag=GOM18_01295
+ID98 RefSeq gene 4711 7371 . - . ID=gene-GOM18_RS01275;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=GOM18_RS01275;old_locus_tag=GOM18_01290
+ID98 RefSeq gene 7349 7942 . - . ID=gene-GOM18_RS01270;Name=GOM18_RS01270;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS01270;old_locus_tag=GOM18_01285

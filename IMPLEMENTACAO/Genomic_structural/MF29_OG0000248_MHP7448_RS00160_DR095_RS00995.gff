@@ -1,0 +1,4 @@
+IDMF29 RefSeq gene 250 2175 . - . ID=gene-DR095_RS00980;Name=DR095_RS00980;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS00980;old_locus_tag=DR095_01010
+IDMF29 RefSeq gene 2168 4720 . - . ID=gene-DR095_RS00985;Name=DR095_RS00985;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS00985;old_locus_tag=DR095_01015
+IDMF29 RefSeq gene 4723 7383 . - . ID=gene-DR095_RS00990;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=DR095_RS00990;old_locus_tag=DR095_01020
+IDMF29 RefSeq gene 7355 7969 . - . ID=gene-DR095_RS00995;Name=DR095_RS00995;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS00995;old_locus_tag=DR095_01025

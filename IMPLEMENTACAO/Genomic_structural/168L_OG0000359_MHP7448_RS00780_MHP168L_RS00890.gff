@@ -1,0 +1,7 @@
+ID168L RefSeq gene 250 3147 . - . ID=gene-MHP168L_RS00890;Name=MHP168L_RS00890;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS00890;old_locus_tag=MHP168L_165
+ID168L RefSeq gene 3192 4277 . - . ID=gene-MHP168L_RS00885;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=MHP168L_RS00885;old_locus_tag=MHP168L_164
+ID168L RefSeq gene 4264 4980 . - . ID=gene-MHP168L_RS00880;Name=MHP168L_RS00880;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS00880;old_locus_tag=MHP168L_163
+ID168L RefSeq gene 5041 6444 . - . ID=gene-MHP168L_RS00875;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=MHP168L_RS00875;old_locus_tag=MHP168L_162
+ID168L RefSeq gene 6435 6851 . - . ID=gene-MHP168L_RS00870;Name=MHP168L_RS00870;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS00870;old_locus_tag=MHP168L_161
+ID168L RefSeq gene 6844 7368 . - . ID=gene-MHP168L_RS00865;Name=MHP168L_RS00865;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS00865;old_locus_tag=MHP168L_160
+ID168L RefSeq gene 7358 8113 . - . ID=gene-MHP168L_RS00860;Name=MHP168L_RS00860;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS00860;old_locus_tag=MHP168L_159

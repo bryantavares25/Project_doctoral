@@ -1,0 +1,8 @@
+IDF72C RefSeq gene 250 1242 . + . ID=gene-EHI52_RS03495;Name=EHI52_RS03495;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EHI52_RS03495;old_locus_tag=EHI52_06890
+IDF72C RefSeq gene 1265 1873 . + . ID=gene-EHI52_RS03500;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=EHI52_RS03500;old_locus_tag=EHI52_06900
+IDF72C RefSeq gene 2011 3894 . + . ID=gene-EHI52_RS03505;Name=EHI52_RS03505;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EHI52_RS03505;old_locus_tag=EHI52_06910
+IDF72C RefSeq gene 4092 7031 . + . ID=gene-EHI52_RS03510;Name=EHI52_RS03510;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EHI52_RS03510;old_locus_tag=EHI52_06920
+IDF72C RefSeq gene 7153 7305 . + . ID=gene-EHI52_RS03515;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=EHI52_RS03515;old_locus_tag=EHI52_06930
+IDF72C RefSeq gene 7307 8344 . + . ID=gene-EHI52_RS03520;Name=EHI52_RS03520;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EHI52_RS03520;old_locus_tag=EHI52_06940
+IDF72C RefSeq gene 8398 10083 . + . ID=gene-EHI52_RS03525;Name=EHI52_RS03525;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EHI52_RS03525;old_locus_tag=EHI52_06950
+IDF72C RefSeq gene 10147 11712 . + . ID=gene-EHI52_RS03530;Name=EHI52_RS03530;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EHI52_RS03530;old_locus_tag=EHI52_06960

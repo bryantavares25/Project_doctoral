@@ -1,0 +1,5 @@
+ID111A RefSeq gene 250 2073 . - . ID=gene-NB623_RS02970;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=NB623_RS02970;old_locus_tag=NB623_02975
+ID111A RefSeq gene 2783 2908 . - . ID=gene-NB623_RS02965;Name=NB623_RS02965;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS02965
+ID111A RefSeq gene 3361 3537 . - . ID=gene-NB623_RS02960;Name=NB623_RS02960;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS02960;old_locus_tag=NB623_02970
+ID111A RefSeq gene 3954 4460 . - . ID=gene-NB623_RS02955;Name=NB623_RS02955;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS02955;old_locus_tag=NB623_02965
+ID111A RefSeq gene 4496 5362 . - . ID=gene-NB623_RS02950;Name=NB623_RS02950;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB623_RS02950;old_locus_tag=NB623_02960

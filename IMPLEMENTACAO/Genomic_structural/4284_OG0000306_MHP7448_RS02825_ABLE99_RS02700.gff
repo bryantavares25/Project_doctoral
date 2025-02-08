@@ -1,0 +1,5 @@
+ID4284 RefSeq gene 250 2073 . - . ID=gene-ABLE99_RS02700;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=ABLE99_RS02700;old_locus_tag=ABLE99_02690
+ID4284 RefSeq gene 2784 2909 . - . ID=gene-ABLE99_RS02695;Name=ABLE99_RS02695;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS02695;old_locus_tag=ABLE99_02685
+ID4284 RefSeq gene 3294 3539 . - . ID=gene-ABLE99_RS02690;Name=ABLE99_RS02690;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS02690;old_locus_tag=ABLE99_02680
+ID4284 RefSeq gene 3574 4461 . - . ID=gene-ABLE99_RS02685;Name=ABLE99_RS02685;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS02685;old_locus_tag=ABLE99_02675
+ID4284 RefSeq gene 4497 5525 . - . ID=gene-ABLE99_RS02680;Name=ABLE99_RS02680;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS02680;old_locus_tag=ABLE99_02670

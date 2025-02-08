@@ -1,0 +1,8 @@
+ID154B RefSeq gene 250 1242 . + . ID=gene-NB624_RS03640;Name=NB624_RS03640;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB624_RS03640;old_locus_tag=NB624_03675
+ID154B RefSeq gene 1265 1873 . + . ID=gene-NB624_RS03645;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=NB624_RS03645;old_locus_tag=NB624_03680
+ID154B RefSeq gene 2008 3891 . + . ID=gene-NB624_RS03650;Name=NB624_RS03650;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB624_RS03650;old_locus_tag=NB624_03685
+ID154B RefSeq gene 4089 7028 . + . ID=gene-NB624_RS03655;Name=NB624_RS03655;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB624_RS03655;old_locus_tag=NB624_03690
+ID154B RefSeq gene 7150 7302 . + . ID=gene-NB624_RS03660;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=NB624_RS03660;old_locus_tag=NB624_03695
+ID154B RefSeq gene 7304 8341 . + . ID=gene-NB624_RS03665;Name=NB624_RS03665;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB624_RS03665;old_locus_tag=NB624_03700
+ID154B RefSeq pseudogene 8395 10080 . + . ID=gene-NB624_RS03670;Name=NB624_RS03670;gbkey=Gene;gene_biotype=pseudogene;locus_tag=NB624_RS03670;old_locus_tag=NB624_03710;pseudo=true
+ID154B RefSeq gene 10144 11706 . + . ID=gene-NB624_RS03675;Name=NB624_RS03675;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB624_RS03675;old_locus_tag=NB624_03715

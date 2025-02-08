@@ -1,0 +1,12 @@
+IDJ RefSeq gene 250 2622 . - . ID=gene-MHJ_RS03425;Dbxref=GeneID:41334949;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=MHJ_RS03425;old_locus_tag=MHJ0647%2CMHJ_0647
+IDJ RefSeq gene 2683 4623 . - . ID=gene-MHJ_RS03420;Dbxref=GeneID:41334948;Name=MHJ_RS03420;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03420;old_locus_tag=MHJ0646%2CMHJ_0646
+IDJ RefSeq gene 4604 5041 . - . ID=gene-MHJ_RS03415;Dbxref=GeneID:41334947;Name=rplI;gbkey=Gene;gene=rplI;gene_biotype=protein_coding;locus_tag=MHJ_RS03415;old_locus_tag=MHJ0645%2CMHJ_0645
+IDJ RefSeq gene 5034 6425 . - . ID=gene-MHJ_RS03410;Dbxref=GeneID:41334946;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=protein_coding;locus_tag=MHJ_RS03410;old_locus_tag=MHJ0644%2CMHJ_0644
+IDJ RefSeq gene 6425 7657 . - . ID=gene-MHJ_RS03405;Dbxref=GeneID:41334945;Name=MHJ_RS03405;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03405;old_locus_tag=MHJ0643%2CMHJ_0643
+IDJ RefSeq gene 7641 8324 . - . ID=gene-MHJ_RS03400;Dbxref=GeneID:41334944;Name=MHJ_RS03400;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03400;old_locus_tag=MHJ0642%2CMHJ_0642
+IDJ RefSeq gene 8311 9525 . - . ID=gene-MHJ_RS03395;Dbxref=GeneID:41334943;Name=MHJ_RS03395;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03395;old_locus_tag=MHJ0641%2CMHJ_0641
+IDJ RefSeq gene 9559 10260 . - . ID=gene-MHJ_RS03390;Dbxref=GeneID:41334942;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=MHJ_RS03390;old_locus_tag=MHJ0640%2CMHJ_0640
+IDJ RefSeq gene 10281 10826 . - . ID=gene-MHJ_RS03385;Dbxref=GeneID:41334941;Name=MHJ_RS03385;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03385;old_locus_tag=MHJ0639%2CMHJ_0639
+IDJ RefSeq gene 10877 11017 . - . ID=gene-MHJ_RS03705;Dbxref=GeneID:41334998;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=MHJ_RS03705
+IDJ RefSeq gene 11109 11255 . - . ID=gene-MHJ_RS03380;Dbxref=GeneID:41334940;Name=MHJ_RS03380;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03380;old_locus_tag=MHJ0638%2CMHJ_0638
+IDJ RefSeq gene 11275 11847 . - . ID=gene-MHJ_RS03375;Dbxref=GeneID:41334939;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=MHJ_RS03375;old_locus_tag=MHJ0637%2CMHJ_0637

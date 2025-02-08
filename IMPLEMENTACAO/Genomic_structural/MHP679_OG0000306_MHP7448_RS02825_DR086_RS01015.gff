@@ -1,0 +1,5 @@
+IDMHP679 RefSeq gene 250 2073 . - . ID=gene-DR086_RS01015;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=DR086_RS01015;old_locus_tag=DR086_01025
+IDMHP679 RefSeq gene 3284 3538 . - . ID=gene-DR086_RS01010;Name=DR086_RS01010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR086_RS01010;old_locus_tag=DR086_01020
+IDMHP679 RefSeq gene 3933 4460 . - . ID=gene-DR086_RS01005;Name=DR086_RS01005;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR086_RS01005;old_locus_tag=DR086_01015
+IDMHP679 RefSeq pseudogene 4496 5046 . - . ID=gene-DR086_RS01000;Name=DR086_RS01000;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR086_RS01000;old_locus_tag=DR086_01010;partial=true;pseudo=true;start_range=.,1
+IDMHP679 RefSeq gene 5392 5592 . - . ID=gene-DR086_RS04500;Name=DR086_RS04500;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR086_RS04500

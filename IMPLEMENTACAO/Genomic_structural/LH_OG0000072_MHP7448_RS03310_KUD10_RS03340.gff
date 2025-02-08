@@ -1,0 +1,9 @@
+IDLH RefSeq gene 250 747 . - . ID=gene-KUD10_RS03380;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=KUD10_RS03380;old_locus_tag=KUD10_03345
+IDLH RefSeq gene 759 1124 . - . ID=gene-KUD10_RS03375;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=KUD10_RS03375;old_locus_tag=KUD10_03340
+IDLH RefSeq gene 1331 4993 . - . ID=gene-KUD10_RS03370;Name=KUD10_RS03370;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03370;old_locus_tag=KUD10_03335
+IDLH RefSeq gene 5050 9288 . - . ID=gene-KUD10_RS03365;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=KUD10_RS03365;old_locus_tag=KUD10_03330
+IDLH RefSeq gene 9295 9714 . - . ID=gene-KUD10_RS03360;Name=KUD10_RS03360;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03360;old_locus_tag=KUD10_03325
+IDLH RefSeq gene 9776 11026 . - . ID=gene-KUD10_RS03355;Name=KUD10_RS03355;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03355;old_locus_tag=KUD10_03320
+IDLH RefSeq gene 11016 11693 . - . ID=gene-KUD10_RS03350;Name=KUD10_RS03350;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03350;old_locus_tag=KUD10_03315
+IDLH RefSeq gene 11969 14053 . - . ID=gene-KUD10_RS03345;Name=KUD10_RS03345;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03345;old_locus_tag=KUD10_03310
+IDLH RefSeq gene 14076 16532 . - . ID=gene-KUD10_RS03340;Name=KUD10_RS03340;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03340;old_locus_tag=KUD10_03305

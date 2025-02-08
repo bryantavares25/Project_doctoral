@@ -1,0 +1,8 @@
+ID1257 RefSeq gene 250 1242 . + . ID=gene-ABKJ22_RS03380;Name=ABKJ22_RS03380;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03380;old_locus_tag=ABKJ22_03380
+ID1257 RefSeq gene 1265 1873 . + . ID=gene-ABKJ22_RS03385;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03385;old_locus_tag=ABKJ22_03385
+ID1257 RefSeq gene 2008 3891 . + . ID=gene-ABKJ22_RS03390;Name=ABKJ22_RS03390;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03390;old_locus_tag=ABKJ22_03390
+ID1257 RefSeq gene 4089 7028 . + . ID=gene-ABKJ22_RS03395;Name=ABKJ22_RS03395;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03395;old_locus_tag=ABKJ22_03395
+ID1257 RefSeq gene 7150 7302 . + . ID=gene-ABKJ22_RS03400;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03400;old_locus_tag=ABKJ22_03400
+ID1257 RefSeq gene 7304 8341 . + . ID=gene-ABKJ22_RS03405;Name=ABKJ22_RS03405;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03405;old_locus_tag=ABKJ22_03405
+ID1257 RefSeq gene 8395 10065 . + . ID=gene-ABKJ22_RS03410;Name=ABKJ22_RS03410;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03410;old_locus_tag=ABKJ22_03410
+ID1257 RefSeq gene 10144 11706 . + . ID=gene-ABKJ22_RS03415;Name=ABKJ22_RS03415;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03415;old_locus_tag=ABKJ22_03415

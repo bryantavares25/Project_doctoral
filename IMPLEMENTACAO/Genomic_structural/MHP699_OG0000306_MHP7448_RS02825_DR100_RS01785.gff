@@ -1,0 +1,5 @@
+IDMHP699 RefSeq gene 250 2073 . - . ID=gene-DR100_RS01785;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=DR100_RS01785;old_locus_tag=DR100_01795
+IDMHP699 RefSeq gene 2780 2905 . - . ID=gene-DR100_RS04165;Name=DR100_RS04165;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR100_RS04165
+IDMHP699 RefSeq gene 3281 3535 . - . ID=gene-DR100_RS01790;Name=DR100_RS01790;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR100_RS01790;old_locus_tag=DR100_01805
+IDMHP699 RefSeq gene 3570 4457 . - . ID=gene-DR100_RS04170;Name=DR100_RS04170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR100_RS04170
+IDMHP699 RefSeq gene 4925 5191 . - . ID=gene-DR100_RS04445;Name=DR100_RS04445;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR100_RS04445

@@ -1,0 +1,12 @@
+IDKM014 RefSeq gene 250 2622 . - . ID=gene-CIB43_RS00540;Name=CIB43_RS00540;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CIB43_RS00540;old_locus_tag=CIB43_00121
+IDKM014 RefSeq gene 2626 4623 . - . ID=gene-CIB43_RS00535;Name=CIB43_RS00535;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CIB43_RS00535;old_locus_tag=CIB43_00120
+IDKM014 RefSeq gene 4604 5041 . - . ID=gene-CIB43_RS00530;Name=CIB43_RS00530;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CIB43_RS00530;old_locus_tag=CIB43_00119
+IDKM014 RefSeq pseudogene 5034 6424 . - . ID=gene-CIB43_RS00525;Name=dnaB;gbkey=Gene;gene=dnaB;gene_biotype=pseudogene;locus_tag=CIB43_RS00525;pseudo=true
+IDKM014 RefSeq gene 6424 7656 . - . ID=gene-CIB43_RS00520;Name=CIB43_RS00520;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CIB43_RS00520;old_locus_tag=CIB43_00117
+IDKM014 RefSeq gene 7640 8323 . - . ID=gene-CIB43_RS00515;Name=CIB43_RS00515;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CIB43_RS00515;old_locus_tag=CIB43_00116
+IDKM014 RefSeq pseudogene 8310 9523 . - . ID=gene-CIB43_RS00510;Name=CIB43_RS00510;gbkey=Gene;gene_biotype=pseudogene;locus_tag=CIB43_RS00510;pseudo=true
+IDKM014 RefSeq gene 9557 10258 . - . ID=gene-CIB43_RS00505;Name=rlmB;gbkey=Gene;gene=rlmB;gene_biotype=protein_coding;locus_tag=CIB43_RS00505;old_locus_tag=CIB43_00113
+IDKM014 RefSeq gene 10279 10824 . - . ID=gene-CIB43_RS00500;Name=CIB43_RS00500;gbkey=Gene;gene_biotype=protein_coding;locus_tag=CIB43_RS00500;old_locus_tag=CIB43_00112
+IDKM014 RefSeq gene 10875 11015 . - . ID=gene-CIB43_RS00495;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=CIB43_RS00495
+IDKM014 RefSeq gene 11028 11252 . - . ID=gene-CIB43_RS00490;Name=secE;gbkey=Gene;gene=secE;gene_biotype=protein_coding;locus_tag=CIB43_RS00490
+IDKM014 RefSeq gene 11272 11844 . - . ID=gene-CIB43_RS00485;Name=nusG;gbkey=Gene;gene=nusG;gene_biotype=protein_coding;locus_tag=CIB43_RS00485;old_locus_tag=CIB43_00111

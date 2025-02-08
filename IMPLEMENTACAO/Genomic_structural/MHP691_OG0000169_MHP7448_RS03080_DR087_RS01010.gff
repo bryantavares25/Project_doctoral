@@ -1,0 +1,10 @@
+IDMHP691 RefSeq pseudogene 250 590 . - . ID=gene-DR087_RS01010;Name=DR087_RS01010;end_range=52968,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR087_RS01010;old_locus_tag=DR087_01005;partial=true;pseudo=true
+IDMHP691 RefSeq gene 1052 2944 . - . ID=gene-DR087_RS03405;Name=DR087_RS03405;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR087_RS03405;old_locus_tag=DR087_03415
+IDMHP691 RefSeq gene 2931 3650 . - . ID=gene-DR087_RS03400;Name=DR087_RS03400;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR087_RS03400;old_locus_tag=DR087_03410
+IDMHP691 RefSeq gene 4173 4829 . - . ID=gene-DR087_RS03395;Name=DR087_RS03395;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR087_RS03395;old_locus_tag=DR087_03405
+IDMHP691 RefSeq gene 4816 5439 . - . ID=gene-DR087_RS03390;Name=DR087_RS03390;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR087_RS03390;old_locus_tag=DR087_03400
+IDMHP691 RefSeq gene 5432 6100 . - . ID=gene-DR087_RS03385;Name=DR087_RS03385;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR087_RS03385;old_locus_tag=DR087_03395
+IDMHP691 RefSeq gene 6101 6415 . - . ID=gene-DR087_RS03380;Name=DR087_RS03380;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR087_RS03380;old_locus_tag=DR087_03390
+IDMHP691 RefSeq gene 6402 6857 . - . ID=gene-DR087_RS03375;Name=DR087_RS03375;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR087_RS03375;old_locus_tag=DR087_03385
+IDMHP691 RefSeq gene 6847 7122 . - . ID=gene-DR087_RS03370;Name=DR087_RS03370;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR087_RS03370;old_locus_tag=DR087_03380
+IDMHP691 RefSeq gene 7138 8652 . - . ID=gene-DR087_RS03365;Name=DR087_RS03365;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR087_RS03365;old_locus_tag=DR087_03375
