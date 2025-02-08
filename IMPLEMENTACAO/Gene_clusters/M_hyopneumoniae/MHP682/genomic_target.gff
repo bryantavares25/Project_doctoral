@@ -1,0 +1,7 @@
+IDMHP682	RefSeq	gene	194699	197596	.	+	.	ID=gene-DR097_RS04620;Name=DR097_RS04620;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS04620;old_locus_tag=DR097_01040
+IDMHP682	RefSeq	gene	197641	198726	.	+	.	ID=gene-DR097_RS01040;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=DR097_RS01040;old_locus_tag=DR097_01035
+IDMHP682	RefSeq	gene	198713	199429	.	+	.	ID=gene-DR097_RS01035;Name=DR097_RS01035;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS01035;old_locus_tag=DR097_01030
+IDMHP682	RefSeq	gene	199490	200893	.	+	.	ID=gene-DR097_RS01030;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=DR097_RS01030;old_locus_tag=DR097_01025
+IDMHP682	RefSeq	gene	200884	201303	.	+	.	ID=gene-DR097_RS01025;Name=DR097_RS01025;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS01025;old_locus_tag=DR097_01020
+IDMHP682	RefSeq	gene	201296	201820	.	+	.	ID=gene-DR097_RS01020;Name=DR097_RS01020;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS01020;old_locus_tag=DR097_01015
+IDMHP682	RefSeq	gene	201810	202565	.	+	.	ID=gene-DR097_RS01015;Name=DR097_RS01015;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS01015;old_locus_tag=DR097_01010

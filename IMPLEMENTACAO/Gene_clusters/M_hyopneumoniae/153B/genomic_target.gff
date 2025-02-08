@@ -1,0 +1,7 @@
+ID153B	RefSeq	gene	180461	181219	.	-	.	ID=gene-NB625_RS00875;Name=NB625_RS00875;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB625_RS00875;old_locus_tag=NB625_00880
+ID153B	RefSeq	gene	181206	181730	.	-	.	ID=gene-NB625_RS00880;Name=NB625_RS00880;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB625_RS00880;old_locus_tag=NB625_00885
+ID153B	RefSeq	gene	181723	182154	.	-	.	ID=gene-NB625_RS00885;Name=NB625_RS00885;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB625_RS00885;old_locus_tag=NB625_00890
+ID153B	RefSeq	gene	182145	183548	.	-	.	ID=gene-NB625_RS00890;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=NB625_RS00890;old_locus_tag=NB625_00895
+ID153B	RefSeq	pseudogene	183609	184326	.	-	.	ID=gene-NB625_RS00895;Name=NB625_RS00895;gbkey=Gene;gene_biotype=pseudogene;locus_tag=NB625_RS00895;old_locus_tag=NB625_00900;pseudo=true
+ID153B	RefSeq	gene	184313	185398	.	-	.	ID=gene-NB625_RS00900;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=NB625_RS00900;old_locus_tag=NB625_00905
+ID153B	RefSeq	gene	185443	188283	.	-	.	ID=gene-NB625_RS00905;Name=NB625_RS00905;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB625_RS00905;old_locus_tag=NB625_00910

@@ -1,0 +1,7 @@
+IDMHP694	RefSeq	gene	159044	159799	.	-	.	ID=gene-DR099_RS01545;Name=DR099_RS01545;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS01545;old_locus_tag=DR099_01555
+IDMHP694	RefSeq	gene	159789	160313	.	-	.	ID=gene-DR099_RS01550;Name=DR099_RS01550;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS01550;old_locus_tag=DR099_01560
+IDMHP694	RefSeq	gene	160306	160728	.	-	.	ID=gene-DR099_RS01555;Name=DR099_RS01555;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS01555;old_locus_tag=DR099_01565
+IDMHP694	RefSeq	gene	160719	162122	.	-	.	ID=gene-DR099_RS01560;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=DR099_RS01560;old_locus_tag=DR099_01570
+IDMHP694	RefSeq	gene	162183	162899	.	-	.	ID=gene-DR099_RS01565;Name=DR099_RS01565;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS01565;old_locus_tag=DR099_01575
+IDMHP694	RefSeq	gene	162886	163971	.	-	.	ID=gene-DR099_RS01570;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=DR099_RS01570;old_locus_tag=DR099_01580
+IDMHP694	RefSeq	gene	164016	166808	.	-	.	ID=gene-DR099_RS04425;Name=DR099_RS04425;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS04425;old_locus_tag=DR099_01585

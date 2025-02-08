@@ -1,0 +1,7 @@
+IDLH	RefSeq	gene	177396	180188	.	+	.	ID=gene-KUD10_RS00770;Name=KUD10_RS00770;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS00770;old_locus_tag=KUD10_00765
+IDLH	RefSeq	gene	180233	181318	.	+	.	ID=gene-KUD10_RS00775;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=KUD10_RS00775;old_locus_tag=KUD10_00770
+IDLH	RefSeq	gene	181305	182021	.	+	.	ID=gene-KUD10_RS00780;Name=KUD10_RS00780;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS00780;old_locus_tag=KUD10_00775
+IDLH	RefSeq	gene	182082	183485	.	+	.	ID=gene-KUD10_RS00785;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=KUD10_RS00785;old_locus_tag=KUD10_00780
+IDLH	RefSeq	gene	183476	183883	.	+	.	ID=gene-KUD10_RS00790;Name=KUD10_RS00790;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS00790;old_locus_tag=KUD10_00785
+IDLH	RefSeq	gene	183876	184400	.	+	.	ID=gene-KUD10_RS00795;Name=KUD10_RS00795;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS00795;old_locus_tag=KUD10_00790
+IDLH	RefSeq	gene	184387	185145	.	+	.	ID=gene-KUD10_RS00800;Name=KUD10_RS00800;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS00800;old_locus_tag=KUD10_00795

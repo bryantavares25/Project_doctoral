@@ -15,9 +15,8 @@ t=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_c
 # EXECUTION
 
 while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
-    #for item in "${r[@]}"; do
-        #if [[ "$linha" == *"$item"* ]]; then
     echo " - Iniciando linha"
+
     if [[ " ${r[@]} " =~ " $c2 " ]]; then
         echo "SoS"
         a=$((c5 - 250))
@@ -27,17 +26,28 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
         mhp=M_hyopneumoniae/mult_align/seqs_to_align/$c1.fasta
         mfc=M_flocculare/mult_align/seqs_to_align/$c1.fasta
 
-        ls $local$mhp 2>/dev/null && recip=$local$mhp && m="M_hyopneumoniae" || ls $local$mfc 2>/dev/null && recip=$local$mfc && m="M_flocculare"
-        
+        # Verifica se o arquivo existe
+        if [[ -f "$local$mhp" ]]; then
+            recip="$local$mhp"
+            m="M_hyopneumoniae"
+        elif [[ -f "$local$mfc" ]]; then
+            recip="$local$mfc"
+            m="M_flocculare"
+        else
+            echo "Arquivo não encontrado para $c1"
+            continue
+        fi
+
+        #ls $local$mhp 2>/dev/null && recip=$local$mhp && m="M_hyopneumoniae" || #ls $local$mfc 2>/dev/null && recip=$local$mfc && m="M_flocculare"
+
         output_fasta="$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c1}_${c2}_${c3}_${c4}.fasta"
-        output_gff="$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c1}_${c2}_${c3}_${c4}.fasta"
+        output_gff="$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c1}_${c2}_${c3}_${c4}.gff"
 
         if [ "$c7" == "+" ]; then
             # Recovery sequence
             seqkit subseq -r "$a:$b" --seq-type "DNA" $recip -o $output_fasta
         
             # Construc GFF and Update
-            #c8="MHL_RS03735,MHL_RS02240,MHL_RS02245,MHL_RS02250,MHL_RS02255"
             IFS=',' read -r -a l <<< "$c8"
             for g in ${l[@]}; do
                 grep -E "RefSeq.*$g" $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic.gff >> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff
