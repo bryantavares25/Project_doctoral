@@ -3,8 +3,8 @@
 # START > > > OPERON ORGANIZATION
 
 # ARCHIVE
-#dir=/home/bryan
-dir=/home/lgef
+dir=/home/bryan
+#dir=/home/lgef
 
 # INPUT FILE
 
@@ -27,7 +27,7 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
         mhp=M_hyopneumoniae/mult_align/seqs_to_align/$c1.fasta
         mfc=M_flocculare/mult_align/seqs_to_align/$c1.fasta
 
-        ls $local$mhp 2>/dev/null && recip=$local$mhp || ls $local$mfc 2>/dev/null && recip=$local$mfc
+        ls $local$mhp 2>/dev/null && recip=$local$mhp && m="M_hyopneumoniae" || ls $local$mfc 2>/dev/null && recip=$local$mfc && m="M_flocculare"
         
         output_fasta="$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c1}_${c2}_${c3}_${c4}.fasta"
         output_gff="$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c1}_${c2}_${c3}_${c4}.fasta"
@@ -40,10 +40,10 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
             #c8="MHL_RS03735,MHL_RS02240,MHL_RS02245,MHL_RS02250,MHL_RS02255"
             IFS=',' read -r -a l <<< "$c8"
             for g in ${l[@]}; do
-                grep -E "RefSeq.*$g" $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M*/${c1}/genomic.gff >> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M*/${c1}/genomic_target.gff
+                grep -E "RefSeq.*$g" $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic.gff >> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff
             done
             
-            tac $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M*/${c1}/genomic_target.gff | \
+            tac $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff | \
             awk '{temp=$4; $4=$5; $5=temp} 1' | \
             awk 'NR==1 {delta = $4 - 250; $4 = 250; $5 -= delta} NR>1 {$4 -= delta; $5 -= delta} {print}' > $output_gff
         else
@@ -53,10 +53,10 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
             # Construc GFF and Update
             IFS=',' read -r -a l <<< "$c8"
             for g in ${l[@]}; do
-                grep -E "RefSeq.*$g" $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M*/${c1}/genomic.gff >> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M*/${c1}/genomic_target.gff
+                grep -E "RefSeq.*$g" $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic.gff >> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff
             done
 
-            tac $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M*/${c1}/genomic_target.gff | \
+            tac $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff | \
             awk '{temp=$4; $4=$5; $5=temp} 1' | \
             awk 'NR==1 {delta = $4 + 250; $4 = 250; $5 = -$5 +delta} NR>1 {$4 = -$4 + delta; $5 = -$5 + delta} {print}' > $output_gff
         fi 
