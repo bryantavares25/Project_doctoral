@@ -58,7 +58,7 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
                 grep -E "ID$c1.*RefSeq.*$g" $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic.gff >> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff
             done
             
-            awk 'NR==1 {delta = $4 - 250; $4 = 250; $5 -= delta} NR>1 {$4 -= delta; $5 -= delta} {print}' $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff > $output_gff
+            awk 'NR==1 {delta = $4 - 250; $4 = 250; $5-=delta} NR>1 {$4 -= delta; $5 -= delta} {print}' $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff > $output_gff
         else
             # Recovery sequence
             seqkit subseq -r "$a:$b" --seq-type "DNA" $recip | seqkit seq --reverse --complement > $output_fasta
