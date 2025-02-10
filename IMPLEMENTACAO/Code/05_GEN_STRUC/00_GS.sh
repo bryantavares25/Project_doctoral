@@ -40,7 +40,6 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
             continue
         fi
 
-        #ls $local$mhp 2>/dev/null && recip=$local$mhp && m="M_hyopneumoniae" || #ls $local$mfc 2>/dev/null && recip=$local$mfc && m="M_flocculare"
         output_fasta="$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c1}_${c2}_${c3}_${c4}.fasta"
         output_gff="$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c1}_${c2}_${c3}_${c4}.gff"
 
@@ -49,7 +48,6 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
             seqkit subseq -r "$a:$b" --seq-type "DNA" $recip -o $output_fasta
         
             rm -f $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/${m}/${c1}/genomic_target.gff
-
 
             # Construc GFF and Update
             IFS=',' read -r -a l <<< "$c8"
