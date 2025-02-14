@@ -29,7 +29,7 @@ while read -r line; do
     for og in "${OG[@]}"; do
 
         # PEGAR ID DO GENE
-        a=$(awk -v row_id="OG0000000" -v col_name="MFC_${line}_genes" '
+        a=$(awk -v row_id="${og}" -v col_name="MFC_${line}_genes" '
         BEGIN {
             FS = OFS = "\t"
         }
@@ -42,21 +42,14 @@ while read -r line; do
             for (j in values) print values[j]
         }' /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/gene_id/Orthogroups/Orthogroups.tsv)
         
-        for i in ${a[@]}; do echo $i; done
-
-        #
-            # Fazer o split é importante
-            #MFC_RS00010, MFC_RS00365, MFC_RS00390, MFC_RS01410, MFC_RS01420, MFC_RS02935
-        #
-
-        # FOR CADA 1 EM SPLIT: DO | RECUPERAR OPERON |
-
-        #    awk -v line="$line" -v og="$og" -F'\t' 'BEGIN {OFS = "\t"}
-        #    $2 ~ ("MFC_" line "_genes") && $1 ~ (og) {
-        #    n = split ($NF, ids, ", ")
-        #   for (i = 1; i <= n; i++) 
-        #        print $1, line, $3, ids[i]          
-        #    }' $mfc >> $mfc_after
+        # Dados splitados
+        for i in ${a[@]}; do
+            # FOR CADA 1 EM SPLIT: DO | RECUPERAR OPERON |
+            awk -v i="$i" -F'\t' 'BEGIN {OFS = "\t"}
+            $0 ~ i {
+                print $0          
+            }' $mfc_cbc >> $mfc_after
+        done
     done
 done < $mfc_list
 
