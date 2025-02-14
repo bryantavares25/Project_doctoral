@@ -22,7 +22,6 @@ mfc_after=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_or
 while read -r line; do
     mfc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/gene_id/Orthologues/MFC_${line}_genes.tsv # QUERO REMOVER ESSE CRITÈRIO
     
-    
     mfc_cb=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$line/genomic_gene_coc.bed
     mfc_cbc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$line/genomic_gene_coc_clean.bed
     awk -F'\t' 'BEGIN {OFS="\t"} {gsub(/gene-/, "", $4); print}' $mfc_cb > $mfc_cbc
@@ -45,9 +44,9 @@ while read -r line; do
         # Dados splitados
         for i in ${a[@]}; do
             # FOR CADA 1 EM SPLIT: DO | RECUPERAR OPERON |
-            awk -v i="$i" -F'\t' 'BEGIN {OFS = "\t"}
+            awk -v i="$i" -v og="$og" -v line="$line" -F'\t' 'BEGIN {OFS = "\t"}
             $0 ~ i {
-                print $0          
+                print line, i, og, $5, $2, $3, $4          
             }' $mfc_cbc >> $mfc_after
         done
     done
