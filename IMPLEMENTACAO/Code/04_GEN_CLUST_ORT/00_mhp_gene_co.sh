@@ -48,7 +48,7 @@ while read -r line; do
             # FOR CADA 1 EM SPLIT: DO | RECUPERAR OPERON |
             awk -v i="$i" -v og="$og" -v line="$line" -F'\t' 'BEGIN {OFS = "\t"}
             $0 ~ i {
-                print line, i, og, $5, $2, $3, $4          
+                print "MHP", line, i, og, $5, $2, $3, $4          
             }' $mhp_cbc >> $mhp_after
         done
     done
