@@ -24,7 +24,9 @@ while read -r line; do
     
     mfc_cb=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$line/genomic_gene_coc.bed
     mfc_cbc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/M_flocculare/$line/genomic_gene_coc_clean.bed
+
     awk -F'\t' 'BEGIN {OFS="\t"} {gsub(/gene-/, "", $4); print}' $mfc_cb > $mfc_cbc
+    
     for og in "${OG[@]}"; do
 
         # PEGAR ID DO GENE
@@ -39,7 +41,7 @@ while read -r line; do
         $1 == row_id {
             split($col_index[col_name], values, ", ")
             for (j in values) print values[j]
-        }' /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/gene_id/Orthogroups/Orthogroups.tsv)
+        }' $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/gene_id/Orthogroups/Orthogroups.tsv)
         
         # Dados splitados
         for i in ${a[@]}; do
