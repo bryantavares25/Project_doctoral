@@ -3,8 +3,8 @@
 # START > > > OPERON SELECTION
 
 # ARCHIVE
-#dir=/home/bryan
-dir=/home/lgef
+dir=/home/bryan
+#dir=/home/lgef
 mhp_list=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/mhp_list.txt
 ort=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder
 
@@ -30,12 +30,27 @@ while read -r line; do
     for og in "${OG[@]}"; do
         
         # PEGAR ID DO GENE
-        awk -v line="$line" -v og="$og" -F'\t' 'BEGIN {OFS = "\t"}
-        $2 ~ ("MHP_" line "_genes") && $1 ~ (og) {
-        n = split ($NF, ids, ", ")
-        for (i = 1; i <= n; i++) 
-            print $1, line, $3, ids[i]          
-        }' $mhp >> $mhp_after
+        a=$(awk -v row_id="${og}" -v col_names="MHP_${line}_genes" '
+        BEGIN {
+            FS = OFS = "\t"
+        }
+        NR == 1 {
+            for (i=1; i<=NF; i++) col_index[$i] = i
+            next
+        }
+        $1 == row_id {
+            split($col_index[col_name], values, ", ")
+            for (j in values) print values[j]
+        }' $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters/orthofinder/output_proteins/gene_id/Orthogroups/Orthogroups.tsv)
+        
+        # Dados splitados
+        for i in ${a[@]}; do
+            # FOR CADA 1 EM SPLIT: DO | RECUPERAR OPERON |
+            awk -v i="$i" -v og="$og" -v line="$line" -F'\t' 'BEGIN {OFS = "\t"}
+            $0 ~ i {
+                print line, i, og, $5, $2, $3, $4          
+            }' $mhp_cbc >> $mhp_after
+        done
     done
 done < $mhp_list
 
