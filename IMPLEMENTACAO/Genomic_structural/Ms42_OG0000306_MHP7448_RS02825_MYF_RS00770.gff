@@ -1,5 +1,0 @@
-IDMs42 RefSeq gene 250 2073 . + . ID=gene-MYF_RS00770;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=MYF_RS00770;old_locus_tag=MYF_00820
-IDMs42 RefSeq gene 2438 3127 . + . ID=gene-MYF_RS03360;Name=MYF_RS03360;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS03360;old_locus_tag=MYF_00825
-IDMs42 RefSeq gene 3137 4507 . + . ID=gene-MYF_RS03415;Name=MYF_RS03415;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS03415;old_locus_tag=MYF_00830
-IDMs42 RefSeq gene 4633 5514 . + . ID=gene-MYF_RS00790;Name=MYF_RS00790;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS00790;old_locus_tag=MYF_00840
-IDMs42 RefSeq gene 5498 5653 . + . ID=gene-MYF_RS03335;Name=MYF_RS03335;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MYF_RS03335;old_locus_tag=MYF_00845

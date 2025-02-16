@@ -1,6 +1,0 @@
-IDMHP653 RefSeq gene 250 2073 . - . ID=gene-DR096_RS01185;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=DR096_RS01185;old_locus_tag=DR096_01205
-IDMHP653 RefSeq gene 2783 2908 . - . ID=gene-DR096_RS04005;Name=DR096_RS04005;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS04005
-IDMHP653 RefSeq gene 3284 3538 . - . ID=gene-DR096_RS01190;Name=DR096_RS01190;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS01190;old_locus_tag=DR096_01210
-IDMHP653 RefSeq gene 3573 4460 . - . ID=gene-DR096_RS04010;Name=DR096_RS04010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS04010
-IDMHP653 RefSeq gene 4496 5074 . - . ID=gene-DR096_RS01200;Name=DR096_RS01200;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS01200;old_locus_tag=DR096_01220
-IDMHP653 RefSeq gene 5439 5705 . - . ID=gene-DR096_RS04090;Name=DR096_RS04090;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS04090

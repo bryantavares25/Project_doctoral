@@ -1,8 +1,0 @@
-IDMHP696 RefSeq gene 250 1242 . + . ID=gene-DR090_RS01135;Name=DR090_RS01135;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS01135;old_locus_tag=DR090_01125
-IDMHP696 RefSeq gene 1265 1873 . + . ID=gene-DR090_RS01140;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=DR090_RS01140;old_locus_tag=DR090_01130
-IDMHP696 RefSeq gene 2009 3892 . + . ID=gene-DR090_RS01145;Name=DR090_RS01145;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS01145;old_locus_tag=DR090_01135
-IDMHP696 RefSeq gene 4090 7029 . + . ID=gene-DR090_RS01150;Name=DR090_RS01150;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS01150;old_locus_tag=DR090_01140
-IDMHP696 RefSeq gene 7151 7303 . + . ID=gene-DR090_RS01155;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=DR090_RS01155;old_locus_tag=DR090_01145
-IDMHP696 RefSeq gene 7305 8342 . + . ID=gene-DR090_RS01160;Name=DR090_RS01160;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS01160;old_locus_tag=DR090_01150
-IDMHP696 RefSeq gene 8396 10066 . + . ID=gene-DR090_RS01165;Name=DR090_RS01165;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS01165;old_locus_tag=DR090_01155
-IDMHP696 RefSeq gene 10145 11710 . + . ID=gene-DR090_RS01170;Name=DR090_RS01170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS01170;old_locus_tag=DR090_01160

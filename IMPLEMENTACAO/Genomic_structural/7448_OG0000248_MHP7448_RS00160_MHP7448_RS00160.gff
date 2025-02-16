@@ -1,4 +1,0 @@
-ID7448 RefSeq gene 250 2178 . - . ID=gene-MHP7448_RS00175;Name=MHP7448_RS00175;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS00175;old_locus_tag=MHP0034%2CMHP7448_0034
-ID7448 RefSeq gene 2171 4711 . - . ID=gene-MHP7448_RS00170;Name=MHP7448_RS00170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS00170;old_locus_tag=MHP0033%2CMHP7448_0033
-ID7448 RefSeq gene 4711 7371 . - . ID=gene-MHP7448_RS00165;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=MHP7448_RS00165;old_locus_tag=MHP0032%2CMHP7448_0032
-ID7448 RefSeq gene 7349 7942 . - . ID=gene-MHP7448_RS00160;Name=MHP7448_RS00160;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS00160;old_locus_tag=MHP0031%2CMHP7448_0031

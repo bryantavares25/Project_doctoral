@@ -1,4 +1,0 @@
-IDMF22 RefSeq gene 250 2175 . - . ID=gene-DR094_RS00955;Name=DR094_RS00955;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR094_RS00955;old_locus_tag=DR094_00995
-IDMF22 RefSeq gene 2168 4720 . - . ID=gene-DR094_RS00960;Name=DR094_RS00960;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR094_RS00960;old_locus_tag=DR094_01000
-IDMF22 RefSeq gene 4723 7383 . - . ID=gene-DR094_RS00965;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=DR094_RS00965;old_locus_tag=DR094_01005
-IDMF22 RefSeq gene 7355 7969 . - . ID=gene-DR094_RS00970;Name=DR094_RS00970;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR094_RS00970;old_locus_tag=DR094_01010

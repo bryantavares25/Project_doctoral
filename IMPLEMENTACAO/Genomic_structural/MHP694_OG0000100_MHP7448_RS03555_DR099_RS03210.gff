@@ -1,9 +1,0 @@
-IDMHP694 RefSeq gene 250 1242 . + . ID=gene-DR099_RS03235;Name=DR099_RS03235;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS03235;old_locus_tag=DR099_03290
-IDMHP694 RefSeq gene 1265 1873 . + . ID=gene-DR099_RS03230;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=DR099_RS03230;old_locus_tag=DR099_03285
-IDMHP694 RefSeq gene 2011 3894 . + . ID=gene-DR099_RS03225;Name=DR099_RS03225;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS03225;old_locus_tag=DR099_03280
-IDMHP694 RefSeq gene 4092 7031 . + . ID=gene-DR099_RS03220;Name=DR099_RS03220;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS03220;old_locus_tag=DR099_03275
-IDMHP694 RefSeq gene 7153 7305 . + . ID=gene-DR099_RS03215;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=DR099_RS03215;old_locus_tag=DR099_03270
-IDMHP694 RefSeq gene 7307 8344 . + . ID=gene-DR099_RS03210;Name=DR099_RS03210;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS03210;old_locus_tag=DR099_03265
-IDMHP694 RefSeq gene 8399 10084 . + . ID=gene-DR099_RS03205;Name=DR099_RS03205;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS03205;old_locus_tag=DR099_03260
-IDMHP694 RefSeq pseudogene 10148 10626 . + . ID=gene-DR099_RS03200;Name=DR099_RS03200;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR099_RS03200;old_locus_tag=DR099_03255;partial=true;pseudo=true;start_range=.,1
-IDMHP694 RefSeq gene 10727 11816 . + . ID=gene-DR099_RS03335;Name=DR099_RS03335;end_range=12339,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR099_RS03335;old_locus_tag=DR099_03385;partial=true

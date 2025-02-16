@@ -1,7 +1,0 @@
-ID4284 RefSeq gene 250 3093 . - . ID=gene-ABLE99_RS00900;Name=ABLE99_RS00900;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS00900;old_locus_tag=ABLE99_00895
-ID4284 RefSeq gene 3138 4223 . - . ID=gene-ABLE99_RS00895;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=ABLE99_RS00895;old_locus_tag=ABLE99_00890
-ID4284 RefSeq gene 4210 4926 . - . ID=gene-ABLE99_RS00890;Name=ABLE99_RS00890;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS00890;old_locus_tag=ABLE99_00885
-ID4284 RefSeq gene 4987 6390 . - . ID=gene-ABLE99_RS00885;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=ABLE99_RS00885;old_locus_tag=ABLE99_00880
-ID4284 RefSeq gene 6381 6785 . - . ID=gene-ABLE99_RS00880;Name=ABLE99_RS00880;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS00880;old_locus_tag=ABLE99_00875
-ID4284 RefSeq gene 6778 7302 . - . ID=gene-ABLE99_RS00875;Name=ABLE99_RS00875;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS00875;old_locus_tag=ABLE99_00870
-ID4284 RefSeq gene 7289 8047 . - . ID=gene-ABLE99_RS00870;Name=ABLE99_RS00870;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS00870;old_locus_tag=ABLE99_00865

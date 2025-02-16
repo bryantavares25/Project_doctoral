@@ -1,6 +1,0 @@
-IDMF11 RefSeq gene 250 2073 . + . ID=gene-DR093_RS00815;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=DR093_RS00815;old_locus_tag=DR093_00825
-IDMF11 RefSeq gene 2438 3127 . + . ID=gene-DR093_RS00820;Name=DR093_RS00820;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS00820;old_locus_tag=DR093_00830
-IDMF11 RefSeq gene 3137 3535 . + . ID=gene-DR093_RS00825;Name=DR093_RS00825;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS00825;old_locus_tag=DR093_00835
-IDMF11 RefSeq gene 3516 3932 . + . ID=gene-DR093_RS00830;Name=DR093_RS00830;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS00830;old_locus_tag=DR093_00840
-IDMF11 RefSeq gene 4190 4939 . + . ID=gene-DR093_RS00835;Name=DR093_RS00835;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS00835;old_locus_tag=DR093_00845
-IDMF11 RefSeq gene 4923 5078 . + . ID=gene-DR093_RS00840;Name=DR093_RS00840;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS00840

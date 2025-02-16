@@ -1,7 +1,0 @@
-IDJ RefSeq gene 250 3069 . + . ID=gene-MHJ_RS00750;Dbxref=GeneID:41334436;Name=MHJ_RS00750;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS00750;old_locus_tag=MHJ0134%2CMHJ_0134
-IDJ RefSeq gene 3137 4222 . + . ID=gene-MHJ_RS00755;Dbxref=GeneID:41334437;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=MHJ_RS00755;old_locus_tag=MHJ0135%2CMHJ_0135
-IDJ RefSeq gene 4209 4925 . + . ID=gene-MHJ_RS00760;Dbxref=GeneID:41334438;Name=MHJ_RS00760;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS00760;old_locus_tag=MHJ0136%2CMHJ_0136
-IDJ RefSeq gene 4986 6389 . + . ID=gene-MHJ_RS00765;Dbxref=GeneID:41334439;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=MHJ_RS00765;old_locus_tag=MHJ0137%2CMHJ_0137
-IDJ RefSeq gene 6380 6799 . + . ID=gene-MHJ_RS00770;Dbxref=GeneID:41334440;Name=MHJ_RS00770;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS00770;old_locus_tag=MHJ0138%2CMHJ_0138
-IDJ RefSeq gene 6792 7316 . + . ID=gene-MHJ_RS00775;Dbxref=GeneID:41334441;Name=MHJ_RS00775;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS00775;old_locus_tag=MHJ0139%2CMHJ_0139
-IDJ RefSeq gene 7306 8061 . + . ID=gene-MHJ_RS00780;Dbxref=GeneID:41334442;Name=MHJ_RS00780;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS00780;old_locus_tag=MHJ0140%2CMHJ_0140

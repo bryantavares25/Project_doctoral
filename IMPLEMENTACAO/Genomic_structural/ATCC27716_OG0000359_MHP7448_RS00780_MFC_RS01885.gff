@@ -1,7 +1,0 @@
-IDATCC27716 RefSeq gene 250 3165 . + . ID=gene-MFC_RS01885;Name=MFC_RS01885;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MFC_RS01885
-IDATCC27716 RefSeq gene 3222 4307 . + . ID=gene-MFC_RS01890;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=MFC_RS01890;old_locus_tag=MFC_00143
-IDATCC27716 RefSeq gene 4294 5022 . + . ID=gene-MFC_RS01895;Name=MFC_RS01895;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MFC_RS01895;old_locus_tag=MFC_00147
-IDATCC27716 RefSeq gene 5043 6446 . + . ID=gene-MFC_RS01900;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=MFC_RS01900;old_locus_tag=MFC_00152
-IDATCC27716 RefSeq gene 6437 6847 . + . ID=gene-MFC_RS01905;Name=MFC_RS01905;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MFC_RS01905;old_locus_tag=MFC_01370
-IDATCC27716 RefSeq gene 6840 7364 . + . ID=gene-MFC_RS01910;Name=MFC_RS01910;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MFC_RS01910
-IDATCC27716 RefSeq gene 7351 8109 . + . ID=gene-MFC_RS01915;Name=MFC_RS01915;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MFC_RS01915;old_locus_tag=MFC_00155

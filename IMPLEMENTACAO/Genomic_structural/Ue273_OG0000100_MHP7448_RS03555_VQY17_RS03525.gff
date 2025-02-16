@@ -1,8 +1,0 @@
-IDUe273 RefSeq gene 250 1242 . + . ID=gene-VQY17_RS03500;Name=VQY17_RS03500;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03500;old_locus_tag=VQY17_03500
-IDUe273 RefSeq gene 1265 1873 . + . ID=gene-VQY17_RS03505;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=VQY17_RS03505;old_locus_tag=VQY17_03505
-IDUe273 RefSeq gene 2007 3890 . + . ID=gene-VQY17_RS03510;Name=VQY17_RS03510;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03510;old_locus_tag=VQY17_03510
-IDUe273 RefSeq gene 4088 7027 . + . ID=gene-VQY17_RS03515;Name=VQY17_RS03515;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03515;old_locus_tag=VQY17_03515
-IDUe273 RefSeq gene 7149 7301 . + . ID=gene-VQY17_RS03520;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=VQY17_RS03520;old_locus_tag=VQY17_03520
-IDUe273 RefSeq gene 7303 8340 . + . ID=gene-VQY17_RS03525;Name=VQY17_RS03525;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03525;old_locus_tag=VQY17_03525
-IDUe273 RefSeq gene 8394 10067 . + . ID=gene-VQY17_RS03530;Name=VQY17_RS03530;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03530;old_locus_tag=VQY17_03530
-IDUe273 RefSeq gene 10131 11696 . + . ID=gene-VQY17_RS03535;Name=VQY17_RS03535;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS03535;old_locus_tag=VQY17_03535

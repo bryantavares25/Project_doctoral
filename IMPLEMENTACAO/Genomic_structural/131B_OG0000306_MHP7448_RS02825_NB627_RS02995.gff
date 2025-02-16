@@ -1,5 +1,0 @@
-ID131B RefSeq gene 250 2073 . - . ID=gene-NB627_RS02995;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=NB627_RS02995;old_locus_tag=NB627_02990
-ID131B RefSeq gene 2778 2903 . - . ID=gene-NB627_RS02990;Name=NB627_RS02990;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS02990
-ID131B RefSeq gene 3279 4637 . - . ID=gene-NB627_RS02985;Name=NB627_RS02985;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS02985;old_locus_tag=NB627_02985
-ID131B RefSeq gene 5166 5693 . - . ID=gene-NB627_RS02980;Name=NB627_RS02980;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS02980;old_locus_tag=NB627_02980
-ID131B RefSeq gene 5729 6757 . - . ID=gene-NB627_RS02975;Name=NB627_RS02975;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB627_RS02975;old_locus_tag=NB627_02975

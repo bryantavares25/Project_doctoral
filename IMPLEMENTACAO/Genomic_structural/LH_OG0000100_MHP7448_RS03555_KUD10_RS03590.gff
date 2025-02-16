@@ -1,9 +1,0 @@
-IDLH RefSeq gene 250 1242 . + . ID=gene-KUD10_RS03565;Name=KUD10_RS03565;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03565;old_locus_tag=KUD10_03530
-IDLH RefSeq gene 1265 1873 . + . ID=gene-KUD10_RS03570;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=KUD10_RS03570;old_locus_tag=KUD10_03535
-IDLH RefSeq gene 2009 3892 . + . ID=gene-KUD10_RS03575;Name=KUD10_RS03575;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03575;old_locus_tag=KUD10_03540
-IDLH RefSeq gene 4090 7029 . + . ID=gene-KUD10_RS03580;Name=KUD10_RS03580;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03580;old_locus_tag=KUD10_03545
-IDLH RefSeq gene 7151 7303 . + . ID=gene-KUD10_RS03585;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=KUD10_RS03585;old_locus_tag=KUD10_03550
-IDLH RefSeq gene 7305 8342 . + . ID=gene-KUD10_RS03590;Name=KUD10_RS03590;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03590;old_locus_tag=KUD10_03555
-IDLH RefSeq gene 8396 9805 . + . ID=gene-KUD10_RS03595;Name=KUD10_RS03595;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03595;old_locus_tag=KUD10_03560
-IDLH RefSeq gene 9872 10081 . + . ID=gene-KUD10_RS03600;Name=KUD10_RS03600;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03600
-IDLH RefSeq gene 10145 11710 . + . ID=gene-KUD10_RS03605;Name=KUD10_RS03605;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS03605;old_locus_tag=KUD10_03565

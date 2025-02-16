@@ -1,4 +1,0 @@
-ID232 RefSeq gene 250 2175 . - . ID=gene-MHP_RS00185;Name=MHP_RS00185;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS00185;old_locus_tag=mhp035
-ID232 RefSeq gene 2168 4708 . - . ID=gene-MHP_RS00180;Name=MHP_RS00180;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS00180;old_locus_tag=mhp034
-ID232 RefSeq gene 4708 7368 . - . ID=gene-MHP_RS00175;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=MHP_RS00175;old_locus_tag=mhp033
-ID232 RefSeq gene 7340 7939 . - . ID=gene-MHP_RS00170;Name=MHP_RS00170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP_RS00170;old_locus_tag=mhp032

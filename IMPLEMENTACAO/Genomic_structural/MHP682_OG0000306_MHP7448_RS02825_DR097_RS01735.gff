@@ -1,5 +1,0 @@
-IDMHP682 RefSeq gene 250 2073 . - . ID=gene-DR097_RS01735;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=DR097_RS01735;old_locus_tag=DR097_01725
-IDMHP682 RefSeq gene 2778 2903 . - . ID=gene-DR097_RS04140;Name=DR097_RS04140;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS04140
-IDMHP682 RefSeq gene 3279 3461 . - . ID=gene-DR097_RS04145;Name=DR097_RS04145;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS04145
-IDMHP682 RefSeq gene 3569 4456 . - . ID=gene-DR097_RS04150;Name=DR097_RS04150;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS04150
-IDMHP682 RefSeq gene 4492 5520 . - . ID=gene-DR097_RS01750;Name=DR097_RS01750;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR097_RS01750;old_locus_tag=DR097_01740

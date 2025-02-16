@@ -1,4 +1,0 @@
-ID7422 RefSeq gene 250 2178 . - . ID=gene-MHL_RS00180;Name=MHL_RS00180;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS00180;old_locus_tag=MHL_3417
-ID7422 RefSeq gene 2171 4711 . - . ID=gene-MHL_RS00175;Name=MHL_RS00175;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS00175;old_locus_tag=MHL_3236
-ID7422 RefSeq gene 4711 7371 . - . ID=gene-MHL_RS00170;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=MHL_RS00170;old_locus_tag=MHL_3239
-ID7422 RefSeq gene 7349 7942 . - . ID=gene-MHL_RS00165;Name=MHL_RS00165;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS00165;old_locus_tag=MHL_2911

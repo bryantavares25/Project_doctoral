@@ -1,4 +1,0 @@
-IDMF22 RefSeq gene 250 699 . + . ID=gene-DR094_RS01195;Name=DR094_RS01195;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR094_RS01195;old_locus_tag=DR094_01240
-IDMF22 RefSeq gene 882 1034 . + . ID=gene-DR094_RS01190;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=DR094_RS01190;old_locus_tag=DR094_01235
-IDMF22 RefSeq gene 1036 2070 . + . ID=gene-DR094_RS01185;Name=DR094_RS01185;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR094_RS01185;old_locus_tag=DR094_01230
-IDMF22 RefSeq gene 2573 4063 . + . ID=gene-DR094_RS01180;Name=DR094_RS01180;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR094_RS01180;old_locus_tag=DR094_01225

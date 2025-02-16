@@ -1,4 +1,0 @@
-IDMF29 RefSeq gene 250 699 . + . ID=gene-DR095_RS01220;Name=DR095_RS01220;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS01220;old_locus_tag=DR095_01250
-IDMF29 RefSeq gene 881 1033 . + . ID=gene-DR095_RS01215;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=DR095_RS01215;old_locus_tag=DR095_01245
-IDMF29 RefSeq gene 1035 2069 . + . ID=gene-DR095_RS01210;Name=DR095_RS01210;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS01210;old_locus_tag=DR095_01240
-IDMF29 RefSeq gene 2574 4064 . + . ID=gene-DR095_RS01205;Name=DR095_RS01205;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS01205;old_locus_tag=DR095_01235

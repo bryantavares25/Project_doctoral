@@ -1,7 +1,0 @@
-IDES2L RefSeq gene 250 3042 . + . ID=gene-HZK19_RS00750;Name=HZK19_RS00750;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS00750;old_locus_tag=HZK19_00750
-IDES2L RefSeq gene 3087 4172 . + . ID=gene-HZK19_RS00755;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=HZK19_RS00755;old_locus_tag=HZK19_00755
-IDES2L RefSeq gene 4159 4875 . + . ID=gene-HZK19_RS00760;Name=HZK19_RS00760;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS00760;old_locus_tag=HZK19_00760
-IDES2L RefSeq gene 4936 6339 . + . ID=gene-HZK19_RS00765;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=HZK19_RS00765;old_locus_tag=HZK19_00765
-IDES2L RefSeq gene 6330 6743 . + . ID=gene-HZK19_RS00770;Name=HZK19_RS00770;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS00770;old_locus_tag=HZK19_00770
-IDES2L RefSeq gene 6736 7260 . + . ID=gene-HZK19_RS00775;Name=HZK19_RS00775;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS00775;old_locus_tag=HZK19_00775
-IDES2L RefSeq gene 7247 8005 . + . ID=gene-HZK19_RS00780;Name=HZK19_RS00780;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS00780;old_locus_tag=HZK19_00780

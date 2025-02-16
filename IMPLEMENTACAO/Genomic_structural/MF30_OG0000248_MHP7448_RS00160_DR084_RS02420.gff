@@ -1,5 +1,0 @@
-IDMF30 RefSeq gene 250 2175 . - . ID=gene-DR084_RS00010;Name=DR084_RS00010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS00010;old_locus_tag=DR084_00010
-IDMF30 RefSeq gene 2168 2537 . - . ID=gene-DR084_RS00005;Name=DR084_RS00005;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS00005;old_locus_tag=DR084_00005;partial=true;start_range=.,1
-IDMF30 RefSeq gene 2638 4827 . - . ID=gene-DR084_RS03605;Name=DR084_RS03605;end_range=45676,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS03605;old_locus_tag=DR084_02485;partial=true
-IDMF30 RefSeq gene 4830 7490 . - . ID=gene-DR084_RS02425;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=DR084_RS02425;old_locus_tag=DR084_02480
-IDMF30 RefSeq gene 7462 8076 . - . ID=gene-DR084_RS02420;Name=DR084_RS02420;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS02420;old_locus_tag=DR084_02475

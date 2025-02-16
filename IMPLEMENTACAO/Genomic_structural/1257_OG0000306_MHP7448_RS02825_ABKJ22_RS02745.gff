@@ -1,5 +1,0 @@
-ID1257 RefSeq gene 250 2073 . - . ID=gene-ABKJ22_RS02745;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=ABKJ22_RS02745;old_locus_tag=ABKJ22_02745
-ID1257 RefSeq gene 2781 2906 . - . ID=gene-ABKJ22_RS02740;Name=ABKJ22_RS02740;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS02740;old_locus_tag=ABKJ22_02740
-ID1257 RefSeq gene 3573 4460 . - . ID=gene-ABKJ22_RS02735;Name=ABKJ22_RS02735;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS02735;old_locus_tag=ABKJ22_02735
-ID1257 RefSeq gene 4496 4756 . - . ID=gene-ABKJ22_RS02730;Name=ABKJ22_RS02730;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS02730;old_locus_tag=ABKJ22_02730
-ID1257 RefSeq gene 4818 5522 . - . ID=gene-ABKJ22_RS02725;Name=ABKJ22_RS02725;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS02725;old_locus_tag=ABKJ22_02725

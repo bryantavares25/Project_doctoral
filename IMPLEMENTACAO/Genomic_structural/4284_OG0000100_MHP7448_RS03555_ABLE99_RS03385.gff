@@ -1,8 +1,0 @@
-ID4284 RefSeq gene 250 1242 . + . ID=gene-ABLE99_RS03360;Name=ABLE99_RS03360;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS03360;old_locus_tag=ABLE99_03345
-ID4284 RefSeq gene 1265 1873 . + . ID=gene-ABLE99_RS03365;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=ABLE99_RS03365;old_locus_tag=ABLE99_03350
-ID4284 RefSeq gene 2010 3893 . + . ID=gene-ABLE99_RS03370;Name=ABLE99_RS03370;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS03370;old_locus_tag=ABLE99_03355
-ID4284 RefSeq gene 4091 7030 . + . ID=gene-ABLE99_RS03375;Name=ABLE99_RS03375;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS03375;old_locus_tag=ABLE99_03360
-ID4284 RefSeq gene 7152 7304 . + . ID=gene-ABLE99_RS03380;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=ABLE99_RS03380;old_locus_tag=ABLE99_03365
-ID4284 RefSeq gene 7306 8343 . + . ID=gene-ABLE99_RS03385;Name=ABLE99_RS03385;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS03385;old_locus_tag=ABLE99_03370
-ID4284 RefSeq gene 8397 10067 . + . ID=gene-ABLE99_RS03390;Name=ABLE99_RS03390;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS03390;old_locus_tag=ABLE99_03375
-ID4284 RefSeq gene 10146 11708 . + . ID=gene-ABLE99_RS03395;Name=ABLE99_RS03395;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABLE99_RS03395;old_locus_tag=ABLE99_03380

@@ -1,9 +1,0 @@
-IDMHP696 RefSeq gene 250 747 . - . ID=gene-DR090_RS01990;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=DR090_RS01990;old_locus_tag=DR090_02005
-IDMHP696 RefSeq gene 759 1124 . - . ID=gene-DR090_RS01995;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=DR090_RS01995;old_locus_tag=DR090_02010
-IDMHP696 RefSeq gene 1331 4993 . - . ID=gene-DR090_RS02000;Name=DR090_RS02000;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS02000;old_locus_tag=DR090_02015
-IDMHP696 RefSeq gene 5050 9288 . - . ID=gene-DR090_RS02005;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=DR090_RS02005;old_locus_tag=DR090_02020
-IDMHP696 RefSeq gene 9295 9714 . - . ID=gene-DR090_RS02010;Name=DR090_RS02010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS02010;old_locus_tag=DR090_02025
-IDMHP696 RefSeq gene 9776 10069 . - . ID=gene-DR090_RS04050;Name=DR090_RS04050;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS04050
-IDMHP696 RefSeq pseudogene 10119 11012 . - . ID=gene-DR090_RS04055;Name=DR090_RS04055;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR090_RS04055;old_locus_tag=DR090_02030;pseudo=true
-IDMHP696 RefSeq gene 11535 13622 . - . ID=gene-DR090_RS02020;Name=DR090_RS02020;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS02020;old_locus_tag=DR090_02035
-IDMHP696 RefSeq gene 13645 16101 . - . ID=gene-DR090_RS04500;Name=DR090_RS04500;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS04500;old_locus_tag=DR090_02040

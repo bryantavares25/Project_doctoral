@@ -1,8 +1,0 @@
-IDUe273 RefSeq gene 250 915 . + . ID=gene-VQY17_RS00775;Name=VQY17_RS00775;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS00775;old_locus_tag=VQY17_00775
-IDUe273 RefSeq gene 954 3089 . + . ID=gene-VQY17_RS00780;Name=VQY17_RS00780;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS00780;old_locus_tag=VQY17_00780
-IDUe273 RefSeq gene 3134 4219 . + . ID=gene-VQY17_RS00785;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=VQY17_RS00785;old_locus_tag=VQY17_00785
-IDUe273 RefSeq gene 4206 4922 . + . ID=gene-VQY17_RS00790;Name=VQY17_RS00790;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS00790;old_locus_tag=VQY17_00790
-IDUe273 RefSeq gene 4983 6386 . + . ID=gene-VQY17_RS00795;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=VQY17_RS00795;old_locus_tag=VQY17_00795
-IDUe273 RefSeq gene 6377 6799 . + . ID=gene-VQY17_RS00800;Name=VQY17_RS00800;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS00800;old_locus_tag=VQY17_00800
-IDUe273 RefSeq gene 6792 7316 . + . ID=gene-VQY17_RS00805;Name=VQY17_RS00805;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS00805;old_locus_tag=VQY17_00805
-IDUe273 RefSeq gene 7303 8061 . + . ID=gene-VQY17_RS00810;Name=VQY17_RS00810;gbkey=Gene;gene_biotype=protein_coding;locus_tag=VQY17_RS00810;old_locus_tag=VQY17_00810

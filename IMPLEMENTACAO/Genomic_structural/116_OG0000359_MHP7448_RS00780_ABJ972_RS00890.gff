@@ -1,7 +1,0 @@
-ID116 RefSeq gene 250 3147 . - . ID=gene-ABJ972_RS00890;Name=ABJ972_RS00890;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS00890;old_locus_tag=ABJ972_00890
-ID116 RefSeq gene 3192 4277 . - . ID=gene-ABJ972_RS00885;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=ABJ972_RS00885;old_locus_tag=ABJ972_00885
-ID116 RefSeq gene 4264 4980 . - . ID=gene-ABJ972_RS00880;Name=ABJ972_RS00880;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS00880;old_locus_tag=ABJ972_00880
-ID116 RefSeq gene 5041 6444 . - . ID=gene-ABJ972_RS00875;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=ABJ972_RS00875;old_locus_tag=ABJ972_00875
-ID116 RefSeq gene 6435 6839 . - . ID=gene-ABJ972_RS00870;Name=ABJ972_RS00870;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS00870;old_locus_tag=ABJ972_00870
-ID116 RefSeq gene 6832 7356 . - . ID=gene-ABJ972_RS00865;Name=ABJ972_RS00865;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS00865;old_locus_tag=ABJ972_00865
-ID116 RefSeq gene 7343 8101 . - . ID=gene-ABJ972_RS00860;Name=ABJ972_RS00860;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABJ972_RS00860;old_locus_tag=ABJ972_00860

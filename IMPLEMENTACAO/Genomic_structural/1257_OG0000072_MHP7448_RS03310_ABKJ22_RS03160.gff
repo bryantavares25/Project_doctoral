@@ -1,8 +1,0 @@
-ID1257 RefSeq gene 250 747 . - . ID=gene-ABKJ22_RS03195;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03195;old_locus_tag=ABKJ22_03195
-ID1257 RefSeq gene 759 1124 . - . ID=gene-ABKJ22_RS03190;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03190;old_locus_tag=ABKJ22_03190
-ID1257 RefSeq gene 1331 4993 . - . ID=gene-ABKJ22_RS03185;Name=ABKJ22_RS03185;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03185;old_locus_tag=ABKJ22_03185
-ID1257 RefSeq gene 5050 9288 . - . ID=gene-ABKJ22_RS03180;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03180;old_locus_tag=ABKJ22_03180
-ID1257 RefSeq gene 9295 9714 . - . ID=gene-ABKJ22_RS03175;Name=ABKJ22_RS03175;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03175;old_locus_tag=ABKJ22_03175
-ID1257 RefSeq gene 9774 10994 . - . ID=gene-ABKJ22_RS03170;Name=ABKJ22_RS03170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03170;old_locus_tag=ABKJ22_03170
-ID1257 RefSeq gene 11504 13591 . - . ID=gene-ABKJ22_RS03165;Name=ABKJ22_RS03165;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03165;old_locus_tag=ABKJ22_03165
-ID1257 RefSeq gene 13614 16070 . - . ID=gene-ABKJ22_RS03160;Name=mip;gbkey=Gene;gene=mip;gene_biotype=protein_coding;locus_tag=ABKJ22_RS03160;old_locus_tag=ABKJ22_03160

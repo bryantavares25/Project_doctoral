@@ -1,7 +1,0 @@
-IDMF33 RefSeq gene 250 3087 . + . ID=gene-DR085_RS03765;Name=DR085_RS03765;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS03765;old_locus_tag=DR085_02050
-IDMF33 RefSeq gene 3144 4229 . + . ID=gene-DR085_RS01995;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=DR085_RS01995;old_locus_tag=DR085_02045
-IDMF33 RefSeq gene 4216 4944 . + . ID=gene-DR085_RS01990;Name=DR085_RS01990;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS01990;old_locus_tag=DR085_02040
-IDMF33 RefSeq gene 4965 6368 . + . ID=gene-DR085_RS01985;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=DR085_RS01985;old_locus_tag=DR085_02035
-IDMF33 RefSeq gene 6359 6769 . + . ID=gene-DR085_RS01980;Name=DR085_RS01980;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS01980;old_locus_tag=DR085_02030
-IDMF33 RefSeq gene 6762 7286 . + . ID=gene-DR085_RS01975;Name=DR085_RS01975;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS01975;old_locus_tag=DR085_02025
-IDMF33 RefSeq gene 7276 8031 . + . ID=gene-DR085_RS03760;Name=DR085_RS03760;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS03760;old_locus_tag=DR085_02020

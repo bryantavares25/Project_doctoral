@@ -1,9 +1,0 @@
-ID7422 RefSeq gene 250 747 . - . ID=gene-MHL_RS03315;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=MHL_RS03315;old_locus_tag=MHL_2344
-ID7422 RefSeq gene 759 1124 . - . ID=gene-MHL_RS03310;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=MHL_RS03310;old_locus_tag=MHL_2341
-ID7422 RefSeq gene 1331 4993 . - . ID=gene-MHL_RS03305;Name=MHL_RS03305;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS03305;old_locus_tag=MHL_2339
-ID7422 RefSeq gene 5050 9288 . - . ID=gene-MHL_RS03300;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=MHL_RS03300;old_locus_tag=MHL_3067
-ID7422 RefSeq gene 9295 9714 . - . ID=gene-MHL_RS03295;Name=MHL_RS03295;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS03295;old_locus_tag=MHL_2873
-ID7422 RefSeq gene 9776 10195 . - . ID=gene-MHL_RS04100;Name=MHL_RS04100;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS04100
-ID7422 RefSeq gene 10161 10997 . - . ID=gene-MHL_RS03290;Name=MHL_RS03290;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS03290;old_locus_tag=MHL_3101
-ID7422 RefSeq gene 11510 13597 . - . ID=gene-MHL_RS03285;Name=MHL_RS03285;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS03285;old_locus_tag=MHL_3393
-ID7422 RefSeq gene 13641 16076 . - . ID=gene-MHL_RS03280;Name=MHL_RS03280;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHL_RS03280;old_locus_tag=MHL_3121

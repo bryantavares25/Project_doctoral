@@ -1,7 +1,0 @@
-IDMF30 RefSeq gene 250 3087 . + . ID=gene-DR084_RS03520;Name=DR084_RS03520;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS03520;old_locus_tag=DR084_01350
-IDMF30 RefSeq gene 3144 4229 . + . ID=gene-DR084_RS01320;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=DR084_RS01320;old_locus_tag=DR084_01355
-IDMF30 RefSeq gene 4216 4944 . + . ID=gene-DR084_RS01325;Name=DR084_RS01325;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS01325;old_locus_tag=DR084_01360
-IDMF30 RefSeq gene 4965 6368 . + . ID=gene-DR084_RS01330;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=DR084_RS01330;old_locus_tag=DR084_01365
-IDMF30 RefSeq gene 6359 6769 . + . ID=gene-DR084_RS01335;Name=DR084_RS01335;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS01335;old_locus_tag=DR084_01370
-IDMF30 RefSeq gene 6762 7286 . + . ID=gene-DR084_RS01340;Name=DR084_RS01340;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS01340;old_locus_tag=DR084_01375
-IDMF30 RefSeq gene 7273 8031 . + . ID=gene-DR084_RS03525;Name=DR084_RS03525;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS03525;old_locus_tag=DR084_01380

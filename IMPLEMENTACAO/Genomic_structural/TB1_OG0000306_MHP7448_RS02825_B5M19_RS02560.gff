@@ -1,5 +1,0 @@
-IDTB1 RefSeq gene 250 2073 . - . ID=gene-B5M19_RS02560;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=B5M19_RS02560;old_locus_tag=B5M19_02775
-IDTB1 RefSeq gene 2789 2914 . - . ID=gene-B5M19_RS04585;Name=B5M19_RS04585;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS04585
-IDTB1 RefSeq gene 3290 3544 . - . ID=gene-B5M19_RS02555;Name=B5M19_RS02555;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS02555;old_locus_tag=B5M19_02770
-IDTB1 RefSeq gene 3960 4414 . - . ID=gene-B5M19_RS02550;Name=B5M19_RS02550;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS02550;old_locus_tag=B5M19_02765;partial=true;start_range=.,16194
-IDTB1 RefSeq gene 4623 5541 . - . ID=gene-B5M19_RS02545;Name=B5M19_RS02545;end_range=15985,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS02545;old_locus_tag=B5M19_02760;partial=true

@@ -1,3 +1,0 @@
-IDES2L RefSeq gene 250 780 . - . ID=gene-HZK19_RS03920;Name=HZK19_RS03920;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS03920;old_locus_tag=HZK19_01915
-IDES2L RefSeq gene 768 1808 . - . ID=gene-HZK19_RS01910;Name=HZK19_RS01910;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS01910;old_locus_tag=HZK19_01910
-IDES2L RefSeq pseudogene 1922 3579 . - . ID=gene-HZK19_RS01905;Name=HZK19_RS01905;gbkey=Gene;gene_biotype=pseudogene;locus_tag=HZK19_RS01905;old_locus_tag=HZK19_01905;pseudo=true

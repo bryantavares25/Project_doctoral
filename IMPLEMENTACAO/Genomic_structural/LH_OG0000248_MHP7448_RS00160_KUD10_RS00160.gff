@@ -1,4 +1,0 @@
-IDLH RefSeq gene 250 2178 . - . ID=gene-KUD10_RS00175;Name=KUD10_RS00175;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS00175;old_locus_tag=KUD10_00175
-IDLH RefSeq gene 2171 4711 . - . ID=gene-KUD10_RS00170;Name=KUD10_RS00170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS00170;old_locus_tag=KUD10_00170
-IDLH RefSeq gene 4711 7371 . - . ID=gene-KUD10_RS00165;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=KUD10_RS00165;old_locus_tag=KUD10_00165
-IDLH RefSeq gene 7349 7942 . - . ID=gene-KUD10_RS00160;Name=KUD10_RS00160;gbkey=Gene;gene_biotype=protein_coding;locus_tag=KUD10_RS00160;old_locus_tag=KUD10_00160

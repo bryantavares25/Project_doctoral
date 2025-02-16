@@ -1,9 +1,0 @@
-ID153B RefSeq gene 250 747 . - . ID=gene-NB625_RS03475;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=NB625_RS03475;old_locus_tag=NB625_03480
-ID153B RefSeq gene 759 1124 . - . ID=gene-NB625_RS03470;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=NB625_RS03470;old_locus_tag=NB625_03475
-ID153B RefSeq gene 1331 4993 . - . ID=gene-NB625_RS03465;Name=NB625_RS03465;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB625_RS03465;old_locus_tag=NB625_03470
-ID153B RefSeq gene 5050 9288 . - . ID=gene-NB625_RS03460;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=NB625_RS03460;old_locus_tag=NB625_03465
-ID153B RefSeq gene 9295 9714 . - . ID=gene-NB625_RS03455;Name=NB625_RS03455;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB625_RS03455;old_locus_tag=NB625_03460
-ID153B RefSeq gene 9776 10744 . - . ID=gene-NB625_RS03450;Name=NB625_RS03450;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB625_RS03450;old_locus_tag=NB625_03455
-ID153B RefSeq gene 10829 11026 . - . ID=gene-NB625_RS03445;Name=NB625_RS03445;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB625_RS03445;old_locus_tag=NB625_03450
-ID153B RefSeq gene 11514 13601 . - . ID=gene-NB625_RS03440;Name=NB625_RS03440;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB625_RS03440;old_locus_tag=NB625_03445
-ID153B RefSeq gene 13624 16080 . - . ID=gene-NB625_RS03435;Name=mip;gbkey=Gene;gene=mip;gene_biotype=protein_coding;locus_tag=NB625_RS03435;old_locus_tag=NB625_03440

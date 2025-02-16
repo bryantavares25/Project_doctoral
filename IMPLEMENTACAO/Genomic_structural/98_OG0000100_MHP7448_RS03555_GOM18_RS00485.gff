@@ -1,8 +1,0 @@
-ID98 RefSeq gene 250 1242 . + . ID=gene-GOM18_RS00460;Name=GOM18_RS00460;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS00460;old_locus_tag=GOM18_00460
-ID98 RefSeq gene 1265 1873 . + . ID=gene-GOM18_RS00465;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=GOM18_RS00465;old_locus_tag=GOM18_00465
-ID98 RefSeq gene 2011 3894 . + . ID=gene-GOM18_RS00470;Name=GOM18_RS00470;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS00470;old_locus_tag=GOM18_00470
-ID98 RefSeq gene 4092 7031 . + . ID=gene-GOM18_RS00475;Name=GOM18_RS00475;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS00475;old_locus_tag=GOM18_00475
-ID98 RefSeq gene 7153 7305 . + . ID=gene-GOM18_RS00480;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=GOM18_RS00480;old_locus_tag=GOM18_00480
-ID98 RefSeq gene 7307 8344 . + . ID=gene-GOM18_RS00485;Name=GOM18_RS00485;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS00485;old_locus_tag=GOM18_00485
-ID98 RefSeq gene 8398 10083 . + . ID=gene-GOM18_RS00490;Name=GOM18_RS00490;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS00490;old_locus_tag=GOM18_00490
-ID98 RefSeq gene 10147 11712 . + . ID=gene-GOM18_RS00495;Name=GOM18_RS00495;gbkey=Gene;gene_biotype=protein_coding;locus_tag=GOM18_RS00495;old_locus_tag=GOM18_00495

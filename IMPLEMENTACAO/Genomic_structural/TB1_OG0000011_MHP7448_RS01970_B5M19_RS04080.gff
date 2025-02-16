@@ -1,3 +1,0 @@
-IDTB1 RefSeq gene 250 705 . - . ID=gene-B5M19_RS04080;Name=B5M19_RS04080;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS04080;old_locus_tag=B5M19_00800;partial=true;start_range=.,39761
-IDTB1 RefSeq gene 778 1816 . - . ID=gene-B5M19_RS00770;Name=B5M19_RS00770;end_range=39688,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS00770;old_locus_tag=B5M19_00795;partial=true
-IDTB1 RefSeq gene 1930 3576 . - . ID=gene-B5M19_RS00765;Name=B5M19_RS00765;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5M19_RS00765;old_locus_tag=B5M19_00790

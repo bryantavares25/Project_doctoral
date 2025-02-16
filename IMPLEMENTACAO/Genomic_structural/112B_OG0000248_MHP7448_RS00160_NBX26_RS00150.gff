@@ -1,4 +1,0 @@
-ID112B RefSeq gene 250 2178 . - . ID=gene-NBX26_RS00165;Name=NBX26_RS00165;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS00165;old_locus_tag=NBX26_00165
-ID112B RefSeq gene 2171 4711 . - . ID=gene-NBX26_RS00160;Name=NBX26_RS00160;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS00160;old_locus_tag=NBX26_00160
-ID112B RefSeq gene 4711 7371 . - . ID=gene-NBX26_RS00155;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=NBX26_RS00155;old_locus_tag=NBX26_00155
-ID112B RefSeq gene 7349 7942 . - . ID=gene-NBX26_RS00150;Name=NBX26_RS00150;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS00150;old_locus_tag=NBX26_00150

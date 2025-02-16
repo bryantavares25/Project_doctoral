@@ -1,5 +1,0 @@
-ID168 RefSeq gene 250 2073 . - . ID=gene-MHP168_RS02810;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=MHP168_RS02810;old_locus_tag=MHP168_530
-ID168 RefSeq gene 2789 2914 . - . ID=gene-MHP168_RS04060;Name=MHP168_RS04060;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168_RS04060
-ID168 RefSeq gene 3290 3544 . - . ID=gene-MHP168_RS02805;Name=MHP168_RS02805;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168_RS02805;old_locus_tag=MHP168_529
-ID168 RefSeq gene 3579 4466 . - . ID=gene-MHP168_RS04025;Name=MHP168_RS04025;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168_RS04025
-ID168 RefSeq gene 4502 5530 . - . ID=gene-MHP168_RS02795;Name=MHP168_RS02795;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168_RS02795;old_locus_tag=MHP168_527

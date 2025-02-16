@@ -1,6 +1,0 @@
-IDMHP709 RefSeq gene 250 2073 . - . ID=gene-DR088_RS00220;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=DR088_RS00220;old_locus_tag=DR088_00225
-IDMHP709 RefSeq gene 2783 2908 . - . ID=gene-DR088_RS03755;Name=DR088_RS03755;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS03755
-IDMHP709 RefSeq gene 3284 3538 . - . ID=gene-DR088_RS00215;Name=DR088_RS00215;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS00215;old_locus_tag=DR088_00220
-IDMHP709 RefSeq gene 3573 4460 . - . ID=gene-DR088_RS03750;Name=DR088_RS03750;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS03750
-IDMHP709 RefSeq pseudogene 4496 5056 . - . ID=gene-DR088_RS03745;Name=DR088_RS03745;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR088_RS03745;partial=true;pseudo=true;start_range=.,60968
-IDMHP709 RefSeq gene 5329 5529 . - . ID=gene-DR088_RS03740;Name=DR088_RS03740;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR088_RS03740

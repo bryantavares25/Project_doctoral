@@ -1,6 +1,0 @@
-IDMF29 RefSeq gene 250 2073 . + . ID=gene-DR095_RS00290;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=DR095_RS00290;old_locus_tag=DR095_00295
-IDMF29 RefSeq gene 2438 3127 . + . ID=gene-DR095_RS00295;Name=DR095_RS00295;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS00295;old_locus_tag=DR095_00300
-IDMF29 RefSeq gene 3137 3535 . + . ID=gene-DR095_RS00300;Name=DR095_RS00300;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS00300;old_locus_tag=DR095_00305
-IDMF29 RefSeq gene 3516 3932 . + . ID=gene-DR095_RS00305;Name=DR095_RS00305;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS00305;old_locus_tag=DR095_00310
-IDMF29 RefSeq gene 4106 4939 . + . ID=gene-DR095_RS00310;Name=DR095_RS00310;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS00310;old_locus_tag=DR095_00315
-IDMF29 RefSeq gene 4923 5078 . + . ID=gene-DR095_RS03200;Name=DR095_RS03200;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR095_RS03200

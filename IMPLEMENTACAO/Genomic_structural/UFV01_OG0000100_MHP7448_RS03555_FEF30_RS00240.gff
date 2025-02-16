@@ -1,8 +1,0 @@
-IDUFV01 RefSeq gene 250 1242 . + . ID=gene-FEF30_RS00215;Name=FEF30_RS00215;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS00215;old_locus_tag=FEF30_00215
-IDUFV01 RefSeq gene 1265 1873 . + . ID=gene-FEF30_RS00220;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=FEF30_RS00220;old_locus_tag=FEF30_00220
-IDUFV01 RefSeq gene 2006 3889 . + . ID=gene-FEF30_RS00225;Name=FEF30_RS00225;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS00225;old_locus_tag=FEF30_00225
-IDUFV01 RefSeq gene 4087 7026 . + . ID=gene-FEF30_RS00230;Name=FEF30_RS00230;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS00230;old_locus_tag=FEF30_00230
-IDUFV01 RefSeq gene 7149 7301 . + . ID=gene-FEF30_RS00235;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=FEF30_RS00235;old_locus_tag=FEF30_00235
-IDUFV01 RefSeq gene 7303 8340 . + . ID=gene-FEF30_RS00240;Name=FEF30_RS00240;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS00240;old_locus_tag=FEF30_00240
-IDUFV01 RefSeq gene 8395 10080 . + . ID=gene-FEF30_RS00245;Name=FEF30_RS00245;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS00245;old_locus_tag=FEF30_00245
-IDUFV01 RefSeq gene 10144 11706 . + . ID=gene-FEF30_RS00250;Name=FEF30_RS00250;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF30_RS00250;old_locus_tag=FEF30_00250

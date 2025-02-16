@@ -1,4 +1,0 @@
-ID11 RefSeq pseudogene 250 509 . - . ID=gene-B5C39_RS03080;Name=B5C39_RS03080;gbkey=Gene;gene_biotype=pseudogene;locus_tag=B5C39_RS03080;old_locus_tag=B5C39_03080;partial=true;pseudo=true;start_range=.,1
-ID11 RefSeq gene 250 1398 . - . ID=gene-B5C39_RS00020;Name=B5C39_RS00020;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5C39_RS00020;old_locus_tag=B5C39_00020
-ID11 RefSeq gene 1412 1618 . - . ID=gene-B5C39_RS00015;Name=B5C39_RS00015;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5C39_RS00015;old_locus_tag=B5C39_00015
-ID11 RefSeq gene 1599 3263 . - . ID=gene-B5C39_RS00010;Name=B5C39_RS00010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5C39_RS00010;old_locus_tag=B5C39_00010

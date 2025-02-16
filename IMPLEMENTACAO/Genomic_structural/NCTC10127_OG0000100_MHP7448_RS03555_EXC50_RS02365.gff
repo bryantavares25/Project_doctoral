@@ -1,8 +1,0 @@
-IDNCTC10127 RefSeq gene 250 1242 . + . ID=gene-EXC50_RS02340;Name=EXC50_RS02340;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02340;old_locus_tag=NCTC10127_00462
-IDNCTC10127 RefSeq gene 1265 1873 . + . ID=gene-EXC50_RS02345;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=EXC50_RS02345;old_locus_tag=NCTC10127_00463
-IDNCTC10127 RefSeq gene 2006 3889 . + . ID=gene-EXC50_RS02350;Name=EXC50_RS02350;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02350;old_locus_tag=NCTC10127_00464
-IDNCTC10127 RefSeq gene 4087 7026 . + . ID=gene-EXC50_RS02355;Name=EXC50_RS02355;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02355;old_locus_tag=NCTC10127_00465
-IDNCTC10127 RefSeq gene 7148 7300 . + . ID=gene-EXC50_RS02360;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=EXC50_RS02360;old_locus_tag=NCTC10127_00466
-IDNCTC10127 RefSeq gene 7302 8339 . + . ID=gene-EXC50_RS02365;Name=EXC50_RS02365;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02365;old_locus_tag=NCTC10127_00467
-IDNCTC10127 RefSeq gene 8394 10079 . + . ID=gene-EXC50_RS02370;Name=EXC50_RS02370;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02370;old_locus_tag=NCTC10127_00468
-IDNCTC10127 RefSeq gene 10143 11708 . + . ID=gene-EXC50_RS02375;Name=EXC50_RS02375;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EXC50_RS02375;old_locus_tag=NCTC10127_00469

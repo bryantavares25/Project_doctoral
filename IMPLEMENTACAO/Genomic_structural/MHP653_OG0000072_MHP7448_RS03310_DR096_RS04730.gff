@@ -1,9 +1,0 @@
-IDMHP653 RefSeq gene 250 747 . - . ID=gene-DR096_RS03140;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=DR096_RS03140;old_locus_tag=DR096_03175
-IDMHP653 RefSeq gene 759 1124 . - . ID=gene-DR096_RS03135;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=DR096_RS03135;old_locus_tag=DR096_03170
-IDMHP653 RefSeq gene 1331 4993 . - . ID=gene-DR096_RS03130;Name=DR096_RS03130;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS03130;old_locus_tag=DR096_03165
-IDMHP653 RefSeq gene 5050 9288 . - . ID=gene-DR096_RS03125;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=DR096_RS03125;old_locus_tag=DR096_03160
-IDMHP653 RefSeq gene 9295 9714 . - . ID=gene-DR096_RS03120;Name=DR096_RS03120;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS03120;old_locus_tag=DR096_03155
-IDMHP653 RefSeq gene 10007 11026 . - . ID=gene-DR096_RS04310;Name=DR096_RS04310;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS04310;old_locus_tag=DR096_03150
-IDMHP653 RefSeq gene 11016 11372 . - . ID=gene-DR096_RS04300;Name=DR096_RS04300;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS04300
-IDMHP653 RefSeq pseudogene 12044 14015 . - . ID=gene-DR096_RS03045;Name=DR096_RS03045;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR096_RS03045;old_locus_tag=DR096_03080;partial=true;pseudo=true;start_range=.,1
-IDMHP653 RefSeq gene 14038 16494 . - . ID=gene-DR096_RS04730;Name=DR096_RS04730;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR096_RS04730;old_locus_tag=DR096_03085

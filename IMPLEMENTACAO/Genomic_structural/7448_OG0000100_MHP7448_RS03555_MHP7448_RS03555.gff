@@ -1,8 +1,0 @@
-ID7448 RefSeq gene 250 1242 . + . ID=gene-MHP7448_RS03530;Name=MHP7448_RS03530;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS03530;old_locus_tag=MHP0654%2CMHP7448_0654
-ID7448 RefSeq gene 1265 1873 . + . ID=gene-MHP7448_RS03535;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=MHP7448_RS03535;old_locus_tag=MHP0655%2CMHP7448_0655
-ID7448 RefSeq gene 2007 3890 . + . ID=gene-MHP7448_RS03540;Name=MHP7448_RS03540;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS03540;old_locus_tag=MHP0656%2CMHP7448_0656
-ID7448 RefSeq gene 4089 7028 . + . ID=gene-MHP7448_RS03545;Name=MHP7448_RS03545;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS03545;old_locus_tag=MHP0657%2CMHP7448_0657
-ID7448 RefSeq gene 7150 7302 . + . ID=gene-MHP7448_RS03550;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=MHP7448_RS03550;old_locus_tag=MHP0658%2CMHP7448_0658
-ID7448 RefSeq gene 7304 8341 . + . ID=gene-MHP7448_RS03555;Name=MHP7448_RS03555;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS03555;old_locus_tag=MHP0659%2CMHP7448_0659
-ID7448 RefSeq gene 8395 10080 . + . ID=gene-MHP7448_RS03560;Name=MHP7448_RS03560;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS03560;old_locus_tag=MHP0660%2CMHP7448_0660
-ID7448 RefSeq gene 10144 11706 . + . ID=gene-MHP7448_RS03565;Name=MHP7448_RS03565;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP7448_RS03565;old_locus_tag=MHP0661%2CMHP7448_0661

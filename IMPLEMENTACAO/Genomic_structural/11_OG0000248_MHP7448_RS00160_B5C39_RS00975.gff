@@ -1,4 +1,0 @@
-ID11 RefSeq gene 250 2175 . - . ID=gene-B5C39_RS00990;Name=B5C39_RS00990;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5C39_RS00990;old_locus_tag=B5C39_00990
-ID11 RefSeq gene 2168 4708 . - . ID=gene-B5C39_RS00985;Name=B5C39_RS00985;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5C39_RS00985;old_locus_tag=B5C39_00985
-ID11 RefSeq gene 4708 7368 . - . ID=gene-B5C39_RS00980;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=B5C39_RS00980;old_locus_tag=B5C39_00980
-ID11 RefSeq gene 7340 7939 . - . ID=gene-B5C39_RS00975;Name=B5C39_RS00975;gbkey=Gene;gene_biotype=protein_coding;locus_tag=B5C39_RS00975;old_locus_tag=B5C39_00975

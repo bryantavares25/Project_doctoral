@@ -1,5 +1,0 @@
-ID112B RefSeq gene 250 2073 . - . ID=gene-NBX26_RS02980;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=NBX26_RS02980;old_locus_tag=NBX26_02970
-ID112B RefSeq gene 2783 2908 . - . ID=gene-NBX26_RS02975;Name=NBX26_RS02975;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS02975
-ID112B RefSeq gene 3361 3537 . - . ID=gene-NBX26_RS02970;Name=NBX26_RS02970;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS02970;old_locus_tag=NBX26_02965
-ID112B RefSeq gene 3954 4460 . - . ID=gene-NBX26_RS02965;Name=NBX26_RS02965;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS02965;old_locus_tag=NBX26_02960
-ID112B RefSeq gene 4496 5362 . - . ID=gene-NBX26_RS02960;Name=NBX26_RS02960;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NBX26_RS02960;old_locus_tag=NBX26_02955

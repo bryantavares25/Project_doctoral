@@ -1,4 +1,0 @@
-ID168L RefSeq gene 250 2178 . - . ID=gene-MHP168L_RS00155;Name=MHP168L_RS00155;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS00155;old_locus_tag=MHP168L_031
-ID168L RefSeq gene 2171 4711 . - . ID=gene-MHP168L_RS00150;Name=MHP168L_RS00150;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS00150;old_locus_tag=MHP168L_030
-ID168L RefSeq gene 4711 7371 . - . ID=gene-MHP168L_RS00145;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=MHP168L_RS00145;old_locus_tag=MHP168L_029
-ID168L RefSeq gene 7349 7942 . - . ID=gene-MHP168L_RS00140;Name=MHP168L_RS00140;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHP168L_RS00140;old_locus_tag=MHP168L_027

@@ -1,8 +1,0 @@
-IDJ RefSeq gene 250 1242 . + . ID=gene-MHJ_RS03465;Dbxref=GeneID:41334957;Name=MHJ_RS03465;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03465;old_locus_tag=MHJ0654%2CMHJ_0654
-IDJ RefSeq gene 1265 1873 . + . ID=gene-MHJ_RS03470;Dbxref=GeneID:41334958;Name=rsmG;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=MHJ_RS03470;old_locus_tag=MHJ0655%2CMHJ_0655
-IDJ RefSeq gene 2012 3895 . + . ID=gene-MHJ_RS03475;Dbxref=GeneID:41334959;Name=MHJ_RS03475;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03475;old_locus_tag=MHJ0656%2CMHJ_0656
-IDJ RefSeq gene 4093 7032 . + . ID=gene-MHJ_RS03480;Dbxref=GeneID:41334960;Name=MHJ_RS03480;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03480;old_locus_tag=MHJ0657%2CMHJ_0657
-IDJ RefSeq gene 7154 7306 . + . ID=gene-MHJ_RS03485;Dbxref=GeneID:41334961;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=MHJ_RS03485;old_locus_tag=MHJ0658%2CMHJ_0658
-IDJ RefSeq gene 7308 8345 . + . ID=gene-MHJ_RS03490;Dbxref=GeneID:41334962;Name=MHJ_RS03490;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03490;old_locus_tag=MHJ0659%2CMHJ_0659
-IDJ RefSeq gene 8400 10085 . + . ID=gene-MHJ_RS03495;Dbxref=GeneID:41334963;Name=MHJ_RS03495;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03495;old_locus_tag=MHJ0660%2CMHJ_0660
-IDJ RefSeq gene 10149 11714 . + . ID=gene-MHJ_RS03500;Dbxref=GeneID:41334964;Name=MHJ_RS03500;gbkey=Gene;gene_biotype=protein_coding;locus_tag=MHJ_RS03500;old_locus_tag=MHJ0661%2CMHJ_0661

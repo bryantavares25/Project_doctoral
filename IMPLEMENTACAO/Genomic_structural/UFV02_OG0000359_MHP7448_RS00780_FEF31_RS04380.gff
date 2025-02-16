@@ -1,7 +1,0 @@
-IDUFV02 RefSeq gene 250 3090 . + . ID=gene-FEF31_RS04380;Name=FEF31_RS04380;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF31_RS04380;old_locus_tag=FEF31_00440
-IDUFV02 RefSeq gene 3135 4220 . + . ID=gene-FEF31_RS00435;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=FEF31_RS00435;old_locus_tag=FEF31_00445
-IDUFV02 RefSeq gene 4207 4923 . + . ID=gene-FEF31_RS00440;Name=FEF31_RS00440;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF31_RS00440;old_locus_tag=FEF31_00450
-IDUFV02 RefSeq gene 4984 6387 . + . ID=gene-FEF31_RS00445;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=FEF31_RS00445;old_locus_tag=FEF31_00455
-IDUFV02 RefSeq gene 6378 6779 . + . ID=gene-FEF31_RS00450;Name=FEF31_RS00450;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF31_RS00450;old_locus_tag=FEF31_00460
-IDUFV02 RefSeq gene 6772 7296 . + . ID=gene-FEF31_RS00455;Name=FEF31_RS00455;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF31_RS00455;old_locus_tag=FEF31_00465
-IDUFV02 RefSeq gene 7283 8041 . + . ID=gene-FEF31_RS00460;Name=FEF31_RS00460;gbkey=Gene;gene_biotype=protein_coding;locus_tag=FEF31_RS00460;old_locus_tag=FEF31_00470

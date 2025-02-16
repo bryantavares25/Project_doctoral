@@ -1,4 +1,0 @@
-IDMF33 RefSeq gene 250 870 . - . ID=gene-DR085_RS03875;Name=DR085_RS03875;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS03875
-IDMF33 RefSeq gene 806 1888 . - . ID=gene-DR085_RS03540;Name=DR085_RS03540;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS03540;old_locus_tag=DR085_02850
-IDMF33 RefSeq pseudogene 2070 2469 . - . ID=gene-DR085_RS02795;Name=DR085_RS02795;end_range=14100,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR085_RS02795;old_locus_tag=DR085_02855;partial=true;pseudo=true
-IDMF33 RefSeq gene 2565 3862 . - . ID=gene-DR085_RS02805;Name=DR085_RS02805;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR085_RS02805;old_locus_tag=DR085_02865;partial=true;start_range=.,14196

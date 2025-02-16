@@ -1,4 +1,0 @@
-ID133A RefSeq gene 250 2178 . - . ID=gene-NB626_RS00175;Name=NB626_RS00175;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB626_RS00175;old_locus_tag=NB626_00180
-ID133A RefSeq gene 2171 4711 . - . ID=gene-NB626_RS00170;Name=NB626_RS00170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB626_RS00170;old_locus_tag=NB626_00175
-ID133A RefSeq gene 4711 7371 . - . ID=gene-NB626_RS00165;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=NB626_RS00165;old_locus_tag=NB626_00170
-ID133A RefSeq gene 7349 7942 . - . ID=gene-NB626_RS00160;Name=NB626_RS00160;gbkey=Gene;gene_biotype=protein_coding;locus_tag=NB626_RS00160;old_locus_tag=NB626_00165

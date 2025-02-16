@@ -1,4 +1,0 @@
-ID1257 RefSeq gene 250 2178 . - . ID=gene-ABKJ22_RS00170;Name=ABKJ22_RS00170;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS00170;old_locus_tag=ABKJ22_00170
-ID1257 RefSeq gene 2171 4711 . - . ID=gene-ABKJ22_RS00165;Name=ABKJ22_RS00165;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS00165;old_locus_tag=ABKJ22_00165
-ID1257 RefSeq gene 4711 7371 . - . ID=gene-ABKJ22_RS00160;Name=ileS;gbkey=Gene;gene=ileS;gene_biotype=protein_coding;locus_tag=ABKJ22_RS00160;old_locus_tag=ABKJ22_00160
-ID1257 RefSeq gene 7349 7942 . - . ID=gene-ABKJ22_RS00155;Name=ABKJ22_RS00155;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ABKJ22_RS00155;old_locus_tag=ABKJ22_00155

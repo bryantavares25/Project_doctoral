@@ -1,2 +1,0 @@
-IDMF11 RefSeq pseudogene 250 525 . + . ID=gene-DR093_RS03025;Name=DR093_RS03025;gbkey=Gene;gene_biotype=pseudogene;locus_tag=DR093_RS03025;old_locus_tag=DR093_03060;partial=true;pseudo=true;start_range=.,1
-IDMF11 RefSeq gene 578 1866 . + . ID=gene-DR093_RS03030;Name=DR093_RS03030;end_range=1617,.;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR093_RS03030;old_locus_tag=DR093_03065;partial=true

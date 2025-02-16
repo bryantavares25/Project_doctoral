@@ -1,5 +1,0 @@
-IDMF22 RefSeq gene 250 2073 . + . ID=gene-DR094_RS00340;Name=pepF;gbkey=Gene;gene=pepF;gene_biotype=protein_coding;locus_tag=DR094_RS00340;old_locus_tag=DR094_00355
-IDMF22 RefSeq gene 2438 3127 . + . ID=gene-DR094_RS00335;Name=DR094_RS00335;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR094_RS00335;old_locus_tag=DR094_00350
-IDMF22 RefSeq gene 3137 3535 . + . ID=gene-DR094_RS00330;Name=DR094_RS00330;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR094_RS00330;old_locus_tag=DR094_00345
-IDMF22 RefSeq gene 3516 3932 . + . ID=gene-DR094_RS00325;Name=DR094_RS00325;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR094_RS00325;old_locus_tag=DR094_00340
-IDMF22 RefSeq gene 4106 4939 . + . ID=gene-DR094_RS00320;Name=DR094_RS00320;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR094_RS00320;old_locus_tag=DR094_00335

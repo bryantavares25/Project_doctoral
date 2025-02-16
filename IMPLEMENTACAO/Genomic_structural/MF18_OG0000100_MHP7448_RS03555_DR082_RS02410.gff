@@ -1,4 +1,0 @@
-IDMF18 RefSeq gene 250 699 . + . ID=gene-DR082_RS02400;Name=DR082_RS02400;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR082_RS02400;old_locus_tag=DR082_02440
-IDMF18 RefSeq gene 881 1033 . + . ID=gene-DR082_RS02405;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=DR082_RS02405;old_locus_tag=DR082_02445
-IDMF18 RefSeq gene 1035 2069 . + . ID=gene-DR082_RS02410;Name=DR082_RS02410;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR082_RS02410;old_locus_tag=DR082_02450
-IDMF18 RefSeq gene 2572 4062 . + . ID=gene-DR082_RS02415;Name=DR082_RS02415;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR082_RS02415;old_locus_tag=DR082_02455

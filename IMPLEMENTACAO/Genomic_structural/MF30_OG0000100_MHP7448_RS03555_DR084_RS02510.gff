@@ -1,4 +1,0 @@
-IDMF30 RefSeq gene 250 699 . + . ID=gene-DR084_RS02500;Name=DR084_RS02500;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS02500;old_locus_tag=DR084_02555
-IDMF30 RefSeq gene 883 1035 . + . ID=gene-DR084_RS02505;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=DR084_RS02505;old_locus_tag=DR084_02560
-IDMF30 RefSeq gene 1037 2071 . + . ID=gene-DR084_RS02510;Name=DR084_RS02510;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS02510;old_locus_tag=DR084_02565
-IDMF30 RefSeq gene 2574 4064 . + . ID=gene-DR084_RS02515;Name=DR084_RS02515;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR084_RS02515;old_locus_tag=DR084_02570

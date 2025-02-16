@@ -1,9 +1,0 @@
-IDES2L RefSeq gene 250 747 . - . ID=gene-HZK19_RS03360;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=HZK19_RS03360;old_locus_tag=HZK19_03360
-IDES2L RefSeq gene 759 1124 . - . ID=gene-HZK19_RS03355;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=HZK19_RS03355;old_locus_tag=HZK19_03355
-IDES2L RefSeq gene 1331 4993 . - . ID=gene-HZK19_RS03350;Name=HZK19_RS03350;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS03350;old_locus_tag=HZK19_03350
-IDES2L RefSeq gene 5050 9288 . - . ID=gene-HZK19_RS03345;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=HZK19_RS03345;old_locus_tag=HZK19_03345
-IDES2L RefSeq gene 9295 9714 . - . ID=gene-HZK19_RS03340;Name=HZK19_RS03340;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS03340;old_locus_tag=HZK19_03340
-IDES2L RefSeq gene 9776 11026 . - . ID=gene-HZK19_RS03335;Name=HZK19_RS03335;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS03335;old_locus_tag=HZK19_03335
-IDES2L RefSeq gene 11016 11693 . - . ID=gene-HZK19_RS03330;Name=HZK19_RS03330;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS03330;old_locus_tag=HZK19_03330
-IDES2L RefSeq gene 11951 14035 . - . ID=gene-HZK19_RS03325;Name=HZK19_RS03325;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS03325;old_locus_tag=HZK19_03325
-IDES2L RefSeq gene 14058 16514 . - . ID=gene-HZK19_RS03320;Name=HZK19_RS03320;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HZK19_RS03320;old_locus_tag=HZK19_03320

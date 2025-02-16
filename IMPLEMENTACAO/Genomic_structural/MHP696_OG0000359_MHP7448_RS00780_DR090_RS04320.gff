@@ -1,7 +1,0 @@
-IDMHP696 RefSeq gene 250 3090 . - . ID=gene-DR090_RS04320;Name=DR090_RS04320;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS04320;old_locus_tag=DR090_00055
-IDMHP696 RefSeq gene 3135 4220 . - . ID=gene-DR090_RS00050;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=DR090_RS00050;old_locus_tag=DR090_00050
-IDMHP696 RefSeq gene 4207 4923 . - . ID=gene-DR090_RS00045;Name=DR090_RS00045;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS00045;old_locus_tag=DR090_00045
-IDMHP696 RefSeq gene 4984 6387 . - . ID=gene-DR090_RS00040;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=DR090_RS00040;old_locus_tag=DR090_00040
-IDMHP696 RefSeq gene 6378 6800 . - . ID=gene-DR090_RS00035;Name=DR090_RS00035;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS00035;old_locus_tag=DR090_00035
-IDMHP696 RefSeq gene 6793 7317 . - . ID=gene-DR090_RS00030;Name=DR090_RS00030;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS00030;old_locus_tag=DR090_00030
-IDMHP696 RefSeq gene 7307 8062 . - . ID=gene-DR090_RS00025;Name=DR090_RS00025;gbkey=Gene;gene_biotype=protein_coding;locus_tag=DR090_RS00025;old_locus_tag=DR090_00025
