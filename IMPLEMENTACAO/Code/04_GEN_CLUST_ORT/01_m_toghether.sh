@@ -16,9 +16,4 @@ mhp=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/mhp_
 mfc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/mhp_gene_co.tsv
 
 #
-
 cat $mhp $mhc > /home/bryan/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene_co_coc.tsv
-
-#
-
-#
