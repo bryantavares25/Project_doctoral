@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -euo pipefail
-
 # START
 
 # ARCHIVE
@@ -19,8 +17,17 @@ coc=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Gene_clusters_ort/gene
 
 while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
 
-    echo $c1
-
+    if [[ "$c1" == "MHP" ]]; then
+        echo "MHP"
+        la=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/${c2}/Use" -type f -path "*/G*.1/cds_from_genomic.fna" 2>/dev/null)
+        echo $la
+    else
+        echo "MFC"
+        la=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/${c2}/Use" -type f -path "*/G*.1/cds_from_genomic.fna" 2>/dev/null)
+        echo $la
+    fi
+    
+ 
 done < $coc
 
 #$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/GCF_000367185.1/cds_from_genomic.fna
