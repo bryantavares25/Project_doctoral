@@ -6,7 +6,7 @@
   "description": "/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MFC_BRIG_input/Ms42.fasta",
   "number-of-letters": 778866,
   "number-of-sequences": 1,
-  "last-updated": "2025-02-12T09:28:00",
+  "last-updated": "2025-02-18T08:52:00",
   "number-of-volumes": 1,
   "bytes-total": 231879,
   "bytes-to-cache": 194918,
