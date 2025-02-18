@@ -24,7 +24,7 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
         IFS=',' read -r -a l <<< "$c8"
         for g in ${l[@]}; do
             echo $g
-            bioawk -c fastx -v g="$g" '{if (index($name, g) > 0) print $seq}' $la
+            bioawk -c fastx -v g="$g" '{if ($comment ~ g)) print g, $comment}' $la
         done
 
     else
@@ -34,15 +34,11 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
         IFS=',' read -r -a l <<< "$c8"
         for g in ${l[@]}; do
             echo $g
-            bioawk -c fastx -v g="$g" '{if (index($name, g) > 0) print $seq}' $la
+            bioawk -c fastx -v g="$g" '{if ($comment ~ g) print g, $comment}' $la
         done
     fi
     
  
 done < $coc
-
-#$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/ATCC27716/Use/GCF_000367185.1/cds_from_genomic.fna
-
-
 
 # END
