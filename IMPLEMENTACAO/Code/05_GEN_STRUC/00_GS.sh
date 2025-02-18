@@ -20,11 +20,11 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
     if [[ "$c1" == "MHP" ]]; then
         echo "MHP"
         la=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/${c2}/Use" -type f -path "*/G*.1/cds_from_genomic.fna" 2>/dev/null)
-        echo $la
+        echo $c4
     else
         echo "MFC"
         la=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_flocculare/strains/${c2}/Use" -type f -path "*/G*.1/cds_from_genomic.fna" 2>/dev/null)
-        echo $la
+        echo $c4
     fi
     
  
