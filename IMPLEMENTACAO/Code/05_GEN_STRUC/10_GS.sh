@@ -19,11 +19,10 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
 
     if [[ "$c1" == "MHP" ]]; then
         echo "MHP $c4 $c8"
-        la=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/${c2}/Use" -type f -path "*/G*.1/cds_from_genomic.fna" 2>/dev/null)
+        la=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/${c2}/Use" -type f -path "*/G*.1/cds_from_genomic.fna")
 
         IFS=',' read -r -a l <<< "$c8"
         for g in ${l[@]}; do
-            echo $g
             bioawk -c fastx -v g="$g" '{if ($comment ~ g) print g, $comment}' $la
         done
 
@@ -33,7 +32,6 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
 
         IFS=',' read -r -a l <<< "$c8"
         for g in ${l[@]}; do
-            echo $g
             bioawk -c fastx -v g="$g" '{if ($comment ~ g) print g, $comment}' $la
         done
     fi
