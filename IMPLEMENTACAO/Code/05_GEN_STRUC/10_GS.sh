@@ -26,7 +26,7 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
             la=$(find "${dir}/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomes/M_hyopneumoniae/strains/${c2}/Use" -type f -path "*/G*.1/cds_from_genomic.fna")
             IFS=',' read -r -a l <<< "$c8"
             for g in ${l[@]}; do
-                bioawk -c fastx -v g="$g" '{if ($comment ~ g) print ">"g"\n"$seq}' $la ##>> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c2}_${c4}.fasta
+                bioawk -c fastx -v g="$g" '{if ($comment ~ g) print ">"g"\n"$seq}' $la >> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c2}_${c4}.fasta
             done
         else
             echo "MFC" $c4 $c8
@@ -34,7 +34,7 @@ while IFS=$'\t' read -r c1 c2 c3 c4 c5 c6 c7 c8; do
 
             IFS=',' read -r -a l <<< "$c8"
             for g in ${l[@]}; do
-                bioawk -c fastx -v g="$g" '{if ($comment ~ g) print ">"g"\n"$seq}' $la #>> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c2}_${c4}.fasta
+                bioawk -c fastx -v g="$g" '{if ($comment ~ g) print ">"g"\n"$seq}' $la >> $dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/${c2}_${c4}.fasta
             done
         fi
     else
