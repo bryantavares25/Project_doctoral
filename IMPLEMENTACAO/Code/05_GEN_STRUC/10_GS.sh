@@ -47,7 +47,9 @@ done < $coc
 rm -f "$tmpfile"
 
 a=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/
+b=$dir/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Genomic_structural/Clean/
 for file in "$a"*.fasta; do
-    seqkit rmdup -i $file -o ${${file%.fasta}}
+    seqkit rmdup -i $file -o ${file%.fasta}_cleaned.fasta
+    mv ${file%.fasta}_cleaned.fasta $b
 done
 # END
