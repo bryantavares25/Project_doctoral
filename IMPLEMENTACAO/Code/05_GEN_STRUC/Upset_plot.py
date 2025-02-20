@@ -1,6 +1,9 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 from upsetplot import UpSet
+import pylustrator
+
+pylustrator.start()
 
 # Criando um DataFrame com conjuntos binários (1 = presente, 0 = ausente)
 data = pd.DataFrame({
