@@ -10,7 +10,10 @@ sns.set(style="whitegrid", context="talk", font="sans-serif")
 df = pd.DataFrame({
     "A": [1, 1, 0, 1, 0, 1, 1, 0, 1, 1],
     "B": [0, 1, 1, 1, 1, 0, 0, 1, 0, 1],
-    "C": [1, 0, 1, 1, 0, 1, 0, 1, 0, 1]
+    "C": [1, 0, 1, 1, 0, 1, 0, 1, 0, 1],
+    "D": [1, 0, 1, 1, 0, 1, 0, 1, 0, 1],
+    "E": [1, 0, 1, 1, 0, 1, 0, 1, 0, 1],
+    "F": [1, 0, 1, 1, 0, 1, 0, 1, 0, 1]
 })
 
 # Contando a frequência de cada combinação de conjuntos
@@ -19,7 +22,7 @@ upset_data = df.groupby(list(df.columns)).size()
 # Criando o gráfico UpSet
 fig, ax = plt.subplots(figsize=(8, 6), facecolor="white")
 
-upset = UpSet(upset_data)
+upset = UpSet(upset_data, sort_categories_by="-input")
 upset.style_subsets(min_subset_size=1, edgecolor="white", linewidth=0.1)
 
 # Removendo as linhas de conexão
