@@ -66,6 +66,36 @@
   <ring colour="75,147,7" name="MHP694" position="14" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
     <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP694.fasta" />
   </ring>
+  <ring colour="46,118,176" name="NCTC10127" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/NCTC10127.fasta" />
+  </ring>
+  <ring colour="61,189,103" name="MHP691" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP691.fasta" />
+  </ring>
+  <ring colour="187,188,54" name="MHP653" position="4" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP653.fasta" />
+  </ring>
+  <ring colour="60,186,170" name="MHP699" position="5" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP699.fasta" />
+  </ring>
+  <ring colour="91,196,73" name="MHP679" position="6" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP679.fasta" />
+  </ring>
+  <ring colour="93,58,160" name="MHP650" position="7" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP650.fasta" />
+  </ring>
+  <ring colour="114,39,2" name="168L" position="15" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/168L.fasta" />
+  </ring>
+  <ring colour="135,122,1" name="168" position="16" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/168.fasta" />
+  </ring>
+  <ring colour="136,1,97" name="MHP682" position="17" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP682.fasta" />
+  </ring>
+  <ring colour="180,93,36" name="232" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
+    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/232.fasta" />
+  </ring>
   <ring colour="226,38,122" name="null" position="18" upperInt="70" lowerInt="50" legend="no" size="30" labels="yes" blastType="blastn">
     <feature label="MHP7448_RS00160" colour="black" decoration="arc">
       <featureRange start="37287" stop="37880" label="37287" />
@@ -103,36 +133,6 @@
     <feature label="MHP7448_RS03555" colour="black" decoration="arc">
       <featureRange start="881870" stop="882907" />
     </feature>
-  </ring>
-  <ring colour="46,118,176" name="NCTC10127" position="2" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/NCTC10127.fasta" />
-  </ring>
-  <ring colour="61,189,103" name="MHP691" position="3" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP691.fasta" />
-  </ring>
-  <ring colour="187,188,54" name="MHP653" position="4" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP653.fasta" />
-  </ring>
-  <ring colour="60,186,170" name="MHP699" position="5" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP699.fasta" />
-  </ring>
-  <ring colour="91,196,73" name="MHP679" position="6" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP679.fasta" />
-  </ring>
-  <ring colour="93,58,160" name="MHP650" position="7" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP650.fasta" />
-  </ring>
-  <ring colour="114,39,2" name="168L" position="15" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/168L.fasta" />
-  </ring>
-  <ring colour="135,122,1" name="168" position="16" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/168.fasta" />
-  </ring>
-  <ring colour="136,1,97" name="MHP682" position="17" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/MHP682.fasta" />
-  </ring>
-  <ring colour="180,93,36" name="232" position="1" upperInt="70" lowerInt="50" legend="yes" size="30" labels="no" blastType="blastn">
-    <sequence location="/home/lgef/Documentos/GitHub/Project_doctoral/IMPLEMENTACAO/Figures/00_MHP_BRIG_input/232.fasta" />
   </ring>
 </BRIG>
 

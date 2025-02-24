@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?><cgview arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.25" tickThickness="medium" titleFont="SansSerif,bold-italic,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,20" warningFontColor="black" width="2750" zeroTickColor="black" tickLength="medium"  sequenceLength="778866" title="M. flocculare">
-<legend position="lower-right" font="Default,plain,20" backgroundOpacity="0.8">
+<?xml version="1.0" encoding="ISO-8859-1" ?><cgview arrowheadLength="medium" backboneColor="black" backboneRadius="600" backboneThickness="medium" backgroundColor="white" borderColor="black" featureSlotSpacing="medium" featureThickness="30" giveFeaturePositions="false" globalLabel="true" height="2000" isLinear="false" labelFont="SansSerif,plain,25" labelLineLength="medium" labelLineThickness="medium" labelPlacementQuality="best" labelsToKeep="1000" longTickColor="black" minimumFeatureLength="medium" moveInnerLabelsToOuter="true" origin="12" rulerFont="SansSerif,plain,35" rulerFontColor="black" rulerPadding="40" rulerUnits="bases" shortTickColor="black" shortTickThickness="medium" showBorder="false" showShading="true" showWarning="false" tickDensity="0.25" tickThickness="medium" titleFont="SansSerif,plain,45" titleFontColor="black" useColoredLabelBackgrounds="false" useInnerLabels="true" warningFont="Default,plain,20" warningFontColor="black" width="2750" zeroTickColor="black" tickLength="medium"  sequenceLength="778866" title="M.esomycoplasma flocculare">
+<legend position="upper-right" font="Default,plain,20" backgroundOpacity="0.8">
 <legendItem text="Ms42" />
 <legendItem text="100% identity" font="Default,plain,15" drawSwatch="true" swatchColor="rgb(175,25,225)" />
 <legendItem text="70% identity" font="Default,plain,15" drawSwatch="true" swatchColor="rgb(205,145,225)" />
@@ -33,7 +33,7 @@
 <legendItem text="70% identity" font="Default,plain,15" drawSwatch="true" swatchColor="rgb(145,145,205)" />
 <legendItem text="50% identity" font="Default,plain,15" drawSwatch="true" swatchColor="rgb(225,225,225)" />
 </legend>
-<featureSlot strand="direct" featureThickness="30">
+<featureSlot strand="direct" featureThickness="15">
 <feature color="rgb(186,69,225)" decoration="arc" ><featureRange start="392210" stop="392698" /></feature>
 <feature color="rgb(186,69,225)" decoration="arc" ><featureRange start="390440" stop="390925" /></feature>
 <feature color="rgb(178,37,225)" decoration="arc" ><featureRange start="656179" stop="656625" /></feature>
@@ -61,7 +61,7 @@
 <feature color="rgb(176,29,225)" decoration="arc" ><featureRange start="260908" stop="271805" /></feature>
 <feature color="rgb(176,29,225)" decoration="arc" ><featureRange start="250028" stop="260926" /></feature>
 <feature color="rgb(175,25,225)" decoration="arc" ><featureRange start="1" stop="778866" /></feature>
-</featureSlot><featureSlot strand="direct" featureThickness="30">
+</featureSlot><featureSlot strand="direct" featureThickness="15">
 <feature color="rgb(69,147,147)" decoration="arc" ><featureRange start="390440" stop="390925" /></feature>
 <feature color="rgb(61,143,143)" decoration="arc" ><featureRange start="392210" stop="392698" /></feature>
 <feature color="rgb(93,159,159)" decoration="arc" ><featureRange start="404050" stop="404724" /></feature>
@@ -132,7 +132,7 @@
 <feature color="rgb(69,147,147)" decoration="arc" ><featureRange start="730282" stop="730309" /></feature>
 <feature color="rgb(101,163,163)" decoration="arc" ><featureRange start="487663" stop="487700" /></feature>
 <feature color="rgb(109,167,167)" decoration="arc" ><featureRange start="145360" stop="145402" /></feature>
-</featureSlot><featureSlot strand="direct" featureThickness="30">
+</featureSlot><featureSlot strand="direct" featureThickness="15">
 <feature color="rgb(101,194,132)" decoration="arc" ><featureRange start="356544" stop="357270" /></feature>
 <feature color="rgb(53,182,96)" decoration="arc" ><featureRange start="610877" stop="611341" /></feature>
 <feature color="rgb(41,179,87)" decoration="arc" ><featureRange start="614758" stop="615216" /></feature>
@@ -238,7 +238,7 @@
 <feature color="rgb(45,180,90)" decoration="arc" ><featureRange start="397968" stop="397990" /></feature>
 <feature color="rgb(45,180,90)" decoration="arc" ><featureRange start="396019" stop="396041" /></feature>
 <feature color="rgb(109,196,138)" decoration="arc" ><featureRange start="145360" stop="145402" /></feature>
-</featureSlot><featureSlot strand="direct" featureThickness="30">
+</featureSlot><featureSlot strand="direct" featureThickness="15">
 <feature color="rgb(147,186,69)" decoration="arc" ><featureRange start="390440" stop="390925" /></feature>
 <feature color="rgb(127,176,29)" decoration="arc" ><featureRange start="655468" stop="655896" /></feature>
 <feature color="rgb(159,192,93)" decoration="arc" ><featureRange start="356544" stop="357270" /></feature>
@@ -314,7 +314,7 @@
 <feature color="rgb(153,189,81)" decoration="arc" ><featureRange start="624840" stop="624874" /></feature>
 <feature color="rgb(163,194,101)" decoration="arc" ><featureRange start="487663" stop="487700" /></feature>
 <feature color="rgb(167,196,109)" decoration="arc" ><featureRange start="145360" stop="145402" /></feature>
-</featureSlot><featureSlot strand="direct" featureThickness="30">
+</featureSlot><featureSlot strand="direct" featureThickness="15">
 <feature color="rgb(179,87,41)" decoration="arc" ><featureRange start="484500" stop="484886" /></feature>
 <feature color="rgb(178,84,37)" decoration="arc" ><featureRange start="389359" stop="389748" /></feature>
 <feature color="rgb(178,84,37)" decoration="arc" ><featureRange start="402774" stop="403159" /></feature>
@@ -387,7 +387,7 @@
 <feature color="rgb(193,129,97)" decoration="arc" ><featureRange start="729838" stop="729872" /></feature>
 <feature color="rgb(186,108,69)" decoration="arc" ><featureRange start="730282" stop="730309" /></feature>
 <feature color="rgb(189,117,81)" decoration="arc" ><featureRange start="624840" stop="624874" /></feature>
-</featureSlot><featureSlot strand="direct" featureThickness="30">
+</featureSlot><featureSlot strand="direct" featureThickness="15">
 <feature color="rgb(195,105,105)" decoration="arc" ><featureRange start="391438" stop="392260" /></feature>
 <feature color="rgb(177,33,33)" decoration="arc" ><featureRange start="655468" stop="655896" /></feature>
 <feature color="rgb(177,33,33)" decoration="arc" ><featureRange start="656179" stop="656625" /></feature>
@@ -460,7 +460,7 @@
 <feature color="rgb(189,81,81)" decoration="arc" ><featureRange start="624840" stop="624874" /></feature>
 <feature color="rgb(189,81,81)" decoration="arc" ><featureRange start="403656" stop="403691" /></feature>
 <feature color="rgb(196,109,109)" decoration="arc" ><featureRange start="145360" stop="145402" /></feature>
-</featureSlot><featureSlot strand="direct" featureThickness="30">
+</featureSlot><featureSlot strand="direct" featureThickness="15">
 <feature color="rgb(186,69,147)" decoration="arc" ><featureRange start="392210" stop="392698" /></feature>
 <feature color="rgb(193,97,161)" decoration="arc" ><featureRange start="404074" stop="404724" /></feature>
 <feature color="rgb(181,49,137)" decoration="arc" ><featureRange start="390498" stop="390925" /></feature>
@@ -556,7 +556,7 @@
 <feature color="rgb(186,69,147)" decoration="arc" ><featureRange start="730282" stop="730309" /></feature>
 <feature color="rgb(186,69,147)" decoration="arc" ><featureRange start="689123" stop="689150" /></feature>
 <feature color="rgb(196,109,167)" decoration="arc" ><featureRange start="145360" stop="145402" /></feature>
-</featureSlot><featureSlot strand="direct" featureThickness="30">
+</featureSlot><featureSlot strand="direct" featureThickness="15">
 <feature color="rgb(69,69,186)" decoration="arc" ><featureRange start="392210" stop="392698" /></feature>
 <feature color="rgb(69,69,186)" decoration="arc" ><featureRange start="390440" stop="390925" /></feature>
 <feature color="rgb(53,53,182)" decoration="arc" ><featureRange start="612618" stop="613066" /></feature>
@@ -610,7 +610,7 @@
 <feature color="rgb(49,49,181)" decoration="arc" ><featureRange start="732489" stop="732658" /></feature>
 <feature color="rgb(25,25,175)" decoration="arc" ><featureRange start="689055" stop="689079" /></feature>
 <feature color="rgb(137,137,203)" decoration="arc" ><featureRange start="16964" stop="17038" /></feature>
-</featureSlot><featureSlot strand="direct" featureThickness="30">
+</featureSlot><featureSlot strand="direct" featureThickness="15">
 <feature color="black"  decoration="arc"  label= "MYF_RS00120" >
 <featureRange start="24331" stop="24945" />
 </feature>
