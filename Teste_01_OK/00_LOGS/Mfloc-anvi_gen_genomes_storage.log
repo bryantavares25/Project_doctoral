@@ -1,0 +1,30 @@
+
+WARNING
+===============================================
+Good news! Anvi'o found all these functions that are common to all of your
+genomes and will use them for downstream analyses and is very proud of you:
+'Transfer_RNAs'.
+
+Internal genomes .............................: 0 have been initialized.
+External genomes .............................: 8 found.
+
+JUST FYI
+===============================================
+Some of your genomes had gene calls identified by gene callers other than the
+anvi'o default, 'prodigal', and will not be processed. Use the `--debug` flag if
+this sounds important and you would like to see more of this message.
+
+
+* Mesomycoplasma_flocculare_ATCC_27399_GCF_000815065_1 is stored with 592 genes (1 of which were partial)
+* Mesomycoplasma_flocculare_ATCC_27716_GCF_000367185_1 is stored with 592 genes (18 of which were partial)
+* Mesomycoplasma_flocculare_GCF_009831495_1 is stored with 625 genes (78 of which were partial)
+* Mesomycoplasma_flocculare_GCF_009831965_1 is stored with 612 genes (48 of which were partial)
+* Mesomycoplasma_flocculare_GCF_009832015_1 is stored with 579 genes (32 of which were partial)
+* Mesomycoplasma_flocculare_GCF_009832145_1 is stored with 586 genes (34 of which were partial)
+* Mesomycoplasma_flocculare_GCF_009832165_1 is stored with 570 genes (38 of which were partial)
+* Mesomycoplasma_flocculare_GCF_009832185_1 is stored with 586 genes (34 of which were partial)
+
+The new genomes storage ......................: 03_PAN/Mfloc-GENOMES.db (v7, signature: hasha6487189)
+Number of genomes ............................: 8 (internal: 0, external: 8)
+Number of gene calls .........................: 4,742
+Number of partial gene calls .................: 283

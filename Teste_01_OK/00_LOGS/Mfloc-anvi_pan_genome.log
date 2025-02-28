@@ -1,0 +1,54 @@
+
+WARNING
+===============================================
+If you publish results from this workflow, please do not forget to cite DIAMOND
+(doi:10.1038/nmeth.3176), unless you use it with --use-ncbi-blast flag, and MCL
+(http://micans.org/mcl/ and doi:10.1007/978-1-61779-361-5_15)
+
+Functions found ..............................: 
+Genomes storage ..............................: Initialized (storage hash: hasha6487189)
+Num genomes in storage .......................: 8
+Num genomes will be used .....................: 8
+Pan database .................................: A new database, /home/bryan/Documentos/Anvio/03_PAN/Mfloc-PAN.db, has been created.
+Exclude partial gene calls ...................: False
+
+AA sequences FASTA ...........................: /home/bryan/Documentos/Anvio/03_PAN/combined-aas.fa
+
+Num AA sequences reported ....................: 4,742
+Num excluded gene calls ......................: 0
+Unique AA sequences FASTA ....................: /home/bryan/Documentos/Anvio/03_PAN/combined-aas.fa.unique
+
+DIAMOND MAKEDB
+===============================================
+Diamond search DB ............................: /home/bryan/Documentos/Anvio/03_PAN/combined-aas.fa.unique.dmnd
+
+DIAMOND BLASTP
+===============================================
+Additional params for blastp .................: --masking 0
+Search results ...............................: /home/bryan/Documentos/Anvio/03_PAN/diamond-search-results.txt
+
+DIAMOND VIEW
+===============================================
+Diamond un-uniqued tabular output file .......: /home/bryan/Documentos/Anvio/03_PAN/diamond-search-results.txt
+
+MCL INPUT
+===============================================
+Min percent identity .........................: 0.0
+Minbit .......................................: 0.5
+Filtered search results ......................: 40,334 edges stored
+MCL input ....................................: /home/bryan/Documentos/Anvio/03_PAN/mcl-input.txt
+
+MCL
+===============================================
+MCL inflation ................................: 2.0
+MCL output ...................................: /home/bryan/Documentos/Anvio/03_PAN/mcl-clusters.txt
+Number of MCL clusters .......................: 649
+
+CITATION
+===============================================
+The workflow you are using will likely use 'muscle' by Edgar,
+doi:10.1093/nar/gkh340 (http://www.drive5.com/muscle) to align your sequences.
+If you publish your findings, please do not forget to properly credit this tool.
+
+* Your pangenome is ready with a total of 649 gene clusters across 8 genomes 🎉
+

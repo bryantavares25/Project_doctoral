@@ -1,0 +1,39 @@
+Input FASTA file .............................: /home/bryan/Documentos/Anvio/01_FASTA/Mesomycoplasma_flocculare_ATCC_27716_GCF_000367185_1/Mesomycoplasma_flocculare_ATCC_27716_GCF_000367185_1-contigs.fa
+Name .........................................: Mesomycoplasma_flocculare_ATCC_27716_GCF_000367185_1
+Description ..................................: No description is given
+Num threads for gene calling .................: 1
+
+Finding ORFs in contigs
+===============================================
+Genes ........................................: /tmp/tmpexur50ca/contigs.genes
+Amino acid sequences .........................: /tmp/tmpexur50ca/contigs.amino_acid_sequences
+Log file .....................................: /tmp/tmpexur50ca/00_log.txt
+
+CITATION
+===============================================
+Anvi'o will use 'prodigal' by Hyatt et al (doi:10.1186/1471-2105-11-119) to
+identify open reading frames in your data. When you publish your findings,
+please do not forget to properly credit their work.
+
+Result .......................................: Prodigal (v2.6.3) has identified 592 genes.
+
+
+CONTIGS DB CREATE REPORT
+===============================================
+Split Length .................................: 20,000
+K-mer size ...................................: 4
+Skip gene calling? ...........................: False
+External gene calls provided? ................: False
+Ignoring internal stop codons? ...............: False
+Splitting pays attention to gene calls? ......: True
+Contigs with at least one gene call ..........: 14 of 14 (100.0%)
+Contigs database .............................: A new database, 02_CONTIGS/Mesomycoplasma_flocculare_ATCC_27716_GCF_000367185_1-contigs.db, has been created.
+Number of contigs ............................: 14
+Number of splits .............................: 38
+Total number of nucleotides ..................: 763,948
+Gene calling step skipped ....................: False
+Splits broke genes (non-mindful mode) ........: False
+Desired split length (what the user wanted) ..: 20,000
+Average split length (what anvi'o gave back) .: 21,167
+
+✓ anvi-gen-contigs-database took 0:00:05.955830

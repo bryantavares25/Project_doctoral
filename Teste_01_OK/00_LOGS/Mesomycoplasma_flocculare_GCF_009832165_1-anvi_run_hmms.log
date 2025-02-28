@@ -1,0 +1,277 @@
+Contigs DB ...................................: 02_CONTIGS/Mesomycoplasma_flocculare_GCF_009832165_1-contigs.db
+HMM sources ..................................: Ribosomal_RNA_23S, Protista_83, Ribosomal_RNA_12S, Ribosomal_RNA_16S, Ribosomal_RNA_5S, Archaea_76, Ribosomal_RNA_18S, Bacteria_71, Ribosomal_RNA_28S
+Alphabet/context target found ................: RNA:CONTIG
+Alphabet/context target found ................: AA:GENE
+Target sequences determined ..................: 31 sequences for RNA:CONTIG; 570 sequences for AA:GENE
+
+HMM Profiling for Ribosomal_RNA_23S
+===============================================
+Reference ....................................: Seeman T, https://github.com/tseemann/barrnap
+Kind .........................................: Ribosomal_RNA_23S
+Alphabet .....................................: RNA
+Context ......................................: CONTIG
+Domain .......................................: N/A
+HMM model path ...............................: /tmp/tmpa_361oah/Ribosomal_RNA_23S.hmm
+Number of genes in HMM model .................: 2
+Noise cutoff term(s) .........................: --cut_ga
+Number of CPUs will be used for search .......: 4
+HMMer program used for search ................: nhmmscan
+Temporary work dir ...........................: /tmp/tmprtdhh_8c
+Log file for thread 0 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.0_log
+Log file for thread 1 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.1_log
+Log file for thread 2 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.2_log
+Log file for thread 3 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.3_log
+
+Done with Ribosomal_RNA_23S 🎊
+
+Number of raw hits in table file .............: 2
+Number of weak hits removed by HMMER parser ..: 0
+Number of hits in annotation dict  ...........: 2
+Pruned .......................................: 1 out of 2 hits were removed due to redundancy
+Gene calls added to db .......................: 1 (from source "Ribosomal_RNA_23S")
+
+HMM Profiling for Protista_83
+===============================================
+Reference ....................................: Delmont, http://merenlab.org/delmont-euk-scgs
+Kind .........................................: singlecopy
+Alphabet .....................................: AA
+Context ......................................: GENE
+Domain .......................................: eukarya
+HMM model path ...............................: /tmp/tmpa_361oah/Protista_83.hmm
+Number of genes in HMM model .................: 83
+Noise cutoff term(s) .........................: -E 1e-25
+Number of CPUs will be used for search .......: 4
+HMMer program used for search ................: hmmscan
+Temporary work dir ...........................: /tmp/tmpm43m_q35
+Log file for thread 0 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.0_log
+Log file for thread 1 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.1_log
+Log file for thread 2 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.2_log
+Log file for thread 3 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.3_log
+
+Done with Protista_83 🎊
+
+Number of raw hits in table file .............: 0
+
+* The HMM source 'Protista_83' returned 0 hits. SAD (but it's OK).
+
+HMM Profiling for Ribosomal_RNA_12S
+===============================================
+Reference ....................................: Seeman T, https://github.com/tseemann/barrnap
+Kind .........................................: Ribosomal_RNA_12S
+Alphabet .....................................: RNA
+Context ......................................: CONTIG
+Domain .......................................: N/A
+HMM model path ...............................: /tmp/tmpa_361oah/Ribosomal_RNA_12S.hmm
+Number of genes in HMM model .................: 1
+Noise cutoff term(s) .........................: --cut_ga
+Number of CPUs will be used for search .......: 4
+HMMer program used for search ................: nhmmscan
+Temporary work dir ...........................: /tmp/tmprtdhh_8c
+Log file for thread 0 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.0_log
+Log file for thread 1 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.1_log
+Log file for thread 2 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.2_log
+Log file for thread 3 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.3_log
+
+Done with Ribosomal_RNA_12S 🎊
+
+Number of raw hits in table file .............: 0
+
+* The HMM source 'Ribosomal_RNA_12S' returned 0 hits. SAD (but it's OK).
+
+HMM Profiling for Ribosomal_RNA_16S
+===============================================
+Reference ....................................: Seeman T, https://github.com/tseemann/barrnap
+Kind .........................................: Ribosomal_RNA_16S
+Alphabet .....................................: RNA
+Context ......................................: CONTIG
+Domain .......................................: N/A
+HMM model path ...............................: /tmp/tmpa_361oah/Ribosomal_RNA_16S.hmm
+Number of genes in HMM model .................: 3
+Noise cutoff term(s) .........................: --cut_ga
+Number of CPUs will be used for search .......: 4
+HMMer program used for search ................: nhmmscan
+Temporary work dir ...........................: /tmp/tmprtdhh_8c
+Log file for thread 0 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.0_log
+Log file for thread 1 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.1_log
+Log file for thread 2 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.2_log
+Log file for thread 3 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.3_log
+
+Done with Ribosomal_RNA_16S 🎊
+
+Number of raw hits in table file .............: 0
+
+* The HMM source 'Ribosomal_RNA_16S' returned 0 hits. SAD (but it's OK).
+
+HMM Profiling for Ribosomal_RNA_5S
+===============================================
+Reference ....................................: Seeman T, https://github.com/tseemann/barrnap
+Kind .........................................: Ribosomal_RNA_5S
+Alphabet .....................................: RNA
+Context ......................................: CONTIG
+Domain .......................................: N/A
+HMM model path ...............................: /tmp/tmpa_361oah/Ribosomal_RNA_5S.hmm
+Number of genes in HMM model .................: 5
+Noise cutoff term(s) .........................: --cut_ga
+Number of CPUs will be used for search .......: 4
+HMMer program used for search ................: nhmmscan
+Temporary work dir ...........................: /tmp/tmprtdhh_8c
+Log file for thread 0 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.0_log
+Log file for thread 1 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.1_log
+Log file for thread 2 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.2_log
+Log file for thread 3 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.3_log
+
+Done with Ribosomal_RNA_5S 🎊
+
+Number of raw hits in table file .............: 0
+
+* The HMM source 'Ribosomal_RNA_5S' returned 0 hits. SAD (but it's OK).
+
+HMM Profiling for Archaea_76
+===============================================
+Reference ....................................: Lee, https://doi.org/10.1093/bioinformatics/btz188
+Kind .........................................: singlecopy
+Alphabet .....................................: AA
+Context ......................................: GENE
+Domain .......................................: archaea
+HMM model path ...............................: /tmp/tmpa_361oah/Archaea_76.hmm
+Number of genes in HMM model .................: 76
+Noise cutoff term(s) .........................: --cut_ga
+Number of CPUs will be used for search .......: 4
+HMMer program used for search ................: hmmscan
+Temporary work dir ...........................: /tmp/tmpm43m_q35
+Log file for thread 0 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.0_log
+Log file for thread 1 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.1_log
+Log file for thread 2 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.2_log
+Log file for thread 3 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.3_log
+
+Done with Archaea_76 🎊
+
+Number of raw hits in table file .............: 26
+Number of weak hits removed by HMMER parser ..: 0
+Number of hits in annotation dict  ...........: 26
+
+HMM Profiling for Ribosomal_RNA_18S
+===============================================
+Reference ....................................: Seeman T, https://github.com/tseemann/barrnap
+Kind .........................................: Ribosomal_RNA_18S
+Alphabet .....................................: RNA
+Context ......................................: CONTIG
+Domain .......................................: N/A
+HMM model path ...............................: /tmp/tmpa_361oah/Ribosomal_RNA_18S.hmm
+Number of genes in HMM model .................: 1
+Noise cutoff term(s) .........................: --cut_ga
+Number of CPUs will be used for search .......: 4
+HMMer program used for search ................: nhmmscan
+Temporary work dir ...........................: /tmp/tmprtdhh_8c
+Log file for thread 0 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.0_log
+Log file for thread 1 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.1_log
+Log file for thread 2 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.2_log
+Log file for thread 3 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.3_log
+
+Done with Ribosomal_RNA_18S 🎊
+
+Number of raw hits in table file .............: 0
+
+* The HMM source 'Ribosomal_RNA_18S' returned 0 hits. SAD (but it's OK).
+
+HMM Profiling for Bacteria_71
+===============================================
+Reference ....................................: Lee modified, https://doi.org/10.1093/bioinformatics/btz188
+Kind .........................................: singlecopy
+Alphabet .....................................: AA
+Context ......................................: GENE
+Domain .......................................: bacteria
+HMM model path ...............................: /tmp/tmpa_361oah/Bacteria_71.hmm
+Number of genes in HMM model .................: 71
+Noise cutoff term(s) .........................: --cut_ga
+Number of CPUs will be used for search .......: 4
+HMMer program used for search ................: hmmscan
+Temporary work dir ...........................: /tmp/tmpm43m_q35
+Log file for thread 0 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.0_log
+Log file for thread 1 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.1_log
+Log file for thread 2 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.2_log
+Log file for thread 3 ........................: /tmp/tmpm43m_q35/AA_gene_sequences.fa.3_log
+
+Done with Bacteria_71 🎊
+
+Number of raw hits in table file .............: 59
+Number of weak hits removed by HMMER parser ..: 0
+Number of hits in annotation dict  ...........: 59
+
+HMM Profiling for Ribosomal_RNA_28S
+===============================================
+Reference ....................................: Seeman T, https://github.com/tseemann/barrnap
+Kind .........................................: Ribosomal_RNA_28S
+Alphabet .....................................: RNA
+Context ......................................: CONTIG
+Domain .......................................: N/A
+HMM model path ...............................: /tmp/tmpa_361oah/Ribosomal_RNA_28S.hmm
+Number of genes in HMM model .................: 1
+Noise cutoff term(s) .........................: --cut_ga
+Number of CPUs will be used for search .......: 4
+HMMer program used for search ................: nhmmscan
+Temporary work dir ...........................: /tmp/tmprtdhh_8c
+Log file for thread 0 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.0_log
+Log file for thread 1 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.1_log
+Log file for thread 2 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.2_log
+Log file for thread 3 ........................: /tmp/tmprtdhh_8c/RNA_contig_sequences.fa.3_log
+
+Done with Ribosomal_RNA_28S 🎊
+
+Number of raw hits in table file .............: 0
+
+* The HMM source 'Ribosomal_RNA_28S' returned 0 hits. SAD (but it's OK).
+
+WARNING
+===============================================
+The version of tRNAscan-SE installed on your system ('2.0.12') is not one of
+those that we tested its anvi'o driver with. Anvi'o will continue to try to run
+everything as if this didn't happen. If you see this warning but everything
+works fine, let us know so we can include this version number into the list of
+'tested' version numbers. If you see an unexpected error, please consider
+installing one of these versions of tRNAScan-SE (and again please let us know
+anyway so we can address it for later): '2.0.5, 2.0.7, 2.0.9'
+
+Temporary dir ................................: /tmp/tmp4i2hwm3w
+FASTA file for contigs .......................: /tmp/tmp4i2hwm3w/contig_sequences.fa
+tRNA hits output .............................: /tmp/tmp4i2hwm3w/hits_file.txt
+Log file .....................................: /tmp/tmp4i2hwm3w/log.txt
+Cutoff score .................................: 20
+tRNAscan-SE version found ....................: 2.0.12
+
+
+WARNING
+===============================================
+The version of tRNAscan-SE installed on your system ('2.0.12') is not one of
+those that we tested its anvi'o driver with. Anvi'o will continue to try to run
+everything as if this didn't happen. If you see this warning but everything
+works fine, let us know so we can include this version number into the list of
+'tested' version numbers. If you see an unexpected error, please consider
+installing one of these versions of tRNAScan-SE (and again please let us know
+anyway so we can address it for later): '2.0.5, 2.0.7, 2.0.9'
+
+
+CITATION
+===============================================
+Anvi'o will use 'tRNAScan-SE' by Chan and Lowe (doi:10.1007/978-1-4939-9173-0_1)
+to identify tRNA sequences in your data. When you publish your findings, please
+do not forget to properly credit their work.
+
+Num tRNA genes parsed ........................: 29
+Num tRNA genes with introns ..................: 0
+
+Num tRNA genes recovered .....................: 28
+
+WEIRD CODONS ALERT
+===============================================
+While anvi'o was trying to parse the output from tRNAScan-SE, it became clear
+that some of the codons the tool identified was not known to anvi'o, so we
+conservatively discareded those entries. Here is the list of codons that were
+discareded and their frequency among your contigs: 'TCA (1)'.
+
+Gene calls added to db .......................: 28 (from source "Transfer_RNAs")
+
+* Temp directory is now cleaned (if you would like to keep it the next time use
+  the flag `--debug`).
+
+✓ anvi-run-hmms took 0:00:14.866739

@@ -1,0 +1,25 @@
+Input ........................................: 01_FASTA/Mesomycoplasma_flocculare_GCF_009831495_1/Mesomycoplasma_flocculare_GCF_009831495_1-contigs-prefix-formatted-only.fa
+Output .......................................: 01_FASTA/Mesomycoplasma_flocculare_GCF_009831495_1/Mesomycoplasma_flocculare_GCF_009831495_1-contigs.fa
+
+WHAT WAS THERE
+===============================================
+Total num contigs ............................: 67
+Total num nucleotides ........................: 765,689
+
+WHAT WAS ASKED
+===============================================
+Simplify deflines? ...........................: No
+Add prefix to sequence names? ................: No
+Minimum length of contigs to keep ............: 0
+Max % gaps allowed ...........................: 100.00%
+Max num gaps allowed .........................: 1,000,000
+Exclude specific sequences? ..................: No
+Keep specific sequences? .....................: No
+Enforce sequence type? .......................: No
+
+WHAT HAPPENED
+===============================================
+Contigs removed ..............................: 0 (0.00% of all)
+Nucleotides removed ..........................: 0 (0.00% of all)
+Nucleotides modified .........................: 0 (0.00000% of all)
+Deflines simplified ..........................: False

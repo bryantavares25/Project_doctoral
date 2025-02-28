@@ -1,0 +1,487 @@
+gene_callers_id	source	accession	function	e_value
+0	NCBI_PGAP	WP_334296055.1	thermonuclease family protein	0
+1	NCBI_PGAP	WP_160593532.1	SsrA-binding protein SmpB (smpB)	0
+2	NCBI_PGAP	WP_160593534.1	cation-translocating P-type ATPase	0
+3	NCBI_PGAP	WP_002557557.1	nucleotidyltransferase	0
+4	NCBI_PGAP	WP_160583973.1	NAD-dependent DNA ligase LigA (ligA)	0
+5	NCBI_PGAP	WP_160581203.1	energy-coupling factor transporter transmembrane component T family protein	0
+6	NCBI_PGAP	WP_160593536.1	ATP-binding cassette domain-containing protein	0
+7	NCBI_PGAP	WP_160581199.1	energy-coupling factor transporter ATPase	0
+8	NCBI_PGAP	WP_002557552.1	hypoxanthine phosphoribosyltransferase (hpt)	0
+9	NCBI_PGAP	WP_002557551.1	16S rRNA (cytidine(1402)-2'-O)-methyltransferase (rsmI)	0
+10	NCBI_PGAP	WP_160584042.1	S8 family serine peptidase	0
+15	NCBI_PGAP	WP_160593538.1	DEAD/DEAH box helicase	0
+16	NCBI_PGAP	WP_160584048.1	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex ATPase subunit type 1 TsaE (tsaE)	0
+17	NCBI_PGAP	WP_002557742.1	DNA-directed RNA polymerase subunit beta'	0
+18	NCBI_PGAP	WP_160584046.1	DNA-directed RNA polymerase subunit beta	0
+19	NCBI_PGAP	WP_160584044.1	50S ribosomal protein L7/L12 (rplL)	0
+20	NCBI_PGAP	WP_002557739.1	50S ribosomal protein L10 (rplJ)	0
+21	NCBI_PGAP	WP_160593540.1	P68 family surface lipoprotein	0
+22	NCBI_PGAP	WP_052234586.1	P68 family surface lipoprotein	0
+23	NCBI_PGAP	WP_160593542.1	thermonuclease family protein	0
+24	NCBI_PGAP	WP_160581474.1	ATP-binding cassette domain-containing protein	0
+26	NCBI_PGAP	WP_160584029.1	P110/LppT family adhesin N-terminal domain	0
+28	NCBI_PGAP	WP_039387592.1	carbohydrate ABC transporter permease	0
+29	NCBI_PGAP	WP_160593548.1	carbohydrate ABC transporter permease	0
+30	NCBI_PGAP	WP_255454543.1	type III restriction endonuclease subunit M	0
+31	NCBI_PGAP	WP_308507122.1	aminoacyl--tRNA ligase-related protein	0
+32	NCBI_PGAP	WP_220190423.1	DNA methyltransferase	0
+33	NCBI_PGAP	WP_220190424.1	DNA methyltransferase	0
+34	NCBI_PGAP	WP_160583769.1	BC85_0335 family putative methyltransferase	0
+35	NCBI_PGAP	WP_160581112.1	transcription elongation factor GreA (greA)	0
+36	NCBI_PGAP	WP_160593336.1	MATE family efflux transporter	0
+39	NCBI_PGAP	WP_160583766.1	valine--tRNA ligase	0
+42	NCBI_PGAP	WP_002557481.1	membrane protein insertase YidC (yidC)	0
+43	NCBI_PGAP	WP_039387723.1	ribonuclease P protein component (rnpA)	0
+44	NCBI_PGAP	WP_002557480.1	50S ribosomal protein L34 (rpmH)	0
+45	NCBI_PGAP	WP_002557479.1	chromosomal replication initiator protein DnaA (dnaA)	0
+46	NCBI_PGAP	WP_160583760.1	DNA polymerase III subunit beta	0
+47	NCBI_PGAP	WP_160593339.1	tRNA uridine-5-carboxymethylaminomethyl(34) synthesis enzyme MnmG (mnmG)	0
+48	NCBI_PGAP	WP_002557476.1	23S rRNA (pseudouridine(1915)-N(3))-methyltransferase RlmH	0
+49	NCBI_PGAP	WP_160583756.1	DHH family phosphoesterase	0
+50	NCBI_PGAP	WP_160583755.1	DHH family phosphoesterase	0
+51	NCBI_PGAP	WP_002557472.1	type II toxin-antitoxin system antitoxin SocA domain-containing protein	0
+52	NCBI_PGAP	WP_002557471.1	signal recognition particle-docking protein FtsY (ftsY)	0
+53	NCBI_PGAP	WP_160583753.1	thioredoxin domain-containing protein	0
+54	NCBI_PGAP	WP_002557469.1	heat-inducible transcriptional repressor HrcA	0
+55	NCBI_PGAP	WP_160593341.1	nucleotide exchange factor GrpE (grpE)	0
+56	NCBI_PGAP	WP_160583751.1	arginine--tRNA ligase (argS)	0
+57	NCBI_PGAP	WP_002557466.1	DNA-directed RNA polymerase subunit delta (rpoE)	0
+58	NCBI_PGAP	WP_002557465.1	class II fructose-1,6-bisphosphate aldolase (fba)	0
+59	NCBI_PGAP	WP_002557464.1	pseudouridine synthase family protein	0
+62	NCBI_PGAP	WP_002557876.1	amidase family protein	0
+63	NCBI_PGAP	WP_160593344.1	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB (gatB)	0
+68	NCBI_PGAP	WP_160583743.1	signal peptidase II	0
+69	NCBI_PGAP	WP_160583741.1	isoleucine--tRNA ligase (ileS)	0
+70	NCBI_PGAP	WP_160583739.1	DNA topoisomerase IV subunit A	0
+71	NCBI_PGAP	WP_160593350.1	DNA gyrase/topoisomerase IV subunit B	0
+72	NCBI_PGAP	WP_002557886.1	type I glyceraldehyde-3-phosphate dehydrogenase (gap)	0
+73	NCBI_PGAP	WP_258556248.1	Mhp366/Mhp367 family surface (lipo)protein	0
+74	NCBI_PGAP	WP_002557888.1	ribonuclease R (rnr)	0
+75	NCBI_PGAP	WP_039387487.1	preprotein translocase subunit SecG (secG)	0
+76	NCBI_PGAP	WP_308507103.1	phospholipase D-like domain-containing protein	0
+77	NCBI_PGAP	WP_002557890.1	recombinase RecA (recA)	0
+78	NCBI_PGAP	WP_002557891.1	phosphotransferase	0
+79	NCBI_PGAP	WP_002557892.1	GTPase ObgE (obgE)	0
+80	NCBI_PGAP	WP_160581051.1	MG284/MPN403 family protein	0
+81	NCBI_PGAP	WP_160583733.1	MHO_1580 family protein	0
+82	NCBI_PGAP	WP_002557895.1	MHO_1590 family protein	0
+83	NCBI_PGAP	WP_160583731.1	DNA polymerase IV	0
+84	NCBI_PGAP	WP_002557898.1	F0F1 ATP synthase subunit A	0
+85	NCBI_PGAP	WP_002557899.1	F0F1 ATP synthase subunit C	0
+86	NCBI_PGAP	WP_002557900.1	ATP synthase F0 subunit B	0
+87	NCBI_PGAP	WP_002557901.1	F0F1 ATP synthase subunit delta	0
+88	NCBI_PGAP	WP_160583729.1	F0F1 ATP synthase subunit alpha (atpA)	0
+89	NCBI_PGAP	WP_160583727.1	FoF1 ATP synthase subunit gamma	0
+90	NCBI_PGAP	WP_160583725.1	F0F1 ATP synthase subunit beta (atpD)	0
+92	NCBI_PGAP	WP_002557905.1	Holliday junction resolvase RecU (recU)	0
+93	NCBI_PGAP	WP_220190183.1	30S ribosomal protein S2 (rpsB)	0
+94	NCBI_PGAP	WP_160581042.1	translation elongation factor Ts (tsf)	0
+95	NCBI_PGAP	WP_002557908.1	signal recognition particle protein (ffh)	0
+96	NCBI_PGAP	WP_002557909.1	glycine--tRNA ligase	0
+97	NCBI_PGAP	WP_255454451.1	DNA primase (dnaG)	0
+98	NCBI_PGAP	WP_160583721.1	RNA polymerase sigma factor	0
+99	NCBI_PGAP	WP_002557912.1	Nif3-like dinuclear metal center hexameric protein	0
+100	NCBI_PGAP	WP_002557913.1	deoxyribonuclease IV	0
+101	NCBI_PGAP	WP_160583715.1	tyrosine--tRNA ligase (tyrS)	0
+102	NCBI_PGAP	WP_160593354.1	DUF4011 domain-containing protein	0
+103	NCBI_PGAP	WP_308507105.1	SGNH/GDSL hydrolase family protein	0
+104	NCBI_PGAP	WP_160581028.1	GIY-YIG nuclease family protein	0
+106	NCBI_PGAP	WP_160581026.1	molecular chaperone DnaK (dnaK)	0
+107	NCBI_PGAP	WP_160593357.1	DnaJ C-terminal domain-containing protein	0
+108	NCBI_PGAP	WP_002557922.1	(d)CMP kinase (cmk)	0
+109	NCBI_PGAP	WP_160581019.1	ribosome biogenesis GTPase Der (der)	0
+110	NCBI_PGAP	WP_039387496.1	HU family DNA-binding protein	0
+112	NCBI_PGAP	WP_002557926.1	translation elongation factor 4 (lepA)	0
+113	NCBI_PGAP	WP_002557927.1	MSC_0882 family membrane protein	0
+114	NCBI_PGAP	WP_002557928.1	elongation factor G (fusA)	0
+115	NCBI_PGAP	WP_039387498.1	30S ribosomal protein S7 (rpsG)	0
+116	NCBI_PGAP	WP_002557930.1	30S ribosomal protein S12 (rpsL)	0
+117	NCBI_PGAP	WP_039387501.1	DUF4231 domain-containing protein	0
+118	NCBI_PGAP	WP_039387504.1	DUF4231 domain-containing protein	0
+120	NCBI_PGAP	WP_160581013.1	APC family permease	0
+121	NCBI_PGAP	WP_002557934.1	FAD-dependent oxidoreductase	0
+122	NCBI_PGAP	WP_002557935.1	thymidine phosphorylase	0
+123	NCBI_PGAP	WP_160583703.1	purine-nucleoside phosphorylase	0
+124	NCBI_PGAP	WP_160583701.1	preprotein translocase subunit SecA (secA)	0
+126	NCBI_PGAP	WP_220190182.1	ribosome biogenesis GTPase YlqF (ylqF)	0
+128	NCBI_PGAP	WP_160580848.1	excinuclease ABC subunit UvrA (uvrA)	0
+129	NCBI_PGAP	WP_160583697.1	ribonuclease J	0
+131	NCBI_PGAP	WP_160583695.1	DUF2130 domain-containing protein	0
+132	NCBI_PGAP	WP_002557576.1	dUTP diphosphatase	0
+133	NCBI_PGAP	WP_002557577.1	peroxiredoxin	0
+134	NCBI_PGAP	WP_002557578.1	prolipoprotein diacylglyceryl transferase	0
+135	NCBI_PGAP	WP_160580856.1	NAD(P)/FAD-dependent oxidoreductase	0
+136	NCBI_PGAP	WP_160583691.1	P97 family adhesin	0
+137	NCBI_PGAP	WP_160593359.1	P110/LppT family adhesin N-terminal domain	0
+138	NCBI_PGAP	WP_160583688.1	ATP-dependent Clp protease ATP-binding subunit	0
+139	NCBI_PGAP	WP_160580862.1	triose-phosphate isomerase (tpiA)	0
+140	NCBI_PGAP	WP_160583687.1	30S ribosomal protein S15 (rpsO)	0
+141	NCBI_PGAP	WP_160580864.1	DUF3899 domain-containing protein	0
+142	NCBI_PGAP	WP_220190396.1	P110/LppT family adhesin N-terminal domain	0
+143	NCBI_PGAP	WP_160593361.1	P97 family adhesin	0
+144	NCBI_PGAP	WP_002557589.1	DNA gyrase subunit B	0
+146	NCBI_PGAP	WP_160580868.1	6-phosphofructokinase (pfkA)	0
+148	NCBI_PGAP	WP_160583682.1	APC family permease	0
+149	NCBI_PGAP	WP_002557593.1	adenine phosphoribosyltransferase	0
+150	NCBI_PGAP	WP_160583681.1	pyruvate dehydrogenase (acetyl-transferring) E1 component subunit alpha (pdhA)	0
+151	NCBI_PGAP	WP_160583679.1	alpha-ketoacid dehydrogenase subunit beta	0
+156	NCBI_PGAP	WP_002557602.1	potassium transporter TrkG	0
+157	NCBI_PGAP	WP_002557603.1	potassium channel family protein	0
+159	NCBI_PGAP	WP_160580878.1	ABC transporter ATP-binding protein	0
+160	NCBI_PGAP	WP_160593367.1	ABC transporter permease	0
+161	NCBI_PGAP	WP_160583674.1	ABC transporter permease	0
+163	NCBI_PGAP	WP_160583673.1	leucine-rich repeat domain-containing protein	0
+164	NCBI_PGAP	WP_160583671.1	tRNA threonylcarbamoyladenosine biosynthesis protein TsaB	0
+166	NCBI_PGAP	WP_002557613.1	UMP kinase (pyrH)	0
+167	NCBI_PGAP	WP_002557614.1	ribosome-recycling factor	0
+168	NCBI_PGAP	WP_160593369.1	phosphatidate cytidylyltransferase	0
+169	NCBI_PGAP	WP_160593371.1	PolC-type DNA polymerase III	0
+170	NCBI_PGAP	WP_160583667.1	glucose-6-phosphate isomerase	0
+172	NCBI_PGAP	WP_002557620.1	peptide-methionine (R)-S-oxide reductase MsrB (msrB)	0
+173	NCBI_PGAP	WP_160580902.1	DNA gyrase subunit A (gyrA)	0
+174	NCBI_PGAP	WP_160580903.1	deoxyribose-phosphate aldolase (deoC)	0
+175	NCBI_PGAP	WP_002557623.1	uracil phosphoribosyltransferase (upp)	0
+176	NCBI_PGAP	WP_160593374.1	MPN527 family putative ECF transporter permease subunit	0
+177	NCBI_PGAP	WP_002557625.1	endopeptidase La (lon)	0
+178	NCBI_PGAP	WP_002557626.1	elongation factor Tu (tuf)	0
+179	NCBI_PGAP	WP_160583663.1	SGNH/GDSL hydrolase family protein	0
+181	NCBI_PGAP	WP_160583660.1	oligoendopeptidase F (pepF)	0
+187	NCBI_PGAP	WP_160580918.1	ROK family protein	0
+189	NCBI_PGAP	WP_160580922.1	sugar ABC transporter permease	0
+190	NCBI_PGAP	WP_160593378.1	sugar ABC transporter ATP-binding protein	0
+191	NCBI_PGAP	WP_002557638.1	sugar-binding protein	0
+192	NCBI_PGAP	WP_002557639.1	phosphotransacetylase	0
+193	NCBI_PGAP	WP_002557640.1	acetate/propionate family kinase	0
+194	NCBI_PGAP	WP_160583653.1	dihydrolipoyl dehydrogenase (lpdA)	0
+195	NCBI_PGAP	WP_002557642.1	2-oxo acid dehydrogenase subunit E2	0
+196	NCBI_PGAP	WP_160593380.1	putative immunoglobulin-blocking virulence protein	0
+197	NCBI_PGAP	WP_160583649.1	OppA family ABC transporter substrate-binding lipoprotein	0
+198	NCBI_PGAP	WP_160583648.1	ABC transporter permease	0
+199	NCBI_PGAP	WP_160583646.1	ABC transporter permease	0
+200	NCBI_PGAP	WP_160593382.1	ABC transporter ATP-binding protein	0
+201	NCBI_PGAP	WP_160583643.1	ATP-binding cassette domain-containing protein	0
+203	NCBI_PGAP	WP_160593384.1	MGA_1079 family surface serine endopeptidase	0
+205	NCBI_PGAP	WP_308507106.1	P110/LppT family adhesin N-terminal domain	0
+206	NCBI_PGAP	WP_220190397.1	P97 family adhesin	0
+207	NCBI_PGAP	WP_160583637.1	type I phosphomannose isomerase catalytic subunit	0
+208	NCBI_PGAP	WP_160583635.1	PTS sugar transporter subunit IIA	0
+209	NCBI_PGAP	WP_002558003.1	phosphoglycerate kinase	0
+210	NCBI_PGAP	WP_160593389.1	diadenylate cyclase	0
+211	NCBI_PGAP	WP_160583633.1	magnesium transporter (mgtE)	0
+213	NCBI_PGAP	WP_039387750.1	Cof-type HAD-IIB family hydrolase	0
+214	NCBI_PGAP	WP_160583629.1	MSC_0624 family F1-like ATPase-associated membrane protein	0
+215	NCBI_PGAP	WP_160580958.1	DUF2714 domain-containing protein	0
+216	NCBI_PGAP	WP_196792423.1	MSC_0622 family F1-like ATPase gamma subunit	0
+217	NCBI_PGAP	WP_160580960.1	MSC_0621 family F1-like ATPase epsilon subunit	0
+218	NCBI_PGAP	WP_160583627.1	MSC_0620 family F1-like ATPase-associated subunit	0
+219	NCBI_PGAP	WP_160583626.1	MSC_0619 family F1-like ATPase alpha subunit	0
+220	NCBI_PGAP	WP_002558014.1	MSC_0618 family F1-like ATPase beta subunit	0
+221	NCBI_PGAP	WP_002558016.1	Cof-type HAD-IIB family hydrolase	0
+222	NCBI_PGAP	WP_002558017.1	nicotinate-nucleotide adenylyltransferase	0
+223	NCBI_PGAP	WP_160593391.1	5'-methylthioadenosine nucleosidase	0
+224	NCBI_PGAP	WP_160593393.1	YebC/PmpR family DNA-binding transcriptional regulator	0
+225	NCBI_PGAP	WP_160580968.1	NAD(+) synthase (nadE)	0
+226	NCBI_PGAP	WP_160583622.1	phosphoenolpyruvate--protein phosphotransferase (ptsP)	0
+228	NCBI_PGAP	WP_255454460.1	ABC transporter permease	0
+229	NCBI_PGAP	WP_160580973.1	ABC transporter ATP-binding protein	0
+230	NCBI_PGAP	WP_160583616.1	aromatic motif membrane protein	0
+231	NCBI_PGAP	WP_002557980.1	aromatic motif membrane protein	0
+233	NCBI_PGAP	WP_160593397.1	tRNA (guanosine(46)-N7)-methyltransferase TrmB (trmB)	0
+234	NCBI_PGAP	WP_002557977.1	M17 family metallopeptidase	0
+235	NCBI_PGAP	WP_255454461.1	Mhp366/Mhp367 family surface (lipo)protein	0
+236	NCBI_PGAP	WP_160593399.1	trypsin-like peptidase domain-containing protein	0
+237	NCBI_PGAP	WP_220190398.1	LppA-related lipoprotein	0
+238	NCBI_PGAP	WP_002557972.1	ribosome biogenesis GTP-binding protein YihA/YsxC (yihA)	0
+241	NCBI_PGAP	WP_002557663.1	50S ribosomal protein L1 (rplA)	0
+242	NCBI_PGAP	WP_039387548.1	50S ribosomal protein L11 (rplK)	0
+243	NCBI_PGAP	WP_160593405.1	RluA family pseudouridine synthase	0
+244	NCBI_PGAP	WP_160580991.1	Dps family protein	0
+245	NCBI_PGAP	WP_002557667.1	50S ribosomal protein L31 (rpmE)	0
+246	NCBI_PGAP	WP_002557668.1	FMN-dependent NADH-azoreductase	0
+247	NCBI_PGAP	WP_160593407.1	FMN-dependent NADH-azoreductase	0
+248	NCBI_PGAP	WP_160593409.1	ABC transporter permease	0
+249	NCBI_PGAP	WP_160581406.1	ABC transporter ATP-binding protein	0
+250	NCBI_PGAP	WP_160584006.1	methionine adenosyltransferase (metK)	0
+251	NCBI_PGAP	WP_002557673.1	TIGR00282 family metallophosphoesterase	0
+252	NCBI_PGAP	WP_160581410.1	redox-regulated ATPase YchF (ychF)	0
+253	NCBI_PGAP	WP_039387554.1	30S ribosomal protein S18 (rpsR)	0
+254	NCBI_PGAP	WP_160584009.1	single-stranded DNA-binding protein	0
+255	NCBI_PGAP	WP_160593411.1	30S ribosomal protein S6 (rpsF)	0
+256	NCBI_PGAP	WP_308507104.1	Rho termination factor N-terminal domain-containing protein	0
+257	NCBI_PGAP	WP_160593552.1	DNA methyltransferase	0
+258	NCBI_PGAP	WP_308507123.1	PTS transporter subunit IIC	0
+260	NCBI_PGAP	WP_160593556.1	DUF4143 domain-containing protein	0
+262	NCBI_PGAP	WP_160593422.1	Hsp33 family molecular chaperone HslO	0
+263	NCBI_PGAP	WP_160593424.1	trigger factor (tig)	0
+265	NCBI_PGAP	WP_002557796.1	ribulose-phosphate 3-epimerase	0
+266	NCBI_PGAP	WP_160583849.1	ribosome small subunit-dependent GTPase A (rsgA)	0
+267	NCBI_PGAP	WP_002557798.1	guanylate kinase (gmk)	0
+268	NCBI_PGAP	WP_160583851.1	16S rRNA (guanine(966)-N(2))-methyltransferase RsmD (rsmD)	0
+269	NCBI_PGAP	WP_308507107.1	DNA repair protein RecO C-terminal domain-containing protein	0
+270	NCBI_PGAP	WP_160583853.1	GTPase Era (era)	0
+271	NCBI_PGAP	WP_002557802.1	cytidine deaminase (cdd)	0
+272	NCBI_PGAP	WP_002557803.1	rRNA maturation RNase YbeY (ybeY)	0
+273	NCBI_PGAP	WP_039387644.1	MAG1140 family protein	0
+274	NCBI_PGAP	WP_160583922.1	Mbov_0121 family peptidase domain-containing ABC transporter	0
+275	NCBI_PGAP	WP_160583855.1	phosphopentomutase	0
+276	NCBI_PGAP	WP_308507108.1	transcription antitermination protein NusB	0
+278	NCBI_PGAP	WP_160581350.1	TlyA family RNA methyltransferase	0
+279	NCBI_PGAP	WP_160583859.1	aminotransferase class V-fold PLP-dependent enzyme	0
+280	NCBI_PGAP	WP_039387651.1	iron-sulfur cluster assembly scaffold protein	0
+281	NCBI_PGAP	WP_160581347.1	pseudouridine synthase	0
+282	NCBI_PGAP	WP_160581345.1	50S ribosomal protein L17 (rplQ)	0
+283	NCBI_PGAP	WP_002557813.1	DNA-directed RNA polymerase subunit alpha	0
+284	NCBI_PGAP	WP_002557814.1	30S ribosomal protein S11 (rpsK)	0
+285	NCBI_PGAP	WP_002557815.1	30S ribosomal protein S13 (rpsM)	0
+286	NCBI_PGAP	WP_002557816.1	50S ribosomal protein L36 (rpmJ)	0
+287	NCBI_PGAP	WP_002557817.1	translation initiation factor IF-1 (infA)	0
+288	NCBI_PGAP	WP_002557818.1	type I methionyl aminopeptidase (map)	0
+289	NCBI_PGAP	WP_160581343.1	adenylate kinase family protein	0
+290	NCBI_PGAP	WP_160583863.1	preprotein translocase subunit SecY (secY)	0
+291	NCBI_PGAP	WP_002557821.1	50S ribosomal protein L15 (rplO)	0
+292	NCBI_PGAP	WP_160581339.1	30S ribosomal protein S5 (rpsE)	0
+293	NCBI_PGAP	WP_160583865.1	50S ribosomal protein L18 (rplR)	0
+294	NCBI_PGAP	WP_002557824.1	50S ribosomal protein L6 (rplF)	0
+295	NCBI_PGAP	WP_002557825.1	30S ribosomal protein S8 (rpsH)	0
+296	NCBI_PGAP	WP_002557826.1	type Z 30S ribosomal protein S14	0
+297	NCBI_PGAP	WP_002557827.1	50S ribosomal protein L5 (rplE)	0
+298	NCBI_PGAP	WP_160581337.1	50S ribosomal protein L24 (rplX)	0
+299	NCBI_PGAP	WP_002557829.1	50S ribosomal protein L14 (rplN)	0
+300	NCBI_PGAP	WP_051054304.1	30S ribosomal protein S17 (rpsQ)	0
+301	NCBI_PGAP	WP_002557831.1	50S ribosomal protein L29 (rpmC)	0
+302	NCBI_PGAP	WP_160593426.1	50S ribosomal protein L16 (rplP)	0
+303	NCBI_PGAP	WP_002557833.1	30S ribosomal protein S3 (rpsC)	0
+304	NCBI_PGAP	WP_002557834.1	50S ribosomal protein L22 (rplV)	0
+305	NCBI_PGAP	WP_002557835.1	30S ribosomal protein S19 (rpsS)	0
+306	NCBI_PGAP	WP_002557836.1	50S ribosomal protein L2 (rplB)	0
+307	NCBI_PGAP	WP_002557837.1	50S ribosomal protein L23 (rplW)	0
+308	NCBI_PGAP	WP_160581334.1	50S ribosomal protein L4 (rplD)	0
+309	NCBI_PGAP	WP_002557839.1	50S ribosomal protein L3 (rplC)	0
+310	NCBI_PGAP	WP_002557840.1	30S ribosomal protein S10 (rpsJ)	0
+312	NCBI_PGAP	WP_002557842.1	16S rRNA (uracil(1498)-N(3))-methyltransferase	0
+313	NCBI_PGAP	WP_160583869.1	alanine--tRNA ligase (alaS)	0
+314	NCBI_PGAP	WP_160593428.1	Holliday junction resolvase RuvX (ruvX)	0
+315	NCBI_PGAP	WP_002557845.1	aminoacyl-tRNA hydrolase (pth)	0
+316	NCBI_PGAP	WP_160583871.1	tRNA lysidine(34) synthetase TilS (tilS)	0
+317	NCBI_PGAP	WP_160583873.1	ATP-dependent zinc metalloprotease FtsH (ftsH)	0
+318	NCBI_PGAP	WP_160583875.1	lysine--tRNA ligase (lysS)	0
+319	NCBI_PGAP	WP_160593430.1	HAD family hydrolase	0
+320	NCBI_PGAP	WP_002557850.1	tRNA uridine-5-carboxymethylaminomethyl(34) synthesis GTPase MnmE (mnmE)	0
+321	NCBI_PGAP	WP_160581215.1	ABC-F family ATP-binding cassette domain-containing protein	0
+322	NCBI_PGAP	WP_160583877.1	PTS fructose transporter subunit IIABC	0
+326	NCBI_PGAP	WP_002557856.1	ABC transporter permease	0
+327	NCBI_PGAP	WP_002557857.1	ABC transporter permease	0
+328	NCBI_PGAP	WP_039387661.1	ABC transporter ATP-binding protein	0
+329	NCBI_PGAP	WP_160581219.1	ABC transporter ATP-binding protein	0
+330	NCBI_PGAP	WP_160593439.1	PDxFFG protein	0
+332	NCBI_PGAP	WP_160583887.1	PTS sugar transporter subunit IIA	0
+333	NCBI_PGAP	WP_160583889.1	mannitol-1-phosphate 5-dehydrogenase	0
+334	NCBI_PGAP	WP_160593441.1	PTS mannitol transporter subunit IICB	0
+335	NCBI_PGAP	WP_002557866.1	MurR/RpiR family transcriptional regulator	0
+336	NCBI_PGAP	WP_160583893.1	PTS ascorbate transporter subunit IIC	0
+337	NCBI_PGAP	WP_002557868.1	PTS sugar transporter subunit IIB	0
+338	NCBI_PGAP	WP_039387665.1	PTS sugar transporter subunit IIA	0
+342	NCBI_PGAP	WP_160583926.1	ribulose phosphate epimerase	0
+345	NCBI_PGAP	WP_002557698.1	S1C family serine protease	0
+348	NCBI_PGAP	WP_160593445.1	AAA family ATPase	0
+349	NCBI_PGAP	WP_258556255.1	FAD-dependent oxidoreductase	0
+350	NCBI_PGAP	WP_308507109.1	FAD-dependent oxidoreductase	0
+351	NCBI_PGAP	WP_255454504.1	FAD-dependent oxidoreductase	0
+352	NCBI_PGAP	WP_002557703.1	amidohydrolase family protein	0
+353	NCBI_PGAP	WP_002557704.1	class II fructose-bisphosphate aldolase	0
+354	NCBI_PGAP	WP_160593447.1	PTS transporter subunit EIIC	0
+355	NCBI_PGAP	WP_160581256.1	glucosamine-6-phosphate deaminase	0
+356	NCBI_PGAP	WP_160583901.1	30S ribosomal protein S4 (rpsD)	0
+357	NCBI_PGAP	WP_002557708.1	RpiB/LacA/LacB family sugar-phosphate isomerase	0
+358	NCBI_PGAP	WP_160583903.1	DNA-formamidopyrimidine glycosylase (mutM)	0
+360	NCBI_PGAP	WP_160583905.1	endonuclease/exonuclease/phosphatase family protein	0
+361	NCBI_PGAP	WP_002557712.1	5'-3' exonuclease	0
+362	NCBI_PGAP	WP_160583907.1	DNA polymerase III subunit alpha	0
+363	NCBI_PGAP	WP_039387681.1	ribosome-binding factor A	0
+364	NCBI_PGAP	WP_160581263.1	translation initiation factor IF-2 (infB)	0
+365	NCBI_PGAP	WP_039387683.1	YlxR family protein	0
+366	NCBI_PGAP	WP_160581265.1	transcription termination/antitermination protein NusA (nusA)	0
+368	NCBI_PGAP	WP_160583910.1	pullulanase	0
+369	NCBI_PGAP	WP_160593449.1	threonine--tRNA ligase (thrS)	0
+370	NCBI_PGAP	WP_160581270.1	tryptophan--tRNA ligase (trpS)	0
+371	NCBI_PGAP	WP_002557721.1	PTS transporter subunit EIIB	0
+372	NCBI_PGAP	WP_039387689.1	DEAD/DEAH box helicase	0
+373	NCBI_PGAP	WP_160581274.1	ribonuclease HIII	0
+374	NCBI_PGAP	WP_002557725.1	YneF family protein	0
+375	NCBI_PGAP	WP_002557726.1	2,3-bisphosphoglycerate-independent phosphoglycerate mutase (gpmI)	0
+376	NCBI_PGAP	WP_039387691.1	DNA-binding protein WhiA (whiA)	0
+377	NCBI_PGAP	WP_039387693.1	MAG0110 family membrane protein	0
+378	NCBI_PGAP	WP_002557729.1	inorganic diphosphatase	0
+379	NCBI_PGAP	WP_160593451.1	BMP family ABC transporter substrate-binding protein	0
+380	NCBI_PGAP	WP_002557731.1	ABC transporter ATP-binding protein	0
+381	NCBI_PGAP	WP_160583916.1	ABC transporter permease	0
+382	NCBI_PGAP	WP_002557733.1	ABC transporter permease	0
+383	NCBI_PGAP	WP_002557734.1	thymidine kinase	0
+384	NCBI_PGAP	WP_002557735.1	HPr family phosphocarrier protein	0
+385	NCBI_PGAP	WP_160581282.1	PTS transporter subunit IIABC	0
+386	NCBI_PGAP	WP_160593453.1	Ig-specific serine endopeptidase MIP (mip)	0
+387	NCBI_PGAP	WP_258556256.1	putative immunoglobulin-blocking virulence protein	0
+388	NCBI_PGAP	WP_160593459.1	DEAD/DEAH box helicase family protein	0
+391	NCBI_PGAP	WP_002557510.1	division/cell wall cluster transcriptional repressor MraZ	0
+392	NCBI_PGAP	WP_002557511.1	16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH (rsmH)	0
+393	NCBI_PGAP	WP_236681771.1	cell division protein FtsZ	0
+394	NCBI_PGAP	WP_002557514.1	nicotinate phosphoribosyltransferase	0
+395	NCBI_PGAP	WP_160583937.1	tRNA1(Val) (adenine(37)-N6)-methyltransferase	0
+396	NCBI_PGAP	WP_160583939.1	methionine--tRNA ligase (metG)	0
+397	NCBI_PGAP	WP_160583941.1	ECF transporter S component	0
+398	NCBI_PGAP	WP_002557518.1	ribonuclease III (rnc)	0
+400	NCBI_PGAP	WP_160583943.1	Mhp366/Mhp367 family surface (lipo)protein	0
+401	NCBI_PGAP	WP_160581160.1	3-keto-L-gulonate-6-phosphate decarboxylase UlaD	0
+402	NCBI_PGAP	WP_220190224.1	L-ribulose-5-phosphate 3-epimerase	0
+403	NCBI_PGAP	WP_160583947.1	L-ribulose-5-phosphate 4-epimerase	0
+404	NCBI_PGAP	WP_160583949.1	HAD family hydrolase	0
+405	NCBI_PGAP	WP_160583951.1	MPN499 family protein	0
+407	NCBI_PGAP	WP_160593462.1	YbhB/YbcL family Raf kinase inhibitor-like protein	0
+408	NCBI_PGAP	WP_160593464.1	tRNA 2-thiouridine(34) synthase MnmA (mnmA)	0
+409	NCBI_PGAP	WP_002557530.1	MAGa3780 family membrane protein	0
+410	NCBI_PGAP	WP_160593467.1	transketolase	0
+411	NCBI_PGAP	WP_160583957.1	elongation factor P (efp)	0
+412	NCBI_PGAP	WP_160583959.1	protein translocase subunit SecDF (secDF)	0
+413	NCBI_PGAP	WP_160583961.1	histidine--tRNA ligase (hisS)	0
+414	NCBI_PGAP	WP_160581178.1	aspartate--tRNA ligase (aspS)	0
+415	NCBI_PGAP	WP_039387777.1	30S ribosomal protein S20 (rpsT)	0
+416	NCBI_PGAP	WP_160583963.1	Mbov_0399 family ICE element protein	0
+417	NCBI_PGAP	WP_160581182.1	Mbov_0397 family ICE element conjugal transfer ATPase	0
+418	NCBI_PGAP	WP_160583965.1	Mbov_0396 family ICE element transmembrane protein	0
+419	NCBI_PGAP	WP_160583967.1	Mbov_0395 family pilin-like conjugal transfer protein	0
+420	NCBI_PGAP	WP_002557540.1	DNA-processing protein DprA	0
+421	NCBI_PGAP	WP_160593469.1	phosphopyruvate hydratase (eno)	0
+422	NCBI_PGAP	WP_002557542.1	serine--tRNA ligase (serS)	0
+423	NCBI_PGAP	WP_002557543.1	DJ-1/PfpI family protein	0
+424	NCBI_PGAP	WP_160581189.1	alpha/beta fold hydrolase	0
+425	NCBI_PGAP	WP_160581190.1	lipoate--protein ligase	0
+427	NCBI_PGAP	WP_308507110.1	DNA polymerase III subunit gamma/tau (dnaX)	0
+428	NCBI_PGAP	WP_039387613.1	YbaB/EbfC family nucleoid-associated protein	0
+429	NCBI_PGAP	WP_160583971.1	recombination protein RecR	0
+430	NCBI_PGAP	WP_002557549.1	dTMP kinase (tmk)	0
+431	NCBI_PGAP	WP_160593471.1	DEAD/DEAH box helicase family protein	0
+432	NCBI_PGAP	WP_002557749.1	CTP synthase	0
+433	NCBI_PGAP	WP_160583995.1	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (pgsA)	0
+434	NCBI_PGAP	WP_002557751.1	MHJ_0274 family protein	0
+435	NCBI_PGAP	WP_002557752.1	type I DNA topoisomerase (topA)	0
+436	NCBI_PGAP	WP_002557753.1	50S ribosomal protein L19 (rplS)	0
+437	NCBI_PGAP	WP_002557754.1	tRNA (guanosine(37)-N1)-methyltransferase TrmD (trmD)	0
+438	NCBI_PGAP	WP_002557755.1	30S ribosomal protein S16 (rpsP)	0
+440	NCBI_PGAP	WP_160593473.1	DUF2779 domain-containing protein	0
+441	NCBI_PGAP	WP_002557757.1	Holliday junction branch migration DNA helicase RuvB (ruvB)	0
+442	NCBI_PGAP	WP_039387782.1	Holliday junction branch migration protein RuvA (ruvA)	0
+444	NCBI_PGAP	WP_220190413.1	ATP-dependent helicase	0
+446	NCBI_PGAP	WP_160581297.1	asparagine--tRNA ligase (asnS)	0
+447	NCBI_PGAP	WP_002557763.1	serine hydroxymethyltransferase (glyA)	0
+449	NCBI_PGAP	WP_160583989.1	class 1b ribonucleoside-diphosphate reductase subunit beta (nrdF)	0
+450	NCBI_PGAP	WP_002557766.1	class Ib ribonucleoside-diphosphate reductase assembly flavoprotein NrdI (nrdI)	0
+451	NCBI_PGAP	WP_160593475.1	class 1b ribonucleoside-diphosphate reductase subunit alpha (nrdE)	0
+452	NCBI_PGAP	WP_002557768.1	50S ribosomal protein L28 (rpmB)	0
+453	NCBI_PGAP	WP_002557769.1	50S ribosomal protein L20 (rplT)	0
+454	NCBI_PGAP	WP_039387628.1	50S ribosomal protein L35 (rpmI)	0
+455	NCBI_PGAP	WP_039387630.1	translation initiation factor IF-3 (infC)	0
+456	NCBI_PGAP	WP_002557773.1	pyruvate kinase (pyk)	0
+457	NCBI_PGAP	WP_160581303.1	leucine-rich repeat domain-containing protein	0
+459	NCBI_PGAP	WP_002557776.1	M20/M25/M40 family metallo-hydrolase	0
+460	NCBI_PGAP	WP_039387785.1	uracil-DNA glycosylase	0
+461	NCBI_PGAP	WP_002557778.1	50S ribosomal protein L21 (rplU)	0
+462	NCBI_PGAP	WP_002557779.1	50S ribosomal protein L27 (rpmA)	0
+463	NCBI_PGAP	WP_002557780.1	alpha/beta fold hydrolase	0
+464	NCBI_PGAP	WP_002557781.1	YitT family protein	0
+465	NCBI_PGAP	WP_002557782.1	hexose phosphate transporter	0
+466	NCBI_PGAP	WP_002557783.1	L-lactate dehydrogenase	0
+467	NCBI_PGAP	WP_308507113.1	DUF31 family putative serine protease	0
+468	NCBI_PGAP	WP_002557784.1	peptide chain release factor 1 (prfA)	0
+469	NCBI_PGAP	WP_002557785.1	peptide chain release factor N(5)-glutamine methyltransferase	0
+470	NCBI_PGAP	WP_160581307.1	glutamate--tRNA ligase (gltX)	0
+472	NCBI_PGAP	WP_160581309.1	tRNA (cytidine(34)-2'-O)-methyltransferase	0
+473	NCBI_PGAP	WP_308507114.1	RNA methyltransferase	0
+474	NCBI_PGAP	WP_308507115.1	chromate transporter	0
+475	NCBI_PGAP	WP_160593482.1	chromate transporter	0
+476	NCBI_PGAP	WP_160583979.1	MAGa7180 family putative nuclease	0
+477	NCBI_PGAP	WP_002557948.1	30S ribosomal protein S9 (rpsI)	0
+478	NCBI_PGAP	WP_002557947.1	50S ribosomal protein L13 (rplM)	0
+479	NCBI_PGAP	WP_002557946.1	16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))- dimethyltransferase RsmA (rsmA)	0
+480	NCBI_PGAP	WP_160593486.1	TatD family hydrolase	0
+481	NCBI_PGAP	WP_039387713.1	ribose-phosphate pyrophosphokinase	0
+482	NCBI_PGAP	WP_039387714.1	16S rRNA (guanine(527)-N(7))-methyltransferase RsmG (rsmG)	0
+483	NCBI_PGAP	WP_220190185.1	SGNH/GDSL hydrolase family protein	0
+484	NCBI_PGAP	WP_160583788.1	AAA family ATPase	0
+485	NCBI_PGAP	WP_160583787.1	DEAD/DEAH box helicase family protein	0
+486	NCBI_PGAP	WP_160611384.1	site-specific DNA-methyltransferase	0
+487	NCBI_PGAP	WP_160593488.1	type III restriction endonuclease subunit M	0
+488	NCBI_PGAP	WP_160583783.1	ATP-binding cassette domain-containing protein	0
+489	NCBI_PGAP	WP_160583781.1	ATP-binding cassette domain-containing protein	0
+492	NCBI_PGAP	WP_002557497.1	50S ribosomal protein L33 (rpmG)	0
+493	NCBI_PGAP	WP_002557496.1	aminopeptidase P family protein	0
+494	NCBI_PGAP	WP_160593493.1	LppA-related lipoprotein	0
+495	NCBI_PGAP	WP_160593495.1	P110/LppT family adhesin N-terminal domain	0
+496	NCBI_PGAP	WP_160593497.1	P97 family adhesin	0
+498	NCBI_PGAP	WP_160583771.1	ABC transporter ATP-binding protein	0
+499	NCBI_PGAP	WP_220190184.1	ATP-binding cassette domain-containing protein	0
+500	NCBI_PGAP	WP_155897264.1	L-threonylcarbamoyladenylate synthase	0
+501	NCBI_PGAP	WP_002557950.1	excinuclease ABC subunit UvrB (uvrB)	0
+502	NCBI_PGAP	WP_160583796.1	leucine--tRNA ligase (leuS)	0
+503	NCBI_PGAP	WP_160581377.1	DHH family phosphoesterase	0
+504	NCBI_PGAP	WP_160593503.1	50S ribosomal protein L9 (rplI)	0
+505	NCBI_PGAP	WP_160583800.1	replicative DNA helicase (dnaB)	0
+506	NCBI_PGAP	WP_160581382.1	CNNM domain-containing protein	0
+507	NCBI_PGAP	WP_160583802.1	YgjP-like metallopeptidase domain-containing protein	0
+508	NCBI_PGAP	WP_160593505.1	class I tRNA ligase family protein	0
+509	NCBI_PGAP	WP_002557959.1	23S rRNA (guanosine(2251)-2'-O)-methyltransferase RlmB (rlmB)	0
+510	NCBI_PGAP	WP_002557960.1	sigma-70 family RNA polymerase sigma factor	0
+511	NCBI_PGAP	WP_002557961.1	50S ribosomal protein L33 (rpmG)	0
+512	NCBI_PGAP	WP_051054328.1	preprotein translocase subunit SecE (secE)	0
+513	NCBI_PGAP	WP_039387704.1	transcription termination/antitermination protein NusG (nusG)	0
+514	NCBI_PGAP	WP_160583804.1	tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex transferase subunit TsaD (tsaD)	0
+515	NCBI_PGAP	WP_160593507.1	lysylphosphatidylglycerol synthase transmembrane domain-containing protein	0
+516	NCBI_PGAP	WP_002557965.1	SMC-Scp complex subunit ScpB (scpB)	0
+517	NCBI_PGAP	WP_002557966.1	segregation/condensation protein A	0
+518	NCBI_PGAP	WP_160583808.1	lysophospholipid acyltransferase family protein	0
+519	NCBI_PGAP	WP_160583810.1	5'-nucleotidase C-terminal domain-containing protein	0
+520	NCBI_PGAP	WP_160583812.1	MIP family Ig-specific serine endopeptidase	0
+521	NCBI_PGAP	WP_160593509.1	ABC transporter ATP-binding protein	0
+522	NCBI_PGAP	WP_318026335.1	ABC transporter ATP-binding protein	0
+523	NCBI_PGAP	WP_220190186.1	HsdM family class I SAM-dependent methyltransferase	0
+524	NCBI_PGAP	WP_308507118.1	ATP-binding cassette domain-containing protein	0
+525	NCBI_PGAP	WP_160583818.1	DpnII family type II restriction endonuclease	0
+526	NCBI_PGAP	WP_160583820.1	Ig-specific serine endopeptidase MIP (mip)	0
+527	NCBI_PGAP	WP_160593511.1	putative immunoglobulin-blocking virulence protein	0
+529	NCBI_PGAP	WP_160584011.1	DnaD domain protein	0
+530	NCBI_PGAP	WP_160593513.1	HAD-IIB family hydrolase	0
+531	NCBI_PGAP	WP_160593515.1	HinT-interacting membrane complex protein P80	0
+532	NCBI_PGAP	WP_220190084.1	HinT-interacting membrane complex lipoprotein P60	0
+533	NCBI_PGAP	WP_002557684.1	histidine triad protein HinT (hinT)	0
+534	NCBI_PGAP	WP_220190244.1	Mhp366/Mhp367 family surface (lipo)protein	0
+535	NCBI_PGAP	WP_160593518.1	APC family permease	0
+536	NCBI_PGAP	WP_002557689.1	MIP/aquaporin family protein	0
+537	NCBI_PGAP	WP_039387564.1	glycerol kinase GlpK (glpK)	0
+538	NCBI_PGAP	WP_220190081.1	ABC transporter thiamine pyrophosphate-binding lipoprotein p37/Cypl (cypl)	0
+539	NCBI_PGAP	WP_160581429.1	ATP-binding cassette domain-containing protein	0
+540	NCBI_PGAP	WP_220190247.1	ABC transporter permease subunit	0
+541	NCBI_PGAP	WP_160581431.1	MAG0490 family ComEA-like DNA-binding protein	0
+542	NCBI_PGAP	WP_308507120.1	ComEC/Rec2 family competence protein	0
+543	NCBI_PGAP	WP_160581432.1	DNA polymerase III subunit delta (holA)	0
+544	NCBI_PGAP	WP_160584060.1	DEAD/DEAH box helicase family protein	0
+545	NCBI_PGAP	WP_220190419.1	P97 family adhesin	0
+546	NCBI_PGAP	WP_002557450.1	PTS sugar transporter subunit IIA	0
+547	NCBI_PGAP	WP_002557451.1	PTS sugar transporter subunit IIB	0
+548	NCBI_PGAP	WP_002557452.1	PTS ascorbate transporter subunit IIC	0
+549	NCBI_PGAP	WP_002557453.1	phospho-furanose lactonase	0
+550	NCBI_PGAP	WP_160593520.1	P68 family surface lipoprotein	0
+551	NCBI_PGAP	WP_160584023.1	ABC transporter ATP-binding protein	0
+552	NCBI_PGAP	WP_255454526.1	carbohydrate ABC transporter permease	0
+553	NCBI_PGAP	WP_236681783.1	carbohydrate ABC transporter permease	0
+554	NCBI_PGAP	WP_160581443.1	YigZ family protein	0
+555	NCBI_PGAP	WP_160581441.1	ATP-binding cassette domain-containing protein	0
+556	NCBI_PGAP	WP_002557461.1	thioredoxin family protein	0
+557	NCBI_PGAP	WP_160593522.1	His/Gly/Thr/Pro-type tRNA ligase C-terminal domain-containing protein	0
+558	NCBI_PGAP	WP_160584038.1	MurR/RpiR family transcriptional regulator	0
+559	NCBI_PGAP	WP_039387619.1	FAD synthase	0
+560	NCBI_PGAP	WP_002557567.1	YcsE-related riboflavin metabolism phosphatase	0
+561	NCBI_PGAP	WP_002557566.1	tRNA pseudouridine(55) synthase TruB (truB)	0
+562	NCBI_PGAP	WP_160593526.1	50S ribosomal protein L32 (rpmF)	0
+563	NCBI_PGAP	WP_160581461.1	phenylalanine--tRNA ligase subunit beta	0
+565	NCBI_PGAP	WP_160593528.1	P97 family adhesin	0
+566	NCBI_PGAP	WP_160593530.1	P110/LppT family adhesin N-terminal domain	0

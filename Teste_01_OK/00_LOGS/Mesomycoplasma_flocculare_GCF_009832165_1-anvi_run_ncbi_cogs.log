@@ -1,0 +1,9 @@
+COG version ..................................: COG20
+COG data source ..............................: The anvi'o default.
+COG base directory ...........................: /home/bryan/miniconda3/envs/anvio/lib/python3.10/site-packages/anvio/data/misc/COG
+
+
+Config Error: You don't seem to have any COG data setup in your COG data directory. Please
+              first run `anvi-setup-ncbi-cogs` to take care of that.                      
+
+

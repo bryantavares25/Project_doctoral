@@ -1,0 +1,25 @@
+Input ........................................: /home/bryan/Documentos/Anvio/NCBI_genomes/Mesomycoplasma_flocculare_ATCC_27399_GCF_000815065_1-contigs.fa
+Output .......................................: 01_FASTA/Mesomycoplasma_flocculare_ATCC_27399_GCF_000815065_1/Mesomycoplasma_flocculare_ATCC_27399_GCF_000815065_1-contigs-prefix-formatted-only.fa
+
+WHAT WAS THERE
+===============================================
+Total num contigs ............................: 1
+Total num nucleotides ........................: 778,866
+
+WHAT WAS ASKED
+===============================================
+Simplify deflines? ...........................: Yes
+Add prefix to sequence names? ................: Yes, add 'Mesomycoplasma_flocculare_ATCC_27399_GCF_000815065_1'
+Minimum length of contigs to keep ............: 0
+Max % gaps allowed ...........................: 100.00%
+Max num gaps allowed .........................: 1,000,000
+Exclude specific sequences? ..................: No
+Keep specific sequences? .....................: No
+Enforce sequence type? .......................: No
+
+WHAT HAPPENED
+===============================================
+Contigs removed ..............................: 0 (0.00% of all)
+Nucleotides removed ..........................: 0 (0.00% of all)
+Nucleotides modified .........................: 0 (0.00000% of all)
+Deflines simplified ..........................: True

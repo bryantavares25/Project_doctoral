@@ -1,0 +1,12 @@
+
+
+Config Error: Anvi'o is unable to find any KEGG files around :/ It is likely you need to first
+              run the program `anvi-setup-kegg-data` to set things up. If you already have run
+              it, but instructed anvi'o to store the output to a specific directory, then     
+              instead of running `anvi-setup-kegg-data` again, you simply need to specify the 
+              location of the KEGG data using the flag `--kegg-data-dir`. Just for your       
+              information, anvi'o was looking for the KEGG data here:                         
+              /home/bryan/miniconda3/envs/anvio/lib/python3.10/site-                          
+              packages/anvio/data/misc/KEGG                                                   
+
+
