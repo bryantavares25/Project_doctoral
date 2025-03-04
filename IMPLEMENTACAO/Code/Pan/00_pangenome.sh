@@ -2,10 +2,12 @@
 
 #pangenome worflow
 
+# Download NCBI genomes
+
+
 # Do GBFF to contigs.fa | external-functions | external-gene-calls
 anvi-script-process-genbank --input genomic.gbff \
     -O MF3
-
 
 
 anvi-gen-contigs-database -f contigs-fasta \
@@ -13,3 +15,5 @@ anvi-gen-contigs-database -f contigs-fasta \
     --external-gene-calls external-gene-calls \
     --ignore-internal-stop-codons
 
+
+### 
