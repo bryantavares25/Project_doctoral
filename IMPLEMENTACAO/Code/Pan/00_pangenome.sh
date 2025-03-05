@@ -3,7 +3,9 @@
 #pangenome worflow
 
 # Download NCBI genomes
+ncbi-genome-download bacteria -g "Mesomycoplasma hyopneumoniae" --metadata MHP-NCBI-METADATA.txt -F all
 
+ncbi-genome-download bacteria -g "Mesomycoplasma flocculare" --metadata MFC-NCBI-METADATA.txt -F all
 
 # Banco de dados para anotação funcional
 anvi-setup-ncbi-cogs
