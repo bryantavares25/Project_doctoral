@@ -234,18 +234,6 @@ anvi-run-workflow -w pangenomics --get-default-config PAN-CONFIG.json
 # Rodar o workflow > 1 Thread
 anvi-run-workflow -w pangenomics -c PAN-CONFIG.json
 
-
-
-
-# Do GBFF to contigs.fa | external-functions | external-gene-calls
-anvi-script-process-genbank --input genomic.gbff \
-    -O MF3
-
-
-anvi-gen-contigs-database -f contigs-fasta \
-    -o contigs-db \
-    --external-gene-calls external-gene-calls \
-    --ignore-internal-stop-codons
-
+anvi-display-pan -p PAN.db -g GENOME.db
 
 ### 
