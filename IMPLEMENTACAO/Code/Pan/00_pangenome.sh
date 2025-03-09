@@ -11,18 +11,24 @@ anvi-setup-scg-taxonomy
 # Download NCBI genomes
 #   Total
 ncbi-genome-download bacteria -g "Mesomycoplasma hyopneumoniae" --metadata MHP-NCBI-METADATA.txt -F all
-#   Util
+#   Pan
 ncbi-genome-download bacteria -g "Mesomycoplasma hyopneumoniae" --metadata MHP-NCBI-METADATA.txt
 
+#   Total
 ncbi-genome-download bacteria -g "Mesomycoplasma flocculare" --metadata MFC-NCBI-METADATA.txt -F all
+#   Pan
+ncbi-genome-download bacteria -g "Mesomycoplasma flocculare" --metadata MFC-NCBI-METADATA.txt
 
 # INPUT > MHP-NCBI-METADATA.txt
 anvi-script-process-genbank-metadata -m MHP-NCBI-METADATA.txt # -o output_folder
+anvi-script-process-genbank-metadata -m MFC-NCBI-METADATA.txt # -o output_folder
 # OUTPUT > fasta-input.txt | functions.txt | external-gene-calls.txt | contigs-fasta.fa
 # fasta-input > name	path	external_gene_calls	gene_functional_annotation
 
 # Ajuste de NCBI_PGAP para prodigal para não ter erro
 find -type f -exec sed -i 's/NCBI_PGAP/prodigal/g' {} +
+
+# Ajustar os nomes no arquivo fasta.txt > Strain_YYY
 
 # Ele cria um workflow básico de pangenomica
 anvi-run-workflow -w pangenomics --get-default-config PAN-CONFIG.json
