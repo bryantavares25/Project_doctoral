@@ -242,4 +242,8 @@ anvi-run-workflow -w pangenomics -c PAN-CONFIG.json
 
 anvi-display-pan -p PAN.db -g GENOME.db
 
+anvi-script-add-default-collection -p PAN.db -g GENOME.db
+
+anvi-summarize
+
 ### 
