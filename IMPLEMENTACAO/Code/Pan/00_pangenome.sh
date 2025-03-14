@@ -9,6 +9,7 @@ anvi-setup-ncbi-cogs
 anvi-setup-scg-taxonomy
 
 # Download NCBI genomes
+# INSTALL > conda install bioconda::ncbi-genome-download
 #   Total
 ncbi-genome-download bacteria -g "Mesomycoplasma hyopneumoniae" --metadata MHP-NCBI-METADATA.txt -F all
 #   Pan
@@ -19,7 +20,7 @@ ncbi-genome-download bacteria -g "Mesomycoplasma flocculare" --metadata MFC-NCBI
 ncbi-genome-download bacteria -g "Mesomycoplasma flocculare" --metadata MFC-NCBI-METADATA.txt
 
 # INPUT > MHP-NCBI-METADATA.txt
-anvi-script-process-genbank-metadata -m MHP-NCBI-METADATA.txt # -o output_folder
+anvi-script-process-genbank-metadata -m MHP-NCBI-METADATA.txt -o GENBANK-METADATA
 anvi-script-process-genbank-metadata -m MFC-NCBI-METADATA.txt # -o output_folder
 # OUTPUT > fasta-input.txt | functions.txt | external-gene-calls.txt | contigs-fasta.fa
 # fasta-input > name	path	external_gene_calls	gene_functional_annotation
