@@ -21,7 +21,7 @@ ncbi-genome-download bacteria -g "Mesomycoplasma flocculare" --metadata MFC-NCBI
 
 # INPUT > MHP-NCBI-METADATA.txt
 anvi-script-process-genbank-metadata -m MHP-NCBI-METADATA.txt -o GENBANK-METADATA
-anvi-script-process-genbank-metadata -m MFC-NCBI-METADATA.txt # -o output_folder
+anvi-script-process-genbank-metadata -m MFC-NCBI-METADATA.txt -o GENBANK-METADATA
 # OUTPUT > fasta-input.txt | functions.txt | external-gene-calls.txt | contigs-fasta.fa
 # fasta-input > name	path	external_gene_calls	gene_functional_annotation
 
@@ -231,7 +231,7 @@ anvi-run-workflow -w pangenomics --get-default-config PAN-CONFIG.json
         "PAN_DIR": "03_PAN",
         "LOGS_DIR": "00_LOGS"
     },
-    "max_threads": "1",
+    "max_threads": "8",
     "config_version": "3",
     "workflow_name": "pangenomics"
 }
