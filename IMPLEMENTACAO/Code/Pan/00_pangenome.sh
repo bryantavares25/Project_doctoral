@@ -244,10 +244,14 @@ anvi-display-pan -p PAN.db -g GENOME.db
 
 anvi-script-add-default-collection -p PAN.db -g GENOME.db
 
-anvi-summarize
+anvi-summarize -p PAN.db -g GENOMES.db -C DEFAULT
 
 ### ### ###
 
-# Captar dados
+# Captar dados 
 
-# 
+# Usei tabelas do SUMMARY para pegar a quantidade de genes de core e acessory
+# MHP > CORE 452 ACESSORY 313
+# MFC > CORE 523 ACESSORY 66
+
+# Calculating rarefaction curves and Heaps’ Law parameters
