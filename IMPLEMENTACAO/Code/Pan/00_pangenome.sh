@@ -255,3 +255,6 @@ anvi-summarize -p PAN.db -g GENOMES.db -C DEFAULT
 # MFC > CORE 523 ACESSORY 66
 
 # Calculating rarefaction curves and Heaps’ Law parameters
+
+# Functional enrichment
+# anvi-import-misc-data
