@@ -16,8 +16,7 @@ ax.add_feature(cfeature.COASTLINE, edgecolor="black")
 
 # Locais de interesse: (latitude, longitude, métrica 1, métrica 2)
 locations = {
-    "Brasil - ": (-14.2350, -51.9253, 20, 50), #MHP
-    "Brasil - ": (-14.2350, -51.9253, 20, 50), #MHP
+    "Brasil": (-14.2350, -51.9253, 20, 50),
     "France - Brittany": (48.534226, -4.640869, 0, 75),
     "France - Brittany - Again": (47.609288, -2.299219, 12, 0)
 }
@@ -37,11 +36,14 @@ for (lat, lon, m1, m2) in locations.values():
     ax.scatter(lon, lat, s=100, color=cmap1(norm1(m1)), edgecolor="black", alpha=0.8, label="Métrica 1")
     ax.scatter(lon, lat, s=100, color=cmap2(norm2(m2)), edgecolor="black", alpha=0.5, label="Métrica 2")
 
+# Ajustar o espaçamento entre as colorbars
+fig.subplots_adjust(right=0.8)
+
 # Criar colorbars para cada métrica
-cbar1 = plt.colorbar(plt.cm.ScalarMappable(norm=norm1, cmap=cmap1), ax=ax, orientation='vertical', fraction=0.03, pad=0.02)
+cbar1 = plt.colorbar(plt.cm.ScalarMappable(norm=norm1, cmap=cmap1), ax=ax, orientation='vertical', fraction=0.02, pad=0.03)
 cbar1.set_label('Métrica 1 (Azul)', rotation=270, labelpad=15)
 
-cbar2 = plt.colorbar(plt.cm.ScalarMappable(norm=norm2, cmap=cmap2), ax=ax, orientation='vertical', fraction=0.03, pad=0.12)
+cbar2 = plt.colorbar(plt.cm.ScalarMappable(norm=norm2, cmap=cmap2), ax=ax, orientation='vertical', fraction=0.02, pad=0.05)
 cbar2.set_label('Métrica 2 (Vermelho)', rotation=270, labelpad=15)
 
 # Adicionar título
