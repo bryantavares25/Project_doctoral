@@ -16,9 +16,19 @@ ax.add_feature(cfeature.COASTLINE, edgecolor="black")
 
 # Locais de interesse: (latitude, longitude, métrica 1, métrica 2)
 locations = {
-    "Brasil - Santa Catarina ": (-14.2350, -51.9253, 20, 50), #MHP
-    "Brasil - Minas Gerais": (-14.2350, -51.9253, 20, 50), #MHP
-    "France - Brittany": (48.534226, -4.640869, 0, 75), #MHP
+    "Brasil - Santa Catarina ": (-14.2350, -51.9253, 20, 50),
+    "Brasil - Minas Gerais": (-14.2350, -51.9253, 20, 50),
+    "France - Brittany": (48.534226, -4.640869, 0, 75),
+    "Holanda - Boxmeer": (48.534226, -4.640869, 0, 75),
+    "China - Er-hua-nian": (48.534226, -4.640869, 0, 75),
+    "China - Tibet": (48.534226, -4.640869, 0, 75),
+    "China - Hubei": (48.534226, -4.640869, 0, 75),
+    "China - Jiangsu Nanjing": (48.534226, -4.640869, 0, 75),
+    "China": (48.534226, -4.640869, 0, 75),
+    "Bélgica - Ghent": (48.534226, -4.640869, 0, 75),
+    "Bélgica": (48.534226, -4.640869, 0, 75),
+    "Austria": (48.534226, -4.640869, 0, 75),
+    "Suiça": (48.534226, -4.640869, 0, 75),
     "France - Brittany": (47.609288, -2.299219, 00, 75), #MFC
     "Dinamarca": (-14.2350, -51.9253, 00, 12.50), #MFC
 }
