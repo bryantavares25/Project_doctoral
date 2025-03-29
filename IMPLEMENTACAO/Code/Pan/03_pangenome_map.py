@@ -16,10 +16,11 @@ ax.add_feature(cfeature.COASTLINE, edgecolor="black")
 
 # Locais de interesse: (latitude, longitude, métrica 1, métrica 2)
 locations = {
-    "Brasil - ": (-14.2350, -51.9253, 20, 50), #MHP
-    "Brasil - ": (-14.2350, -51.9253, 20, 50), #MHP
-    "France - Brittany": (48.534226, -4.640869, 0, 75),
-    "France - Brittany - Again": (47.609288, -2.299219, 12, 0)
+    "Brasil - Santa Catarina ": (-14.2350, -51.9253, 20, 50), #MHP
+    "Brasil - Minas Gerais": (-14.2350, -51.9253, 20, 50), #MHP
+    "France - Brittany": (48.534226, -4.640869, 0, 75), #MHP
+    "France - Brittany": (47.609288, -2.299219, 00, 75), #MFC
+    "Dinamarca": (-14.2350, -51.9253, 00, 12.50), #MFC
 }
 
 # Extrair valores para normalização das cores
