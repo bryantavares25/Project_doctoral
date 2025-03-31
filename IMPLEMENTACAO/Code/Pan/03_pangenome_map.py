@@ -62,8 +62,8 @@ norm2 = mcolors.Normalize(vmin=0, vmax=max(metric2_values))
 #cmap1 = plt.cm.Greens # Métrica 1 → Azul
 #cmap2 = plt.cm.Oranges   # Métrica 2 → Vermelho
 
-cmap1 = mcolors.LinearSegmentedColormap.from_list("custom_blue", ["plum", "purple"])
-cmap2 = mcolors.LinearSegmentedColormap.from_list("custom_orange", ["lightgreen", "darkgreen"])
+cmap1 = mcolors.LinearSegmentedColormap.from_list("custom_blue", ["lightblue", "darkblue"])
+cmap2 = mcolors.LinearSegmentedColormap.from_list("custom_orange", ["lightpink", "darkred"])
 
 # Criar scatter plot
 for (lat, lon, m1, m2) in locations.values():
