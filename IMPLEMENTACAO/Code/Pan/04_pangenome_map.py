@@ -32,7 +32,7 @@ locations = {
     "China - Jiangsu Nanjing": (32.051965, 118.778029, 1, 0),
     "China": (35.861660, 104.195396, 1, 0),
     "France - Brittany - MFC": (47.609288, -2.299219, 0, 6),
-    "Dinamarca": (-14.2350, -51.9253, 0, 1),
+    "Dinamarca - MFC": (56.263920, 9.501785, 0, 1),
 }
 
 # Separar métricas em vetores distintos
@@ -50,8 +50,8 @@ for lat, lon, m1, m2 in locations.values():
         metric2_values.append(m2)
 
 # Normalizar cores
-norm1 = mcolors.Normalize(vmin=0, vmax=35)
-norm2 = mcolors.Normalize(vmin=0, vmax=8)
+norm1 = mcolors.Normalize(vmin=1, vmax=35)
+norm2 = mcolors.Normalize(vmin=1, vmax=8)
 
 # Mapas de cores
 #cmap1 = plt.cm.Blues  # Métrica 1 → Verde
@@ -61,8 +61,8 @@ cmap1 = mcolors.LinearSegmentedColormap.from_list("custom_blue", ["lightblue", "
 cmap2 = mcolors.LinearSegmentedColormap.from_list("custom_orange", ["lightpink", "darkred"])
 
 # Criar scatter plots separados
-sc1 = ax.scatter(lon_m1, lat_m1, s=100, c=metric1_values, cmap=cmap1, norm=norm1, edgecolor="black", alpha=0.9, label="Métrica 1")
-sc2 = ax.scatter(lon_m2, lat_m2, s=100, c=metric2_values, cmap=cmap2, norm=norm2, edgecolor="black", alpha=0.9, label="Métrica 2")
+sc1 = ax.scatter(lon_m1, lat_m1, s=50, c=metric1_values, cmap=cmap1, norm=norm1, edgecolor="black", alpha=0.9, label="Métrica 1")
+sc2 = ax.scatter(lon_m2, lat_m2, s=50, c=metric2_values, cmap=cmap2, norm=norm2, edgecolor="black", alpha=0.9, label="Métrica 2")
 
 # Criar colorbars para cada métrica
 cbar1 = plt.colorbar(sc1, ax=ax, orientation='vertical', fraction=0.03, pad=0.02)
