@@ -62,6 +62,6 @@ f1 = open("/home/lgef/InterTests/mhp_go_enrichment_grupo1.tsv", "w")
 goeaobj.prt_tsv(f1, goea_results1)
 f1.close()
 
-f2 = open("/home/lgef/InterTests/mfc_go_enrichment_grupo2.tsv", "w")
+f2 = open("/home/lgef/InterTests/go_enrichment_grupo2.tsv", "w")
 goeaobj.prt_tsv(f2, goea_results2)
 f2.close()
