@@ -54,6 +54,6 @@ def parse_tsv(input_file, output_file):
     outfile.close()
 
 # Exemplo de uso
-input_file = "/home/lgef/InterTests/mhp_protein.faa.tsv"
-output_file = "/home/lgef/InterTests/output.tsv"
+input_file = "/home/lgef/InterTests/mfc_protein.faa.tsv"
+output_file = "/home/lgef/InterTests/mfc_output.tsv"
 parse_tsv(input_file, output_file)
