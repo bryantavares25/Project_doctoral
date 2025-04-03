@@ -71,21 +71,26 @@ cbar1.set_label(r"$\mathit{M.\ hyopneumoniae}$", rotation=270, labelpad=15)
 cbar2 = plt.colorbar(sc2, ax=ax, orientation='vertical', fraction=0.03, pad=0.12)
 cbar2.set_label(r"$\mathit{M.\ flocculare}$", rotation=270, labelpad=15)
 
-
 # Adicionar legenda
 ax.legend()
 
-# Adicionar título
-plt.title("Scatter Plot com Duas Métricas Separadas no Mapa", fontsize=14)
-
 # Mostrar figura
+#% start: automatic generated code from pylustrator
+#plt.figure(1).ax_dict = {ax.get_label(): ax for ax in plt.figure(1).axes}
+#import matplotlib as mpl
+#getattr(plt.figure(1), '_pylustrator_init', lambda: ...)()
+#plt.figure(1).ax_dict["<colorbar>"].set(position=[0.8415, 0.1194, 0.01922, 0.77])
+#plt.figure(1).axes[0].set(position=[0.03459, 0.1193, 0.7705, 0.7717])
+#plt.figure(1).axes[0].title.set(visible=False)
+#plt.figure(1).axes[0].get_legend().set(visible=False)
+#% end: automatic generated code from pylustrator
 #% start: automatic generated code from pylustrator
 plt.figure(1).ax_dict = {ax.get_label(): ax for ax in plt.figure(1).axes}
 import matplotlib as mpl
 getattr(plt.figure(1), '_pylustrator_init', lambda: ...)()
-plt.figure(1).ax_dict["<colorbar>"].set(position=[0.8415, 0.1194, 0.01922, 0.77])
-plt.figure(1).axes[0].set(position=[0.03459, 0.1193, 0.7705, 0.7717])
-plt.figure(1).axes[0].title.set(visible=False)
+plt.figure(1).ax_dict["<colorbar>"].set(position=[0.8108, 0.11, 0.02209, 0.77])
+plt.figure(1).ax_dict["<colorbar>"].set(position=[0.8775, 0.11, 0.02325, 0.77])
+plt.figure(1).axes[0].set(position=[0.07551, 0.11, 0.6983, 0.77], xlim=(-95.08, 162.6), ylim=(-58.32, 83.65))
 plt.figure(1).axes[0].get_legend().set(visible=False)
 #% end: automatic generated code from pylustrator
 plt.show()
