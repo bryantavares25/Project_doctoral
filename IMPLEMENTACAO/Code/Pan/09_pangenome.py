@@ -1,4 +1,4 @@
-import csv
+'''import csv
 from collections import defaultdict
 from goatools.obo_parser import GODag
 from goatools.goea.go_enrichment_ns import GOEnrichmentStudy
@@ -65,3 +65,36 @@ f1.close()
 f2 = open("/home/lgef/InterTests/go_enrichment_grupo2.tsv", "w")
 goeaobj.prt_tsv(f2, goea_results2)
 f2.close()
+'''
+
+from goatools.obo_parser import GODag
+from goatools.goea.go_enrichment_ns import GOEnrichmentStudy
+from goatools.associations import read_gaf
+from datetime import date
+
+# 1. Carregar ontologia GO
+obodag = GODag("/home/lgef/go-basic.obo")
+
+# 2. Ler os dois arquivos GAF
+assoc_all = read_gaf("/home/lgef/InterTests/MHP.gaf")  # associações de background
+assoc_test = read_gaf("/home/lgef/InterTests/MFC.gaf")  # genes do grupo de interesse
+
+# 3. Lista de genes
+pop_ids = list(assoc_all.keys())  # todos os genes do GAF de background
+study_ids = list(assoc_test.keys())  # genes do grupo A
+
+# 4. Preparar objeto para enriquecimento
+goeaobj = GOEnrichmentStudy(
+    pop_ids,              # background
+    assoc_all,            # associações GO para background
+    obodag,               # ontologia
+    propagate_counts=True,
+    alpha=0.05,
+    methods=['fdr_bh']    # correção de múltiplos testes (FDR)
+)
+
+# 5. Rodar análise de enriquecimento
+results = goeaobj.run_study(study_ids)
+
+# 6. Salvar resultados
+goeaobj.wr_xlsx("resultado_enriquecimento.xlsx", results)
