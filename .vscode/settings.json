@@ -1,3 +1,8 @@
 {
-    "r.lsp.promptToInstall": false
+    "r.lsp.promptToInstall": false,
+    "r.rterm.linux": "/home/bryantavares/Softwares/miniconda3/envs/rbase/bin/R",
+    "r.rpath.linux": "/home/bryantavares/Softwares/miniconda3/envs/rbase/bin/R",
+    "r.rterm.option": [],
+    "r.alwaysUseActiveTerminal": true,
+    "r.bracketedPaste": true
 }
