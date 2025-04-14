@@ -31,5 +31,4 @@ parse_tsv(input_file, output_file)
 
 #### DEEPSEEK
 
-# for
-# grep -o "GO:[0-9]\{7\}" dados_genes.txt | sort -u > test.txt
+# for i in ${t[@]}: do # grep -o "GO:[0-9]\{7\}" dados_genes.txt | sort -u > test.txt; done
