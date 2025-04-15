@@ -29,7 +29,3 @@ input_file = "/home/lgef/InterTests/mfc_protein.faa.tsv"
 output_file = "/home/lgef/InterTests/mfc_output.tsv"
 parse_tsv(input_file, output_file)
 
-#### DEEPSEEK
-
-# t=
-# for i in ${t[@]}: do # grep -o "GO:[0-9]\{7\}" dados_genes.txt | sort -u > test.txt; done
