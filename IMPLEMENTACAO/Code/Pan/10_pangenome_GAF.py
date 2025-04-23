@@ -30,8 +30,8 @@ def get_aspect(go_id):
 # Abrir arquivos manualmente
 #dir="/home/lgef/InterTests/"
 dir="/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/"
-input_file = f"{dir}MFC_interpro_db.tsv"
-output_file = f"{dir}MFC_interpro_db_gaf.tsv"
+infile = f"{dir}MFC_interpro_db.tsv"
+outfile = f"{dir}MFC_interpro_db_gaf.tsv"
 
 #infile = open("/home/lgef/InterTests/mhp_output.tsv", "r")
 #outfile = open("/home/lgef/InterTests/MHP_GAF", "w")
