@@ -11,7 +11,8 @@ today = date.today().strftime("%Y%m%d")
 assigned_by = "YourLab"
 
 # Carrega o arquivo .obo
-go_dag = GODag("/home/lgef/go-basic.obo")  # baixe antes e coloque no mesmo diretório
+go_dag = GODag("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/go-basic.obo")
+#go_dag = GODag("/home/lgef/go-basic.obo")  # baixe antes e coloque no mesmo diretório
 
 # Função para determinar o aspecto (F, P ou C)
 def get_aspect(go_id):
