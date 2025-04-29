@@ -12,12 +12,14 @@ go_dag = GODag(obo_file)
 # Carregar associações gene → GO
 gene2go = read_gaf(assoc_file)
 
-# Listas de genes
-with open("study.txt") as f:
-    study_genes = [line.strip() for line in f]
+# Lista de desejos
+f1 = open("study.txt", "r")
+study_genes = f1.read().splitlines()
+f1.close()
 
-with open("population.txt") as f:
-    pop_genes = [line.strip() for line in f]
+f2 = open("population.txt", "r")
+pop_genes = f2.read().splitlines()
+f2.close()
 
 # Enriquecimento
 goea_obj = GOEnrichmentStudy(
