@@ -40,6 +40,7 @@ goea_obj.print_results(results, min_ratio=0.05, pval=0.05)
 # CHATGPT #
 
 # DEEPSEEK #
+'''
 from goatools import obo_parser
 from goatools.go_enrichment import GOEnrichmentStudy
 
@@ -52,7 +53,7 @@ go = obo_parser.GODag(go_obo)
 #gene2go = "gene2go.txt"  # Formato: gene \t GO_ID
 gene2go = "/home/bryantavares/Documents/Bionfo_doc_analyses/ANVIO_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MFC_interpro_db.tsv"  # Formato: gene \t GO_ID
 associations = {}
-f = open(gene2go)
+f =open(gene2go)
 for line in f:
     try:
         gene, go_id = line.strip().split('\t')
@@ -76,3 +77,70 @@ result = g.run_study(study_genes)
 # Salvar resultados
 g.write_summary("enriquecimento_go.txt", result)
 # DEEPSEEK #
+'''
+
+from goatools import obo_parser
+from goatools.go_enrichment import GOEnrichmentStudy
+
+# Carregar a ontologia GO
+go_obo = "/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/go-basic.obo"
+
+# Carregar anotações gene-GO
+gene2go = "/home/bryantavares/Documents/Bionfo_doc_analyses/ANVIO_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MFC_interpro_db.gaf"
+associations = {}
+
+study_genes = [
+    "GC_00000001", "GC_00000002", "GC_00000003", "GC_00000009", "GC_00000014", 
+    "GC_00000015", "GC_00000018", "GC_00000019", "GC_00000020", "GC_00000023"
+]
+
+from goatools.obo_parser import GODag
+from goatools.associations import read_gaf
+from goatools.go_enrichment import GOEnrichmentStudy
+import pandas as pd
+
+# Arquivos de entrada
+gaf_file = "/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MFC_interpro_db.gaf"
+obo_file = "go-basic.obo"
+#study_file = "study.txt"
+study_file = "/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_core.txt"
+population_file = "population.txt"
+
+# Carregar ontologia GO
+print("Carregando ontologia GO...")
+go_dag = GODag(obo_file)
+
+# Carregar anotações gene2go do GAF
+print("Lendo GAF...")
+gene2go = read_gaf(gaf_file, godag=go_dag)
+
+# Carregar listas de genes
+print("Carregando listas de genes...")
+with open(study_file, "r") as f:
+    study_genes = [line.strip() for line in f if line.strip()]
+
+with open(population_file, "r") as f:
+    population_genes = [line.strip() for line in f if line.strip()]
+
+# Verificar consistência
+study_genes = [g for g in study_genes if g in population_genes]
+
+# Enriquecimento GO
+print("Executando análise de enriquecimento...")
+goea_obj = GOEnrichmentStudy(
+    population_genes,  # background
+    gene2go,           # associações gene→GO
+    go_dag,            # estrutura GO
+    methods=["fdr_bh"] # correção de múltiplos testes
+)
+
+results = goea_obj.run_study(study_genes)
+
+# Filtrar resultados significativos
+sig_results = [r for r in results if r.p_fdr_bh < 0.05]
+
+# Salvar em arquivo
+print("Salvando resultados...")
+goea_obj.wr_tsv("go_enrichment_results.tsv", sig_results)
+
+print(f"Análise finalizada. {len(sig_results)} termos GO significativos salvos em 'go_enrichment_results.tsv'.")
