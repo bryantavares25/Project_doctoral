@@ -120,8 +120,8 @@ def carregar_go_termos(arquivo):
     return gene2go
 
 # Carregar os dois grupos
-grupo1 = carregar_go_termos("/home/lgef/InterTests/mhp_output.tsv")
-grupo2 = carregar_go_termos("/home/lgef/InterTests/mfc_output.tsv")
+grupo1 = carregar_go_termos("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/InterTests/MFC.gaf")
+grupo2 = carregar_go_termos("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/InterTests/MHP.gaf")
 
 # Criar listas de genes
 genes_grupo1 = set(grupo1.keys())
@@ -135,7 +135,7 @@ for gene, gos in grupo2.items():
     gene2go[gene].update(gos)
 
 # Carregar ontologia GO
-godag = GODag("/home/lgef/go-basic.obo")
+godag = GODag("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/go-basic.obo")
 
 # Criar objeto de enriquecimento
 goeaobj = GOEnrichmentStudy(
@@ -159,5 +159,5 @@ print("\n=== Resultados para Grupo 2 ===")
 #goeaobj.print_results(goea_results2)
 
 # Salvar resultados em TSV
-goeaobj.wr_tsv("/home/lgef/InterTests/mhp_go_enrichment_grupo1.tsv", goea_results1)
-goeaobj.wr_tsv("/home/lgef/InterTests/mfc_go_enrichment_grupo2.tsv", goea_results2)
+goeaobj.wr_tsv("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/InterTests/NOVO_TEST_mhp_go_enrichment_grupo1.tsv", goea_results1)
+goeaobj.wr_tsv("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/InterTests/NOVO_TEST_mfc_go_enrichment_grupo2.tsv", goea_results2)
