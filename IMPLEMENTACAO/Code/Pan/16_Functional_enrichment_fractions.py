@@ -4,11 +4,11 @@ from goatools.go_enrichment import GOEnrichmentStudy
 from collections import defaultdict
 
 # === 1. Carregar o GO DAG ===
-obodag = GODag("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/go-basic.obo")
+obodag = GODag("/home/lgef/Bionfo_doc_analyses/go-basic.obo")
 
 # === 2. Ler anotações GO ===
 gene2go = defaultdict(set)
-f = open("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MFC_interpro_db.tsv", "r")
+f = open("/home/lgef/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MHP_MFC_interpro_db.tsv", "r")
 for line in f:
     gene, go_id = line.strip().split("\t")
     gene2go[gene].add(go_id)
@@ -16,7 +16,7 @@ f.close()
 
 # === 3. Ler genes de interesse ===
 study_genes = set()
-f = open("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_core.txt", "r")
+f = open("/home/lgef/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_core.txt", "r")
 for line in f:
     study_genes.add(line.strip())
 f.close()
