@@ -108,3 +108,9 @@ for r in results:
 out.close()
 print(f"\nResultados salvos em: {arquivo_saida}")
 '''
+
+# SUGESTION 
+# from goatools.godag_plot import plot_gos
+#plot_gos("enrichment_results.pdf", 
+#         [r.GO for r in results if r.p_fdr_bh < 0.05], 
+#         obodag)

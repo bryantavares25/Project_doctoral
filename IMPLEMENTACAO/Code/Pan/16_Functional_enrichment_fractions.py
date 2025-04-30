@@ -16,7 +16,7 @@ f.close()
 
 # === 3. Ler genes de interesse ===
 study_genes = set()
-f = open("/home/lgef/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_core.txt", "r")
+f = open("/home/lgef/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_shell_cloud.txt", "r")
 for line in f:
     study_genes.add(line.strip())
 f.close()
