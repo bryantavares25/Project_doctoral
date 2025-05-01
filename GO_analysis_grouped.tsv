@@ -1,0 +1,8 @@
+Parent GO	Parent Term	Category	P-value (FDR)	Study Count	Population Count	Similar Terms
+GO:0009058	biosynthetic process	purified	9.868e-02	24	170	GO:0009058 (biosynthetic process), GO:0009059 (macromolecule biosynthetic process)
+GO:0110165	cellular anatomical structure	purified	1.830e-01	113	475	GO:0110165 (cellular anatomical structure), GO:0005575 (cellular_component)
+GO:0003723	RNA binding	purified	1.830e-01	5	50	GO:0003723 (RNA binding)
+GO:0016310	phosphorylation	enriched	4.600e-01	5	5	GO:0016310 (phosphorylation)
+GO:0003824	catalytic activity	enriched	4.600e-01	97	269	GO:0003824 (catalytic activity)
+GO:0008236	serine-type peptidase activity	enriched	4.600e-01	18	21	GO:0008236 (serine-type peptidase activity), GO:0004252 (serine-type endopeptidase activity), GO:0017171 (serine hydrolase activity)
+GO:0006412	translation	purified	4.600e-01	7	52	GO:0006412 (translation)

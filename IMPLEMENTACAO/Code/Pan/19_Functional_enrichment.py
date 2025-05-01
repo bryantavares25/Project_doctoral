@@ -5,11 +5,11 @@ from goatools.semantic import semantic_similarity
 from collections import defaultdict
 
 # === 1. Carregar Ontologia GO ===
-obodag = GODag("go-basic.obo")  # Substitua pelo caminho do seu arquivo .obo
+obodag = GODag("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/go.obo")  # Substitua pelo caminho do seu arquivo .obo
 
 # === 2. Ler Anotações GO (gene → GO terms) ===
 gene2go = defaultdict(set)
-with open("MHP_MFC_interpro_db.tsv", "r") as f:  # Substitua pelo seu arquivo de anotações
+with open("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MHP_MFC_interpro_db.tsv", "r") as f:  # Substitua pelo seu arquivo de anotações
     for line in f:
         parts = line.strip().split("\t")
         if len(parts) >= 2:
@@ -18,7 +18,7 @@ with open("MHP_MFC_interpro_db.tsv", "r") as f:  # Substitua pelo seu arquivo de
 
 # === 3. Ler Genes de Interesse (study genes) ===
 study_genes = set()
-with open("fraction_shell_cloud.txt", "r") as f:  # Substitua pelo seu arquivo de genes
+with open("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_shell_cloud.txt", "r") as f:  # Substitua pelo seu arquivo de genes
     for line in f:
         gene = line.strip()
         if gene:
@@ -36,7 +36,7 @@ goea = GOEnrichmentStudy(
     pop=population_genes,
     assoc=gene2go,
     obo_dag=obodag,
-    alpha=0.05,
+    alpha=0.5,
     methods=['fdr_bh'],
     propagate_counts=True  # Inclui termos filhos
 )
@@ -46,7 +46,7 @@ results = goea.run_study(study_genes)
 def group_similar_terms(go_results, obodag, threshold=0.8):
     grouped_terms = defaultdict(list)
     used_terms = set()
-    sorted_results = sorted(go_results, key=lambda x: x.p_fdr_bh)  # Ordena por p-value
+    sorted_results = sorted(go_results, key=lambda x: x.p_fdr_bh)
     
     for i, r1 in enumerate(sorted_results):
         if r1.GO in used_terms:
@@ -56,7 +56,7 @@ def group_similar_terms(go_results, obodag, threshold=0.8):
             if r2.GO in used_terms:
                 continue
             sim = semantic_similarity(r1.GO, r2.GO, obodag)
-            if sim >= threshold:
+            if sim is not None and sim >= threshold:  # Adiciona verificação de None
                 grouped_terms[r1.GO].append(r2)
                 used_terms.add(r2.GO)
     return grouped_terms
