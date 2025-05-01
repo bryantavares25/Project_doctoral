@@ -4,11 +4,13 @@ from goatools.go_enrichment import GOEnrichmentStudy
 from collections import defaultdict
 
 # === 1. Load GO DAG ===
-obodag = GODag("/home/lgef/Bionfo_doc_analyses/go-basic.obo")
+#obodag = GODag("/home/lgef/Bionfo_doc_analyses/go-basic.obo")
+obodag = GODag("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/go-basic.obo")
 
 # === 2. Read GO annotations ===
 gene2go = defaultdict(set)
-annotation_file = "/home/lgef/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MHP_MFC_interpro_db.tsv"
+annotation_file = "/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MHP_MFC_interpro_db.tsv"
+#annotation_file = "/home/lgef/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MHP_MFC_interpro_db.tsv"
 
 with open(annotation_file, "r") as f:
     for line in f:
@@ -18,7 +20,8 @@ with open(annotation_file, "r") as f:
             gene2go[gene].add(go_id)
 
 # === 3. Read study genes ===
-study_genes_file = "/home/lgef/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_shell_cloud.txt"
+study_genes_file = "/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_shell_cloud.txt"
+#study_genes_file = "/home/lgef/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_shell_cloud.txt"
 study_genes = set()
 
 with open(study_genes_file, "r") as f:
@@ -26,6 +29,9 @@ with open(study_genes_file, "r") as f:
         gene = line.strip()
         if gene:
             study_genes.add(gene)
+
+study_genes = [gene for gene in study_genes if gene in gene2go]  # Filtra genes sem anotações GO
+print(f"Genes no estudo após filtro: {len(study_genes)}") 
 
 # === 4. Define background population ===
 population_genes = list(gene2go.keys())  # Convert to list
@@ -43,7 +49,7 @@ goea = GOEnrichmentStudy(
     alpha=0.5,
     methods=['fdr_bh', 'bonferroni', 'sidak', 'holm'],
     propagate_counts=True,
-    min_ratio=0.2
+    min_ratio=0.5
 )
 
 # Run study
@@ -65,3 +71,40 @@ with open(output_file, "w") as f:
             f.write(line)
 
 print(f"\nResults saved to {output_file}")
+
+# ... (código anterior até a análise GO) ...
+
+# === 6. Salvar resultados (enriched + purified) em um arquivo ===
+output_file = "GO_enrichment_and_purification_results.tsv"
+
+with open(output_file, "w") as f:
+    # Cabeçalho
+    f.write("GO\tTerm\tCategory\tP-value (FDR)\tStudy Count\tPopulation Count\tStudy Genes\n")
+    
+    for r in results:
+        if r.p_fdr_bh < 0.5:  # Filtro de significância (alpha=0.5)
+            # Determina se é "enriched" ou "purified"
+            ratio_study = r.study_count / len(study_genes)
+            ratio_pop = r.pop_count / len(population_genes)
+            category = "enriched" if ratio_study > ratio_pop else "purified"
+            
+            # Pega os genes associados ao termo GO (opcional)
+            genes_in_term = ", ".join(r.study_items) if hasattr(r, 'study_items') else "N/A"
+            
+            # Linha formatada
+            line = f"{r.GO}\t{r.name}\t{category}\t{r.p_fdr_bh:.3e}\t{r.study_count}\t{r.pop_count}\t{genes_in_term}\n"
+            f.write(line)
+
+print(f"Resultados salvos em: {output_file}")
+
+
+
+# # # # #
+
+import pandas as pd
+df = pd.read_csv("GO_enrichment_and_purification_results.tsv", sep="\t")
+enriched_terms = df[df["Category"] == "enriched"]
+purified_terms = df[df["Category"] == "purified"]
+
+from goatools.godag_plot import plot_gos
+plot_gos("purified_terms.pdf", [r.GO for r in results if r.p_fdr_bh < 0.5 and "purified" in line], obodag)
