@@ -4,12 +4,15 @@ from goatools.go_enrichment import GOEnrichmentStudy
 from goatools.semantic import semantic_similarity
 from collections import defaultdict
 
+dir = "/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/"
+
 # === 1. Carregar Ontologia GO ===
-obodag = GODag("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/go.obo")  # Substitua pelo caminho do seu arquivo .obo
+obodag = GODag(f"{dir}go.obo")  # Substitua pelo caminho do seu arquivo .obo
 
 # === 2. Ler Anotações GO (gene → GO terms) ===
 gene2go = defaultdict(set)
-with open("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MHP_MFC_interpro_db.tsv", "r") as f:  # Substitua pelo seu arquivo de anotações
+input_db = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MFC_interpro_db.tsv"
+with open(input_db, "r") as f:  # Substitua pelo seu arquivo de anotações
     for line in f:
         parts = line.strip().split("\t")
         if len(parts) >= 2:
@@ -18,7 +21,8 @@ with open("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_
 
 # === 3. Ler Genes de Interesse (study genes) ===
 study_genes = set()
-with open("/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_shell_cloud.txt", "r") as f:  # Substitua pelo seu arquivo de genes
+input_study = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_core.txt"
+with open(input_study, "r") as f:  # Substitua pelo seu arquivo de genes
     for line in f:
         gene = line.strip()
         if gene:
@@ -69,7 +73,7 @@ grouped_results = group_similar_terms(
 )
 
 # === 7. Salvar Resultados (Enriched + Purified) ===
-output_file = "GO_analysis_grouped.tsv"
+output_file = f"{dir}Functional_analyses/MFC_fe_fraction_core.tsv"
 with open(output_file, "w") as f:
     f.write("Parent GO\tParent Term\tCategory\tP-value (FDR)\tStudy Count\tPopulation Count\tSimilar Terms\n")
     
