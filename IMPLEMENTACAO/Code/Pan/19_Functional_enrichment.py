@@ -1,0 +1,92 @@
+from goatools.obo_parser import GODag
+from goatools.associations import read_gaf
+from goatools.go_enrichment import GOEnrichmentStudy
+from goatools.semantic import semantic_similarity
+from collections import defaultdict
+
+# === 1. Carregar Ontologia GO ===
+obodag = GODag("go-basic.obo")  # Substitua pelo caminho do seu arquivo .obo
+
+# === 2. Ler Anotações GO (gene → GO terms) ===
+gene2go = defaultdict(set)
+with open("MHP_MFC_interpro_db.tsv", "r") as f:  # Substitua pelo seu arquivo de anotações
+    for line in f:
+        parts = line.strip().split("\t")
+        if len(parts) >= 2:
+            gene, go_id = parts[0], parts[1]
+            gene2go[gene].add(go_id)
+
+# === 3. Ler Genes de Interesse (study genes) ===
+study_genes = set()
+with open("fraction_shell_cloud.txt", "r") as f:  # Substitua pelo seu arquivo de genes
+    for line in f:
+        gene = line.strip()
+        if gene:
+            study_genes.add(gene)
+
+# Filtrar genes não anotados
+study_genes = [gene for gene in study_genes if gene in gene2go]
+print(f"Genes no estudo após filtro: {len(study_genes)}")
+
+# === 4. Definir Background (todos genes anotados) ===
+population_genes = list(gene2go.keys())
+
+# === 5. Análise de Enriquecimento GO ===
+goea = GOEnrichmentStudy(
+    pop=population_genes,
+    assoc=gene2go,
+    obo_dag=obodag,
+    alpha=0.05,
+    methods=['fdr_bh'],
+    propagate_counts=True  # Inclui termos filhos
+)
+results = goea.run_study(study_genes)
+
+# === 6. Agrupar Termos por Similaridade Semântica ===
+def group_similar_terms(go_results, obodag, threshold=0.8):
+    grouped_terms = defaultdict(list)
+    used_terms = set()
+    sorted_results = sorted(go_results, key=lambda x: x.p_fdr_bh)  # Ordena por p-value
+    
+    for i, r1 in enumerate(sorted_results):
+        if r1.GO in used_terms:
+            continue
+        grouped_terms[r1.GO].append(r1)
+        for j, r2 in enumerate(sorted_results[i+1:]):
+            if r2.GO in used_terms:
+                continue
+            sim = semantic_similarity(r1.GO, r2.GO, obodag)
+            if sim >= threshold:
+                grouped_terms[r1.GO].append(r2)
+                used_terms.add(r2.GO)
+    return grouped_terms
+
+# Aplicar agrupamento
+grouped_results = group_similar_terms(
+    [r for r in results if r.p_fdr_bh < 0.5],  # Filtra significativos
+    obodag,
+    threshold=0.8
+)
+
+# === 7. Salvar Resultados (Enriched + Purified) ===
+output_file = "GO_analysis_grouped.tsv"
+with open(output_file, "w") as f:
+    f.write("Parent GO\tParent Term\tCategory\tP-value (FDR)\tStudy Count\tPopulation Count\tSimilar Terms\n")
+    
+    for parent_go, similar_terms in grouped_results.items():
+        parent_term = obodag[parent_go].name
+        p_value = min(t.p_fdr_bh for t in similar_terms)  # Melhor p-value
+        total_study = sum(t.study_count for t in similar_terms)
+        total_pop = sum(t.pop_count for t in similar_terms)
+        
+        # Classifica como enriched/purified
+        ratio_study = total_study / len(study_genes)
+        ratio_pop = total_pop / len(population_genes)
+        category = "enriched" if ratio_study > ratio_pop else "purified"
+        
+        # Lista de termos similares
+        similar_terms_str = ", ".join(f"{t.GO} ({obodag[t.GO].name})" for t in similar_terms)
+        
+        f.write(f"{parent_go}\t{parent_term}\t{category}\t{p_value:.3e}\t{total_study}\t{total_pop}\t{similar_terms_str}\n")
+
+print(f"Resultados salvos em: {output_file}")
