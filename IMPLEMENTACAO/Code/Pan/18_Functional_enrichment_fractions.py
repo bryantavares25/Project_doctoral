@@ -20,7 +20,7 @@ with open(annotation_file, "r") as f:
             gene2go[gene].add(go_id)
 
 # === 3. Read study genes ===
-study_genes_file="/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_shell_cloud.txt"
+study_genes_file="/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_core.txt"
 #study_genes_file = "/home/lgef/Bionfo_doc_analyses/ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_shell_cloud.txt"
 study_genes = set()
 

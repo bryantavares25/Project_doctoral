@@ -21,7 +21,7 @@ with open(input_db, "r") as f:  # Substitua pelo seu arquivo de anotações
 
 # === 3. Ler Genes de Interesse (study genes) ===
 study_genes = set()
-input_study = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/fraction_core.txt"
+input_study = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_shell_singletons.txt"
 with open(input_study, "r") as f:  # Substitua pelo seu arquivo de genes
     for line in f:
         gene = line.strip()
@@ -73,7 +73,7 @@ grouped_results = group_similar_terms(
 )
 
 # === 7. Salvar Resultados (Enriched + Purified) ===
-output_file = f"{dir}Functional_analyses/MFC_fe_fraction_core.tsv"
+output_file = f"{dir}Functional_analyses/MFC_fe_fraction_shell_singletons.tsv"
 with open(output_file, "w") as f:
     f.write("Parent GO\tParent Term\tCategory\tP-value (FDR)\tStudy Count\tPopulation Count\tSimilar Terms\n")
     
