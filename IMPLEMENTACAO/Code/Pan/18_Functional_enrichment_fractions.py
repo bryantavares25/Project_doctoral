@@ -94,17 +94,15 @@ with open(output_file, "w") as f:
             # Linha formatada
             line = f"{r.GO}\t{r.name}\t{category}\t{r.p_fdr_bh:.3e}\t{r.study_count}\t{r.pop_count}\t{genes_in_term}\n"
             f.write(line)
-
 print(f"Resultados salvos em: {output_file}")
 
-
-
 # # # # #
-
+# # # # #
 import pandas as pd
+from goatools.godag_plot import plot_gos
 df = pd.read_csv("GO_enrichment_and_purification_results.tsv", sep="\t")
 enriched_terms = df[df["Category"] == "enriched"]
 purified_terms = df[df["Category"] == "purified"]
-
-from goatools.godag_plot import plot_gos
 plot_gos("purified_terms.pdf", [r.GO for r in results if r.p_fdr_bh < 0.5 and "purified" in line], obodag)
+# # # # #
+# # # # # 
