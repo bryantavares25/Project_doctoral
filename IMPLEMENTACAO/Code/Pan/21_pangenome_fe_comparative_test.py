@@ -1,5 +1,4 @@
 from goatools.obo_parser import GODag
-from goatools.associations import read_gaf
 from goatools.go_enrichment import GOEnrichmentStudy
 from goatools.semantic import semantic_similarity
 from collections import defaultdict
@@ -9,20 +8,28 @@ dir = "/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/"
 # === 1. Carregar Ontologia GO ===
 obodag = GODag(f"{dir}go.obo")
 
-# === 2. Ler anotações GO (gene → GO terms) ===
+# === 2. Ler anotações GO (gene → GO terms), corrigindo GO obsoletos ===
 gene2go = defaultdict(set)
-input_db = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MFC_interpro_db.tsv"
-f = open(input_db, "r")
-for line in f:
-    parts = line.strip().split("\t")
-    if len(parts) >= 2:
-        gene, go_id = parts[0], parts[1]
-        gene2go[gene].add(go_id)
-f.close()
+input_db = f"{dir}ANVIO_MHP/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MHP_interpro_db.tsv"
+
+with open(input_db, "r") as f:
+    for line in f:
+        parts = line.strip().split("\t")
+        if len(parts) >= 2:
+            gene, go_id = parts[0], parts[1]
+            if go_id in obodag:
+                term = obodag[go_id]
+                if term.is_obsolete:
+                    # Tenta substituir se houver 'replaced_by'
+                    if hasattr(term, "replaced_by") and term.replaced_by:
+                        go_id = term.replaced_by[0] if isinstance(term.replaced_by, list) else term.replaced_by
+                    else:
+                        continue  # pula se for obsoleto e não houver substituto
+                gene2go[gene].add(go_id)
 
 # === 3. Carregar genes da FRAÇÃO SHELL (study set) ===
 study_genes = set()
-input_study = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_shell.txt"
+input_study = f"{dir}ANVIO_MHP/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_shell.txt"
 f = open(input_study, "r")
 for line in f:
     gene = line.strip()
@@ -36,7 +43,7 @@ print(f"Genes no estudo após filtro: {len(study_genes)}")
 
 # === 4. Carregar genes da FRAÇÃO CORE (population set) ===
 population_genes = set()
-input_pop = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_core.txt"
+input_pop = f"{dir}ANVIO_MHP/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_core.txt"
 f = open(input_pop, "r")
 for line in f:
     gene = line.strip()
@@ -85,7 +92,7 @@ grouped_results = group_similar_terms(
 )
 
 # === 7. Escrever resultados em arquivo ===
-output_file = f"{dir}Functional_analyses/MFC_shell_vs_core.tsv"
+output_file = f"{dir}Functional_analyses/MFC_shell_vs_core_teste.tsv"
 f = open(output_file, "w")
 f.write("Parent GO\tParent Term\tCategory\tP-value (FDR)\tStudy Count\tPopulation Count\tSimilar Terms\n")
 
