@@ -20,12 +20,16 @@ with open(input_db, "r") as f:
             if go_id in obodag:
                 term = obodag[go_id]
                 if term.is_obsolete:
-                    # Tenta substituir se houver 'replaced_by'
                     if hasattr(term, "replaced_by") and term.replaced_by:
                         go_id = term.replaced_by[0] if isinstance(term.replaced_by, list) else term.replaced_by
+                        term = obodag.get(go_id, None)
+                        if term is None or term.is_obsolete:
+                            continue
                     else:
-                        continue  # pula se for obsoleto e não houver substituto
-                gene2go[gene].add(go_id)
+                        continue
+                if term.depth >= 4:  # Filtra termos muito genéricos
+                    gene2go[gene].add(go_id)
+
 
 # === 3. Carregar genes da FRAÇÃO SHELL (study set) ===
 study_genes = set()
@@ -67,7 +71,7 @@ goea = GOEnrichmentStudy(
 results = goea.run_study(study_genes)
 
 # === 6. Agrupar termos semelhantes ===
-def group_similar_terms(go_results, obodag, threshold=0.5):
+def group_similar_terms(go_results, obodag, threshold=0.8):
     grouped_terms = defaultdict(list)
     used_terms = set()
     sorted_results = sorted(go_results, key=lambda x: x.p_fdr_bh)
@@ -88,7 +92,7 @@ def group_similar_terms(go_results, obodag, threshold=0.5):
 grouped_results = group_similar_terms(
     [r for r in results if r.p_fdr_bh < 0.5],
     obodag,
-    threshold=0.5
+    threshold=0.8
 )
 
 # === 7. Escrever resultados em arquivo ===
@@ -112,3 +116,4 @@ for parent_go, similar_terms in grouped_results.items():
 f.close()
 
 print(f"Resultados salvos em: {output_file}")
+

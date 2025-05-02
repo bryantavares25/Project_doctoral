@@ -18,6 +18,20 @@ with open(input_db, "r") as f:  # Substitua pelo seu arquivo de anotações
         if len(parts) >= 2:
             gene, go_id = parts[0], parts[1]
             gene2go[gene].add(go_id)
+            # # # # #
+            if go_id in obodag:
+                term = obodag[go_id]
+                if term.is_obsolete:
+                    if hasattr(term, "replaced_by") and term.replaced_by:
+                        go_id = term.replaced_by[0] if isinstance(term.replaced_by, list) else term.replaced_by
+                        term = obodag.get(go_id, None)
+                        if term is None or term.is_obsolete:
+                            continue
+                    else:
+                        continue
+                if term.depth >= 5:  # Filtra termos muito genéricos
+                    gene2go[gene].add(go_id)
+            # # # # #
 
 # === 3. Ler Genes de Interesse (study genes) ===
 study_genes = set()
@@ -73,7 +87,7 @@ grouped_results = group_similar_terms(
 )
 
 # === 7. Salvar Resultados (Enriched + Purified) ===
-output_file = f"{dir}Functional_analyses/MHP_fe_fraction_shell.tsv"
+output_file = f"{dir}Functional_analyses/MHP_fe_fraction_shell_TESTE.tsv"
 with open(output_file, "w") as f:
     f.write("Parent GO\tParent Term\tCategory\tP-value (FDR)\tStudy Count\tPopulation Count\tSimilar Terms\n")
     
