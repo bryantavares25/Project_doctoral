@@ -67,7 +67,7 @@ goea = GOEnrichmentStudy(
 results = goea.run_study(study_genes)
 
 # === 6. Agrupar termos semelhantes ===
-def group_similar_terms(go_results, obodag, threshold=0.8):
+def group_similar_terms(go_results, obodag, threshold=0.5):
     grouped_terms = defaultdict(list)
     used_terms = set()
     sorted_results = sorted(go_results, key=lambda x: x.p_fdr_bh)
@@ -88,7 +88,7 @@ def group_similar_terms(go_results, obodag, threshold=0.8):
 grouped_results = group_similar_terms(
     [r for r in results if r.p_fdr_bh < 0.5],
     obodag,
-    threshold=0.8
+    threshold=0.5
 )
 
 # === 7. Escrever resultados em arquivo ===
