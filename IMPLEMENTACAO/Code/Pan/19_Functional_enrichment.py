@@ -11,7 +11,7 @@ obodag = GODag(f"{dir}go.obo")  # Substitua pelo caminho do seu arquivo .obo
 
 # === 2. Ler Anotações GO (gene → GO terms) ===
 gene2go = defaultdict(set)
-input_db = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MFC_interpro_db.tsv"
+input_db = f"{dir}ANVIO_MHP/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MHP_interpro_db.tsv"
 with open(input_db, "r") as f:  # Substitua pelo seu arquivo de anotações
     for line in f:
         parts = line.strip().split("\t")
@@ -21,7 +21,7 @@ with open(input_db, "r") as f:  # Substitua pelo seu arquivo de anotações
 
 # === 3. Ler Genes de Interesse (study genes) ===
 study_genes = set()
-input_study = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_shell_singletons.txt"
+input_study = f"{dir}ANVIO_MHP/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_shell.txt"
 with open(input_study, "r") as f:  # Substitua pelo seu arquivo de genes
     for line in f:
         gene = line.strip()
@@ -73,7 +73,7 @@ grouped_results = group_similar_terms(
 )
 
 # === 7. Salvar Resultados (Enriched + Purified) ===
-output_file = f"{dir}Functional_analyses/MFC_fe_fraction_shell_singletons.tsv"
+output_file = f"{dir}Functional_analyses/MHP_fe_fraction_shell.tsv"
 with open(output_file, "w") as f:
     f.write("Parent GO\tParent Term\tCategory\tP-value (FDR)\tStudy Count\tPopulation Count\tSimilar Terms\n")
     
