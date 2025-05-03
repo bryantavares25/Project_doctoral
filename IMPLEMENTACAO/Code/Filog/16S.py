@@ -1,9 +1,7 @@
 from Bio import SeqIO
 import os
 
-t = ["GCF_000013765.1", "GCF_000014705.1", "GCF_000014885.1", "GCF_000015245.1", "GCF_000016065.1", 
-     # (continua sua lista normalmente)
-     "GCF_042646185.1", "GCF_900380485.1"]
+t = ["GCF_000013765.1"]
 
 gbff_dir = "/home/bryantavares/Documents/Projeto_ECOVIAS_ESPECIENOVA_REG000848/"
 
