@@ -5,6 +5,18 @@ from collections import defaultdict
 
 dir = "/home/bryantavares/Documents/Doctoral_data/Bionfo_doc_analyses/"
 
+input_db = f"{dir}ANVIO_MHP/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MHP_interpro_db.tsv"
+input_db = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MFC_interpro_db.tsv"
+input_db = f"{dir}ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/EXPORT-PROTEINS/Interpro_db/MHP_MFC_interpro_db.tsv"
+
+input_study = f"{dir}ANVIO_MHP/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_shell.txt"
+input_study = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_shell.txt"
+input_study = f"{dir}ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_shell.txt"
+
+input_pop = f"{dir}ANVIO_MHP/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_core.txt"
+input_pop = f"{dir}ANVIO_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_core.txt"
+input_pop = f"{dir}ANVIO_MHP_MFC/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_core.txt"
+
 # === 1. Carregar Ontologia GO ===
 obodag = GODag(f"{dir}go.obo")
 
