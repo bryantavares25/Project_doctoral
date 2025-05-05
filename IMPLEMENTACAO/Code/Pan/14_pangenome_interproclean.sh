@@ -36,7 +36,7 @@ done
 #  MFC  #
 # # # # # 
 
-mkdir Interpro_db
+mkdir -p Interpro_db
 for i in ${mfc[@]}; do
     grep -o "GO:[0-9]\{7\}" interproscan_${i}.faa.tsv | sort -u | awk -v gc="$i" '{print gc "\t" $0}' >> Interpro_db/MFC_interpro_db.tsv
 done
