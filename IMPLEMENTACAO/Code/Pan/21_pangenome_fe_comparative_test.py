@@ -27,13 +27,13 @@ with open(input_db, "r") as f:
                             continue
                     else:
                         continue
-                if term.depth >= 4:  # Filtra termos muito genéricos
+                if term.depth >= 5:  # Filtra termos muito genéricos
                     gene2go[gene].add(go_id)
 
 
 # === 3. Carregar genes da FRAÇÃO SHELL (study set) ===
 study_genes = set()
-input_study = f"{dir}ANVIO_MHP/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_shell.txt"
+input_study = f"{dir}ANVIO_MHP/GENBANK-METADATA/03_PAN/SUMMARY/FRACTIONS/03_fraction_core.txt"
 f = open(input_study, "r")
 for line in f:
     gene = line.strip()
@@ -71,7 +71,7 @@ goea = GOEnrichmentStudy(
 results = goea.run_study(study_genes)
 
 # === 6. Agrupar termos semelhantes ===
-def group_similar_terms(go_results, obodag, threshold=0.8):
+def group_similar_terms(go_results, obodag, threshold=0.9):
     grouped_terms = defaultdict(list)
     used_terms = set()
     sorted_results = sorted(go_results, key=lambda x: x.p_fdr_bh)
@@ -92,11 +92,11 @@ def group_similar_terms(go_results, obodag, threshold=0.8):
 grouped_results = group_similar_terms(
     [r for r in results if r.p_fdr_bh < 0.5],
     obodag,
-    threshold=0.8
+    threshold=0.9
 )
 
 # === 7. Escrever resultados em arquivo ===
-output_file = f"{dir}Functional_analyses/MFC_shell_vs_core_teste.tsv"
+output_file = f"{dir}Functional_analyses/MHP_core_vs_shell_teste_teste.tsv"
 f = open(output_file, "w")
 f.write("Parent GO\tParent Term\tCategory\tP-value (FDR)\tStudy Count\tPopulation Count\tSimilar Terms\n")
 
