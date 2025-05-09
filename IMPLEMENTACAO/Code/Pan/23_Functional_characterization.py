@@ -5,14 +5,36 @@
 import csv
 
 # Lista de IDs desejados
-ids_desejados = ["GC_00000001", "GC_00000002"]
+# MHP
+ids = [] # CORE
+ids = [] # CORE > Single-copie genes
+ids = [] # CORE > Multiple-copie genes
+ids = [] # SHELL
+ids = [] # SHELL > Cloud 
+ids = [] # SHELL > Singletons
+
+#MFC
+ids = [] # CORE
+ids = [] # CORE > Single-copie genes
+ids = [] # CORE > Multiple-copie genes
+ids = [] # SHEL
+ids = [] # SHEL > Cloud
+ids = [] # SHEL > Singletons
+
+#MHP-MFC
+ids = [] # CORE
+ids = [] # CORE > Single-copie genes
+ids = [] # CORE > Multiple-copie genes
+ids = [] # SHEL
+ids = [] # SHEL > Cloud
+ids = [] # SHEL > Singletons
 
 # Abrir o arquivo de entrada
 f = open("arquivo.txt")
 linhas_filtradas = [
     linha.strip().split()
     for linha in f
-    if any(linha.startswith(id_) for id_ in ids_desejados)
+    if any(linha.startswith(id) for id in ids)
 ]
 f.close()
 
