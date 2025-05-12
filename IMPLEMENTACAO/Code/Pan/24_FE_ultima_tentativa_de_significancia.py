@@ -19,6 +19,7 @@ for _, row in df_go.iterrows():
 all_genes = set(gene2gos.keys())
 
 # === Etapa 2: carregar estrutura GO ===
+direc="/home/bi" #
 obodag = GODag("go-basic.obo")
 
 # === Etapa 3: montar e rodar o estudo de enriquecimento ===
