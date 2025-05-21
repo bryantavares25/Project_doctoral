@@ -40,10 +40,14 @@ import csv
 #ids = []
 # CORE > Single-copie genes
 #ids = [] 
-#ids = [] # CORE > Multiple-copie genes
-#ids = [] # SHEL
-#ids = [] # SHEL > Cloud
-#ids = [] # SHEL > Singletons
+# CORE > Multiple-copie genes
+#ids = [] 
+# SHEL
+#ids = []
+# SHEL > Cloud 
+#ids = []
+# SHEL > Singletons
+#ids = []
 
 #MHP-MFC
 #ids = [] # CORE
