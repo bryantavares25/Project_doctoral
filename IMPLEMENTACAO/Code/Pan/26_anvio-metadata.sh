@@ -1,4 +1,12 @@
 
+anvi-compute-functional-enrichment-in-pan \
+  -p meu_pan-PAN.db \
+  -C default \
+  --category grupo \
+  -o enrichimento.txt
+
+# # 
+
 anvi-import-misc-data TESTE.txt \
   -p MHP_MFC-PAN-PAN.db \
   --target-data-table layers \
@@ -7,3 +15,6 @@ anvi-import-misc-data TESTE.txt \
 anvi-export-misc-data -p meu_pan-PAN.db --target-data-table layers
 
 anvi-display-pan -p meu_pan-PAN.db
+
+anvi-compute-functional-enrichment-in-pan -p Mesomycoplasma-PAN-PAN.db -g Mesomycoplasma-PAN-GENOMES.db --category grupo -o enrichimento_MHP_vs_MFC.txt --annotation-source COG20_CATEGORY
+
