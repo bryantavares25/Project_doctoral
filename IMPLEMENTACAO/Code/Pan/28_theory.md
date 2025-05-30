@@ -11,10 +11,21 @@ Categorys
 [Singletons > Unique & Multiple]
 
 === Teste lógico ===
-[Singletons > Unique & Multiple] > homogeneidade
-    [unique] > [Identico & Variavél]
+[Singletons > Unique & Multiple]
+    [unique > Homogeneo & Heterogeneo]
+        [Homogeneo] =>
+        [Heterogeneo] =>
     [multiple] > Variação entre os parálogos
-[Shell > Homogeneo & Heterogeneo]
+        [Homogeneo] =>
+        [Heterogeneo] =>
+[Shell > Unique & Multiple]
+    [unique > Homogeneo & Heterogeneo]
+        [Homogeneo] =>
+        [Heterogeneo] =>
+[Core > Unique & Multiple]
+    [multiple]
+        [Homogeneo] =>
+        [Heterogeneo] =>
 
 ===Teste lógico 2 ===
 
