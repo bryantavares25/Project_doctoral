@@ -10,10 +10,11 @@ Categorys
 [Shell > Unique & Multiple copies]
 [Singletons > Unique & Multiple]
 
-=== Teste lógivo ===
+=== Teste lógico ===
 [Singletons > Unique & Multiple] > homogeneidade
-[unique] > [Identico & Variavél]
-[multiple] > Variação entre os parálogos
+    [unique] > [Identico & Variavél]
+    [multiple] > Variação entre os parálogos
+[Shell > Homogeneo & Heterogeneo]
 
 ===Teste lógico 2 ===
 
