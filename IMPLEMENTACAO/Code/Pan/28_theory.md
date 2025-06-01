@@ -12,20 +12,26 @@ Categorys
 
 === Teste lógico ===
 [Singletons > Unique & Multiple]
-    [unique > Homogeneo & Heterogeneo]
-        [Homogeneo] =>
-        [Heterogeneo] =>
-    [multiple] > Variação entre os parálogos
-        [Homogeneo] =>
-        [Heterogeneo] =>
+    [Unique > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteína única
+        [Heterogeneo] => Não existe
+    [Multiple > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteínas únicas/identicas (variação no contexto genômico)
+        [Heterogeneo] => Proteína variáveis + variação no contexto genomico
 [Shell > Unique & Multiple]
-    [unique > Homogeneo & Heterogeneo]
-        [Homogeneo] =>
-        [Heterogeneo] =>
+    [Unique > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteínas identica compartilhada entre algumas linhagens
+        [Heterogeneo] => Proteínas com variações compartilhadas entre algumas linhagens 
+    [Multiple > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteínas identicas compartilhadas entre algunas as linhagens + variação genômica
+        [Heterogeneo] => Proteínas variáveis compartilhadas entre algumas as linhagens + variação genômica
 [Core > Unique & Multiple]
-    [multiple]
-        [Homogeneo] =>
-        [Heterogeneo] =>
+    [Unique > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteínas identicas
+        [Heterogeneo] => Proteínas variáveis
+    [Multiple > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteínas identicas + variação no contexto genômico
+        [Heterogeneo] => Proteínas variáveis + variação no contexto genômico
 
 ===Teste lógico 2 ===
 
@@ -37,12 +43,12 @@ Categorys
         [Multiple] => Proteína identicas (variação no contexto genomico)
     [heterogeneo > Unique & Multiple]
         [Unique] => Não existe
-        [Multiple] => Proteína variáveis
+        [Multiple] => Proteína variáveis entre parálogos + contexto genomico variável
 [Shell > Homogeneo & Heterogeneo]
-    [homogeneo > Unique & Multiple]
+    [Homogeneo > Unique & Multiple]
         [Unique] => Proteína única
         [Multiple] => Variação na quantiade de parálogos mas a mesma proteína Only (variação no cotexto genomico)
-    [heterogeneo > Unique & Multiple] 
+    [Heterogeneo > Unique & Multiple] 
         [Unique] => Proteínas variáveis
         [Multiple] => Variação na quantiade de parálogos e na proteína + variação no cotexto genomico)
 [Core > Homogeneo & Heterogeneo]
