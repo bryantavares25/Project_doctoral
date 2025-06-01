@@ -1,36 +1,26 @@
-```mermaid
-graph TD
-    A[Pangenoma] --> B[Singletons]
-    A --> C[Shell]
-    A --> D[Core]
 
-    %% SINGLETONS
-    B --> B1[Único]
-    B --> B2[Múltiplo]
+=== Teste lógico ===
 
-    B1 --> B1a[Homogêneo: Proteína única]
-    B1 --> B1b[Heterogêneo: Não existe]
+Classificação
 
-    B2 --> B2a[Homogêneo: Proteínas idênticas - variação no contexto genômico]
-    B2 --> B2b[Heterogêneo: Proteínas variáveis + variação no contexto genômico]
-
-    %% SHELL
-    C --> C1[Único]
-    C --> C2[Múltiplo]
-
-    C1 --> C1a[Homogêneo: Proteína idêntica compartilhada entre algumas linhagens]
-    C1 --> C1b[Heterogêneo: Proteína com variações compartilhadas entre algumas linhagens]
-
-    C2 --> C2a[Homogêneo: Proteína idêntica + variação genômica]
-    C2 --> C2b[Heterogêneo: Proteína variável + variação genômica]
-
-    %% CORE
-    D --> D1[Único]
-    D --> D2[Múltiplo]
-
-    D1 --> D1a[Homogêneo: Proteínas idênticas]
-    D1 --> D1b[Heterogêneo: Proteínas variáveis]
-
-    D2 --> D2a[Homogêneo: Proteínas idênticas + variação no contexto genômico]
-    D2 --> D2b[Heterogêneo: Proteínas variáveis + variação no contexto genômico]
-```
+[Singletons > Unique & Multiple]
+    [Unique > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteína única
+        [Heterogeneo] => Não existe
+    [Multiple > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteínas únicas/identicas (variação no contexto genômico)
+        [Heterogeneo] => Proteína variáveis + variação no contexto genomico
+[Shell > Unique & Multiple]
+    [Unique > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteínas identica compartilhada entre algumas linhagens
+        [Heterogeneo] => Proteínas com variações compartilhadas entre algumas linhagens 
+    [Multiple > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteínas identicas compartilhadas entre algunas as linhagens + variação genômica
+        [Heterogeneo] => Proteínas variáveis compartilhadas entre algumas as linhagens + variação genômica
+[Core > Unique & Multiple]
+    [Unique > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteínas identicas
+        [Heterogeneo] => Proteínas variáveis
+    [Multiple > Homogeneo & Heterogeneo]
+        [Homogeneo] => Proteínas identicas + variação no contexto genômico
+        [Heterogeneo] => Proteínas variáveis + variação no contexto genômico
