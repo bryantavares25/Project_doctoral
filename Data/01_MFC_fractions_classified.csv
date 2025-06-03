@@ -1,0 +1,590 @@
+Gene clusters,Quantity of genomes of gene cluster has hits,Quantity of genes in gene cluster,Quantity maxima of paralogs,SCG,Functional homogeneity index,Geometric homogeneity index,Combined homogeneity index,Distribution layer,Copy-number class,Conservation pattern,Diversity type
+GC_00000001,8,28,6,0,0.658620450726671,0.616279737263343,0.636747005222462,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000002,8,22,4,0,0.870811503524179,0.67281695083379,0.759116274253722,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000003,8,18,6,0,0.660131784968685,0.65056666323811,0.655314322271536,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000004,8,17,3,0,0.865674326481942,0.903740416430323,0.884297906346338,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000005,8,16,2,0,0.851904319211416,0.848448162304568,0.850172728244941,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000006,8,15,2,0,0.684345765963081,0.684574136853805,0.684459932359387,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000007,7,13,3,0,0.952008412197687,0.589547201691414,0.728165614449521,Shell,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000008,8,13,2,0,0.920556084728081,0.600817423740006,0.727087900710759,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000009,8,13,2,0,0.936427546455402,0.705174648848646,0.804512771891831,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000010,8,12,2,0,0.93601383484652,0.637501095395836,0.758441923304035,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000011,8,12,2,0,0.849030484909111,0.91330693504922,0.879996555885453,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000012,8,12,3,0,0.946890165752221,0.80674223461547,0.871215983571233,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000013,8,11,2,0,0.993366022497837,0.651261727596247,0.786732769054084,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000014,8,11,2,0,0.928681940878267,0.795035575295321,0.856677702935373,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000015,8,11,2,0,0.951030227384823,0.729121223823502,0.825421211623841,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000016,8,11,2,0,0.966365274670644,0.708674180225909,0.817697895800667,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000017,8,10,2,0,0.946976246346383,0.78532862190813,0.85861047226899,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000018,8,10,2,0,0.995275536243879,0.913290194126432,0.952521962687758,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000019,8,9,2,0,1.0,1.0,1.0,Core,Multiple copies-gene,Homogeneous,
+GC_00000020,8,9,2,0,0.999725651577503,0.946210801393726,0.972232375326185,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000021,8,9,2,0,0.99800290486565,1.0,0.999000454338937,Core,Multiple copies-gene,Heterogeneous,Functional
+GC_00000022,8,9,2,0,0.99657960199005,0.830711604001997,0.906117467177729,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000023,8,9,2,0,0.997547302032235,0.890865797365925,0.941193187993028,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000024,8,9,2,0,0.919230769230769,0.941790636971925,0.930373964310809,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000025,8,9,2,0,0.998255873602134,1.0,0.999127175643066,Core,Multiple copies-gene,Heterogeneous,Functional
+GC_00000026,8,9,2,0,0.999600145401672,0.830044991998075,0.906966140844532,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000027,8,9,2,0,0.995151251990158,0.895810417302402,0.942871421246549,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000028,8,9,2,0,0.999843321582452,0.85394883923425,0.921155091631521,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000029,8,9,2,0,0.995014245014245,1.0,0.997500892538379,Core,Multiple copies-gene,Heterogeneous,Functional
+GC_00000030,8,9,2,0,0.981435575386988,0.834613958273519,0.902089745000655,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000031,8,9,2,0,0.997464269248502,1.0,0.998730525100981,Core,Multiple copies-gene,Heterogeneous,Functional
+GC_00000032,8,9,2,0,0.997196738022426,1.0,0.998596401684318,Core,Multiple copies-gene,Heterogeneous,Functional
+GC_00000033,8,9,2,0,0.998840327607451,1.0,0.999419827398651,Core,Multiple copies-gene,Heterogeneous,Functional
+GC_00000034,8,9,2,0,0.989869608826479,0.885263388503796,0.934648715940985,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000035,8,9,2,0,0.98925747078172,0.888853114972011,0.936371469373066,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000036,7,9,2,0,0.986007995431182,0.71011707336334,0.825624389274643,Shell,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000037,8,9,2,0,0.981279429334458,0.854016481362432,0.913235626570253,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000038,8,9,2,0,0.99170881983798,0.824571723127921,0.900450157418564,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000039,8,9,2,0,0.994000299985001,0.999700104963264,0.996842054866621,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000040,8,9,2,0,0.959066795273692,0.860722878422548,0.907237517125566,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000041,8,9,2,0,0.986293183940243,0.831744795529839,0.902450038857784,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000042,8,9,2,0,0.983633063347519,0.711700834118994,0.825857930048589,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000043,7,9,3,0,0.970409397418692,0.9466472341631,0.958381048257615,Shell,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000044,8,9,2,0,0.959896909506987,0.833979599200148,0.892519006719198,Core,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000045,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000046,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000047,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000048,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000049,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000050,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000051,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000052,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000053,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000054,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000055,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000056,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000057,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000058,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000059,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000060,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000061,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000062,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000063,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000064,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000065,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000066,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000067,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000068,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000069,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000070,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000071,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000072,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000073,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000074,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000075,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000076,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000077,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000078,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000079,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000080,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000081,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000082,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000083,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000084,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000085,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000086,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000087,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000088,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000089,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000090,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000091,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000092,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000093,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000094,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000095,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000096,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000097,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000098,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000099,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000100,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000101,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000102,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000103,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000104,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000105,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000106,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000107,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000108,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000109,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000110,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000111,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000112,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000113,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000114,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000115,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000116,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000117,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000118,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000119,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000120,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000121,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000122,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000123,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000124,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000125,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000126,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000127,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000128,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000129,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000130,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000131,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000132,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000133,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000134,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000135,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000136,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000137,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000138,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000139,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000140,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000141,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000142,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000143,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000144,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000145,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000146,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000147,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000148,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000149,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000150,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000151,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000152,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000153,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000154,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000155,8,8,1,1,1.0,1.0,1.0,Core,Single copies-gene,Homogeneous,
+GC_00000156,8,8,1,1,0.998466257668712,1.0,0.999232540291635,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000157,8,8,1,1,0.999831309041835,1.0,0.999915647406158,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000158,8,8,1,1,0.999255952380952,1.0,0.999627837737253,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000159,8,8,1,1,0.999186495830791,0.996973473384369,0.998078757885167,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000160,8,8,1,1,0.998263888888889,1.0,0.999131190269331,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000161,8,8,1,1,0.99975272007913,1.0,0.999876344750835,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000162,8,8,1,1,0.999433106575964,1.0,0.999716472923164,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000163,8,8,1,1,0.999619482496195,1.0,0.999809705042816,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000164,8,8,1,1,0.999589490968801,1.0,0.999794703346335,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000165,8,8,1,1,0.99981765134938,1.0,0.999908817361175,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000166,8,8,1,1,0.997787610619469,1.0,0.998892580287929,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000167,8,8,1,1,0.999221183800623,1.0,0.999610440202571,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000168,8,8,1,1,0.99964234620887,1.0,0.999821141119657,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000169,8,8,1,1,0.999077490774908,1.0,0.999538532533456,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000170,8,8,1,1,0.999534450651769,1.0,0.99976717112922,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000171,8,8,1,1,0.999506903353057,1.0,0.999753390875462,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000172,8,8,1,1,0.999531835205993,1.0,0.999765862795598,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000173,8,8,1,1,0.99972497249725,1.0,0.999862467335992,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000174,8,8,1,1,0.999488752556237,1.0,0.999744310917924,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000175,8,8,1,1,0.998953974895398,1.0,0.999476713762428,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000176,8,8,1,1,0.999378109452736,1.0,0.999688958009331,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000177,8,8,1,1,0.9995865816206,1.0,0.999793248072777,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000178,8,8,1,1,0.997422680412371,1.0,0.998709677419355,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000179,8,8,1,1,0.999666666666667,1.0,0.999833305550925,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000180,8,8,1,1,0.999242424242424,1.0,0.999621068586586,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000181,8,8,1,1,0.997767857142857,1.0,0.998882681564246,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000182,8,8,1,1,0.999433106575964,1.0,0.999716472923164,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000183,8,8,1,1,0.998760842627014,1.0,0.999380037197768,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000184,8,8,1,1,0.999322493224932,1.0,0.999661131819722,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000185,8,8,1,1,0.998137802607076,1.0,0.999068033550792,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000186,8,8,1,1,0.999529190207156,1.0,0.999764539675065,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000187,8,8,1,1,0.999113475177305,1.0,0.999556541019956,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000188,8,8,1,1,0.998762376237624,1.0,0.99938080495356,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000189,8,8,1,1,0.998756218905473,1.0,0.999377722464219,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000190,8,8,1,1,0.996527777777778,1.0,0.998260869565217,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000191,8,8,1,1,0.999387254901961,1.0,0.999693533558075,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000192,8,8,1,1,0.999027237354086,1.0,0.999513381995134,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000193,8,8,1,1,0.99965564738292,1.0,0.999827794041674,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000194,8,8,1,1,0.99975272007913,1.0,0.999876344750835,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000195,8,8,1,1,0.999904434250764,1.0,0.99995221484207,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000196,8,8,1,1,0.998908296943231,1.0,0.999453850354997,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000197,8,8,1,1,0.999343832020997,1.0,0.999671808336068,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000198,8,8,1,1,0.998412698412698,1.0,0.999205718824464,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000199,8,8,1,1,0.995670995670996,1.0,0.997830802603037,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000200,8,8,1,1,0.99881160870653,1.0,0.999405451074882,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000201,8,8,1,1,0.999223602484472,1.0,0.999611650485437,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000202,8,8,1,1,0.999356499356499,1.0,0.999678146121661,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000203,8,8,1,1,0.99910007199424,1.0,0.999549833438372,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000204,8,8,1,1,0.997619047619048,1.0,0.99880810488677,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000205,8,8,1,1,0.99818401937046,1.0,0.999091184489549,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000206,8,8,1,1,0.998406193078324,0.994578174979265,0.996488507702276,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000207,8,8,1,1,0.998055555555556,1.0,0.999026831641874,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000208,8,8,1,1,0.999356499356499,1.0,0.999678146121661,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000209,8,8,1,1,0.999278499278499,1.0,0.999639119451462,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000210,8,8,1,1,0.998998998998999,1.0,0.99949924887331,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000211,8,8,1,1,0.998229043683589,1.0,0.999113737075332,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000212,8,8,1,1,0.998661311914324,1.0,0.999330207635633,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000213,8,8,1,1,0.998325892857143,1.0,0.99916224518291,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000214,8,8,1,1,0.997287522603978,1.0,0.998641919420552,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000215,8,8,1,1,0.999557717823972,1.0,0.999778809997788,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000216,8,8,1,1,0.999174236168456,1.0,0.999586947542338,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000217,8,8,1,1,0.997440273037543,1.0,0.998718496369073,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000218,8,8,1,1,0.999113475177305,1.0,0.999556541019956,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000219,8,8,1,1,0.993833504624872,1.0,0.996907216494845,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000220,8,8,1,1,0.995073891625616,1.0,0.997530864197531,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000221,8,8,1,1,0.998366013071895,1.0,0.999182338511856,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000222,8,8,1,1,0.997797356828194,1.0,0.998897464167585,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000223,8,8,1,1,0.998901098901099,1.0,0.999450247388675,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000224,8,8,1,1,0.999554962171785,1.0,0.999777431560205,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000225,8,8,1,1,0.999285714285714,1.0,0.999642729546267,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000226,8,8,1,1,0.998194945848375,1.0,0.999096657633243,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000227,8,8,1,1,0.997532270311314,1.0,0.998764610852419,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000228,8,8,1,1,0.998073217726397,1.0,0.999035679845709,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000229,8,8,1,1,0.999452654625068,1.0,0.999726252395292,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000230,8,8,1,1,0.99701343952215,1.0,0.998504486540379,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000231,8,8,1,1,0.994360902255639,1.0,0.997172478793591,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000232,8,8,1,1,0.997670807453416,1.0,0.998834045860863,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000233,8,8,1,1,0.999321880650995,1.0,0.999660825325042,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000234,8,8,1,1,0.998424369747899,1.0,0.999211563731932,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000235,8,8,1,1,0.995798319327731,1.0,0.997894736842105,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000236,8,8,1,1,0.998917748917749,1.0,0.999458581483487,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000237,8,8,1,1,0.999554962171785,1.0,0.999777431560205,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000238,8,8,1,1,0.996491228070175,0.917316908331286,0.955266345801373,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000239,8,8,1,1,0.998656294200849,1.0,0.999327695410637,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000240,8,8,1,1,0.998234811165846,1.0,0.999116625921893,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000241,8,8,1,1,0.999284521822084,1.0,0.999642132887988,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000242,8,8,1,1,0.997559095580678,1.0,0.998778056466654,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000243,8,8,1,1,0.998664886515354,1.0,0.999331997327989,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000244,8,8,1,1,0.998712998712999,1.0,0.99935608499678,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000245,8,8,1,1,0.996428571428571,1.0,0.998211091234347,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000246,8,8,1,1,0.991663508904888,0.929207119741102,0.959419941270483,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000247,8,8,1,1,0.999465355004277,1.0,0.999732606021712,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000248,8,8,1,1,0.99854376001165,1.0,0.999271349460799,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000249,8,8,1,1,0.997370727432077,1.0,0.998683633172444,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000250,8,8,1,1,0.998719918074757,1.0,0.999359549122582,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000251,8,8,1,1,0.995327102803738,0.962677388836329,0.978730028920965,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000252,8,8,1,1,0.997970779220779,1.0,0.998984359130611,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000253,8,8,1,1,0.995950610727562,1.0,0.997971197658563,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000254,8,8,1,1,0.999551195742771,0.963252528990872,0.981066221774906,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000255,8,8,1,1,0.999193311821649,1.0,0.999596493158725,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000256,8,8,1,1,0.999421418051757,1.0,0.999710625312393,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000257,8,8,1,1,0.999445611577965,1.0,0.999722728931047,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000258,8,8,1,1,0.998560962846677,1.0,0.999279963343588,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000259,8,8,1,1,0.998075546007877,1.0,0.999036846231381,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000260,8,8,1,1,0.996651785714286,1.0,0.998323085522638,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000261,8,8,1,1,0.99929696287964,1.0,0.999648357831071,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000262,8,8,1,1,0.997089947089947,1.0,0.998542853358061,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000263,8,8,1,1,0.996362433862434,1.0,0.99817790293192,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000264,8,8,1,1,0.995637385388938,1.0,0.997813924191337,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000265,8,8,1,1,0.998490338164251,1.0,0.999244598882006,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000266,8,8,1,1,0.999625273838349,1.0,0.999812601807672,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000267,8,8,1,1,0.999158764148057,1.0,0.999579205080142,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000268,8,8,1,1,0.996772805507745,1.0,0.998383794849693,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000269,8,8,1,1,0.99836093857833,1.0,0.999179797107706,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000270,8,8,1,1,0.995850100603622,1.0,0.997920735933464,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000271,8,8,1,1,0.996469622331691,1.0,0.998231689764362,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000272,8,8,1,1,0.995606575963719,1.0,0.997798451814502,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000273,8,8,1,1,0.999497158948057,1.0,0.999748516245851,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000274,8,8,1,1,0.999462134251291,1.0,0.999730994781299,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000275,8,8,1,1,0.999271137026239,1.0,0.999635435654393,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000276,8,8,1,1,0.997136118598383,1.0,0.998566005904682,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000277,8,8,1,1,0.995380241648898,1.0,0.997684772929653,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000278,8,8,1,1,0.998653984206748,1.0,0.999326538858708,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000279,8,8,1,1,0.993386243386243,1.0,0.996682149966822,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000280,8,8,1,1,0.99692118226601,1.0,0.998458217699661,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000281,8,8,1,1,0.998681687440077,1.0,0.999340408946453,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000282,8,8,1,1,0.999499961535503,1.0,0.999749918242502,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000283,8,8,1,1,0.997800207039337,1.0,0.998898892415312,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000284,8,8,1,1,0.997734934681837,1.0,0.998866183256427,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000285,8,8,1,1,0.999466950959488,1.0,0.999733404425487,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000286,8,8,1,1,0.999128919860627,1.0,0.999564270152505,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000287,8,8,1,1,0.99637632532546,0.996655965757091,0.996516125923236,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000288,8,8,1,1,0.997915664582331,1.0,0.998956745044539,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000289,8,8,1,1,0.999019405450041,1.0,0.999509462215682,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000290,8,8,1,1,0.996392496392496,1.0,0.998192988796531,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000291,8,8,1,1,0.99805900621118,1.0,0.999028560326404,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000292,8,8,1,1,0.998268398268398,1.0,0.999133448873484,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000293,8,8,1,1,0.999222395023328,0.98634497404436,0.992741926199765,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000294,8,8,1,1,0.994047619047619,1.0,0.997014925373134,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000295,8,8,1,1,0.998911753066878,1.0,0.999455580301905,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000296,8,8,1,1,0.999050151975684,1.0,0.999524850327853,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000297,8,8,1,1,0.997749099639856,1.0,0.998873281754676,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000298,8,8,1,1,0.996227364185111,1.0,0.998110117172735,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000299,8,8,1,1,0.991758241758242,1.0,0.995862068965517,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000300,8,8,1,1,0.998325892857143,1.0,0.99916224518291,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000301,8,8,1,1,0.999293924466338,1.0,0.999646837553488,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000302,8,8,1,1,0.997575953458306,1.0,0.998786505946121,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000303,8,8,1,1,0.997790528953964,1.0,0.998894042686651,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000304,8,8,1,1,0.99897693452381,1.0,0.999488205462243,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000305,8,8,1,1,0.999098842724341,1.0,0.999549218249543,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000306,8,8,1,1,0.997744912943151,1.0,0.998871183682041,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000307,8,8,1,1,0.996850775193798,1.0,0.998422904282421,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000308,8,8,1,1,0.998774109186009,1.0,0.999386678660506,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000309,8,8,1,1,0.991365777080063,1.0,0.995664170279858,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000310,8,8,1,1,0.998145272601794,1.0,0.99907177549919,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000311,8,8,1,1,0.997496662216288,1.0,0.998746762469713,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000312,8,8,1,1,0.998616536458333,0.754292846170727,0.859427551683894,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000313,8,8,1,1,0.998706608811749,1.0,0.99935288592005,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000314,8,8,1,1,0.999228077398106,1.0,0.99961388967541,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000315,8,8,1,1,0.998826000988631,1.0,0.999412655723515,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000316,8,8,1,1,0.997628348214286,1.0,0.998812766254627,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000317,8,8,1,1,0.999178981937603,1.0,0.99958932238193,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000318,8,8,1,1,0.997501951600312,1.0,0.998749413787713,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000319,8,8,1,1,0.999073859689743,1.0,0.999536715311559,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000320,8,8,1,1,0.999455782312925,1.0,0.999727817093087,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000321,8,8,1,1,0.992104108787835,0.786715973702916,0.877552662736754,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000322,8,8,1,1,0.997806071068911,1.0,0.998901830881956,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000323,8,8,1,1,0.994466800804829,1.0,0.997225725094578,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000324,8,8,1,1,0.998039549948858,1.0,0.999018813190564,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000325,8,8,1,1,0.996517223910841,1.0,0.998255574233246,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000326,8,8,1,1,0.998942069166788,1.0,0.999470754630897,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000327,8,8,1,1,0.997114685568884,1.0,0.998555258517718,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000328,8,8,1,1,0.998227513227513,1.0,0.99911297048972,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000329,8,8,1,1,0.999044143204727,1.0,0.999521843077592,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000330,8,8,1,1,0.996796710652132,1.0,0.998395785945169,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000331,8,8,1,1,0.998549844867125,1.0,0.999274396314608,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000332,8,8,1,1,0.99737532808399,1.0,0.998685939553219,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000333,8,8,1,1,0.999055398121909,0.896415589314495,0.944956519410009,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000334,8,8,1,1,0.998022738507168,1.0,0.999010390895596,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000335,8,8,1,1,0.998257839721254,1.0,0.999128160418483,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000336,8,8,1,1,0.996697949252694,1.0,0.998346244233615,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000337,8,8,1,1,0.998438545616774,0.803825321597833,0.890624508015517,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000338,8,8,1,1,0.996638655462185,1.0,0.998316498316498,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000339,8,8,1,1,0.998827838827839,1.0,0.999413575722035,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000340,8,8,1,1,0.997212543554007,1.0,0.998604326587579,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000341,8,8,1,1,0.999185999185999,1.0,0.999592833876222,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000342,8,8,1,1,0.995947315096251,1.0,0.997969543147208,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000343,8,8,1,1,0.997827267789245,1.0,0.998912452419793,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000344,8,8,1,1,0.998235341301035,0.998322164558878,0.998278751042138,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000345,8,8,1,1,0.997516798130295,1.0,0.998756855575868,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000346,8,8,1,1,0.995251105906844,1.0,0.997619901535653,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000347,8,8,1,1,0.99909008189263,1.0,0.99954483386436,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000348,8,8,1,1,0.998145759432441,1.0,0.999072019366552,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000349,8,8,1,1,0.999384236453202,0.998435054773083,0.998909420130821,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000350,8,8,1,1,0.996268656716418,1.0,0.998130841121495,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000351,8,8,1,1,0.995510204081633,1.0,0.997750051135201,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000352,8,8,1,1,0.997297932330827,1.0,0.998647138403623,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000353,8,8,1,1,0.998567608861726,0.989628506869886,0.99407796237729,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000354,8,8,1,1,0.996724766461609,1.0,0.998359697043176,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000355,8,8,1,1,0.996827670896439,1.0,0.998411315533234,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000356,8,8,1,1,0.998606271777003,1.0,0.999302649930265,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000357,8,8,1,1,0.996615087040619,1.0,0.998304674255268,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000358,8,8,1,1,0.998845217099185,1.0,0.999422274976103,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000359,8,8,1,1,0.996306146572104,0.903477795612627,0.947624054580779,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000360,8,8,1,1,0.99468791500664,1.0,0.997336884154461,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000361,8,8,1,1,0.993220077815016,0.958036074841835,0.975310866805849,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000362,8,8,1,1,0.996995192307692,1.0,0.998495335540175,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000363,8,8,1,1,0.997718472004186,0.997814725742292,0.997766596551859,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000364,8,8,1,1,0.999512987012987,1.0,0.999756434196639,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000365,8,8,1,1,0.998597324126025,1.0,0.999298169842898,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000366,8,8,1,1,0.995332792207792,1.0,0.997660937658904,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000367,8,8,1,1,0.999288806431664,1.0,0.999644276721778,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000368,8,8,1,1,0.994903588504177,0.977631170925326,0.986191757116064,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000369,8,8,1,1,0.998374626603409,1.0,0.999186652304852,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000370,8,8,1,1,0.998332941084177,1.0,0.999165775191136,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000371,8,8,1,1,0.995967741935484,1.0,0.997979797979798,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000372,8,8,1,1,0.990715056249037,1.0,0.995335875055641,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000373,8,8,1,1,0.996106618748128,1.0,0.998049512378095,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000374,8,8,1,1,0.992947178871549,1.0,0.996461109856185,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000375,8,8,1,1,0.997419247419247,1.0,0.998707956487309,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000376,8,8,1,1,0.999033115784385,1.0,0.999516324062878,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000377,8,8,1,1,0.993748850891708,1.0,0.99686462559941,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000378,8,8,1,1,0.995181405895692,1.0,0.997584884216508,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000379,8,8,1,1,0.994588744588745,1.0,0.997287032013022,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000380,8,8,1,1,0.997609085475194,1.0,0.998803111909036,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000381,8,8,1,1,0.988713667285096,1.0,0.994324807587655,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000382,8,8,1,1,0.997370727432077,1.0,0.998683633172444,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000383,8,8,1,1,0.998103816070159,0.997871333964048,0.997987561477874,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000384,8,8,1,1,0.99749528524281,1.0,0.998746072255742,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000385,8,8,1,1,0.994864612511671,1.0,0.997425696232155,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000386,8,8,1,1,0.99746835443038,1.0,0.99873257287706,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000387,8,8,1,1,0.997033830367164,1.0,0.998514712376059,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000388,8,8,1,1,0.996249874156851,1.0,0.99812141461262,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000389,8,8,1,1,0.996371275783041,1.0,0.998182339998087,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000390,8,8,1,1,0.998638796603913,0.967232856209286,0.982684962345698,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000391,8,8,1,1,0.998116997238263,1.0,0.999057611358924,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000392,8,8,1,1,0.992112909921129,0.949332405969639,0.97025131540914,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000393,8,8,1,1,0.993872549019608,1.0,0.996926859250154,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000394,8,8,1,1,0.998656763590392,1.0,0.999327930421032,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000395,8,8,1,1,0.996958089229383,1.0,0.998476727785613,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000396,8,8,1,1,0.996883669668985,0.971595388727573,0.984077094868525,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000397,8,8,1,1,0.997627372627373,1.0,0.998812277301994,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000398,8,8,1,1,0.991046831955923,1.0,0.995503286060187,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000399,8,8,1,1,0.994384546271339,1.0,0.997184367608965,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000400,8,8,1,1,0.9976826608506,1.0,0.998839986352781,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000401,8,8,1,1,0.996644491129785,1.0,0.998319425974368,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000402,8,8,1,1,0.995149911816579,1.0,0.997569060773481,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000403,8,8,1,1,0.999751011515717,0.993533514599839,0.996632566181243,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000404,8,8,1,1,0.998480623480623,1.0,0.999239734175291,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000405,8,8,1,1,0.997204184704185,0.908305671139369,0.950681218964094,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000406,8,8,1,1,0.996489104116223,1.0,0.998241465041538,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000407,8,8,1,1,0.994391971664699,1.0,0.997188101228356,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000408,8,8,1,1,0.997581478350709,1.0,0.998789275093155,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000409,8,8,1,1,0.992574864997545,1.0,0.996273597979736,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000410,8,8,1,1,0.995639534883721,1.0,0.997815003641661,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000411,8,8,1,1,0.997691472026073,1.0,0.998844402148052,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000412,8,8,1,1,0.997218513573654,1.0,0.998607319926466,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000413,8,8,1,1,0.99820592349328,1.0,0.999102156346537,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000414,8,8,1,1,0.998314006086027,1.0,0.999156291799568,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000415,8,8,1,1,0.997559893522626,1.0,0.998778456413104,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000416,8,8,1,1,0.99105632100556,1.0,0.995508073327668,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000417,8,8,1,1,0.998841426556518,1.0,0.999420377510647,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000418,8,8,1,1,0.98619293078056,1.0,0.993048475298916,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000419,8,8,1,1,0.991318361405698,1.0,0.995640255841274,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000420,8,8,1,1,0.998070175438596,1.0,0.999034155764334,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000421,8,8,1,1,0.998234515227306,0.990975960936519,0.994591994985965,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000422,8,8,1,1,0.994334975369458,1.0,0.997159441768556,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000423,8,8,1,1,0.997325361862807,1.0,0.998660890114218,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000424,8,8,1,1,0.989493345785664,0.774131423762703,0.86866311451606,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000425,8,8,1,1,0.996873929427886,1.0,0.998434517810041,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000426,8,8,1,1,0.989842132505176,1.0,0.994895139001788,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000427,8,8,1,1,0.994736842105263,1.0,0.997361477572559,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000428,8,8,1,1,0.993853836550466,0.986647202760559,0.990237407930361,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000429,8,8,1,1,0.993096993096993,0.997558650179135,0.995322821681395,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000430,8,8,1,1,0.998265306122449,1.0,0.999131900117449,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000431,8,8,1,1,0.998485004992597,0.993609013216731,0.996041041691585,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000432,8,8,1,1,0.999221679756598,1.0,0.999610688373739,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000433,8,8,1,1,0.996844840386043,1.0,0.998419927502556,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000434,8,8,1,1,0.998549968099298,1.0,0.999274458020141,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000435,8,8,1,1,0.997244268077601,1.0,0.998620232904686,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000436,8,8,1,1,0.99816493955095,1.0,0.999081627140619,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000437,8,8,1,1,0.998286532658176,1.0,0.99914253170713,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000438,8,8,1,1,0.995449374288965,1.0,0.997719498289624,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000439,8,8,1,1,0.998313492063492,1.0,0.999156034354366,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000440,8,8,1,1,0.997462406015038,1.0,0.998729591116548,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000441,8,8,1,1,0.996570644718793,1.0,0.998282377189969,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000442,8,8,1,1,0.992967278719397,0.971253079953617,0.981990155525035,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000443,8,8,1,1,0.998242712425057,1.0,0.9991205835187,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000444,8,8,1,1,0.997859167968524,1.0,0.998928436966029,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000445,8,8,1,1,0.997823860727087,1.0,0.998910745178446,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000446,8,8,1,1,0.990335381464414,1.0,0.995144226131138,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000447,8,8,1,1,0.991297208538588,1.0,0.995629586872268,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000448,8,8,1,1,0.999492846465941,1.0,0.999746358915484,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000449,8,8,1,1,0.997615736141466,1.0,0.998806445195942,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000450,8,8,1,1,0.995413022351798,0.984871901255059,0.990114406438099,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000451,8,8,1,1,0.995258192049286,0.997607631122805,0.996431526679973,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000452,8,8,1,1,0.99891329887218,1.0,0.999456354045754,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000453,8,8,1,1,0.998830167905312,1.0,0.999414741625641,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000454,8,8,1,1,0.994425087108014,1.0,0.997204751921733,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000455,8,8,1,1,0.998092013329034,1.0,0.999045095692171,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000456,8,8,1,1,0.997564935064935,1.0,0.998780983340106,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000457,8,8,1,1,0.998771121351766,1.0,0.999385182908085,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000458,8,8,1,1,0.921202419067947,0.881121228395664,0.900716148548004,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000459,8,8,1,1,0.991198562278236,0.998757363770251,0.994963607058051,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000460,8,8,1,1,0.995634920634921,1.0,0.997812686418771,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000461,8,8,1,1,0.995069417412742,1.0,0.997528616024974,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000462,8,8,1,1,0.998010798522307,0.997448979591839,0.997729809967403,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000463,8,8,1,1,0.998274672187716,1.0,0.999136591262304,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000464,8,8,1,1,0.995813453082608,1.0,0.997902335555998,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000465,8,8,1,1,0.996040316774658,1.0,0.998016230838593,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000466,8,8,1,1,0.999196121285201,0.976523716497114,0.987729830118184,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000467,8,8,1,1,0.996312152621301,1.0,0.998152669975055,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000468,8,8,1,1,0.990988108569296,0.906372549019608,0.94679355178944,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000469,8,8,1,1,0.997109386885745,1.0,0.998552601508341,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000470,8,8,1,1,0.991912589951806,0.994889230601739,0.993398680464653,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000471,8,8,1,1,0.995002616431188,0.89643315606088,0.943149483274335,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000472,8,8,1,1,0.993397500844309,1.0,0.996687816076375,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000473,8,8,1,1,0.996532246532246,1.0,0.998263111715938,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000474,8,8,1,1,0.994183568581242,0.999674185463667,0.996921317086524,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000475,8,8,1,1,0.995659722222222,0.994869713843435,0.995264561262166,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000476,8,8,1,1,0.99400012370879,0.980532408209467,0.987220336262393,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000477,8,8,1,1,0.99598607215398,0.993972040935526,0.994978037346981,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000478,8,8,1,1,0.995956447094967,1.0,0.997974127686544,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000479,8,8,1,1,0.991535600269455,0.989038378392129,0.990285415010122,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000480,8,8,1,1,0.99782705593938,1.0,0.998912346264328,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000481,8,8,1,1,0.987403414195867,0.947421540656206,0.966999377985766,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000482,8,8,1,1,0.932535420183111,0.921242915390073,0.926854772988127,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000483,8,8,1,1,0.996852796146477,0.998543783880238,0.997697573504282,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000484,8,8,1,1,0.995974619635669,0.977224483390792,0.986510465822724,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000485,8,8,1,1,0.997884114583333,1.0,0.998940936863544,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000486,8,8,1,1,0.996388443017656,1.0,0.998190954773869,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000487,8,8,1,1,0.997389135687008,1.0,0.998692861462825,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000488,8,8,1,1,0.994253663003663,1.0,0.997118552617984,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000489,8,8,1,1,0.997080438940904,1.0,0.998538085395977,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000490,8,8,1,1,0.990111830488523,0.996914142962184,0.993501343330751,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000491,8,8,1,1,0.993374961925069,1.0,0.996676471711808,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000492,8,8,1,1,0.989221871713985,0.956510727595062,0.972591334083728,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000493,8,8,1,1,0.99924506387921,1.0,0.999622389403666,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000494,8,8,1,1,0.988061449745461,0.959303368309178,0.973470063800522,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000495,8,8,1,1,0.997330529040608,1.0,0.998663480620469,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000496,8,8,1,1,0.99525086601855,0.876646940992256,0.932191515954929,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000497,8,8,1,1,0.98250839380483,0.908227930897862,0.943909051660557,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000498,8,8,1,1,0.996857355917759,1.0,0.998426205020139,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000499,8,8,1,1,0.991348483100704,0.927169860705029,0.958185714464759,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000500,8,8,1,1,0.9963133640553,1.0,0.998153277931671,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000501,8,8,1,1,0.994788771539744,1.0,0.997387578808039,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000502,8,8,1,1,0.981198644445476,0.921902220712311,0.950626659716426,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000503,8,8,1,1,0.995834676985919,1.0,0.997912991961653,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000504,8,8,1,1,0.995558845299778,1.0,0.997774480712166,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000505,8,8,1,1,0.995336278841433,1.0,0.997662689137655,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000506,8,8,1,1,0.994222293883693,1.0,0.997102777291164,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000507,8,8,1,1,0.995384986407086,1.0,0.997687156300988,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000508,8,8,1,1,0.990520768936383,0.994424466824071,0.992468779271251,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000509,8,8,1,1,0.994145289268932,0.973904149205321,0.983920630451787,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000510,8,8,1,1,0.946015170919121,0.943907023036489,0.944959921191969,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000511,8,8,1,1,0.97073214126857,0.991313333464146,0.980914792500236,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000512,8,8,1,1,0.992505854800937,1.0,0.996238834038552,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000513,8,8,1,1,0.995270898255973,1.0,0.997629844775383,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000514,8,8,1,1,0.996378968253968,1.0,0.998186200213681,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000515,8,8,1,1,0.989669757605336,0.994798439766717,0.992227471373796,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000516,8,8,1,1,0.995341614906832,1.0,0.997665369649805,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000517,8,8,1,1,0.996176188133886,1.0,0.998084431680508,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000518,8,8,1,1,0.9939385991753,0.991584693191423,0.99276025086521,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000519,8,8,1,1,0.992764778325123,1.0,0.996369254538432,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000520,7,8,2,0,0.996274524034158,0.815378371023615,0.89679507671186,Shell,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000521,8,8,1,1,0.995177228189969,0.747778607569299,0.853919791555008,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000522,8,8,1,1,0.989558635275783,0.987601921429715,0.988579310113457,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000523,8,8,1,1,0.993119975262832,1.0,0.996548113097778,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000524,8,8,1,1,0.99872833274641,1.0,0.999363761831583,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000525,8,8,1,1,0.978047182175623,0.793442771630692,0.876126297350553,Core,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000526,8,8,1,1,0.993063556067588,1.0,0.996519707607269,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000527,8,8,1,1,0.994722222222222,1.0,0.997354128951399,Core,Single copies-gene,Heterogeneous,Functional
+GC_00000528,7,7,1,0,1.0,1.0,1.0,Shell,Single copies-gene,Homogeneous,
+GC_00000529,7,7,1,0,1.0,1.0,1.0,Shell,Single copies-gene,Homogeneous,
+GC_00000530,7,7,1,0,1.0,1.0,1.0,Shell,Single copies-gene,Homogeneous,
+GC_00000531,7,7,1,0,0.997709049255441,1.0,0.998853211009174,Shell,Single copies-gene,Heterogeneous,Functional
+GC_00000532,7,7,1,0,0.985515118594967,1.0,0.99270472369141,Shell,Single copies-gene,Heterogeneous,Functional
+GC_00000533,7,7,1,0,0.984450923226433,0.991931047130021,0.98817682995559,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000534,5,7,2,0,0.986062717770035,0.729813664596273,0.838804068839826,Shell,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000535,7,7,1,0,0.972611266728914,1.0,0.986115493846639,Shell,Single copies-gene,Heterogeneous,Functional
+GC_00000536,7,7,1,0,0.986950949551439,0.898823857028191,0.940828200778066,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000537,7,7,1,0,0.987789987789988,1.0,0.993857493857494,Shell,Single copies-gene,Heterogeneous,Functional
+GC_00000538,7,7,1,0,0.98289241622575,1.0,0.991372409499244,Shell,Single copies-gene,Heterogeneous,Functional
+GC_00000539,6,7,2,0,0.971001627459683,0.709525676815396,0.819921919934972,Shell,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000540,7,7,1,0,0.996083667111704,1.0,0.998037991616873,Shell,Single copies-gene,Heterogeneous,Functional
+GC_00000541,7,7,1,0,0.980989081567116,0.934088467923055,0.956964472268203,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000542,7,7,1,0,0.984381898454746,0.704433875211859,0.821204972418473,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000543,7,7,1,0,0.99606065511845,0.995756195592723,0.995908402086479,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000544,6,6,1,0,0.967213114754098,0.895652173913043,0.930058157330884,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000545,6,6,1,0,0.997678275290216,1.0,0.998837788477503,Shell,Single copies-gene,Heterogeneous,Functional
+GC_00000546,6,6,1,0,0.982408485318846,0.681360713351856,0.80464832128708,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000547,6,6,1,0,0.971798304328425,0.677118809307159,0.798127334930438,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000548,5,5,1,0,0.998218262806236,1.0,0.999108337048596,Shell,Single copies-gene,Heterogeneous,Functional
+GC_00000549,5,5,1,0,0.994202898550725,0.805287356321839,0.88982868526634,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000550,5,5,1,0,0.988584474885845,0.944576144036013,0.966079385439088,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000551,4,4,1,0,0.963038548752834,0.922143842752948,0.942147637350704,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000552,4,4,1,0,0.956405456004279,0.989236715707307,0.97254408435229,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000553,3,3,1,0,1.0,1.0,1.0,Shell,Single copies-gene,Homogeneous,
+GC_00000554,3,3,1,0,0.808080808080808,0.63020600703668,0.708144403565266,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000555,3,3,1,0,0.972222222222222,0.658414382552314,0.785122929626116,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000556,3,3,1,0,0.994885564505818,0.998850574712652,0.996864126934567,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000557,3,3,1,0,0.954727030625832,0.997343957503323,0.975570295189248,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000558,3,3,1,0,0.99895178197065,0.956177897354365,0.977096940979235,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000559,2,3,2,0,0.783549783549784,0.772420561894246,0.777945371328942,Shell,Multiple copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000560,2,2,1,0,1.0,1.0,1.0,Shell,Single copies-gene,Homogeneous,
+GC_00000561,2,2,1,0,1.0,1.0,1.0,Shell,Single copies-gene,Homogeneous,
+GC_00000562,2,2,1,0,1.0,1.0,1.0,Shell,Single copies-gene,Homogeneous,
+GC_00000563,2,2,1,0,1.0,1.0,1.0,Shell,Single copies-gene,Homogeneous,
+GC_00000564,2,2,1,0,0.991666666666667,0.6875,0.812034739454094,Shell,Single copies-gene,Heterogeneous,Functioal and Geometric
+GC_00000565,2,2,1,0,1.0,0.908577405857742,0.952099090211554,Shell,Single copies-gene,Heterogeneous,Geometric
+GC_00000566,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000567,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000568,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000569,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000570,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000571,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000572,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000573,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000574,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000575,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000576,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000577,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000578,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000579,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000580,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000581,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000582,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000583,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000584,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000585,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000586,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000587,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000588,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
+GC_00000589,1,1,1,0,1.0,1.0,1.0,Singletons,Single-copy genes,Homogeneous,
