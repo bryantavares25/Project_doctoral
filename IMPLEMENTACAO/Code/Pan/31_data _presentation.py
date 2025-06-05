@@ -2,31 +2,34 @@
 
 import pandas as pd
 
-mhp="/home/bryantavares/Documents/GitHub/Project_doctoral/Data/01_MHP_fractions_classified.csv"
-mfc="/home/bryantavares/Documents/GitHub/Project_doctoral/Data/01_MFC_fractions_classified.csv"
-mx="/home/bryantavares/Documents/GitHub/Project_doctoral/Data/01_MX_fractions_classified.csv"
+# # # # # MHP
 
-csv=pd.read_csv(mhp)
-df = pd.DataFrame(csv)
+mhp = "/home/bryantavares/Documents/GitHub/Project_doctoral/Data/01_MHP_fractions_classified.csv"
+df = pd.read_csv(mhp)
 
-filtered = df[
-    (df['Distribution layer'] == 'Core') &
-    (df['Copy-number class'] == 'Multiple copies-gene')
-]
-# Obter a lista de gene clusters
-gene_clusters = filtered['Gene clusters'].unique().tolist()
+layers = {
+    'Core': 'og_mhp_core.csv',
+    'Shell': 'og_mhp_shell.csv',
+    'Singletons': 'og_mhp_singletons.csv'
+}
 
-pd.DataFrame({'Gene clusters': gene_clusters}).to_csv('gene_clusters_core_multiple_copies.csv', index=False, header=False)
+for layer, output_file in layers.items():
+    gene_clusters = df[df['Distribution layer'] == layer]['Gene clusters'].unique()
+    pd.DataFrame({'Gene clusters': gene_clusters}).to_csv(output_file, index=False, header=False)
+    print(f"{layer}: {len(gene_clusters)}")
 
-import matplotlib.pyplot as plt
+# # # # # MHP
 
-# Exibe a quantidade de gene clusters
-print(len(gene_clusters))
+mfc = "/home/bryantavares/Documents/GitHub/Project_doctoral/Data/01_MFC_fractions_classified.csv"
+df = pd.read_csv(mfc)
 
-# Gera um gráfico de barras com a contagem de gene clusters
-plt.bar(['Gene clusters'], [len(gene_clusters)])
-plt.ylabel('Quantidade')
-plt.title('Quantidade de Gene Clusters (Core, Multiple copies-gene)')
-plt.show()
+layers = {
+    'Core': 'og_mfc_core.csv',
+    'Shell': 'og_mfc_shell.csv',
+    'Singletons': 'og_mfc_singletons.csv'
+}
 
-
+for layer, output_file in layers.items():
+    gene_clusters = df[df['Distribution layer'] == layer]['Gene clusters'].unique()
+    pd.DataFrame({'Gene clusters': gene_clusters}).to_csv(output_file, index=False, header=False)
+    print(f"{layer}: {len(gene_clusters)}")
